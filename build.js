@@ -9,6 +9,7 @@ const CONTENT_DIR = path.join(__dirname, 'content');
 const OUTPUT_DIR = path.join(__dirname, 'dist');
 const TEMPLATE_PATH = path.join(__dirname, 'src/templates/page-template.html');
 const SRC_DIR = path.join(__dirname, 'src');
+const COMPONENTS_DIR = path.join(__dirname, 'src/components');
 
 // Ensure content directory exists
 if (!fs.existsSync(CONTENT_DIR)) {
@@ -22,6 +23,49 @@ function getTemplate() {
         process.exit(1);
     }
     return fs.readFileSync(TEMPLATE_PATH, 'utf-8');
+}
+
+// Read component files
+function getComponent(componentName) {
+    const componentPath = path.join(COMPONENTS_DIR, `${componentName}.html`);
+    if (!fs.existsSync(componentPath)) {
+        console.warn(`Warning: ${componentName}.html not found in components directory.`);
+        return '';
+    }
+    return fs.readFileSync(componentPath, 'utf-8');
+}
+
+// Inject components into HTML
+function injectComponents(html, options = {}) {
+    const {
+        title = 'Momora - Remember the chaos before it\'s gone',
+        description = 'Made by tired parents, for tired parents. The simplest way to save everyday moments before they slip away.',
+        activeFaq = '',
+        extraCss = '',
+        extraScripts = ''
+    } = options;
+    
+    const headComponent = getComponent('head');
+    const headerComponent = getComponent('header');
+    const footerComponent = getComponent('footer');
+    const gtmBodyComponent = getComponent('gtm-body');
+    
+    // Replace component placeholders
+    let output = html
+        .replace('{{HEAD}}', headComponent)
+        .replace('{{HEADER}}', headerComponent)
+        .replace('{{FOOTER}}', footerComponent)
+        .replace('{{GTM_BODY}}', gtmBodyComponent);
+    
+    // Replace page-specific placeholders
+    output = output
+        .replace(/\{\{TITLE\}\}/g, title)
+        .replace(/\{\{DESCRIPTION\}\}/g, description)
+        .replace(/\{\{ACTIVE_FAQ\}\}/g, activeFaq)
+        .replace(/\{\{EXTRA_CSS\}\}/g, extraCss)
+        .replace(/\{\{EXTRA_SCRIPTS\}\}/g, extraScripts);
+    
+    return output;
 }
 
 // Copy a file from source to destination
@@ -74,30 +118,52 @@ function copyStaticFiles() {
         copyDirectory(jsDir, jsDestDir);
     }
     
-    // Copy static pages
+    // Copy static pages with component injection
     const pagesDir = path.join(SRC_DIR, 'pages');
     if (fs.existsSync(pagesDir)) {
         const pageFiles = fs.readdirSync(pagesDir).filter(file => file.endsWith('.html'));
         pageFiles.forEach(file => {
             const filename = path.basename(file, '.html');
+            const sourcePath = path.join(pagesDir, file);
+            let htmlContent = fs.readFileSync(sourcePath, 'utf-8');
             
-            // Special handling for faq.html - create /faq/index.html
+            // Determine page-specific options
+            let options = {};
+            if (filename === 'index') {
+                options = {
+                    title: 'Momora - Remember the chaos before it\'s gone',
+                    description: 'Made by tired parents, for tired parents. The simplest way to save everyday moments before they slip away. No guilt, no glitter pens required.',
+                    activeFaq: '',
+                    extraCss: '',
+                    extraScripts: ''
+                };
+            } else if (filename === 'faq') {
+                options = {
+                    title: 'FAQ - Momora Family Memory Journal',
+                    description: 'Frequently asked questions about Momora plans, credits, and features.',
+                    activeFaq: ' active',
+                    extraCss: '<link rel="stylesheet" href="/css/faq-styles.css">',
+                    extraScripts: '<script src="/js/faq-script.js"></script>'
+                };
+            }
+            
+            // Inject components
+            htmlContent = injectComponents(htmlContent, options);
+            
+            // Determine output path
+            let outputPath;
             if (filename === 'faq') {
                 const faqDir = path.join(OUTPUT_DIR, 'faq');
                 if (!fs.existsSync(faqDir)) {
                     fs.mkdirSync(faqDir, { recursive: true });
                 }
-                copyFile(
-                    path.join(pagesDir, file),
-                    path.join(faqDir, 'index.html')
-                );
+                outputPath = path.join(faqDir, 'index.html');
             } else {
-                // Regular pages stay as filename.html
-                copyFile(
-                    path.join(pagesDir, file),
-                    path.join(OUTPUT_DIR, file)
-                );
+                outputPath = path.join(OUTPUT_DIR, file);
             }
+            
+            // Write processed HTML
+            fs.writeFileSync(outputPath, htmlContent);
         });
     }
     
@@ -123,11 +189,17 @@ function convertMarkdownToHTML(filePath) {
         // Get template
         const template = getTemplate();
         
-        // Replace placeholders in template
-        let output = template
-            .replace('{{TITLE}}', data.title || 'Momora')
-            .replace('{{DESCRIPTION}}', data.description || 'Capture the moments you\'ll wish you could relive')
-            .replace('{{CONTENT}}', htmlContent);
+        // Replace content placeholder first
+        let output = template.replace('{{CONTENT}}', htmlContent);
+        
+        // Inject components with page-specific metadata
+        output = injectComponents(output, {
+            title: data.title || 'Momora',
+            description: data.description || 'Capture the moments you\'ll wish you could relive',
+            activeFaq: '',
+            extraCss: '',
+            extraScripts: ''
+        });
         
         // Generate output filename/path
         const filename = path.basename(filePath, '.md');
