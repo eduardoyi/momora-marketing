@@ -90,7 +90,37 @@ The build system supports:
 
 ### Deployment
 
-After building, deploy the entire `dist/` directory to your hosting provider. It contains all the necessary HTML, CSS, JS, and assets.
+#### GitHub Pages (Recommended)
+
+This site is configured for easy deployment to GitHub Pages:
+
+1. **Initial Setup** (one-time):
+   - Go to https://github.com/eduardoyi/momora-marketing/settings/pages
+   - Under "Build and deployment":
+     - Set **Source** to "Deploy from a branch"
+     - Set **Branch** to `gh-pages`
+     - Set **Folder** to `/ (root)`
+   - Click **Save**
+
+2. **Deploy Updates**:
+   ```bash
+   npm run deploy
+   ```
+   
+   This single command will:
+   - Build your site from source files
+   - Deploy to the `gh-pages` branch
+   - Trigger GitHub Pages to update your live site
+   
+3. **Live Site**: https://eduardoyi.github.io/momora-marketing/
+
+#### Other Hosting Providers
+
+After building with `npm run build`, deploy the entire `dist/` directory to your hosting provider. It contains all the necessary HTML, CSS, JS, and assets.
+
+## Repository
+
+GitHub: https://github.com/eduardoyi/momora-marketing
 
 ## Contact
 
