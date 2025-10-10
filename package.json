@@ -1,0 +1,15 @@
+{
+  "name": "momora-marketing",
+  "version": "1.0.0",
+  "description": "Momora marketing website with markdown-to-HTML build system",
+  "scripts": {
+    "build": "node build.js",
+    "build:watch": "node build.js --watch"
+  },
+  "dependencies": {
+    "marked": "^11.1.1",
+    "gray-matter": "^4.0.3",
+    "chokidar": "^3.5.3"
+  }
+}
+
