@@ -173,6 +173,13 @@ function copyStaticFiles() {
     if (fs.existsSync(assetsDir)) {
         copyDirectory(assetsDir, assetsDestDir);
     }
+    
+    // Copy CNAME file for custom domain
+    const cnamePath = path.join(__dirname, 'CNAME');
+    const cnameDestPath = path.join(OUTPUT_DIR, 'CNAME');
+    if (fs.existsSync(cnamePath)) {
+        fs.copyFileSync(cnamePath, cnameDestPath);
+    }
 }
 
 // Convert markdown file to HTML
