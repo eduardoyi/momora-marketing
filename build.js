@@ -79,10 +79,25 @@ function copyStaticFiles() {
     if (fs.existsSync(pagesDir)) {
         const pageFiles = fs.readdirSync(pagesDir).filter(file => file.endsWith('.html'));
         pageFiles.forEach(file => {
-            copyFile(
-                path.join(pagesDir, file),
-                path.join(OUTPUT_DIR, file)
-            );
+            const filename = path.basename(file, '.html');
+            
+            // Special handling for faq.html - create /faq/index.html
+            if (filename === 'faq') {
+                const faqDir = path.join(OUTPUT_DIR, 'faq');
+                if (!fs.existsSync(faqDir)) {
+                    fs.mkdirSync(faqDir, { recursive: true });
+                }
+                copyFile(
+                    path.join(pagesDir, file),
+                    path.join(faqDir, 'index.html')
+                );
+            } else {
+                // Regular pages stay as filename.html
+                copyFile(
+                    path.join(pagesDir, file),
+                    path.join(OUTPUT_DIR, file)
+                );
+            }
         });
     }
     
