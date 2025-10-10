@@ -165,6 +165,7 @@ h1, h2, h3, h4 {
 .hero {
     padding: var(--spacing-xl) 0;
     background: linear-gradient(180deg, var(--bg-light) 0%, white 100%);
+    overflow: hidden;
 }
 
 .hero .container {
