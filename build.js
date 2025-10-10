@@ -114,14 +114,28 @@ function convertMarkdownToHTML(filePath) {
             .replace('{{DESCRIPTION}}', data.description || 'Capture the moments you\'ll wish you could relive')
             .replace('{{CONTENT}}', htmlContent);
         
-        // Generate output filename
+        // Generate output filename/path
         const filename = path.basename(filePath, '.md');
-        const outputPath = path.join(OUTPUT_DIR, `${filename}.html`);
+        let outputPath;
+        
+        // Check if custom slug is provided in frontmatter
+        if (data.slug) {
+            // Create directory with index.html (e.g., /privacy-policy/index.html)
+            const slugDir = path.join(OUTPUT_DIR, data.slug);
+            if (!fs.existsSync(slugDir)) {
+                fs.mkdirSync(slugDir, { recursive: true });
+            }
+            outputPath = path.join(slugDir, 'index.html');
+            console.log(`✅ Generated: ${data.slug}/index.html (accessible as /${data.slug}/)`);
+        } else {
+            // Default behavior: create filename.html
+            outputPath = path.join(OUTPUT_DIR, `${filename}.html`);
+            console.log(`✅ Generated: ${filename}.html`);
+        }
         
         // Write the HTML file
         fs.writeFileSync(outputPath, output);
         
-        console.log(`✅ Generated: ${filename}.html`);
         return outputPath;
         
     } catch (error) {
@@ -185,10 +199,30 @@ function watchMode() {
         })
         .on('unlink', filePath => {
             const filename = path.basename(filePath, '.md');
-            const outputPath = path.join(OUTPUT_DIR, `${filename}.html`);
-            if (fs.existsSync(outputPath)) {
-                fs.unlinkSync(outputPath);
-                console.log(`\n🗑️  Removed: ${filename}.html`);
+            
+            // Try to read the file's frontmatter to check for custom slug
+            // (This won't work if file is already deleted, but try anyway)
+            let customSlug = null;
+            try {
+                const content = fs.readFileSync(filePath, 'utf-8');
+                const { data } = matter(content);
+                customSlug = data.slug;
+            } catch (e) {
+                // File already deleted, check both possible paths
+            }
+            
+            if (customSlug) {
+                const slugDir = path.join(OUTPUT_DIR, customSlug);
+                if (fs.existsSync(slugDir)) {
+                    fs.rmSync(slugDir, { recursive: true });
+                    console.log(`\n🗑️  Removed: ${customSlug}/`);
+                }
+            } else {
+                const outputPath = path.join(OUTPUT_DIR, `${filename}.html`);
+                if (fs.existsSync(outputPath)) {
+                    fs.unlinkSync(outputPath);
+                    console.log(`\n🗑️  Removed: ${filename}.html`);
+                }
             }
         });
     

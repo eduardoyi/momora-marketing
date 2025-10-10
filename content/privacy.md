@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 description: How Momora protects and handles your family's precious memories
+slug: privacy-policy
 ---
 
 

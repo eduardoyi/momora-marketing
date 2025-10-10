@@ -1,6 +1,7 @@
 ---
 title: Terms of Service
 description: Terms and conditions for using Momora
+slug: terms-of-service
 ---
 
 # Terms of Service

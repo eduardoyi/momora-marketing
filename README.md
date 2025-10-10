@@ -22,12 +22,18 @@ npm install
 ---
 title: Your Page Title
 description: Your page description for SEO
+slug: custom-url-path (optional)
 ---
 
 # Your Content Here
 
 Write your content in markdown...
 ```
+
+**Custom URLs:** Add a `slug` field to use custom URL paths. For example:
+- `slug: privacy-policy` creates `/privacy-policy/` instead of `/privacy.html`
+- `slug: about-us` creates `/about-us/` instead of `/about.html`
+- Without a `slug` field, pages default to `filename.html`
 
 3. **Build HTML files**:
 ```bash
