@@ -624,6 +624,10 @@ h1, h2, h3, h4 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero {
+        padding: var(--spacing-md) 0;
+    }
+
     .hero .container {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
@@ -634,12 +638,12 @@ h1, h2, h3, h4 {
     }
     
     .phone-mockup {
-        width: 280px;
-        height: 560px;
+        width: 235px;
+        height: 500px;
     }
     
     .floating-memory {
-        width: 160px;
+        width: 155px;
     }
     
     .floating-memory-1 {
