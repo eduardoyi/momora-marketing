@@ -1,6 +1,7 @@
 ---
 title: About us - Momora
 description: Meet Momora, made by two tired parents for every other tired parent.
+slug: about
 ---
 
 # We built this because our baby book is blank.
