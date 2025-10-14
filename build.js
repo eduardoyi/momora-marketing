@@ -145,6 +145,14 @@ function copyStaticFiles() {
                     extraCss: '<link rel="stylesheet" href="/css/faq-styles.css">',
                     extraScripts: '<script src="/js/faq-script.js"></script>'
                 };
+            } else if (filename === 'delete-account') {
+                options = {
+                    title: 'Delete Your Account - Momora',
+                    description: 'Request to delete your Momora account.',
+                    activeFaq: '',
+                    extraCss: '',
+                    extraScripts: ''
+                };
             }
             
             // Inject components
@@ -158,6 +166,12 @@ function copyStaticFiles() {
                     fs.mkdirSync(faqDir, { recursive: true });
                 }
                 outputPath = path.join(faqDir, 'index.html');
+            } else if (filename === 'delete-account') {
+                const deleteAccountDir = path.join(OUTPUT_DIR, 'delete-account');
+                if (!fs.existsSync(deleteAccountDir)) {
+                    fs.mkdirSync(deleteAccountDir, { recursive: true });
+                }
+                outputPath = path.join(deleteAccountDir, 'index.html');
             } else {
                 outputPath = path.join(OUTPUT_DIR, file);
             }
