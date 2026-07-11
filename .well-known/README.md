@@ -9,22 +9,20 @@ need on Cloudflare Pages.
 
 Bundle/package id is `com.memora.app` in both files — that's what the
 **published** store listings use (verified via the iTunes lookup API for
-App Store id 6745403572 and the live Play listing). `app.json` in Momora2
-says `com.momora.app`, but that's post-publish drift; the published apps
-are authoritative.
+App Store id 6745403572 and the live Play listing). Momora2's `app.json`
+briefly drifted to `com.momora.app` post-publish; it has since been
+reverted to `com.memora.app`, so both repos and both stores now agree.
 
-Only two **TODO placeholders** remain for a human to fill in:
+**All values are filled in** (2026-07-11):
 
-- `apple-app-site-association` — `appID`/`appIDs` is `TEAMID.bundleId`.
-  `TODO_REPLACE_WITH_APPLE_TEAM_ID` must become the actual Apple Developer
-  **Team ID** (found in App Store Connect / Apple Developer portal, or in
-  EAS credentials — see Phase 0 of the family-sharing plan).
-- `assetlinks.json` —
-  `TODO_REPLACE_WITH_SHA256_SIGNING_FINGERPRINT_FROM_EAS_CREDENTIALS` must
-  become the SHA-256 signing certificate fingerprint from EAS build
-  credentials (`eas credentials` → Android → app signing).
+- `apple-app-site-association` — `appID`/`appIDs` = `67B39P5MPN.com.memora.app`
+  (Apple Team ID from the Apple Developer portal).
+- `assetlinks.json` — SHA-256 fingerprint of the **Play app signing key**
+  certificate (from Play Console → App integrity). Note it must be the app
+  signing key, not the upload key: Android verifies against the certificate
+  on the app as *delivered*, which Play re-signs.
 
-After filling these in, verify with:
+Verify the live deployment with:
 
 - Apple: https://search.developer.apple.com/appsearch-validation-tool/ (or
   `curl -I https://usemomora.com/.well-known/apple-app-site-association`

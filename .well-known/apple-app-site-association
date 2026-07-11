@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "TODO_REPLACE_WITH_APPLE_TEAM_ID.com.memora.app",
-        "appIDs": ["TODO_REPLACE_WITH_APPLE_TEAM_ID.com.memora.app"],
+        "appID": "67B39P5MPN.com.memora.app",
+        "appIDs": ["67B39P5MPN.com.memora.app"],
         "paths": ["/invite*"]
       }
     ]
