@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.momora.app",
+      "package_name": "com.memora.app",
       "sha256_cert_fingerprints": [
         "TODO_REPLACE_WITH_SHA256_SIGNING_FINGERPRINT_FROM_EAS_CREDENTIALS"
       ]
