@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="/assets/images/brand/momora-favicon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    {{EXTRA_CSS}}
+    <!--
+        This page intentionally skips the site's shared head and GTM-body
+        includes (src/components/head.html, src/components/gtm-body.html).
+        Per docs/plans/family-sharing.md section 11, the /invite landing page
+        must make no external network calls and load no analytics; Google
+        Fonts and Google Tag Manager both reach third-party domains. This
+        link is opened straight from a text message, often on a relative's
+        phone, so keep it self-contained. Do not wire those includes back in.
+
+        NOTE for future edits: build.js's injectComponents() does a plain,
+        non-global string replace for the head, header, footer, and GTM-body
+        placeholder tokens (double curly braces around HEAD, HEADER, FOOTER,
+        GTM_BODY). Spelling one of those tokens out literally anywhere in
+        this file, including inside a comment, gets it silently substituted
+        with the full component markup, which can also close this comment
+        early since that markup has closing comment syntax of its own. Avoid
+        writing those tokens or raw closing-comment syntax in prose here;
+        describe them in words instead, as above.
+    -->
+</head>
+<body>
+{{HEADER}}
+
+    <main class="invite-hero">
+        <div class="container invite-container">
+            <!-- Shown when a well-formed ?code= is present (see /js/invite-script.js) -->
+            <div id="invite-valid" class="invite-card" hidden>
+                <p class="invite-eyebrow">You're invited</p>
+                <h1 class="invite-title">Join your family's Momora journal</h1>
+                <p class="invite-subtitle">A family member wants you to see and add memories together.</p>
+
+                <div class="invite-code-box">
+                    <span class="invite-code-label" id="invite-code-label">Your invite code</span>
+                    <div class="invite-code-row">
+                        <span id="invite-code-display" class="invite-code-value" aria-labelledby="invite-code-label">&nbsp;</span>
+                        <button id="copy-code-btn" type="button" class="invite-copy-btn">Copy</button>
+                    </div>
+                </div>
+
+                <ol class="invite-steps">
+                    <li><span class="invite-step-num" aria-hidden="true">1</span><span>Download the free Momora app</span></li>
+                    <li><span class="invite-step-num" aria-hidden="true">2</span><span>Open it and enter the code above</span></li>
+                </ol>
+
+                <div id="store-badge-primary" class="invite-store-primary"></div>
+
+                <p class="invite-note">This code expires in 7 days. If it stops working, ask your family member to send you a new one.</p>
+            </div>
+
+            <!-- Shown when ?code= is missing or malformed -->
+            <div id="invite-invalid" class="invite-card" hidden>
+                <p class="invite-eyebrow">Invite link needs a resend</p>
+                <h1 class="invite-title">We couldn't read this invite</h1>
+                <p class="invite-subtitle">This link is missing its code, or it may not have copied correctly. Ask your family member to resend the invite from the Momora app.</p>
+
+                <div id="store-badge-fallback" class="invite-store-primary"></div>
+
+                <p class="invite-note">Once you have the app, you can enter a code by hand from Settings &rarr; Join a family.</p>
+            </div>
+
+            <!-- No-JS fallback: reading ?code= and detecting the platform both require JS -->
+            <noscript>
+                <div class="invite-card">
+                    <p class="invite-eyebrow">JavaScript is off</p>
+                    <h1 class="invite-title">Turn on JavaScript to see your invite</h1>
+                    <p class="invite-subtitle">This page needs JavaScript to show your invite code. You can still download Momora below, then ask your family member for the code once you're signed up.</p>
+                    <div class="invite-store-both">
+                        <!-- TODO(human): placeholder store URLs, see /js/invite-script.js for details -->
+                        <a href="https://apps.apple.com/app/momora/idPLACEHOLDER" target="_blank" rel="noopener noreferrer" class="store-button store-button-large">
+                            <div>
+                                <div class="store-label">Download on the</div>
+                                <div class="store-name">App Store</div>
+                            </div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="store-button store-button-large">
+                            <div>
+                                <div class="store-label">Get it on</div>
+                                <div class="store-name">Google Play</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </noscript>
+        </div>
+    </main>
+
+{{FOOTER}}
+
+{{EXTRA_SCRIPTS}}
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Cloudflare Pages response headers.
+# https://developers.cloudflare.com/pages/configuration/headers/
+#
+# The Apple App Site Association file has no extension, so Cloudflare Pages'
+# default static-asset content-type sniffing won't call it JSON — Apple's
+# verifier requires an application/json response. Android's assetlinks.json
+# already gets the right content-type from its .json extension, but we pin
+# it here too for consistency.
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+
+/.well-known/assetlinks.json
+  Content-Type: application/json

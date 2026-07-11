@@ -153,6 +153,14 @@ function copyStaticFiles() {
                     extraCss: '',
                     extraScripts: ''
                 };
+            } else if (filename === 'invite') {
+                options = {
+                    title: 'Join your family on Momora',
+                    description: 'Enter your invite code to join your family\'s memory journal on Momora.',
+                    activeFaq: '',
+                    extraCss: '<link rel="stylesheet" href="/css/invite-styles.css">',
+                    extraScripts: '<script src="/js/invite-script.js"></script>'
+                };
             }
             
             // Inject components
@@ -172,6 +180,16 @@ function copyStaticFiles() {
                     fs.mkdirSync(deleteAccountDir, { recursive: true });
                 }
                 outputPath = path.join(deleteAccountDir, 'index.html');
+            } else if (filename === 'invite') {
+                // Directory + index.html (not invite.html) so the page is
+                // reachable at the extension-less `/invite` path used by the
+                // share-sheet invite link (`https://usemomora.com/invite?code=...`),
+                // matching the /faq/, /delete-account/ etc. convention above.
+                const inviteDir = path.join(OUTPUT_DIR, 'invite');
+                if (!fs.existsSync(inviteDir)) {
+                    fs.mkdirSync(inviteDir, { recursive: true });
+                }
+                outputPath = path.join(inviteDir, 'index.html');
             } else {
                 outputPath = path.join(OUTPUT_DIR, file);
             }
@@ -193,6 +211,46 @@ function copyStaticFiles() {
     const cnameDestPath = path.join(OUTPUT_DIR, 'CNAME');
     if (fs.existsSync(cnamePath)) {
         fs.copyFileSync(cnamePath, cnameDestPath);
+    }
+
+    // Copy universal/app-link verification files (Apple + Android).
+    // These are extensionless / plain-JSON files that don't end in .html,
+    // so they can't ride the src/pages/*.html loop above — copy them
+    // explicitly. Without this they never reach dist/ and every universal
+    // link silently falls back to opening the marketing site in a browser
+    // instead of the app.
+    copyWellKnownFiles();
+
+    // Copy Cloudflare Pages' _headers file (controls response headers,
+    // e.g. the content-type override the extensionless AASA file needs).
+    // Irrelevant to GitHub Pages but harmless there.
+    copyHeadersFile();
+}
+
+// Copy Apple App Site Association + Android Asset Links files into
+// dist/.well-known/. Source files live in the repo root's .well-known/
+// directory (see .well-known/README.md for what still needs filling in).
+function copyWellKnownFiles() {
+    const wellKnownSrcDir = path.join(__dirname, '.well-known');
+    const wellKnownDestDir = path.join(OUTPUT_DIR, '.well-known');
+    const wellKnownFiles = ['apple-app-site-association', 'assetlinks.json'];
+
+    wellKnownFiles.forEach(filename => {
+        const srcPath = path.join(wellKnownSrcDir, filename);
+        if (fs.existsSync(srcPath)) {
+            copyFile(srcPath, path.join(wellKnownDestDir, filename));
+        } else {
+            console.warn(`Warning: .well-known/${filename} not found; universal/app links will not verify.`);
+        }
+    });
+}
+
+// Copy the Cloudflare Pages _headers file from the repo root into dist/.
+function copyHeadersFile() {
+    const headersSrcPath = path.join(__dirname, '_headers');
+    const headersDestPath = path.join(OUTPUT_DIR, '_headers');
+    if (fs.existsSync(headersSrcPath)) {
+        fs.copyFileSync(headersSrcPath, headersDestPath);
     }
 }
 

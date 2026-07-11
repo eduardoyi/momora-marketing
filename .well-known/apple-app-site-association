@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TODO_REPLACE_WITH_APPLE_TEAM_ID.com.momora.app",
+        "appIDs": ["TODO_REPLACE_WITH_APPLE_TEAM_ID.com.momora.app"],
+        "paths": ["/invite*"]
+      }
+    ]
+  }
+}
