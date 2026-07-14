@@ -1,143 +1,153 @@
 ---
 title: Privacy Policy
-description: How Momora protects and handles your family's precious memories
+description: How Momora collects, uses, shares, and protects account and family-journal data
 slug: privacy-policy
 ---
 
-
 # Privacy Policy
 
-_Effective Date: Aug 7, 2025_  
+_Effective date: July 14, 2026_
 
-Welcome to Momora (“we,” “us,” “our”). We are committed to protecting the privacy of our users (“you,” “your”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, Momora (the “App”). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the App.  
+Momora is a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). This Privacy Policy explains how we handle information when you use the Momora mobile application (also listed as "UseMomora" in some app stores), our website at [usemomora.com](https://usemomora.com), and related services (together, the "Service").
 
-#### 1\. Authentication and Account Creation  
+Momora is designed for adults to record family memories. It is not designed for children to create accounts or use independently.
 
-To use Momora, you must sign in using a third-party social login provider—specifically, Google or Apple. We do not support account creation or login via email and password. When you sign in with Google or Apple, we receive certain information from your chosen provider, such as your name, email address, and (where available) profile picture, which we use to create and manage your account.  
-We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the “Effective Date” of this Privacy Policy.  
+## 1. Information we collect
 
-#### 2\. Information We Collect
+### Account and profile information
 
-We may collect information about you in a variety of ways. The information we may collect via the App includes:  
-  
-**Personal Account Data:** When you register, we collect information necessary to create and manage your account, such as your name, email address, and subscription status (user\_profiles table data). Authentication is handled exclusively via social login providers (Google and Apple). We do not collect or store passwords.  
-  
-**Social Login Data:** When you sign in with Google or Apple, we receive information from your chosen provider, which may include your name, email address, and (if available) your profile picture. The specific data provided depends on your settings with the provider and their privacy policy. We use this information solely to create and manage your account within the App.  
-  
-**Family Member Information:** Information you provide about your family members, including names, nicknames, date of birth, gender, profile pictures, photo descriptions (generated via AI analysis of uploaded photos), illustrated portraits (generated via AI), and any additional notes you provide.  
-  
-**Memory Journal Content:** Text content you enter for your journal entries (memories), the date associated with the memory, and tagged family members.  
-  
-**AI-Generated Data:** Data generated through AI processing, including detected emotions associated with memories, color palettes derived from emotions, prompts used for generating illustrations, and the generated illustrations themselves (portraits and memory illustrations).  
-  
-**Technical Data:** We may automatically collect certain information when you access the App, such as your mobile device ID, model, manufacturer, operating system version, IP address, and potentially crash report data, primarily for app functionality, security, and improvement purposes. (Managed via Expo/Supabase/OS features).  
-  
-**Device Information for Abuse Prevention**  
-  
-To prevent abuse of our free trial offerings, we collect a salted, non-reversible hash of your device identifier. This hash cannot be used to identify you personally or your device, but helps us ensure each device can only claim free credits once. This information is:  
-  
-\- Automatically collected when you create an account  
-\- Stored securely in our database  
-\- Used solely for preventing duplicate free trial claims  
-\- Cannot be reverse-engineered to identify your device  
-\- Retained permanently for fraud prevention purposes  
-  
-**Account Deletion and Grace Period**  
-  
-When you request account deletion, we provide a 15-day grace period during which:  
-  
-\- Your account is marked for deletion but remains recoverable  
-\- You can contact us to restore your account  
-\- After 15 days, all your data is permanently deleted  
-\- Device hash information may be retained for fraud prevention  
-  
-During the grace period, your data remains subject to this privacy policy. After permanent deletion, no personal data is retained except for the anonymized device hash for fraud prevention.  
-  
-  
+When you create an account, we collect your name, email address, timezone, and account settings. We also store information needed to operate your account, such as your active family journal, onboarding status, notification preferences, account-deletion status, and authentication records. Production sign-in uses a one-time code sent to your email; Momora does not ask you to create a password in the production app.
 
-#### 3\. How We Use Your Information  
+### Family and child profile information
 
-Having accurate information permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the App to:  
-  
-\- Authenticate your access to the App using your chosen social login provider (Google or Apple).  
-\- Create and manage your account using information provided by your social login provider.  
-\- Process journal entries (memories) that you create.  
-\- Display family member profiles and calculate ages based on provided dates.  
-\- Generate AI-based illustrations for memories and family member portraits using OpenAI services (DALL-E/Image Edit, Vision).  
-\- Analyze the text content of memories to detect emotions using OpenAI services (GPT models).  
-\- Display memories on a timeline and calendar view.  
-\- Facilitate data export upon your request.  
-\- Monitor and analyze usage and trends to improve your experience with the App.  
-\- Perform other business activities as needed (e.g., troubleshooting, security monitoring).  
-\- Communicate with you regarding your account or the App (if applicable).  
-\- Authenticate your access to the App using your chosen social login provider (Google or Apple).  
-\- Create and manage your account using information provided by your social login provider.  
-\- Process journal entries (memories) that you create.  
-\- Display family member profiles and calculate ages based on provided dates.  
-\- Generate AI-based illustrations for memories and family member portraits using OpenAI services (DALL-E/Image Edit, Vision).  
-\- Analyze the text content of memories to detect emotions using OpenAI services (GPT models).  
-\- Display memories on a timeline and calendar view.  
-\- Facilitate data export upon your request.  
-\- Monitor and analyze usage and trends to improve your experience with the App.  
-\- Perform other business activities as needed (e.g., troubleshooting, security monitoring).  
-\- Communicate with you regarding your account or the App (if applicable).  
-  
-  
+You may add information about children and other people in your family journal, including names, nicknames, dates of birth, gender, profile photos, and additional notes. We also store AI-generated character portraits and their generation status.
 
-#### 4\. How We Share Your Information  
+### Memories and household activity
 
-We may share information we have collected about you in certain situations. Your information may be disclosed as follows:  
-  
-\- By Law or to Protect Rights: If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.  
-\- Third-Party Service Providers: We share information with third-party vendors and service providers that perform services for us or on our behalf, requiring access to such information to do that work. Examples include:  
-Supabase: Our backend provider for authentication, database storage (including user profiles, family members, memories), file storage (profile pictures, illustrations), and edge functions. Supabase stores data on its secure servers.  
-\- OpenAI: Used for AI features. Specifically:  
-\- Profile pictures are sent for analysis (Vision) and portrait generation (Image Edit).  
-\- Memory text content is sent for emotion analysis (GPT models).  
-\- Memory text content and relevant character data (derived from photo descriptions/portraits) are sent for memory illustration generation (Image Edit).  
-\- Data sent to OpenAI is processed according to their policies. Please refer to OpenAI’s Privacy Policy and Terms of Use for details on their data handling.  
-\- Other Third Parties: We may share your information with advertisers and investors for the purpose of conducting general business analysis (only aggregated, non-personal data where possible).  
-\- Sale or Bankruptcy: If we reorganize or sell all or a portion of our assets, undergo a merger, or are acquired by another entity, we may transfer your information to the successor entity.  
-\- Social Login Providers: When you choose to sign in with Google or Apple, you are subject to their respective privacy policies and terms of service. We do not share your data with these providers, but they may collect information about your use of their authentication services. Please refer to Google’s Privacy Policy and Apple’s Privacy Policy for more information.  
-  
-  
+We collect the content you choose to add to a family journal, including:
 
-We do not sell your personal information.  
+- Memory text, captions, dates, and tagged family profiles.
+- Photos and videos attached to memories.
+- AI-generated illustrations, prompts, detected emotions, and related generation status.
+- Links included in memory text and the page titles fetched for those links.
+- Likes, comments, timestamps, and creator attribution within a shared family journal.
+- Family names, household memberships, roles, invite status, and invite activity.
 
-#### 5. AI Feature Data Handling  
+Momora may read a selected photo's capture-date metadata on your device to suggest a memory date. Only the resulting date is kept; the raw metadata is not saved or sent with the memory. Images attached to memories are re-encoded before upload to remove EXIF data, including GPS and device metadata. Video-container metadata is not currently stripped and may remain in an uploaded video.
 
-Our App utilizes AI services from OpenAI to generate illustrations and analyze emotions. This involves sending specific data points to OpenAI as described in Section 4.  
-  
-\- We only send the necessary information required for the specific AI task.  
-\- Generated content (illustrations, detected emotions) is stored within our App database (Supabase) to provide the features and allow offline viewing/caching where applicable.  
-\- Profile Picture Handling: As per our planned features, we aim to delete the original profile picture you upload for a family member from our storage once the corresponding AI-generated illustrated portrait has been successfully created and stored. The AI-generated description may be retained to assist future illustration generation.  
-  
-  
+### Voice input
 
-#### 6\. Data Retention  
+If you use voice input, the recording and the active family's names and nicknames are sent for transcription and cleanup. Voice audio is processed temporarily and is not stored by Momora after transcription. The transcript is placed in the editor, and it becomes part of your journal only if you choose to save it.
 
-We will retain your personal information for as long as your account is active or as needed to provide you services, comply with our legal obligations, resolve disputes, and enforce our agreements. You can delete specific family members or memories through the App’s interface. Deleting your account will result in the deletion of your associated personal information, subject to necessary retention for legal or backup purposes.  
+### Notifications and technical information
 
-#### 7\. Your Rights  
+If you enable notifications, we collect a push-notification token and your notification preferences. Notification providers may also receive technical routing information needed to deliver a notification. Momora's push messages use generic text and do not include memory text, comments, photos, or child details.
 
-Depending on your location, you may have certain rights regarding your personal information:  
-  
-\- Access: You have the right to request access to the personal information we hold about you.  
-\- Correction: You have the right to request correction of inaccurate personal information. Much of this can be done directly within the App (e.g., editing family member details, memory content).  
-\- Deletion: You have the right to request the deletion of your personal information or account, subject to certain exceptions.  
-  
-  
+We and our infrastructure providers also process limited technical information needed to operate and secure the Service, such as IP addresses, request timestamps, identifiers, error information, and device or operating-system information supplied with network requests. For example, we temporarily log account and IP information to rate-limit family-invite attempts. Production logs are designed to use record identifiers and status codes rather than journal text, transcripts, audio, or child details.
 
-To exercise these rights, please contact us using the contact information provided below, or utilize the features available within the App where applicable.  
+### Website information
 
-#### 8\. Children's Privacy  
+Our website uses Google Tag Manager and related analytics technologies to understand visits and improve the site. These technologies may process information such as your browser or device type, IP address, pages viewed, referring page, and cookie or similar identifiers. You can limit cookies through your browser settings.
 
-Momora is intended for use by parents and guardians to record memories about their children. The App is not directed at children under the age of 13 (or relevant age in your jurisdiction), and we do not knowingly collect personal information directly from children. By creating an account and adding information about children, you represent that you are the parent or legal guardian and consent to the collection and processing of that information as described in this policy. If we become aware that we have inadvertently collected personal information from a child without appropriate parental consent, we will take steps to delete such information.  
+If you use our web account-deletion form, Google Forms processes the information you submit on our behalf. Please do not include memory text, child photos, or other journal content in the form.
 
-#### 9. Changes to This Policy  
+## 2. How we use information
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App or on our website and updating the effective date. You are advised to review this Privacy Policy periodically for any changes.  
+We use information to:
 
-#### 10. Contact Us  
+- Create, authenticate, and maintain your account.
+- Provide private family journals, family roles, invitations, timelines, calendars, search, likes, comments, and notifications.
+- Store and display the memories, family profiles, photos, videos, and other content you choose to provide.
+- Transcribe voice input and suggest family-profile tags.
+- Analyze memory text or photos and generate optional character portraits and memory illustrations.
+- Fetch titles for links you include in memory text.
+- Respond to support, privacy, and account-deletion requests.
+- Protect the Service, prevent abuse, troubleshoot problems, and enforce our Terms.
+- Comply with law and protect the rights, safety, and integrity of Momora, our users, and others.
 
-If you have questions or comments about this Privacy Policy, please contact us at: hello@usemomora.com  
+Where applicable law requires a legal basis, we process information as necessary to provide the Service under our contract with you, based on your consent or choices, for our legitimate interests in operating and securing the Service, and to meet legal obligations.
+
+## 3. AI processing
+
+Momora uses OpenAI's API to provide AI features. Depending on the feature you choose, we may send OpenAI:
+
+- A family-profile photo and relevant profile details to create a character portrait.
+- Memory text, tagged profile details, and character portraits to analyze tone, apply a safety rewrite, and create an illustration.
+- The first photo in a photo memory and its optional caption to classify its emotional tone. All-video memories are not analyzed this way.
+- Temporary voice audio and family names or nicknames to transcribe and clean up a voice memory.
+
+We send only the information needed for the requested feature. Pasted URLs are removed from AI prompts, and page titles fetched for links are not sent to OpenAI. OpenAI states that data submitted through its API is not used to train its models by default. OpenAI processes this information under its own [privacy practices](https://openai.com/policies/privacy-policy/) and business-data commitments.
+
+AI output can be inaccurate, unexpected, or imperfect. You can save a memory as plain text or attach your own media without requesting an AI-generated memory illustration.
+
+## 4. How information is shared
+
+### People in your family journal
+
+Momora is private, but it can be shared with people you approve. Active members of a family journal can view its memories, family profiles, media, comments, and creator attribution. Owners and managers can add, edit, or delete journal content and manage other non-owner members. Viewers can browse and may like or comment. An owner or manager reviewing a redeemed invite can see the applicant's name and email address to verify their identity.
+
+Only invite people you trust. Their access continues until they leave, are removed, the family journal is deleted, or their account is deleted.
+
+### Service providers
+
+We use service providers to operate Momora, including:
+
+- **Supabase** for authentication, database hosting, and server-side functions.
+- **Cloudflare R2** for private storage of photos, videos, portraits, and illustrations.
+- **OpenAI** for transcription, text and image analysis, and image generation.
+- **Expo, Apple Push Notification service, and Firebase Cloud Messaging** for push-notification delivery.
+- **Bento** for transactional email, including family-invite approval messages and authentication email delivery.
+- **Google Tag Manager and Google Forms** for website analytics and the web account-deletion request form.
+
+These providers receive only the information reasonably needed to perform their services for us and process it under their own terms and privacy commitments.
+
+When Momora fetches a title for a link in a memory, the destination website receives a server request and may receive normal request information such as an IP address and user-agent string. Momora does not send your full memory to that website.
+
+### Legal, safety, and business transfers
+
+We may disclose information when reasonably necessary to comply with law or legal process, enforce our agreements, investigate abuse, or protect rights, property, or safety. Information may also transfer as part of a merger, financing, acquisition, reorganization, bankruptcy, or sale of assets, subject to this Policy and applicable law.
+
+We do not sell personal information. We do not use private journal content for targeted advertising.
+
+## 5. Storage and security
+
+Family-journal records are protected by access controls that check active family membership and role. Photos, videos, portraits, and illustrations are stored in private object storage and displayed through time-limited signed links. Information is encrypted in transit. Service credentials for storage and AI providers are kept on the server rather than in the mobile app.
+
+No security method is perfect. You are responsible for protecting access to your email account and device and for inviting only trusted people to a family journal.
+
+## 6. Retention and deletion
+
+We generally retain information while your account or a family journal you belong to remains active and as needed to provide and secure the Service. You can delete individual memories and family profiles in the app if your family role permits it. Deleted journal content is not recoverable through the app.
+
+You can schedule account deletion in the app under **Settings → Delete account**, or request it through our [account-deletion page](https://usemomora.com/delete-account/) if you cannot access the app. Account deletion has a **15-day grace period**. During that period, you can cancel deletion from Settings.
+
+- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, and illustrations are permanently deleted.
+- **If you do not own a family journal:** your account profile, authentication record, likes, and comments are deleted after the grace period. Memories or family profiles you added to a journal owned by someone else may remain as part of that family's shared journal, but your account attribution is removed. The family owner or a manager can delete that content from the journal.
+
+We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio is not retained by Momora after transcription.
+
+## 7. Your choices and rights
+
+Depending on where you live, you may have rights to access, correct, delete, restrict, object to, or receive a copy of personal information we hold about you. You may also have the right to withdraw consent and to complain to a local data-protection authority. These rights can be subject to legal exceptions.
+
+You can edit many profile and journal fields directly in the app, control notification preferences in Settings, and revoke camera, photo-library, microphone, or notification permissions in your device settings. To make another privacy request, email [hello@usemomora.com](mailto:hello@usemomora.com). We may need to verify that the request comes from the account holder.
+
+## 8. Children's privacy
+
+Momora is intended for parents, guardians, and other adults. It is not directed to children, and children may not create accounts. By adding information about a child, you confirm that you are the child's parent or legal guardian, or otherwise have the authority and appropriate permission to provide and allow us to process that information.
+
+If you believe a child's information was provided without appropriate authority, contact us at [hello@usemomora.com](mailto:hello@usemomora.com).
+
+## 9. International data transfers
+
+Our providers may process information in the United States and other countries. Where required, we use appropriate legal mechanisms for international transfers. Privacy protections and government-access rules may differ from those in your country.
+
+## 10. Changes to this Policy
+
+We may update this Policy as the Service changes. We will post the updated Policy and revise the effective date. If a change materially affects how we use personal information, we will provide additional notice when required by law.
+
+## 11. Contact us
+
+How do you turn this on LLC is responsible for Momora. For privacy questions or requests, contact:
+
+[hello@usemomora.com](mailto:hello@usemomora.com)

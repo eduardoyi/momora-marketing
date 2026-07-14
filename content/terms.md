@@ -1,140 +1,159 @@
 ---
 title: Terms of Service
-description: Terms and conditions for using Momora
+description: Terms and conditions for using the Momora family memory journal
 slug: terms-of-service
 ---
 
 # Terms of Service
 
-_Last Updated: Aug 7, 2025_  
+_Last updated: July 14, 2026_
 
-Welcome to Momora! We provide a digital journal app designed for parents and families to capture and preserve meaningful moments with their young children, combining text-based journaling with AI-generated content like illustrations and summaries.  
-  
-PLEASE READ THESE TERMS OF SERVICE CAREFULLY. By creating an account, accessing, or using the Momora mobile application, website, or any related services (collectively, the “Service”), you agree to be bound by these Terms of Service (“Terms”) and our Privacy Policy, which is incorporated herein by reference. If you do not agree to all of these Terms, do not access or use the Service.  
+These Terms of Service ("Terms") govern your use of Momora, a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). They apply to the Momora mobile application (also listed as "UseMomora" in some app stores), our website, and related services (together, the "Service").
 
-#### 1\. Description of Service
+By creating an account or using the Service, you agree to these Terms and our [Privacy Policy](https://usemomora.com/privacy-policy/). If you do not agree, do not use the Service.
 
-Momora allows registered users to:  
-  
-\- Create and manage user accounts and family member profiles (including children and potentially pets).  
-\- Record text-based and voice-dictated memories.  
-\- Tag family members in memories.  
-\- Generate unique, AI-powered illustrations and portraits based on memory content, family member descriptions, and selected styles using third-party AI services (like OpenAI).  
-\- Generate AI-powered monthly summaries of memories.  
-\- Organize and view memories via timeline and calendar views.  
-Manage subscription tiers with associated usage limits.  
-\- Share generated content via device sharing features.  
-\- Export user data.  
+## 1. The Service
 
-#### 2. Eligibility and Account Registration
+Momora lets adults create or join private family journals and:
 
-\- Age Requirement: You must be at least 18 years old or the age of legal majority in your jurisdiction to create an account and use the Service.  
-\- Registration: You must provide accurate, current, and complete information during the registration process (including name, email, password) and keep your account information updated.  
-\- Account Security: You are responsible for safeguarding your account password and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account. Momora is not liable for any loss or damage arising from your failure to protect your account credentials.  
-\- One Account: You may only maintain one Momora account.  
+- Save memories as text, voice-dictated text, photos, or videos.
+- Add and tag child or family profiles.
+- Create optional AI-generated character portraits and memory illustrations.
+- Organize memories in timeline and calendar views.
+- Invite trusted household members with owner, manager, or viewer roles.
+- Like and comment on memories inside a shared family journal.
+- Receive optional journal reminders and family-activity notifications.
 
-#### 3. Family Profiles & Children’s Data
+Some features may be unavailable, delayed, or changed as the Service evolves. AI processing and media uploads may finish after a memory's text or database record has already been saved.
 
-\- Responsibility: You are solely responsible for the information you add to family member profiles, including names, dates of birth, photos, and descriptions.  
-\- Consent for Children’s Data: By adding information about a child under the age of 13 (or applicable age of consent in your jurisdiction) to a family profile, you represent and warrant that you are the parent or legal guardian of that child and that you have the legal authority to consent to the collection and processing of that child’s personal information (including photos used for illustration generation) as described in our Privacy Policy and these Terms.  
-\- Accuracy: You agree to provide accurate information for family members, especially dates of birth, which may be used for age calculation and AI generation context.  
-\- User Profile: You may designate one family member profile as representing yourself. Only one profile per user account can be designated as such.  
+## 2. Eligibility and accounts
 
-#### 4. User Content
+You must be at least 18 years old and legally able to enter into these Terms. Momora is for adults and is not intended for children to create accounts or use independently.
 
-\- Definition: “User Content” means all information, data, text, photographs, sound recordings (from voice input), and other materials that you upload, post, submit, or store on or through the Service, including memory entries and information within family profiles.  
-\- Ownership: You retain ownership of your User Content.  
-\- License to Momora: By submitting User Content to the Service, you grant Momora a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, host, store, reproduce, modify (e.g., formatting for display, transcribing voice input), create derivative works (such as AI-Generated Content), communicate, publish (only within your private account unless you explicitly share), publicly perform, publicly display (only within your private account), and distribute your User Content solely for the purposes of operating, providing, developing, and improving the Service. This license continues even if you stop using our Service, primarily for the purpose of allowing you to access your historical data and for residual backups, unless you delete your account.  
-\- Responsibility for User Content: You are solely responsible for your User Content and the consequences of posting or publishing it. You represent and warrant that you have all necessary rights, licenses, consents, and permissions to submit the User Content and grant the license set forth above, and that your User Content does not violate any third-party rights (including privacy and intellectual property rights) or any applicable laws.  
-\- Prohibited Content: You agree not to submit User Content that is illegal, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, invasive of another’s privacy, hateful, or racially, ethnically, or otherwise objectionable.  
+You agree to provide accurate account information and keep it current. Production accounts use a one-time code sent to the account email. You are responsible for securing your email account, device, and active Momora session, and for promptly telling us about suspected unauthorized access.
 
-#### 5\. AI-Generated Content
+You may not impersonate another person, create an account for abuse or fraud, or transfer access to an account without our permission.
 
-\- Generation: The Service uses third-party AI services (e.g., OpenAI’s GPT models, Vision, Whisper) to generate content such as memory illustrations, family member portraits, emotion analysis, text summaries, and voice transcriptions (“AI-Generated Content”) based on your User Content and inputs.  
-\- Third-Party Terms: Your use of AI features is also subject to the terms of the underlying AI service providers (e.g., OpenAI).  
-\- Ownership & Use: While generated for you, the ownership and usage rights of AI-Generated Content may be complex and subject to the terms of the AI providers. Momora grants you a license to use the AI-Generated Content within the Service and share it using the provided sharing tools, subject to these Terms and any applicable AI provider terms. Momora does not guarantee you will have exclusive rights to any specific AI-Generated Content. Similar prompts might produce similar outputs for different users.  
-\- No Guarantees: AI is an evolving field. Momora does not guarantee the accuracy, appropriateness, quality, uniqueness, or availability of AI-Generated Content. Outputs may contain errors, biases, or unexpected results. AI models may not perfectly capture the likeness or details described.  
-\- Usage Limits: Generation of certain AI-Generated Content (e.g., illustrations) is subject to usage limits based on your subscription tier (See Section 7).  
-\- Caching: AI-Generated Content may be cached by Momora to improve performance and availability, including for offline viewing.  
+## 3. Family journals, roles, and invitations
 
-#### 6\. Acceptable Use
+Each journal belongs to a family created by an account holder. A family has one **owner**. The owner may invite **managers**, who can add, edit, and delete family-journal content and manage non-owner members, and **viewers**, who can browse and may like or comment. Owners and managers may moderate comments and remove members. There is no ownership-transfer feature in the current version.
 
-You agree not to use the Service to:  
-  
-\- Violate any applicable local, state, national, or international law.  
-Infringe upon or violate our intellectual property rights or the intellectual property rights of others.  
-\- Harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability.  
-\- Submit false or misleading information.  
-\- Upload or transmit viruses or any other type of malicious code.  
-\- Collect or track the personal information of others without consent.  
-\- Spam, phish, pharm, pretext, spider, crawl, or scrape.  
-\- Interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet.  
-\- Attempt to reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Service.  
-\- Use the AI features in a manner that violates the terms of the underlying AI service providers.  
+Family invitations are intended for people you know and trust. Invite codes are sensitive, single-use credentials. Do not publish them or send them to people you do not intend to invite. An owner or manager must approve a redeemed invitation before access is granted.
 
-#### 7\. Subscriptions and Payment
+All active members can view the private journal content available to their family role. A manager may edit or delete a memory or family profile that another member created. If you leave or are removed from a family, you lose access immediately, but content you previously added remains in that family's journal unless an owner or manager deletes it.
 
-\- Subscription Tiers: Momora offers a one-time Free Trial and three subscription tiers ("Basic", “Premium” and "Super"). Features and limitations (e.g., number of monthly AI image generations) for each tier are described within the app or on our website.  
-\- Fees: All subscriptions require payment of fees, which will be disclosed to you at the time of purchase. All fees are non-refundable except as required by law or as explicitly stated otherwise.  
-\- Billing: All subscriptions are billed in advance on a recurring basis (e.g., monthly). You authorize us (or our third-party payment processor) to charge your chosen payment method for the recurring fees.  
-\- Automatic Renewal: Your subscription will automatically renew at the end of each billing cycle unless you cancel it through your account settings or the relevant app store platform before the end of the current period.  
-\- Price Changes: We reserve the right to change subscription fees. We will provide you with reasonable prior notice of any price changes. Your continued use of the Premium service after the price change comes into effect constitutes your agreement to pay the modified fee.  
-\- Usage Limits: The one-time Free Trial grants two credits with no expiration. Monthly subscriptions are credited at the start of each billing cycle; any unused subscription credits expire at the end of that cycle and do not carry over. Users may also acquire one-time credit packs, which remain valid indefinitely. If your available credits are exhausted, you will be unable to generate additional images until your next billing cycle begins, your subscription is upgraded, or you purchase additional credits.  
+If the owner schedules account deletion, every family journal they own is hidden during the 15-day grace period and permanently deleted if the request is not canceled. Other members cannot take ownership of it.
 
-#### 8\. Intellectual Property
+## 4. Children and family-profile information
 
-Excluding your User Content and certain AI-Generated Content (subject to Section 5), the Service and all materials therein, including, without limitation, software, images (excluding user-uploaded photos and generated illustrations), text, graphics, logos (including the Momora logo and watermark), patents, trademarks, service marks, copyrights, and trade secrets (the “Momora IP”), are the exclusive property of Momora and its licensors. You agree not to sell, license, rent, modify, distribute, copy, reproduce, transmit, publicly display, publicly perform, publish, adapt, edit, or create derivative works from any Momora IP.  
+You are responsible for information you provide about children or other people, including names, nicknames, dates of birth, photos, videos, and notes. By providing information about a child, you represent that you are the child's parent or legal guardian, or otherwise have the legal authority and appropriate permission to provide that information and allow it to be processed as described in our Privacy Policy.
 
-#### 9\. Third-Party Services
+Do not add sensitive information that is not needed to preserve the memory. You must respect the privacy and rights of everyone shown or described in content you add.
 
-The Service integrates with or relies on third-party services, including Supabase (for backend infrastructure) and OpenAI (for AI features). Your use of the Service constitutes your agreement to comply with the applicable terms and policies of these third-party providers. Momora is not responsible for the availability, accuracy, or practices of these third-party services.  
+## 5. Your content
 
-#### 10\. Privacy
+"User Content" includes memory text, comments, profile information, photos, videos, voice input, links, and other material you submit to the Service.
 
-Your privacy is important to us. Our collection and use of personal information in connection with the Service are described in our [Privacy Policy](https://usemomora.com/privacy-policy/). By using the Service, you agree to the collection, use, and sharing of your information as set forth in the [Privacy Policy](https://usemomora.com/privacy-policy/).  
+You retain your ownership rights in User Content. You grant Momora a worldwide, non-exclusive, royalty-free license to host, store, reproduce, format, transmit, process, and create feature-related derivative works from User Content solely as needed to operate, secure, improve, and provide the Service. This includes sharing User Content with our service providers to transcribe voice, analyze text or photos, generate portraits or illustrations, store private media, deliver notifications, and support the features you request. This license ends when the content is deleted from the Service, except for limited backups, legal retention, or shared-family content that remains under Section 3.
 
-#### 11\. Disclaimers
+You represent that you have the rights and permissions needed to submit User Content and grant this license. You are responsible for your User Content and for keeping your own copies of anything you cannot afford to lose.
 
-\- “AS IS” BASIS: THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, MOMORA AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.  
-\- NO WARRANTY OF CONTINUOUS OPERATION: MOMORA DOES NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, OR THAT DEFECTS WILL BE CORRECTED.  
-\- NO WARRANTY OF DATA INTEGRITY: MOMORA DOES NOT GUARANTEE THE ACCURACY, COMPLETENESS, OR RELIABILITY OF ANY CONTENT AVAILABLE THROUGH THE SERVICE, INCLUDING USER CONTENT OR AI-GENERATED CONTENT. MOMORA IS NOT RESPONSIBLE FOR ANY LOSS OR DAMAGE TO YOUR USER CONTENT. YOU ARE RESPONSIBLE FOR MAINTAINING YOUR OWN BACKUPS. WHILE MOMORA PROVIDES AN EXPORT FEATURE, WE DO NOT GUARANTEE ITS CONTINUOUS AVAILABILITY OR COMPLETENESS.  
-\- AI DISCLAIMER: MOMORA MAKES NO WARRANTIES REGARDING THE OUTPUTS OF THE AI FEATURES. AI-GENERATED CONTENT MAY BE INACCURATE, OFFENSIVE, OR OTHERWISE UNSUITABLE. USE AI FEATURES AT YOUR OWN RISK.  
+Momora is a private household service, not a public social network. However, comments and other content are user-generated. If content violates these Terms or creates legal or safety risk, we or an authorized family owner or manager may remove it. To report content or conduct, contact [hello@usemomora.com](mailto:hello@usemomora.com).
 
-#### 12\. Limitation of Liability
+## 6. AI features
 
-TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MOMORA OR ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES (EVEN IF MOMORA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM: (I) THE USE OR THE INABILITY TO USE THE SERVICE; (II) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES; (III) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (IV) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE; (V) AI-GENERATED CONTENT; OR (VI) ANY OTHER MATTER RELATING TO THE SERVICE.  
-IN NO EVENT SHALL MOMORA’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION ARISING OUT OF OR RELATING TO THESE TERMS OR YOUR USE OF THE SERVICE EXCEED THE AMOUNT YOU HAVE PAID TO MOMORA FOR USE OF THE SERVICE IN THE SIX (6) MONTHS PRIOR TO THE EVENT GIVING RISE TO THE LIABILITY, OR ONE HUNDRED U.S. DOLLARS ($100.00), WHICHEVER IS GREATER.  
+Momora uses third-party AI services, including OpenAI, for transcription, cleanup, emotion analysis, safety processing, character portraits, and memory illustrations. When you request or use an AI feature, relevant User Content is sent to those providers as described in our Privacy Policy.
 
-#### 13\. Indemnification
+AI output may be inaccurate, incomplete, biased, unexpected, or unsuitable. It may not perfectly reproduce a person's likeness or the details of a memory, and similar inputs may produce similar outputs for other users. Review AI output before relying on or sharing it. Do not use the Service to create illegal, exploitative, abusive, or rights-infringing content.
 
-You agree to indemnify, defend, and hold harmless Momora and its affiliates, officers, directors, employees, consultants, agents, and licensors from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys’ fees) that such parties may incur as a result of or arising from (a) your User Content, (b) your violation of these Terms, (c) your violation of any rights of any other person or entity (including relating to data privacy or intellectual property), or (d) your violation of any applicable laws or regulations.  
+To the extent permitted by law and applicable provider terms, you may use AI output generated for your family journal. We do not guarantee that an output is unique, copyrightable, or free from third-party claims.
 
-#### 14\. Modifications to the Service and Terms
+You can save plain-text memories or your own photos and videos without requesting an AI-generated memory illustration.
 
-Momora reserves the right to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice at any time. We also reserve the right to modify these Terms at any time. We will notify you of significant changes to the Terms by posting the new Terms on the Service, updating the “Last Updated” date, or sending you an email or other notification. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. It is your responsibility to review these Terms periodically.  
+## 7. Acceptable use
 
-#### 15\. Governing Law and Dispute Resolution  
+You may not use the Service to:
 
-These Terms shall be governed by and construed in accordance with the laws of the state of Wyoming, without regard to its conflict of law principles. Any dispute arising from or relating to the subject matter of these Terms shall be finally settled by arbitration in Sheridan, Wyoming, using the English language in accordance with the Arbitration Rules and Procedures of American Arbitration Association then in effect.  
+- Break the law or violate another person's privacy, intellectual-property, publicity, or other rights.
+- Upload content without the rights or permissions required to do so.
+- Harass, threaten, exploit, abuse, defame, or discriminate against another person.
+- Create or distribute child sexual abuse material or any content that sexualizes or exploits a minor.
+- Upload malware, probe or disrupt the Service, bypass access controls, or attempt unauthorized access.
+- Guess, collect, publish, sell, or misuse family invite codes or account credentials.
+- Scrape the Service, automate abusive requests, reverse engineer protected portions of the Service except where law expressly permits it, or evade rate limits.
+- Use AI features in a way that violates applicable law, these Terms, or an AI provider's usage policies.
+- Misrepresent your identity or submit false information for a fraudulent purpose.
 
-#### 16\. Termination  
+We may investigate violations and remove content, restrict features, suspend accounts, or terminate access when reasonably necessary to protect users, the Service, or others.
 
-\- By You: You may terminate your account at any time by using the account deletion feature within the app or by contacting us at \[Your Support Email\]. Account deletion is irreversible and will result in the permanent deletion of your account and associated data, subject to residual backups and legal retention requirements.  
-\- By Momora: We may suspend or terminate your access to all or any part of the Service at any time, with or without cause, with or without notice, effective immediately. Reasons for termination may include, but are not limited to, a breach of these Terms.  
-\- Effect of Termination: Upon termination, all licenses and rights granted to you under these Terms will immediately cease. Sections 4 (License grant persistence for operation/backup), 5 (Ownership/Disclaimers), 8, 10, 11, 12, 13, 15, and 18 will survive termination.  
+## 8. Pricing
 
-#### 17\. Account Deletion  
+The current version of Momora does not offer in-app subscriptions, credit packs, or a paywall. We may introduce paid features later. If we do, the price, renewal terms, usage limits, and any applicable app-store terms will be shown before you purchase. We will not charge you without your authorization.
 
-You can request the deletion of your account and associated data directly through the app’s settings. The process involves deleting your user profile, family member profiles, memories, generated illustrations stored by Momora, and finally, your authentication record. This action is permanent and cannot be undone. Please refer to our Privacy Policy for more details on data handling upon deletion.  
+## 9. Momora intellectual property
 
-#### 18\. General Terms  
+The Service, including its software, design, branding, logos, site copy, and non-user assets, is owned by Momora or its licensors and is protected by intellectual-property laws. These Terms give you a limited, personal, non-exclusive, non-transferable, revocable right to use the Service as intended. They do not transfer ownership of Momora's intellectual property to you.
 
-\- Entire Agreement: These Terms and the Privacy Policy constitute the entire agreement between you and Momora regarding your use of the Service.  
-Waiver: The failure of Momora to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.  
-\- Severability: If any provision of these Terms is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties’ intentions as reflected in the provision, and the other provisions of the Terms remain in full force and effect.  
-\- Assignment: You may not assign these Terms without the prior written consent of Momora, but Momora may assign or transfer these Terms, in whole or in part, without restriction.  
-\- Headings: The section titles in these Terms are for convenience only and have no legal or contractual effect.  
+You may not copy, sell, license, distribute, or create derivative works from the Service or Momora branding except with written permission or where applicable law expressly allows it.
 
-#### 19\. Contact Information  
+## 10. Third-party services and links
 
-If you have any questions about these Terms, please contact us at: hello@usemomora.com  
+The Service depends on third parties, including Supabase, Cloudflare, OpenAI, Expo, Apple, Google, and Bento. Their services may be unavailable or change independently of Momora. Your use of app stores, linked websites, and third-party services may also be governed by their terms and privacy policies.
+
+Momora can display titles for links included in a memory. We do not control linked websites and are not responsible for their content, security, or practices. Check the destination before opening a link.
+
+## 11. Privacy
+
+Our [Privacy Policy](https://usemomora.com/privacy-policy/) explains how we collect, use, share, retain, and protect personal information. By using the Service, you acknowledge those practices.
+
+## 12. Account deletion and termination
+
+You may schedule deletion in the app under **Settings → Delete account** or use our [account-deletion page](https://usemomora.com/delete-account/) if you cannot access the app. Deletion is scheduled for 15 days later and may be canceled from Settings during that grace period.
+
+When deletion completes:
+
+- If you own a family journal, your account and every family journal you own, including its members, memories, profiles, media, portraits, illustrations, likes, comments, and invitations, are permanently deleted.
+- If you are not the owner, your account, likes, comments, and account attribution are deleted. Content you added to another person's family journal may remain as part of that shared journal without identifying you as its creator.
+
+Additional details appear in our Privacy Policy and on the account-deletion page.
+
+We may suspend or terminate access, remove content, or preserve information when reasonably necessary to enforce these Terms, protect the Service or others, investigate abuse, or comply with law. On termination, provisions that by their nature should survive will remain in effect, including ownership, disclaimers, liability limits, indemnification, dispute terms, and obligations concerning content already shared in a family journal.
+
+## 13. Disclaimers
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE." MOMORA AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, AND LICENSORS DISCLAIM ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+WE DO NOT GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR AVAILABLE FOREVER; THAT CONTENT WILL NEVER BE LOST; OR THAT AI OUTPUT WILL BE ACCURATE, APPROPRIATE, UNIQUE, OR AVAILABLE. MOMORA IS NOT A SUBSTITUTE FOR YOUR OWN BACKUP OF IMPORTANT FAMILY PHOTOS, VIDEOS, OR WRITING.
+
+Some jurisdictions do not allow certain warranty disclaimers, so parts of this section may not apply to you.
+
+## 14. Limitation of liability
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, MOMORA AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES, ARISING FROM OR RELATED TO THE SERVICE, USER CONTENT, AI OUTPUT, UNAUTHORIZED ACCESS, THIRD-PARTY SERVICES, OR THESE TERMS, EVEN IF ADVISED THAT SUCH DAMAGES ARE POSSIBLE.
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, MOMORA'S TOTAL LIABILITY FOR ALL CLAIMS ARISING FROM OR RELATING TO THE SERVICE OR THESE TERMS WILL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID MOMORA DURING THE SIX MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM OR (B) ONE HUNDRED U.S. DOLLARS (US $100).
+
+Some jurisdictions do not allow certain liability limitations, so parts of this section may not apply to you.
+
+## 15. Indemnification
+
+To the extent permitted by law, you agree to defend, indemnify, and hold harmless Momora and its affiliates, officers, directors, employees, consultants, agents, and licensors from claims, liabilities, damages, losses, and expenses, including reasonable legal fees, arising from your User Content, your misuse of the Service, your violation of these Terms or law, or your violation of another person's rights.
+
+## 16. Changes to the Service or these Terms
+
+We may change, suspend, or discontinue features. We may also update these Terms. We will post updated Terms, revise the "Last updated" date, and provide additional notice when required. If you continue using the Service after updated Terms take effect, you agree to the updated Terms. If you do not agree, stop using the Service and schedule account deletion.
+
+## 17. Governing law and disputes
+
+These Terms are governed by the laws of the State of Wyoming, without regard to conflict-of-law principles. Any dispute arising from or relating to these Terms or the Service will be finally settled by arbitration in Sheridan, Wyoming, in English, under the then-current Arbitration Rules and Procedures of the American Arbitration Association, except where applicable law gives you a right to bring a claim in court or prohibits mandatory arbitration.
+
+## 18. General terms
+
+These Terms and the Privacy Policy are the entire agreement between you and Momora regarding the Service. If a provision is found unenforceable, the remaining provisions remain in effect. Our failure to enforce a provision is not a waiver. You may not assign these Terms without our written consent; we may assign them as part of a merger, acquisition, reorganization, or sale of assets. Headings are for convenience only.
+
+## 19. Contact
+
+Questions, support requests, and reports may be sent to:
+
+How do you turn this on LLC<br>
+[hello@usemomora.com](mailto:hello@usemomora.com)

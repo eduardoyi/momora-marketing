@@ -38,8 +38,8 @@ function getComponent(componentName) {
 // Inject components into HTML
 function injectComponents(html, options = {}) {
     const {
-        title = 'Momora - Remember the chaos before it\'s gone',
-        description = 'Made by tired parents, for tired parents. The simplest way to save everyday moments before they slip away.',
+        title = 'Momora - Your private family memory journal',
+        description = 'Save family memories with text, voice, photos, videos, and optional AI illustrations in one private shared journal.',
         activeFaq = '',
         extraCss = '',
         extraScripts = ''
@@ -131,8 +131,8 @@ function copyStaticFiles() {
             let options = {};
             if (filename === 'index') {
                 options = {
-                    title: 'Momora - Remember the chaos before it\'s gone',
-                    description: 'Made by tired parents, for tired parents. The simplest way to save everyday moments before they slip away. No guilt, no glitter pens required.',
+                    title: 'Momora - Your private family memory journal',
+                    description: 'Save family memories with text, voice, photos, videos, and optional AI illustrations in one private shared journal.',
                     activeFaq: '',
                     extraCss: '',
                     extraScripts: ''
@@ -140,7 +140,7 @@ function copyStaticFiles() {
             } else if (filename === 'faq') {
                 options = {
                     title: 'FAQ - Momora Family Memory Journal',
-                    description: 'Frequently asked questions about Momora plans, credits, and features.',
+                    description: 'Answers about Momora memories, AI illustrations, family sharing, privacy, pricing, and account deletion.',
                     activeFaq: ' active',
                     extraCss: '<link rel="stylesheet" href="/css/faq-styles.css">',
                     extraScripts: '<script src="/js/faq-script.js"></script>'
@@ -148,7 +148,7 @@ function copyStaticFiles() {
             } else if (filename === 'delete-account') {
                 options = {
                     title: 'Delete Your Account - Momora',
-                    description: 'Request to delete your Momora account.',
+                    description: 'Schedule deletion of your Momora account and learn what happens during the 15-day grace period.',
                     activeFaq: '',
                     extraCss: '',
                     extraScripts: ''
@@ -402,4 +402,3 @@ if (args.includes('--watch') || args.includes('-w')) {
 } else {
     buildAll();
 }
-
