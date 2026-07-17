@@ -6,7 +6,7 @@ slug: privacy-policy
 
 # Privacy Policy
 
-_Effective date: July 14, 2026_
+_Effective date: July 16, 2026_
 
 Momora is a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). This Privacy Policy explains how we handle information when you use the Momora mobile application (also listed as "UseMomora" in some app stores), our website at [usemomora.com](https://usemomora.com), and related services (together, the "Service").
 
@@ -32,6 +32,12 @@ We collect the content you choose to add to a family journal, including:
 - Links included in memory text and the page titles fetched for those links.
 - Likes, comments, timestamps, and creator attribution within a shared family journal.
 - Family names, household memberships, roles, invite status, and invite activity.
+
+### Reports and personal safety controls
+
+Any active member of a family journal can submit an in-app report about a memory, AI-generated illustration, comment, active household member, family profile, or AI-generated character portrait. A report includes the family, reporter, type and identifier of the reported item or membership, a selected reason, an optional note of up to 500 characters, status, and review or resolution timestamps. The report does not create a copy of the reported journal text, comment, image, portrait, or profile content.
+
+You can also choose to hide another active household member's activity from your own view. We store the family and account identifiers needed to apply that choice. This setting is personal to you and remains in place for that account in that family until you undo it, either account or the family is deleted, or Momora can no longer associate retained content with that account.
 
 Momora may read a selected photo's capture-date metadata on your device to suggest a memory date. Only the resulting date is kept; the raw metadata is not saved or sent with the memory. Images attached to memories are re-encoded before upload to remove EXIF data, including GPS and device metadata. Video-container metadata is not currently stripped and may remain in an uploaded video.
 
@@ -62,7 +68,8 @@ We use information to:
 - Analyze memory text or photos and generate optional character portraits and memory illustrations.
 - Fetch titles for links you include in memory text.
 - Respond to support, privacy, and account-deletion requests.
-- Protect the Service, prevent abuse, troubleshoot problems, and enforce our Terms.
+- Review and resolve in-app reports, apply personal hide settings, and respond to safety concerns.
+- Protect the Service, prevent abuse, troubleshoot problems, and enforce our Terms, including by removing content or restricting accounts after review when appropriate.
 - Comply with law and protect the rights, safety, and integrity of Momora, our users, and others.
 
 Where applicable law requires a legal basis, we process information as necessary to provide the Service under our contract with you, based on your consent or choices, for our legitimate interests in operating and securing the Service, and to meet legal obligations.
@@ -87,6 +94,8 @@ AI output can be inaccurate, unexpected, or imperfect. You can save a memory as 
 Momora is private, but it can be shared with people you approve. Active members of a family journal can view its memories, family profiles, media, comments, and creator attribution. Owners and managers can add, edit, or delete journal content and manage other non-owner members. Viewers can browse and may like or comment. An owner or manager reviewing a redeemed invite can see the applicant's name and email address to verify their identity.
 
 Only invite people you trust. Their access continues until they leave, are removed, the family journal is deleted, or their account is deleted.
+
+Reports are private. Other members of the family journal, including its owner and managers, cannot read a report you submit. Only Momora-authorized operators can access reports as needed to review, resolve, and enforce them. A personal hide setting affects only what you see; it is not shared with the hidden member or other household members.
 
 ### Service providers
 
@@ -117,12 +126,12 @@ No security method is perfect. You are responsible for protecting access to your
 
 ## 6. Retention and deletion
 
-We generally retain information while your account or a family journal you belong to remains active and as needed to provide and secure the Service. You can delete individual memories and family profiles in the app if your family role permits it. Deleted journal content is not recoverable through the app.
+We generally retain information while your account or a family journal you belong to remains active and as needed to provide and secure the Service. Reports may be retained as needed for safety, enforcement, dispute resolution, or legal obligations, and are deleted or de-identified when no longer needed for those purposes. You can delete individual memories and family profiles in the app if your family role permits it. Deleted journal content is not recoverable through the app.
 
 You can schedule account deletion in the app under **Settings → Delete account**, or request it through our [account-deletion page](https://usemomora.com/delete-account/) if you cannot access the app. Account deletion has a **15-day grace period**. During that period, you can cancel deletion from Settings.
 
-- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, and illustrations are permanently deleted.
-- **If you do not own a family journal:** your account profile, authentication record, likes, and comments are deleted after the grace period. Memories or family profiles you added to a journal owned by someone else may remain as part of that family's shared journal, but your account attribution is removed. The family owner or a manager can delete that content from the journal.
+- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, illustrations, reports, and personal hide settings are permanently deleted.
+- **If you do not own a family journal:** your account profile, authentication record, likes, comments, and personal hide settings are deleted after the grace period. Memories or family profiles you added to a journal owned by someone else may remain as part of that family's shared journal, but your account attribution is removed. For reports you submitted, the optional note is deleted and the minimum report metadata is de-identified where it must be retained for safety, enforcement, dispute resolution, or legal obligations. The family owner or a manager can delete your remaining content from the journal.
 
 We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio is not retained by Momora after transcription.
 
@@ -130,7 +139,9 @@ We may retain limited records when required by law, to resolve disputes, or to p
 
 Depending on where you live, you may have rights to access, correct, delete, restrict, object to, or receive a copy of personal information we hold about you. You may also have the right to withdraw consent and to complain to a local data-protection authority. These rights can be subject to legal exceptions.
 
-You can edit many profile and journal fields directly in the app, control notification preferences in Settings, and revoke camera, photo-library, microphone, or notification permissions in your device settings. To make another privacy request, email [hello@usemomora.com](mailto:hello@usemomora.com). We may need to verify that the request comes from the account holder.
+You can edit many profile and journal fields directly in the app, control notification preferences in Settings, and revoke camera, photo-library, microphone, or notification permissions in your device settings. You can report supported content or conduct in the app. A reported item is obscured only for you, and you can choose **Show anyway**; submitting a report does not automatically delete the item for the household. You can also hide another active household member's authored memories, comments, and related notifications from your own view, and undo that choice in the app.
+
+For support or if you cannot use the in-app reporting route, email [hello@usemomora.com](mailto:hello@usemomora.com). To make another privacy request, use the same address. We may need to verify that the request comes from the account holder.
 
 ## 8. Children's privacy
 

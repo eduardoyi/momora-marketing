@@ -6,7 +6,7 @@ slug: terms-of-service
 
 # Terms of Service
 
-_Last updated: July 14, 2026_
+_Last updated: July 16, 2026_
 
 These Terms of Service ("Terms") govern your use of Momora, a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). They apply to the Momora mobile application (also listed as "UseMomora" in some app stores), our website, and related services (together, the "Service").
 
@@ -40,7 +40,7 @@ Each journal belongs to a family created by an account holder. A family has one 
 
 Family invitations are intended for people you know and trust. Invite codes are sensitive, single-use credentials. Do not publish them or send them to people you do not intend to invite. An owner or manager must approve a redeemed invitation before access is granted.
 
-All active members can view the private journal content available to their family role. A manager may edit or delete a memory or family profile that another member created. If you leave or are removed from a family, you lose access immediately, but content you previously added remains in that family's journal unless an owner or manager deletes it.
+All active members can view the private journal content available to their family role, subject to their personal report and hide settings. A manager may edit or delete a memory or family profile that another member created. Owners and managers retain their content-deletion and non-owner member-removal controls. Non-owner members may leave a family journal. If you leave or are removed from a family, you lose access immediately, but content you previously added remains in that family's journal unless an owner or manager deletes it.
 
 If the owner schedules account deletion, every family journal they own is hidden during the 15-day grace period and permanently deleted if the request is not canceled. Other members cannot take ownership of it.
 
@@ -58,7 +58,13 @@ You retain your ownership rights in User Content. You grant Momora a worldwide, 
 
 You represent that you have the rights and permissions needed to submit User Content and grant this license. You are responsible for your User Content and for keeping your own copies of anything you cannot afford to lose.
 
-Momora is a private household service, not a public social network. However, comments and other content are user-generated. If content violates these Terms or creates legal or safety risk, we or an authorized family owner or manager may remove it. To report content or conduct, contact [hello@usemomora.com](mailto:hello@usemomora.com).
+Momora is a private household service, not a public social network. However, memories, comments, profile content, and generated images can contain user-provided or AI-generated material.
+
+Any active family-journal member can use the in-app reporting route to report a memory, AI-generated illustration, comment, active household member, family profile, or AI-generated character portrait. Reports are submitted privately to Momora; other household members, including owners and managers, cannot read them. Submitting a report obscures the reported item only for the reporter, who can choose **Show anyway**. It does not automatically delete the item for the rest of the household.
+
+You can separately hide another active household member's authored memories, comments, and related notifications from your own view. It applies only to that person's account in that specific family journal and remains in place if their membership is removed, because their earlier contributions may remain. The setting lasts until you undo it, either account or the family is deleted, or Momora can no longer associate retained content with that account. It does not suspend the other person's account or change what other household members can see.
+
+Owners and managers retain their available content-deletion and non-owner member-removal controls. Momora may review reports and remove content, restrict features or accounts, suspend accounts, or terminate access when appropriate under these Terms. If you cannot use in-app reporting, you can report content or conduct by emailing [hello@usemomora.com](mailto:hello@usemomora.com).
 
 ## 6. AI features
 
@@ -84,7 +90,7 @@ You may not use the Service to:
 - Use AI features in a way that violates applicable law, these Terms, or an AI provider's usage policies.
 - Misrepresent your identity or submit false information for a fraudulent purpose.
 
-We may investigate violations and remove content, restrict features, suspend accounts, or terminate access when reasonably necessary to protect users, the Service, or others.
+We may investigate reports or other suspected violations and remove content, restrict features or accounts, suspend accounts, or terminate access when reasonably necessary to protect users, the Service, or others. We aim to review safety reports promptly, but reporting does not guarantee removal or a particular outcome.
 
 ## 8. Pricing
 
