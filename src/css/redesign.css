@@ -534,7 +534,9 @@ a:hover { color: var(--pink-dark); }
 
 @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-7px); } }
 @keyframes tickerMove { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-@keyframes heroScroll { from { transform: translateY(0); } to { transform: translateY(-870px); } }
+/* End value tracks the hero card track height (design was -870px at 1426px track;
+   current copy renders an 1444px track, so scroll 18px further). */
+@keyframes heroScroll { from { transform: translateY(0); } to { transform: translateY(-888px); } }
 @keyframes ringPulse { 0% { transform: scale(1); opacity: .4; } 100% { transform: scale(1.9); opacity: 0; } }
 @keyframes squiggleDraw { to { stroke-dashoffset: 0; } }
 @keyframes blink { 0%, 55% { opacity: 1; } 56%, 100% { opacity: 0; } }
