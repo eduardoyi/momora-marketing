@@ -98,6 +98,94 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// --- How-it-works block 01: voice capture listen/compose loop ---
+// --- How-it-works block 03: search-and-find loop ---
+(function () {
+    const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Block 01 — voice capture. Panel B (compose) is a static opaque base
+    // layer; only panel A (listen) fades in/out above it.
+    const voicePanelA = document.getElementById('voice-panel-a');
+    const voiceTimerEl = document.getElementById('voice-timer');
+
+    if (voicePanelA && voiceTimerEl) {
+        if (prefersReducedMotion) {
+            voicePanelA.classList.add('is-hidden');
+        } else {
+            let voiceTimers = [];
+            const later = (fn, ms) => voiceTimers.push(setTimeout(fn, ms));
+            const loopVoice = () => {
+                voiceTimers.forEach(clearTimeout);
+                voiceTimers = [];
+                voicePanelA.classList.remove('is-hidden');
+                let sec = 1;
+                voiceTimerEl.textContent = '0:0' + sec;
+                const tick = () => {
+                    sec++;
+                    if (sec <= 7) {
+                        voiceTimerEl.textContent = '0:0' + Math.min(sec, 9);
+                        later(tick, 800);
+                    } else {
+                        later(() => {
+                            voicePanelA.classList.add('is-hidden');
+                            later(loopVoice, 5600);
+                        }, 300);
+                    }
+                };
+                later(tick, 800);
+            };
+            loopVoice();
+        }
+    }
+
+    // Block 03 — search and find
+    const searchTypedEl = document.getElementById('search-typed');
+    const searchResultCount = document.getElementById('search-result-count');
+    const searchList = document.getElementById('search-list');
+    const searchMatchCard = document.getElementById('search-match-card');
+
+    if (searchTypedEl && searchResultCount && searchList && searchMatchCard) {
+        const query = 'makeover';
+        const dimCards = searchList.querySelectorAll('.search-card:not(#search-match-card)');
+
+        const setSearchOn = (on) => {
+            searchResultCount.classList.toggle('is-visible', on);
+            searchList.classList.toggle('is-searching', on);
+            searchMatchCard.classList.toggle('is-match', on);
+            dimCards.forEach((card) => card.classList.toggle('is-dim', on));
+        };
+
+        if (prefersReducedMotion) {
+            searchTypedEl.textContent = query;
+            setSearchOn(true);
+        } else {
+            let searchTimers = [];
+            const later = (fn, ms) => searchTimers.push(setTimeout(fn, ms));
+            const loopSearch = () => {
+                searchTimers.forEach(clearTimeout);
+                searchTimers = [];
+                searchTypedEl.textContent = '';
+                setSearchOn(false);
+                let i = 0;
+                const tick = () => {
+                    i++;
+                    searchTypedEl.textContent = query.slice(0, i);
+                    if (i < query.length) {
+                        later(tick, 130);
+                    } else {
+                        later(() => {
+                            setSearchOn(true);
+                            later(loopSearch, 5600);
+                        }, 450);
+                    }
+                };
+                later(tick, 1800);
+            };
+            loopSearch();
+        }
+    }
+})();
+
 // Add active state to nav links on scroll
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section[id]');

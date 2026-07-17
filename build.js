@@ -131,7 +131,7 @@ function copyStaticFiles() {
             let options = {};
             if (filename === 'index') {
                 options = {
-                    title: 'Momora - Your private family memory journal',
+                    title: 'Momora — save the funny little things your kids say',
                     description: 'Save family memories with text, voice, photos, videos, and optional AI illustrations in one private shared journal.',
                     activeFaq: '',
                     extraCss: '',
@@ -142,7 +142,7 @@ function copyStaticFiles() {
                     title: 'FAQ - Momora Family Memory Journal',
                     description: 'Answers about Momora memories, AI illustrations, family sharing, privacy, pricing, and account deletion.',
                     activeFaq: ' active',
-                    extraCss: '<link rel="stylesheet" href="/css/faq-styles.css">',
+                    extraCss: '',
                     extraScripts: '<script src="/js/faq-script.js"></script>'
                 };
             } else if (filename === 'delete-account') {
@@ -158,7 +158,7 @@ function copyStaticFiles() {
                     title: 'Join your family on Momora',
                     description: 'Enter your invite code to join your family\'s memory journal on Momora.',
                     activeFaq: '',
-                    extraCss: '<link rel="stylesheet" href="/css/invite-styles.css">',
+                    extraCss: '',
                     extraScripts: '<script src="/js/invite-script.js"></script>'
                 };
             }
