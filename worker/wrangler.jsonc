@@ -1,0 +1,16 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "app-download-link",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-02",
+  "workers_dev": false,
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "app.usemomora.com",
+      "custom_domain": true
+    }
+  ]
+}

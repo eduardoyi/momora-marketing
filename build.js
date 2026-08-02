@@ -159,7 +159,7 @@ function copyStaticFiles() {
                     description: 'Enter your invite code to join your family\'s memory journal on Momora.',
                     activeFaq: '',
                     extraCss: '',
-                    extraScripts: '<script src="/js/invite-script.js"></script>'
+                    extraScripts: '<script src="/js/invite-script.js"></script>\n    <script src="/js/store-link-escape.js"></script>'
                 };
             }
             
