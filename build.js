@@ -11,6 +11,14 @@ const TEMPLATE_PATH = path.join(__dirname, 'src/templates/page-template.html');
 const SRC_DIR = path.join(__dirname, 'src');
 const COMPONENTS_DIR = path.join(__dirname, 'src/components');
 
+// Blog configuration
+const SITE_URL = 'https://usemomora.com';
+const BLOG_CONTENT_DIR = path.join(CONTENT_DIR, 'blog');
+const BLOG_POST_TEMPLATE_PATH = path.join(__dirname, 'src/templates/blog-post-template.html');
+const BLOG_ARCHIVE_TEMPLATE_PATH = path.join(__dirname, 'src/templates/blog-archive-template.html');
+const BLOG_POSTS_PER_PAGE = 6;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/brand/momora-logo.png`;
+
 // Ensure content directory exists
 if (!fs.existsSync(CONTENT_DIR)) {
     fs.mkdirSync(CONTENT_DIR, { recursive: true });
@@ -41,30 +49,34 @@ function injectComponents(html, options = {}) {
         title = 'Momora - Your private family memory journal',
         description = 'Save family memories with text, voice, photos, videos, and optional AI illustrations in one private shared journal.',
         activeFaq = '',
+        activeBlog = '',
         extraCss = '',
+        extraHead = '',
         extraScripts = ''
     } = options;
-    
+
     const headComponent = getComponent('head');
     const headerComponent = getComponent('header');
     const footerComponent = getComponent('footer');
     const gtmBodyComponent = getComponent('gtm-body');
-    
+
     // Replace component placeholders
     let output = html
         .replace('{{HEAD}}', headComponent)
         .replace('{{HEADER}}', headerComponent)
         .replace('{{FOOTER}}', footerComponent)
         .replace('{{GTM_BODY}}', gtmBodyComponent);
-    
+
     // Replace page-specific placeholders
     output = output
         .replace(/\{\{TITLE\}\}/g, title)
         .replace(/\{\{DESCRIPTION\}\}/g, description)
         .replace(/\{\{ACTIVE_FAQ\}\}/g, activeFaq)
+        .replace(/\{\{ACTIVE_BLOG\}\}/g, activeBlog)
         .replace(/\{\{EXTRA_CSS\}\}/g, extraCss)
+        .replace(/\{\{EXTRA_HEAD\}\}/g, extraHead)
         .replace(/\{\{EXTRA_SCRIPTS\}\}/g, extraScripts);
-    
+
     return output;
 }
 
@@ -254,6 +266,394 @@ function copyHeadersFile() {
     }
 }
 
+// ---------------------------------------------------------------------------
+// Blog
+// ---------------------------------------------------------------------------
+
+// Custom marked renderer: an image with a title (`![alt](src "title")`)
+// becomes a <figure>/<figcaption> pair per the blog style guide; without a
+// title it's still wrapped in a bare <figure> so spacing/sizing stays
+// consistent. Marked treats a lone image as inline content and wraps it in
+// a <p>, so the figure gets unwrapped from that <p> afterwards.
+const blogRenderer = new marked.Renderer();
+blogRenderer.image = (href, title, text) => {
+    const caption = title ? `<figcaption>${title}</figcaption>` : '';
+    return `<figure><img src="${href}" alt="${text || ''}" loading="lazy">${caption}</figure>`;
+};
+
+function renderPostBody(markdownContent) {
+    const html = marked(markdownContent, { renderer: blogRenderer });
+    return html.replace(/<p><figure>([\s\S]*?)<\/figure><\/p>/g, '<figure>$1</figure>');
+}
+
+// Strip tags/entities down to plain words for a word-count-based read time.
+function estimateReadTime(html) {
+    const text = html.replace(/<[^>]+>/g, ' ').replace(/&[a-z0-9#]+;/gi, ' ');
+    const words = text.split(/\s+/).filter(Boolean);
+    const minutes = Math.max(1, Math.round(words.length / 200));
+    return `${minutes} min read`;
+}
+
+// gray-matter's YAML parser auto-coerces an unquoted `date: 2026-08-04`
+// frontmatter value into a JS Date (UTC midnight), rather than leaving it as
+// the string "2026-08-04". Reconstruct the plain ISO string from its UTC
+// parts (not local getters, which would shift the day for anyone west of
+// UTC) so every other date helper can treat frontmatter dates as strings.
+function toISODateString(value) {
+    if (value instanceof Date) {
+        const y = value.getUTCFullYear();
+        const m = String(value.getUTCMonth() + 1).padStart(2, '0');
+        const d = String(value.getUTCDate()).padStart(2, '0');
+        return `${y}-${m}-${d}`;
+    }
+    return String(value);
+}
+
+// Formats a "YYYY-MM-DD" date string as "Aug 4, 2026" without going through
+// Date/timezone conversion, which would push midnight-UTC dates back a day
+// for anyone west of UTC.
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function formatDateDisplay(dateStr) {
+    const [year, month, day] = dateStr.split('-').map(Number);
+    return `${MONTH_NAMES[month - 1]} ${day}, ${year}`;
+}
+
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+
+// Non-regex placeholder fill — safe even if a post body happens to contain
+// characters that are special in a regex or in String.replace patterns.
+function fillPlaceholders(html, map) {
+    return Object.entries(map).reduce(
+        (acc, [key, value]) => acc.split(`{{${key}}}`).join(value == null ? '' : value),
+        html
+    );
+}
+
+function jsonLdScript(data) {
+    const json = JSON.stringify(data).replace(/</g, '\\u003c');
+    return `<script type="application/ld+json">${json}</script>`;
+}
+
+function readTemplateFile(templatePath) {
+    if (!fs.existsSync(templatePath)) {
+        console.error(`Error: template not found at ${templatePath}`);
+        process.exit(1);
+    }
+    return fs.readFileSync(templatePath, 'utf-8');
+}
+
+// Read every content/blog/*.md file into a fully-resolved post object,
+// sorted newest first.
+function readBlogPosts() {
+    if (!fs.existsSync(BLOG_CONTENT_DIR)) {
+        return [];
+    }
+
+    const files = fs.readdirSync(BLOG_CONTENT_DIR).filter(file => file.endsWith('.md'));
+
+    const posts = files.map(file => {
+        const filePath = path.join(BLOG_CONTENT_DIR, file);
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const { data, content } = matter(raw);
+
+        if (!data.title || !data.date || !data.author) {
+            console.warn(`⚠️  content/blog/${file} is missing required frontmatter (title, date, author) — skipping.`);
+            return null;
+        }
+
+        const slug = data.slug || path.basename(file, '.md');
+        const bodyHtml = renderPostBody(content);
+        const description = data.description || data.excerpt || '';
+        const date = toISODateString(data.date);
+
+        return {
+            slug,
+            title: data.title,
+            description,
+            excerpt: data.excerpt || description,
+            dek: data.dek || '',
+            date,
+            dateDisplay: formatDateDisplay(date),
+            author: data.author,
+            // Short form shows in the archive (latest card); the post header
+            // byline gets the fuller version if one's provided (e.g. adding
+            // "· mother of two" the way the design's post page does, without
+            // repeating it on the more compact archive card).
+            authorRole: data.authorRole || '',
+            authorRoleFull: data.authorRoleFull || data.authorRole || '',
+            authorBio: data.authorBio || '',
+            authorInitial: data.author.trim().charAt(0).toUpperCase(),
+            authorAvatar: data.authorAvatar || '',
+            image: data.image || '',
+            bodyHtml,
+            readTime: estimateReadTime(bodyHtml),
+            url: `/blog/${slug}/`
+        };
+    }).filter(Boolean);
+
+    // Newest first.
+    posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+
+    return posts;
+}
+
+// Renders the author avatar at a given size — a photo (cropped to a circle
+// via object-fit: cover) when the post sets `authorAvatar`, otherwise the
+// initial-letter circle.
+function renderAuthorAvatar(post, size) {
+    if (post.authorAvatar) {
+        return `<img src="${post.authorAvatar}" alt="${escapeHtml(post.author)}" class="author-avatar author-avatar--${size}" loading="lazy">`;
+    }
+    return `<span class="author-avatar author-avatar--${size}">${escapeHtml(post.authorInitial)}</span>`;
+}
+
+function renderLatestPostSection(post) {
+    return `
+<section class="blog-latest-section">
+  <a href="${post.url}" class="blog-latest-card">
+    <div class="blog-latest-meta">
+      <span class="blog-latest-label">Latest</span>
+      <span class="blog-meta-dot"></span>
+      <span class="blog-mono">${escapeHtml(post.dateDisplay)} · ${escapeHtml(post.readTime)}</span>
+    </div>
+    <h2>${escapeHtml(post.title)}</h2>
+    <p>${escapeHtml(post.excerpt)}</p>
+    <div class="blog-latest-byline">
+      ${renderAuthorAvatar(post, 'md')}
+      <span class="blog-latest-byline-text">
+        <span class="blog-latest-byline-name">${escapeHtml(post.author)}</span>
+        <span class="blog-latest-byline-role">${escapeHtml(post.authorRole)}</span>
+      </span>
+      <span class="blog-latest-cta">Read it →</span>
+    </div>
+  </a>
+</section>`;
+}
+
+function renderArchiveItem(post) {
+    return `
+    <a href="${post.url}" class="blog-archive-item">
+      <div class="blog-archive-item-main">
+        <h3>${escapeHtml(post.title)}</h3>
+        <p>${escapeHtml(post.excerpt)}</p>
+      </div>
+      <div class="blog-archive-item-meta">
+        <span class="blog-mono">${escapeHtml(post.dateDisplay)}</span>
+        <span class="blog-mono">${escapeHtml(post.readTime)}</span>
+        <span class="blog-archive-item-byline">
+          ${renderAuthorAvatar(post, 'sm')}
+          <span>${escapeHtml(post.author)}</span>
+        </span>
+      </div>
+    </a>`;
+}
+
+function renderArchiveListSection(pagePosts, totalOtherPosts, pageNum, totalPages) {
+    if (totalOtherPosts === 0) {
+        return '';
+    }
+
+    const items = pagePosts.map(renderArchiveItem).join('\n');
+
+    const pagination = [];
+    if (pageNum > 1) {
+        const prevHref = pageNum === 2 ? '/blog/' : `/blog/page/${pageNum - 1}/`;
+        pagination.push(`<a href="${prevHref}" class="blog-pagination-btn">← Newer posts</a>`);
+    }
+    if (pageNum < totalPages) {
+        pagination.push(`<a href="/blog/page/${pageNum + 1}/" class="blog-pagination-btn">Older posts</a>`);
+    }
+
+    return `
+<section class="blog-archive-section">
+  <div class="blog-archive-heading">
+    <h2>Everything else</h2>
+    <span class="blog-mono">${totalOtherPosts} post${totalOtherPosts === 1 ? '' : 's'}</span>
+  </div>
+  ${items}
+  ${pagination.length ? `<div class="blog-pagination">${pagination.join('\n  ')}</div>` : ''}
+</section>`;
+}
+
+function buildPostHead(post) {
+    const url = `${SITE_URL}${post.url}`;
+    const image = post.image || DEFAULT_OG_IMAGE;
+
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        headline: post.title,
+        description: post.description,
+        image: [image],
+        datePublished: post.date,
+        dateModified: post.date,
+        author: { '@type': 'Person', name: post.author },
+        publisher: {
+            '@type': 'Organization',
+            name: 'Momora',
+            logo: { '@type': 'ImageObject', url: `${SITE_URL}/assets/images/brand/momora-favicon.png` }
+        }
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog/` },
+            { '@type': 'ListItem', position: 3, name: post.title, item: url }
+        ]
+    };
+
+    return `
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Momora">
+<meta property="og:title" content="${escapeHtml(post.title)}">
+<meta property="og:description" content="${escapeHtml(post.description)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${image}">
+<meta property="article:published_time" content="${post.date}">
+<meta property="article:author" content="${escapeHtml(post.author)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(post.title)}">
+<meta name="twitter:description" content="${escapeHtml(post.description)}">
+<meta name="twitter:image" content="${image}">
+${jsonLdScript(articleSchema)}
+${jsonLdScript(breadcrumbSchema)}`;
+}
+
+function buildArchiveHead(pageNum, entries) {
+    const url = pageNum === 1 ? `${SITE_URL}/blog/` : `${SITE_URL}/blog/page/${pageNum}/`;
+    const title = pageNum === 1 ? 'Blog — Momora' : `Blog — Page ${pageNum} — Momora`;
+    const description = 'Notes on remembering your kids: what to write down, what you forget first, and how to keep a family memory journal without the guilt.';
+
+    const blogSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Blog',
+        name: 'The Momora blog',
+        url,
+        description,
+        blogPost: entries.map(post => ({
+            '@type': 'BlogPosting',
+            headline: post.title,
+            url: `${SITE_URL}${post.url}`,
+            datePublished: post.date
+        }))
+    };
+
+    return {
+        title,
+        description,
+        extraHead: `
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Momora">
+<meta property="og:title" content="${escapeHtml(title)}">
+<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${DEFAULT_OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(title)}">
+<meta name="twitter:description" content="${escapeHtml(description)}">
+<meta name="twitter:image" content="${DEFAULT_OG_IMAGE}">
+${jsonLdScript(blogSchema)}`
+    };
+}
+
+function buildBlogPost(post) {
+    const template = readTemplateFile(BLOG_POST_TEMPLATE_PATH);
+
+    let output = fillPlaceholders(template, {
+        POST_TITLE: escapeHtml(post.title),
+        POST_DATE_DISPLAY: escapeHtml(post.dateDisplay),
+        POST_READ_TIME: escapeHtml(post.readTime),
+        POST_DEK_BLOCK: post.dek ? `<p class="post-dek">${escapeHtml(post.dek)}</p>` : '',
+        AUTHOR_NAME: escapeHtml(post.author),
+        AUTHOR_ROLE: escapeHtml(post.authorRoleFull),
+        AUTHOR_BIO: escapeHtml(post.authorBio),
+        AUTHOR_AVATAR_LG: renderAuthorAvatar(post, 'lg'),
+        AUTHOR_AVATAR_XL: renderAuthorAvatar(post, 'xl'),
+        POST_BODY: post.bodyHtml
+    });
+
+    output = injectComponents(output, {
+        title: `${post.title} — Momora`,
+        description: post.description,
+        activeBlog: ' active',
+        extraCss: '<link rel="stylesheet" href="/css/blog.css">',
+        extraHead: buildPostHead(post)
+    });
+
+    const outDir = path.join(OUTPUT_DIR, 'blog', post.slug);
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, 'index.html'), output);
+    console.log(`✅ Generated: blog/${post.slug}/index.html (accessible as /blog/${post.slug}/)`);
+}
+
+function buildBlogArchivePage(pageNum, totalPages, featuredPost, pagePosts, totalOtherPosts) {
+    const template = readTemplateFile(BLOG_ARCHIVE_TEMPLATE_PATH);
+
+    const latestSection = pageNum === 1 ? renderLatestPostSection(featuredPost) : '';
+    const listSection = renderArchiveListSection(pagePosts, totalOtherPosts, pageNum, totalPages);
+
+    let output = fillPlaceholders(template, {
+        LATEST_POST_SECTION: latestSection,
+        ARCHIVE_LIST_SECTION: listSection
+    });
+
+    const entries = pageNum === 1 ? [featuredPost, ...pagePosts] : pagePosts;
+    const head = buildArchiveHead(pageNum, entries);
+
+    output = injectComponents(output, {
+        title: head.title,
+        description: head.description,
+        activeBlog: ' active',
+        extraCss: '<link rel="stylesheet" href="/css/blog.css">',
+        extraHead: head.extraHead
+    });
+
+    const outDir = pageNum === 1
+        ? path.join(OUTPUT_DIR, 'blog')
+        : path.join(OUTPUT_DIR, 'blog', 'page', String(pageNum));
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, 'index.html'), output);
+    console.log(`✅ Generated: blog${pageNum === 1 ? '' : `/page/${pageNum}`}/index.html`);
+}
+
+// Builds every post page plus the paginated archive. The archive's "Latest"
+// hero card is always the single newest post; everything else is paginated
+// BLOG_POSTS_PER_PAGE at a time across /blog/, /blog/page/2/, etc.
+function buildBlogContent() {
+    const posts = readBlogPosts();
+
+    if (posts.length === 0) {
+        console.log('⚠️  No posts found in content/blog/ — skipping blog build.');
+        return;
+    }
+
+    console.log(`📝 Building ${posts.length} blog post(s)...`);
+    posts.forEach(buildBlogPost);
+
+    const featuredPost = posts[0];
+    const otherPosts = posts.slice(1);
+    const totalPages = otherPosts.length === 0 ? 1 : Math.ceil(otherPosts.length / BLOG_POSTS_PER_PAGE);
+
+    for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+        const pagePosts = otherPosts.slice((pageNum - 1) * BLOG_POSTS_PER_PAGE, pageNum * BLOG_POSTS_PER_PAGE);
+        buildBlogArchivePage(pageNum, totalPages, featuredPost, pagePosts, otherPosts.length);
+    }
+
+    console.log(`✨ Blog built: ${posts.length} post(s) across ${totalPages} archive page(s).\n`);
+}
+
 // Convert markdown file to HTML
 function convertMarkdownToHTML(filePath) {
     try {
@@ -317,7 +717,10 @@ function buildAll() {
     console.log('📋 Copying static files...');
     copyStaticFiles();
     console.log('✅ Static files copied\n');
-    
+
+    // Blog (content/blog/*.md -> /blog/ archive + /blog/<slug>/ posts)
+    buildBlogContent();
+
     if (!fs.existsSync(CONTENT_DIR)) {
         console.log('⚠️  No content directory found. Creating one...');
         fs.mkdirSync(CONTENT_DIR, { recursive: true });
@@ -391,7 +794,29 @@ function watchMode() {
                 }
             }
         });
-    
+
+    const blogWatcher = chokidar.watch(path.join(BLOG_CONTENT_DIR, '*.md'), {
+        persistent: true,
+        ignoreInitial: true
+    });
+
+    // Any post's read time, and the archive's "Latest" card and pagination,
+    // can shift when any post is added, edited, or removed — a full blog
+    // rebuild is simplest and correct on every change.
+    blogWatcher
+        .on('add', filePath => {
+            console.log(`\n📝 New blog post detected: ${path.basename(filePath)}`);
+            buildBlogContent();
+        })
+        .on('change', filePath => {
+            console.log(`\n📝 Blog post changed: ${path.basename(filePath)}`);
+            buildBlogContent();
+        })
+        .on('unlink', filePath => {
+            console.log(`\n🗑️  Blog post removed: ${path.basename(filePath)}`);
+            buildBlogContent();
+        });
+
     console.log('Press Ctrl+C to stop watching.\n');
 }
 

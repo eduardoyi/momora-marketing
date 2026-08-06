@@ -1,0 +1,182 @@
+/* Blog — archive listing, post template, and markdown post-body content
+   styles. Reuses the color/type tokens defined in redesign.css so the blog
+   stays visually identical to the rest of the redesigned site. */
+
+.blog-eyebrow {
+    margin-bottom: 18px;
+    color: var(--pink);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.blog-meta-dot { width: 4px; height: 4px; border-radius: 999px; background: #cfc8e0; display: inline-block; flex: none; }
+.blog-mono { font-family: var(--mono); font-size: 12px; color: var(--quiet); }
+
+/* Author avatar — an initial-letter circle by default, or a photo when a
+   post sets `authorAvatar`. Same class handles both: on an <img> the
+   gradient sits behind it as a loading placeholder and object-fit crops it
+   into the circle; on a <span> it's just the letter's background. */
+.author-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #fbd6e1, #ec7fa1 90%);
+    color: var(--paper);
+    font-family: var(--display);
+    line-height: 1;
+    object-fit: cover;
+}
+.author-avatar--sm { width: 22px; height: 22px; font-size: 11px; }
+.author-avatar--md { width: 36px; height: 36px; font-size: 16px; }
+.author-avatar--lg { width: 44px; height: 44px; font-size: 19px; }
+.author-avatar--xl { width: 56px; height: 56px; font-size: 24px; }
+
+/* Archive: masthead */
+.blog-masthead { max-width: 1160px; margin: 0 auto; padding: 64px 24px 40px; }
+.blog-masthead h1 { max-width: 16ch; margin: 0 0 18px; font-family: var(--display); font-weight: 500; font-size: clamp(40px, 5.4vw, 60px); line-height: 1.05; letter-spacing: -.015em; text-wrap: pretty; }
+.blog-masthead p { max-width: 56ch; margin: 0; color: var(--muted); font-size: 18px; line-height: 1.6; text-wrap: pretty; }
+
+/* Archive: latest post feature card */
+.blog-latest-section { max-width: 1160px; margin: 0 auto; padding: 0 24px 56px; }
+.blog-latest-card {
+    display: block;
+    padding: clamp(28px, 4vw, 52px);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--panel);
+    color: inherit;
+    text-decoration: none;
+    transition: border-color .22s cubic-bezier(.22, .61, .36, 1), background .22s cubic-bezier(.22, .61, .36, 1);
+}
+.blog-latest-card:hover { border-color: #d9cfe6; background: #f0eef6; color: inherit; }
+.blog-latest-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.blog-latest-label { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--pink); }
+.blog-latest-card h2 { max-width: 20ch; margin: 0 0 18px; font-family: var(--display); font-weight: 500; font-size: clamp(32px, 4.4vw, 48px); line-height: 1.1; letter-spacing: -.015em; text-wrap: pretty; }
+.blog-latest-card > p { max-width: 60ch; margin: 0 0 28px; color: var(--muted); font-size: 18px; line-height: 1.65; text-wrap: pretty; }
+.blog-latest-byline { display: flex; align-items: center; gap: 12px; }
+.blog-latest-byline-text { display: flex; flex-direction: column; line-height: 1.3; }
+.blog-latest-byline-name { font-size: 14px; font-weight: 700; color: var(--ink); }
+.blog-latest-byline-role { font-size: 13px; color: var(--quiet); }
+.blog-latest-cta { margin-left: auto; font-size: 14px; font-weight: 700; color: var(--pink); white-space: nowrap; }
+
+/* Archive: list */
+.blog-archive-section { max-width: 1160px; margin: 0 auto; padding: 0 24px 24px; }
+.blog-archive-heading { display: flex; align-items: baseline; gap: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.blog-archive-heading h2 { margin: 0; font-family: var(--display); font-weight: 500; font-size: 26px; }
+.blog-archive-item {
+    display: flex;
+    gap: 32px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--line);
+    color: inherit;
+    text-decoration: none;
+}
+.blog-archive-item:hover { color: var(--pink-dark); }
+.blog-archive-item-main { flex: 1 1 420px; min-width: 0; }
+.blog-archive-item h3 { max-width: none; margin: 0 0 10px; color: inherit; font-family: var(--display); font-weight: 500; font-size: clamp(22px, 2.4vw, 28px); line-height: 1.22; letter-spacing: -.01em; text-wrap: pretty; }
+.blog-archive-item-main p { max-width: 62ch; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.6; text-wrap: pretty; }
+.blog-archive-item-meta { display: flex; flex: 0 0 auto; flex-direction: column; gap: 6px; min-width: 150px; }
+.blog-archive-item-byline { display: inline-flex; align-items: center; gap: 7px; margin-top: 6px; }
+.blog-archive-item-byline span:last-child { font-size: 13px; font-weight: 600; color: var(--muted); }
+
+.blog-pagination { display: flex; justify-content: center; gap: 12px; padding: 36px 0 0; flex-wrap: wrap; }
+.blog-pagination-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border: 1px solid var(--line); border-radius: 12px; background: #fff; font-size: 14px; font-weight: 700; color: var(--muted); }
+.blog-pagination-btn:hover { border-color: var(--pink); color: var(--pink); }
+
+/* Shared download-CTA panel (archive footer + end of every post) */
+.blog-cta-section { max-width: 1160px; margin: 0 auto; padding: 72px 24px 110px; }
+.blog-cta-section.is-post { max-width: 760px; padding: 56px 24px 0; }
+.blog-cta-box { max-width: 880px; margin: 0 auto; padding: 56px 32px; border: 1px solid var(--line); border-radius: 24px; background: var(--panel); text-align: center; }
+.blog-cta-box.is-post { max-width: none; padding: 44px 32px; }
+.blog-cta-hand { margin-bottom: 6px; font-family: var(--hand); font-size: 26px; color: var(--pink); }
+.blog-cta-box h2 { margin: 0 0 16px; font-family: var(--display); font-weight: 500; font-size: clamp(30px, 3.8vw, 42px); line-height: 1.1; }
+.blog-cta-box.is-post h2 { font-size: clamp(26px, 3.4vw, 34px); line-height: 1.12; margin-bottom: 14px; }
+.blog-cta-box p { max-width: 46ch; margin: 0 auto 28px; color: var(--muted); font-size: 17px; line-height: 1.6; text-wrap: pretty; }
+.blog-cta-box.is-post p { font-size: 16.5px; margin-bottom: 26px; }
+.blog-cta-box .download-buttons { justify-content: center; }
+
+/* Post: header */
+.post-back-link { display: inline-block; margin-bottom: 36px; font-size: 14px; font-weight: 600; color: var(--muted); }
+.post-back-link:hover { color: var(--pink); }
+.post-header { max-width: 760px; margin: 0 auto; padding: 48px 24px 0; }
+.post-meta-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.post-header h1 { margin: 0 0 22px; font-family: var(--display); font-weight: 500; font-size: clamp(38px, 5.4vw, 58px); line-height: 1.06; letter-spacing: -.018em; text-wrap: pretty; }
+.post-dek { margin: 0 0 34px; font-family: var(--display); font-size: clamp(20px, 2.4vw, 24px); line-height: 1.5; color: var(--muted); text-wrap: pretty; }
+.post-byline { display: flex; align-items: center; gap: 12px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.post-byline-text { display: flex; flex-direction: column; line-height: 1.35; }
+.post-byline-name { font-size: 15px; font-weight: 700; color: var(--ink); }
+.post-byline-role { font-size: 14px; color: var(--quiet); }
+
+/* Post: body — every element a markdown post can render. Mirrors the
+   handoff's "Blog style guide" spec 1:1. */
+.post-body { max-width: 760px; margin: 0 auto; padding: 40px 24px 0; font-size: 18.5px; line-height: 1.72; color: var(--ink); }
+.post-body h2 { margin: 48px 0 18px; font-family: var(--display); font-weight: 500; font-size: clamp(26px, 3.2vw, 34px); line-height: 1.2; letter-spacing: -.012em; text-wrap: pretty; }
+.post-body h2:first-child { margin-top: 0; }
+.post-body h3 { margin: 36px 0 14px; font-family: var(--display); font-weight: 500; font-size: clamp(21px, 2.4vw, 25px); line-height: 1.25; letter-spacing: -.008em; text-wrap: pretty; }
+.post-body h4 { margin: 32px 0 10px; font-size: 15px; font-weight: 700; letter-spacing: .02em; color: var(--ink); }
+.post-body p { margin: 0 0 26px; text-wrap: pretty; }
+.post-body a { color: var(--pink); font-weight: 600; text-decoration: underline; text-decoration-color: #f0bbd0; text-underline-offset: 3px; }
+.post-body a:hover { color: var(--pink-dark); text-decoration-color: var(--pink-dark); }
+.post-body strong { font-weight: 700; }
+.post-body em { font-style: italic; }
+
+.post-body ul, .post-body ol { margin: 0 0 26px; padding-left: 26px; }
+.post-body li { margin-bottom: 12px; }
+.post-body li:last-child { margin-bottom: 0; }
+.post-body li::marker { color: var(--pink); }
+.post-body ul { list-style: disc; }
+.post-body ul ul { list-style: circle; }
+.post-body ul ul ul { list-style: square; }
+.post-body ol { padding-left: 38px; list-style: decimal; }
+.post-body ol ol { padding-left: 36px; list-style: lower-alpha; }
+.post-body ol ol ol { padding-left: 34px; list-style: lower-roman; }
+.post-body ol > li::marker { font-family: var(--mono); }
+.post-body li > ul, .post-body li > ol { margin: 12px 0 0; font-size: 17.5px; }
+.post-body li > ul li, .post-body li > ol li { margin-bottom: 10px; }
+.post-body li li > ul, .post-body li li > ol { margin-top: 10px; font-size: 16.5px; color: var(--muted); }
+
+.post-body blockquote { margin: 36px 0; padding: 0 0 0 24px; border-left: 3px solid var(--pink); }
+.post-body blockquote p { margin: 0; font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(21px, 2.6vw, 26px); line-height: 1.45; }
+.post-body blockquote cite { display: block; margin-top: 14px; font-style: normal; font-size: 14px; font-weight: 600; color: var(--quiet); }
+
+/* Script pull-quote — authored as raw HTML in the markdown source
+   (<p class="pull">...</p>), rationed to once per post. */
+.post-body .pull { max-width: 24ch; margin: 40px auto; font-family: var(--hand); font-size: clamp(28px, 3.6vw, 36px); line-height: 1.25; color: var(--pink); text-align: center; }
+
+.post-body figure { margin: 40px 0; display: flex; flex-direction: column; gap: 12px; }
+.post-body figure img { display: block; width: 100%; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); }
+.post-body figcaption { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--quiet); text-wrap: pretty; }
+
+.post-body hr { margin: 36px 0; border: 0; border-top: 1px solid var(--line); }
+.post-body table { width: 100%; margin: 0 0 26px; border-collapse: collapse; font-size: 16.5px; }
+.post-body th { padding: 0 16px 12px 0; border-bottom: 1px solid #e2deee; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--pink); text-align: left; }
+.post-body td { padding: 14px 16px 14px 0; border-bottom: 1px solid var(--line); line-height: 1.55; text-align: left; }
+.post-body code { padding: 2px 6px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); font-family: var(--mono); font-size: .86em; color: var(--muted); }
+.post-body pre { overflow-x: auto; padding: 20px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); }
+.post-body pre code { padding: 0; border: 0; background: none; }
+
+/* Post: author bio */
+.post-author-bio { max-width: 760px; margin: 0 auto; padding: 44px 24px 0; }
+.post-author-bio-inner { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; padding-top: 32px; border-top: 1px solid var(--line); }
+.post-author-bio-text { flex: 1 1 320px; min-width: 0; }
+.post-author-bio-label { margin-bottom: 8px; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--pink); }
+.post-author-bio-name { margin-bottom: 8px; font-size: 17px; font-weight: 700; }
+.post-author-bio-text p { max-width: 56ch; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; text-wrap: pretty; }
+
+/* Post: keep reading */
+.post-keep-reading { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; }
+.post-keep-reading a { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: var(--pink); }
+.post-keep-reading a:hover { color: var(--pink-dark); }
+
+@media (max-width: 760px) {
+    .blog-latest-card { padding: 28px 22px; }
+    .blog-latest-cta { margin-left: 0; }
+    .blog-archive-item { gap: 6px; padding: 22px 0; }
+    .blog-archive-item-meta { flex-direction: row; align-items: center; flex-wrap: wrap; min-width: 0; }
+    .post-body { font-size: 17.5px; }
+}

@@ -575,6 +575,9 @@ img.family-comment-avatar { object-fit: cover; background: #f8f0dd; }
     .header .container { padding-top: 12px; padding-bottom: 12px; }
     .nav { gap: 14px; }
     .nav-link:not(.active) { display: none; }
+    /* The legacy styles.css hides every .nav-link at this width; restore
+       the active one (higher specificity wins regardless of load order). */
+    .nav-link.active { display: inline-block; }
     .landing-hero { padding-top: 54px; gap: 48px; }
     .landing-hero h1 { max-width: none; }
     .landing-visual { order: -1; width: 100%; }
