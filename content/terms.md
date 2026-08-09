@@ -6,7 +6,7 @@ slug: terms-of-service
 
 # Terms of Service
 
-_Last updated: July 16, 2026_
+_Last updated: August 9, 2026_
 
 These Terms of Service ("Terms") govern your use of Momora, a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). They apply to the Momora mobile application (also listed as "UseMomora" in some app stores), our website, and related services (together, the "Service").
 
@@ -19,9 +19,11 @@ Momora lets adults create or join private family journals and:
 - Save memories as text, voice-dictated text, photos, or videos.
 - Add and tag child or family profiles.
 - Create optional AI-generated character portraits and memory illustrations.
-- Organize memories in timeline and calendar views.
+- Organize and revisit memories in timeline, calendar, search, and Looking Back views.
 - Invite trusted household members with owner, manager, or viewer roles.
 - Like and comment on memories inside a shared family journal.
+- Create watermarked memory cards for user-directed sharing outside the journal.
+- Let family owners export private archives of the families they own.
 - Receive optional journal reminders and family-activity notifications.
 
 Some features may be unavailable, delayed, or changed as the Service evolves. AI processing and media uploads may finish after a memory's text or database record has already been saved.
@@ -54,9 +56,11 @@ Do not add sensitive information that is not needed to preserve the memory. You 
 
 "User Content" includes memory text, comments, profile information, photos, videos, voice input, links, and other material you submit to the Service.
 
-You retain your ownership rights in User Content. You grant Momora a worldwide, non-exclusive, royalty-free license to host, store, reproduce, format, transmit, process, and create feature-related derivative works from User Content solely as needed to operate, secure, improve, and provide the Service. This includes sharing User Content with our service providers to transcribe voice, analyze text or photos, generate portraits or illustrations, store private media, deliver notifications, and support the features you request. This license ends when the content is deleted from the Service, except for limited backups, legal retention, or shared-family content that remains under Section 3.
+You retain your ownership rights in User Content. You grant Momora a worldwide, non-exclusive, royalty-free license to host, store, reproduce, format, transmit, process, and create feature-related derivative works from User Content solely as needed to operate, secure, improve, and provide the Service. This includes sharing User Content with our service providers to transcribe voice, analyze text or photos, generate portraits or illustrations, create private memory-card or archive files, store private media, deliver notifications, measure product use as described in our Privacy Policy, and support the features you request. This license ends when the content is deleted from the Service, except for limited backups, legal retention, or shared-family content that remains under Section 3.
 
 You represent that you have the rights and permissions needed to submit User Content and grant this license. You are responsible for your User Content and for keeping your own copies of anything you cannot afford to lose.
+
+When you export an archive or use the device share sheet to send a memory card, you direct Momora to create and provide an external copy. Once that copy reaches the recipient, app, or storage service you selected, Momora's family-journal access controls no longer protect it. The recipient may save, forward, or publish it. You are responsible for choosing appropriate recipients, respecting the privacy of every person shown or described, and having the rights and permissions needed to share the content.
 
 Momora is a private household service, not a public social network. However, memories, comments, profile content, and generated images can contain user-provided or AI-generated material.
 
@@ -92,9 +96,17 @@ You may not use the Service to:
 
 We may investigate reports or other suspected violations and remove content, restrict features or accounts, suspend accounts, or terminate access when reasonably necessary to protect users, the Service, or others. We aim to review safety reports promptly, but reporting does not guarantee removal or a particular outcome.
 
-## 8. Pricing
+## 8. Subscriptions, billing, and fair use
 
-The current version of Momora does not offer in-app subscriptions, credit packs, or a paywall. We may introduce paid features later. If we do, the price, renewal terms, usage limits, and any applicable app-store terms will be shown before you purchase. We will not charge you without your authorization.
+Momora Plus is a store-managed subscription for family owners. The annual plan is offered by default and may include a seven-day trial for an eligible new owner; a monthly plan is also available without a trial. Current U.S. list prices are $99.99 per year and $12.99 per month. The price, currency, taxes, trial eligibility, renewal date, and complete offer terms displayed by the App Store or Google Play at purchase control if they differ from this summary.
+
+Payment is charged to your Apple App Store or Google Play account when you confirm a purchase. Unless the purchase screen states otherwise, subscriptions renew automatically for the same period at the then-current price. A free trial converts to the paid annual plan unless you cancel before the deadline shown by the store. Manage or cancel your subscription through the store account used to purchase it; canceling stops future renewal but does not itself delete your Momora account or journal. Store rules and applicable law govern billing disputes, taxes, cancellations, and refunds. Momora provides a restore-purchases option but cannot guarantee that a store will approve a purchase, restore, cancellation, or refund.
+
+The subscription belongs to the family owner. Approved managers and viewers inherit the owner's access for that family and do not purchase separate Momora subscriptions. Active paid, trial, billing-grace, or complimentary access permits the household's available journal mutations and AI features. If that access expires, active members can continue reading the existing journal and the owner can continue exporting the owner-controlled archive, but creating or changing memories, media, likes, comments, AI generations, and other journal data requires renewed access. Resubscribing does not include another trial unless the store and Momora expressly offer one.
+
+AI portrait and illustration generation is subject to reasonable fair-use, anti-abuse, per-memory, daily, and monthly limits. These limits apply to new generations, retries, and regenerations and may be adjusted to protect the Service and maintain reliable access for families. If a limit is reached, Momora may temporarily delay or refuse another AI generation until the applicable period resets. A memory's text or database record is saved independently and remains available even when AI generation is limited or fails. Momora does not sell generation credit packs in the current version.
+
+Complimentary or temporary access is not a store purchase, has no cash value, and may expire or be withdrawn according to the terms under which it was granted. We may change subscription features or prices prospectively, with notice from us or the applicable store when required. Price changes do not authorize us to charge you outside the app-store purchase and renewal process.
 
 ## 9. Momora intellectual property
 
@@ -104,7 +116,7 @@ You may not copy, sell, license, distribute, or create derivative works from the
 
 ## 10. Third-party services and links
 
-The Service depends on third parties, including Supabase, Cloudflare, OpenAI, Expo, Apple, Google, and Bento. Their services may be unavailable or change independently of Momora. Your use of app stores, linked websites, and third-party services may also be governed by their terms and privacy policies.
+The Service depends on third parties, including Supabase, Cloudflare, OpenAI, RevenueCat, PostHog, Expo, Apple, Google, and Bento. Their services may be unavailable or change independently of Momora. Your use of app stores, share destinations, linked websites, and third-party services may also be governed by their terms and privacy policies.
 
 Momora can display titles for links included in a memory. We do not control linked websites and are not responsible for their content, security, or practices. Check the destination before opening a link.
 
@@ -118,7 +130,7 @@ You may schedule deletion in the app under **Settings → Delete account** or us
 
 When deletion completes:
 
-- If you own a family journal, your account and every family journal you own, including its members, memories, profiles, media, portraits, illustrations, likes, comments, and invitations, are permanently deleted.
+- If you own a family journal, your account and every family journal you own, including its members, memories, profiles, media, portraits, illustrations, cached memory cards, Looking Back data, likes, comments, and invitations, are permanently deleted.
 - If you are not the owner, your account, likes, comments, and account attribution are deleted. Content you added to another person's family journal may remain as part of that shared journal without identifying you as its creator.
 
 Additional details appear in our Privacy Policy and on the account-deletion page.

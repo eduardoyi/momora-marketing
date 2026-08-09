@@ -6,7 +6,7 @@ slug: privacy-policy
 
 # Privacy Policy
 
-_Effective date: July 16, 2026_
+_Effective date: August 9, 2026_
 
 Momora is a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). This Privacy Policy explains how we handle information when you use the Momora mobile application (also listed as "UseMomora" in some app stores), our website at [usemomora.com](https://usemomora.com), and related services (together, the "Service").
 
@@ -17,6 +17,12 @@ Momora is designed for adults to record family memories. It is not designed for 
 ### Account and profile information
 
 When you create an account, we collect your name, email address, timezone, and account settings. We also store information needed to operate your account, such as your active family journal, onboarding status, notification preferences, account-deletion status, and authentication records. Production sign-in uses a one-time code sent to your email; Momora does not ask you to create a password in the production app.
+
+### Subscription and billing information
+
+If you are a family owner, we process information needed to offer and manage Momora Plus, including the store and product selected, plan period, purchase and entitlement status, trial eligibility, purchase, renewal, expiration, cancellation, billing-retry, and grace-period dates, transaction identifiers, whether automatic renewal is enabled, and any subscription-management link supplied by the store. We also store whether an owner has complimentary or temporary access and the information needed to send a trial-ending reminder.
+
+Purchases are processed by Apple or Google and managed for us through RevenueCat. Momora does not receive your full payment-card number. RevenueCat and the app store may process device, account, receipt, purchase-token, transaction, and subscription information under their own privacy practices. Momora identifies the subscription to RevenueCat using the same pseudonymous account identifier used for your Momora account, not your email address.
 
 ### Family and child profile information
 
@@ -32,6 +38,8 @@ We collect the content you choose to add to a family journal, including:
 - Links included in memory text and the page titles fetched for those links.
 - Likes, comments, timestamps, and creator attribution within a shared family journal.
 - Family names, household memberships, roles, invite status, and invite activity.
+- Looking Back package membership and your personal opened or completed status for those packages.
+- Private, derived memory-card images created to support user-directed sharing.
 
 ### Reports and personal safety controls
 
@@ -45,11 +53,23 @@ Momora may read a selected photo's capture-date metadata on your device to sugge
 
 If you use voice input, the recording and the active family's names and nicknames are sent for transcription and cleanup. Voice audio is processed temporarily and is not stored by Momora after transcription. The transcript is placed in the editor, and it becomes part of your journal only if you choose to save it.
 
+### Archive exports and memory-card sharing
+
+If a family owner requests an archive export, we create a short-lived export job linked to that owner, assemble a structured manifest, and stream the available private journal files into a ZIP archive. The archive is downloaded temporarily to the app's cache and handed to the device's share sheet. Momora does not create a public archive URL or retain a completed copy of the ZIP after the share flow.
+
+When a shareable memory is created or changed, Momora may create and privately cache a watermarked memory-card image so it is ready if an authorized family member chooses to share it. Creating a card can use the memory text or caption, date, photo or illustration, emotion color, and available tagged-member portraits. The cached card stays in private storage and is not given a public URL. If you choose a recipient or third-party app from the device's share sheet, that destination receives a copy and handles it under its own terms and privacy practices.
+
 ### Notifications and technical information
 
 If you enable notifications, we collect a push-notification token and your notification preferences. Notification providers may also receive technical routing information needed to deliver a notification. Momora's push messages use generic text and do not include memory text, comments, photos, or child details.
 
 We and our infrastructure providers also process limited technical information needed to operate and secure the Service, such as IP addresses, request timestamps, identifiers, error information, and device or operating-system information supplied with network requests. For example, we temporarily log account and IP information to rate-limit family-invite attempts. Production logs are designed to use record identifiers and status codes rather than journal text, transcripts, audio, or child details.
+
+### In-app product analytics
+
+Momora uses PostHog to understand onboarding, subscription, journaling, illustration, family-sharing, notification, and Looking Back usage. Analytics data can include a randomly generated pre-sign-in identifier, your pseudonymous Momora account identifier after sign-in, a family identifier, your household role and subscription-access category, membership and tagged-profile counts, app lifecycle events such as installation or opening, device and operating-system information, and event-specific counts, booleans, and closed categories. RevenueCat may also send subscription events to PostHog using the same pseudonymous account identifier.
+
+Momora does **not** send memory text or captions, voice recordings or transcripts, child or family-member names, family names, email addresses, dates of birth, profile notes, comment text, invite codes, media files or URLs, illustration prompts, or child-linked emotion results to PostHog. We do not use PostHog session replay, interaction autocapture, or automatic screen tracking in the app.
 
 ### Website information
 
@@ -62,10 +82,13 @@ If you use our web account-deletion form, Google Forms processes the information
 We use information to:
 
 - Create, authenticate, and maintain your account.
-- Provide private family journals, family roles, invitations, timelines, calendars, search, likes, comments, and notifications.
+- Provide private family journals, family roles, invitations, timelines, calendars, search, Looking Back packages, likes, comments, and notifications.
 - Store and display the memories, family profiles, photos, videos, and other content you choose to provide.
 - Transcribe voice input and suggest family-profile tags.
 - Analyze memory text or photos and generate optional character portraits and memory illustrations.
+- Offer and administer subscriptions, purchases, restores, complimentary access, entitlement checks, and trial reminders.
+- Create owner-requested archive exports and private, user-shareable memory cards.
+- Measure product adoption, reliability, and feature use without sending private journal content to our analytics provider.
 - Fetch titles for links you include in memory text.
 - Respond to support, privacy, and account-deletion requests.
 - Review and resolve in-app reports, apply personal hide settings, and respond to safety concerns.
@@ -97,15 +120,21 @@ Only invite people you trust. Their access continues until they leave, are remov
 
 Reports are private. Other members of the family journal, including its owner and managers, cannot read a report you submit. Only Momora-authorized operators can access reports as needed to review, resolve, and enforce them. A personal hide setting affects only what you see; it is not shared with the hidden member or other household members.
 
+### Sharing and exporting at your direction
+
+An authorized family member can choose to send a watermarked memory card through the device's share sheet, and a family owner can export an archive to a destination they select. The recipient, app, or storage service you choose then receives a separate copy. Momora cannot control how that external copy is stored, used, forwarded, or made public, so share only with people and services you trust.
+
 ### Service providers
 
 We use service providers to operate Momora, including:
 
 - **Supabase** for authentication, database hosting, and server-side functions.
-- **Cloudflare R2** for private storage of photos, videos, portraits, and illustrations.
+- **Cloudflare** for private storage, illustration workflows, archive export streaming, and memory-card processing.
 - **OpenAI** for transcription, text and image analysis, and image generation.
+- **RevenueCat, Apple, and Google** for subscription offerings, purchases, restores, receipts, entitlement status, and subscription management.
+- **PostHog** for limited in-app product analytics and subscription-event measurement.
 - **Expo, Apple Push Notification service, and Firebase Cloud Messaging** for push-notification delivery.
-- **Bento** for transactional email, including family-invite approval messages and authentication email delivery.
+- **Bento** for transactional email, including authentication, family-invite approval, and trial-ending messages.
 - **Google Tag Manager and Google Forms** for website analytics and the web account-deletion request form.
 
 These providers receive only the information reasonably needed to perform their services for us and process it under their own terms and privacy commitments.
@@ -120,20 +149,22 @@ We do not sell personal information. We do not use private journal content for t
 
 ## 5. Storage and security
 
-Family-journal records are protected by access controls that check active family membership and role. Photos, videos, portraits, and illustrations are stored in private object storage and displayed through time-limited signed links. Information is encrypted in transit. Service credentials for storage and AI providers are kept on the server rather than in the mobile app.
+Family-journal records are protected by access controls that check active family membership and role. Photos, videos, portraits, illustrations, and cached memory cards are stored in private object storage and displayed through authenticated requests or time-limited signed links. Export jobs are owner-scoped and short-lived, and completed archives are streamed rather than placed at a public URL. Information is encrypted in transit. Service credentials for storage, billing, export, and AI providers are kept on the server rather than in the mobile app.
 
 No security method is perfect. You are responsible for protecting access to your email account and device and for inviting only trusted people to a family journal.
 
 ## 6. Retention and deletion
 
-We generally retain information while your account or a family journal you belong to remains active and as needed to provide and secure the Service. Reports may be retained as needed for safety, enforcement, dispute resolution, or legal obligations, and are deleted or de-identified when no longer needed for those purposes. You can delete individual memories and family profiles in the app if your family role permits it. Deleted journal content is not recoverable through the app.
+We generally retain information while your account or a family journal you belong to remains active and as needed to provide, measure, and secure the Service. Reports may be retained as needed for safety, enforcement, dispute resolution, or legal obligations, and are deleted or de-identified when no longer needed for those purposes. Product analytics is retained only as long as reasonably needed for product measurement, security, and legal obligations, then deleted or de-identified. You can delete individual memories and family profiles in the app if your family role permits it. Deleted journal content is not recoverable through the app.
+
+Archive export jobs expire after one hour. Momora does not persist the completed ZIP on its servers, and the app deletes its temporary cached copy after the share flow. Cached memory cards are invalidated when their source content changes and are deleted with the related memory or family journal.
 
 You can schedule account deletion in the app under **Settings → Delete account**, or request it through our [account-deletion page](https://usemomora.com/delete-account/) if you cannot access the app. Account deletion has a **15-day grace period**. During that period, you can cancel deletion from Settings.
 
-- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, illustrations, reports, and personal hide settings are permanently deleted.
+- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, subscription-access records tied to it, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, illustrations, cached memory cards, Looking Back packages and view state, reports, and personal hide settings are permanently deleted.
 - **If you do not own a family journal:** your account profile, authentication record, likes, comments, and personal hide settings are deleted after the grace period. Memories or family profiles you added to a journal owned by someone else may remain as part of that family's shared journal, but your account attribution is removed. For reports you submitted, the optional note is deleted and the minimum report metadata is de-identified where it must be retained for safety, enforcement, dispute resolution, or legal obligations. The family owner or a manager can delete your remaining content from the journal.
 
-We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio is not retained by Momora after transcription.
+We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Apple, Google, RevenueCat, and other providers may retain transaction, receipt, security, or accounting records under their own legal obligations and retention schedules. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio is not retained by Momora after transcription.
 
 ## 7. Your choices and rights
 
@@ -141,7 +172,7 @@ Depending on where you live, you may have rights to access, correct, delete, res
 
 You can edit many profile and journal fields directly in the app, control notification preferences in Settings, and revoke camera, photo-library, microphone, or notification permissions in your device settings. You can report supported content or conduct in the app. A reported item is obscured only for you, and you can choose **Show anyway**; submitting a report does not automatically delete the item for the household. You can also hide another active household member's authored memories, comments, and related notifications from your own view, and undo that choice in the app.
 
-For support or if you cannot use the in-app reporting route, email [hello@usemomora.com](mailto:hello@usemomora.com). To make another privacy request, use the same address. We may need to verify that the request comes from the account holder.
+For support or if you cannot use the in-app reporting route, email [hello@usemomora.com](mailto:hello@usemomora.com). To make another privacy request, including a request concerning product analytics or billing records under our control, use the same address. We may need to verify that the request comes from the account holder.
 
 ## 8. Children's privacy
 
