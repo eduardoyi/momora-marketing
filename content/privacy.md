@@ -6,7 +6,7 @@ slug: privacy-policy
 
 # Privacy Policy
 
-_Effective date: August 9, 2026_
+_Effective date: August 21, 2026_
 
 Momora is a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). This Privacy Policy explains how we handle information when you use the Momora mobile application (also listed as "UseMomora" in some app stores), our website at [usemomora.com](https://usemomora.com), and related services (together, the "Service").
 
@@ -33,7 +33,7 @@ You may add information about children and other people in your family journal, 
 We collect the content you choose to add to a family journal, including:
 
 - Memory text, captions, dates, and tagged family profiles.
-- Photos and videos attached to memories.
+- Photos, videos, and kept sound recordings attached to memories, along with the editable note and hidden search transcript created for a kept sound.
 - AI-generated illustrations, prompts, detected emotions, and related generation status.
 - Links included in memory text and the page titles fetched for those links.
 - Likes, comments, timestamps, and creator attribution within a shared family journal.
@@ -51,7 +51,10 @@ Momora may read a selected photo's capture-date metadata on your device to sugge
 
 ### Voice input
 
-If you use voice input, the recording and the active family's names and nicknames are sent for transcription and cleanup. Voice audio is processed temporarily and is not stored by Momora after transcription. The transcript is placed in the editor, and it becomes part of your journal only if you choose to save it.
+If you use voice input, the recording and the active family's names, nicknames, and approximate ages are sent for transcription and cleanup. What happens to the recording depends on what you choose after it stops.
+
+- **Turn into text:** the voice audio is processed temporarily and is not stored by Momora after transcription. The transcript is placed in the editor, and it becomes part of your journal only if you choose to save it.
+- **Keep the sound:** the recording itself is saved as the memory. It is stored in the same private storage as photos and videos, together with a short AI-written note (which you can edit or replace) and a hidden transcript used only so you can search for the memory. A kept sound is deleted when you delete that memory, and with the family journal or account under the retention and deletion rules below.
 
 ### Archive exports and memory-card sharing
 
@@ -84,7 +87,7 @@ We use information to:
 - Create, authenticate, and maintain your account.
 - Provide private family journals, family roles, invitations, timelines, calendars, search, Looking Back packages, likes, comments, and notifications.
 - Store and display the memories, family profiles, photos, videos, and other content you choose to provide.
-- Transcribe voice input and suggest family-profile tags.
+- Transcribe voice input, suggest family-profile tags, and store the sounds you choose to keep.
 - Analyze memory text or photos and generate optional character portraits and memory illustrations.
 - Offer and administer subscriptions, purchases, restores, complimentary access, entitlement checks, and trial reminders.
 - Create owner-requested archive exports and private, user-shareable memory cards.
@@ -104,7 +107,7 @@ Momora uses OpenAI's API to provide AI features. Depending on the feature you ch
 - A family-profile photo and relevant profile details to create a character portrait.
 - Memory text, tagged profile details, and character portraits to analyze tone, apply a safety rewrite, and create an illustration.
 - The first photo in a photo memory and its optional caption to classify its emotional tone. All-video memories are not analyzed this way.
-- Temporary voice audio and family names or nicknames to transcribe and clean up a voice memory.
+- Voice audio and the active family's names, nicknames, and approximate ages (for example "3 years old", calculated on our server; the date of birth itself is not sent) to transcribe a recording, clean up the text, and write the short note for a kept sound. The note and hidden transcript of a kept sound are analyzed for emotional tone in the same way as memory text.
 
 We send only the information needed for the requested feature. Pasted URLs are removed from AI prompts, and page titles fetched for links are not sent to OpenAI. OpenAI states that data submitted through its API is not used to train its models by default. OpenAI processes this information under its own [privacy practices](https://openai.com/policies/privacy-policy/) and business-data commitments.
 
@@ -149,7 +152,7 @@ We do not sell personal information. We do not use private journal content for t
 
 ## 5. Storage and security
 
-Family-journal records are protected by access controls that check active family membership and role. Photos, videos, portraits, illustrations, and cached memory cards are stored in private object storage and displayed through authenticated requests or time-limited signed links. Export jobs are owner-scoped and short-lived, and completed archives are streamed rather than placed at a public URL. Information is encrypted in transit. Service credentials for storage, billing, export, and AI providers are kept on the server rather than in the mobile app.
+Family-journal records are protected by access controls that check active family membership and role. Photos, videos, kept sound recordings, portraits, illustrations, and cached memory cards are stored in private object storage and displayed through authenticated requests or time-limited signed links. Export jobs are owner-scoped and short-lived, and completed archives are streamed rather than placed at a public URL. Information is encrypted in transit. Service credentials for storage, billing, export, and AI providers are kept on the server rather than in the mobile app.
 
 No security method is perfect. You are responsible for protecting access to your email account and device and for inviting only trusted people to a family journal.
 
@@ -161,10 +164,10 @@ Archive export jobs expire after one hour. Momora does not persist the completed
 
 You can schedule account deletion in the app under **Settings → Delete account**, or request it through our [account-deletion page](https://usemomora.com/delete-account/) if you cannot access the app. Account deletion has a **15-day grace period**. During that period, you can cancel deletion from Settings.
 
-- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, subscription-access records tied to it, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, portraits, illustrations, cached memory cards, Looking Back packages and view state, reports, and personal hide settings are permanently deleted.
+- **If you own a family journal:** requesting account deletion immediately hides each family journal you own from other members. If you cancel within 15 days, the journals are restored. After the grace period, your account, subscription-access records tied to it, each family journal you own, its memories, family profiles, memberships, invites, likes, comments, photos, videos, kept sound recordings, portraits, illustrations, cached memory cards, Looking Back packages and view state, reports, and personal hide settings are permanently deleted.
 - **If you do not own a family journal:** your account profile, authentication record, likes, comments, and personal hide settings are deleted after the grace period. Memories or family profiles you added to a journal owned by someone else may remain as part of that family's shared journal, but your account attribution is removed. For reports you submitted, the optional note is deleted and the minimum report metadata is de-identified where it must be retained for safety, enforcement, dispute resolution, or legal obligations. The family owner or a manager can delete your remaining content from the journal.
 
-We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Apple, Google, RevenueCat, and other providers may retain transaction, receipt, security, or accounting records under their own legal obligations and retention schedules. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio is not retained by Momora after transcription.
+We may retain limited records when required by law, to resolve disputes, or to protect the Service from fraud and abuse. Apple, Google, RevenueCat, and other providers may retain transaction, receipt, security, or accounting records under their own legal obligations and retention schedules. Infrastructure providers may retain encrypted backups or security logs for a limited period under their normal retention schedules. Voice audio used only for dictation is not retained by Momora after transcription. A recording you chose to keep as a memory is retained as part of that memory until the memory, its family journal, or the owning account is deleted.
 
 ## 7. Your choices and rights
 

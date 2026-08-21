@@ -6,7 +6,7 @@ slug: terms-of-service
 
 # Terms of Service
 
-_Last updated: August 9, 2026_
+_Last updated: August 21, 2026_
 
 These Terms of Service ("Terms") govern your use of Momora, a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). They apply to the Momora mobile application (also listed as "UseMomora" in some app stores), our website, and related services (together, the "Service").
 
@@ -16,7 +16,7 @@ By creating an account or using the Service, you agree to these Terms and our [P
 
 Momora lets adults create or join private family journals and:
 
-- Save memories as text, voice-dictated text, photos, or videos.
+- Save memories as text, voice-dictated text, kept sound recordings, photos, or videos.
 - Add and tag child or family profiles.
 - Create optional AI-generated character portraits and memory illustrations.
 - Organize and revisit memories in timeline, calendar, search, and Looking Back views.
@@ -54,7 +54,7 @@ Do not add sensitive information that is not needed to preserve the memory. You 
 
 ## 5. Your content
 
-"User Content" includes memory text, comments, profile information, photos, videos, voice input, links, and other material you submit to the Service.
+"User Content" includes memory text, comments, profile information, photos, videos, voice input, kept sound recordings, links, and other material you submit to the Service.
 
 You retain your ownership rights in User Content. You grant Momora a worldwide, non-exclusive, royalty-free license to host, store, reproduce, format, transmit, process, and create feature-related derivative works from User Content solely as needed to operate, secure, improve, and provide the Service. This includes sharing User Content with our service providers to transcribe voice, analyze text or photos, generate portraits or illustrations, create private memory-card or archive files, store private media, deliver notifications, measure product use as described in our Privacy Policy, and support the features you request. This license ends when the content is deleted from the Service, except for limited backups, legal retention, or shared-family content that remains under Section 3.
 
