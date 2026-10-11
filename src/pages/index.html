@@ -2,657 +2,491 @@
 <html lang="en">
 <head>
 {{HEAD}}
+<script>document.documentElement.classList.add('js');</script>
+<meta name="apple-itunes-app" content="app-id=6745403572">
+<link rel="canonical" href="https://usemomora.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Momora">
+<meta property="og:title" content="Momora — the baby book that starts from your phone">
+<meta property="og:description" content="Their photos, videos, stories, little voice and drawings, kept in one private place your family shares.">
+<meta property="og:url" content="https://usemomora.com/">
+<meta property="og:image" content="https://usemomora.com/assets/images/brand/og-home.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Momora — the baby book that starts from your phone">
+<meta name="twitter:description" content="Their photos, videos, stories, little voice and drawings, kept in one private place your family shares.">
+<meta name="twitter:image" content="https://usemomora.com/assets/images/brand/og-home.jpg">
 </head>
-<body>
+<body class="home">
 {{GTM_BODY}}
 {{HEADER}}
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+        <symbol id="i-sound" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12q-3.5 6 0 12M39 12q3.5 6 0 12" stroke="#3FA8A1" stroke-width="2.6"/><rect x="17" y="5" width="14" height="21" rx="7" fill="#C9ECE9" stroke="#2C2418" stroke-width="2.4"/><path d="M12.5 21a11.5 11.5 0 0 0 23 0M24 32.5v7M17 42h14" stroke="#2C2418" stroke-width="2.4"/></g></symbol>
+        <symbol id="i-photos" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="9" width="24" height="29" rx="2" fill="#fff" stroke="#2C2418" stroke-width="2.4" transform="rotate(-11 22 24)"/><g transform="rotate(7 27 25)"><rect x="15" y="10" width="24" height="29" rx="2" fill="#fff" stroke="#2C2418" stroke-width="2.4"/><rect x="18" y="13" width="18" height="17" fill="#FBE8B8"/><path d="M18 30l6-7 4 4 3-3 5 6z" fill="#6BB58A"/><circle cx="31.5" cy="18" r="2.6" fill="#F2B441"/></g></g></symbol>
+        <symbol id="i-scan" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 5 0a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 -5 0a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5a2.5 2.5 0 0 1 0 -5z" fill="#FBD3E2" stroke="#2C2418" stroke-width="2.2"/><rect x="14" y="12" width="20" height="25" fill="#fff" stroke="#2C2418" stroke-width="2"/><path d="M17 31c2.5-7 5.5-7.5 6.5-2.5s4 5 6.5-4" stroke="#D63E78" stroke-width="3"/><circle cx="29" cy="17.5" r="2.4" fill="#F2B441"/></g></symbol>
+        <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></g></symbol>
+        <symbol id="i-comment" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M6 12.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="t-timeline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+        <symbol id="t-keepsakes" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></g></symbol>
+        <symbol id="t-family" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.5"/><path d="M16 14.6a4.6 4.6 0 0 1 5 4.4"/></g></symbol>
+        <symbol id="t-settings" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></g></symbol>
+    </defs>
+</svg>
+
 <main>
-    <section class="landing-hero">
-        <div class="landing-copy">
-            <div class="landing-eyebrow">Made by tired parents, for tired parents</div>
-            <h1>Save the <span class="underlined">funny little things<svg class="crayon-underline" viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><defs><filter id="crayon" x="-5%" y="-120%" width="110%" height="360%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.5" numOctaves="3" seed="7" result="n"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap></filter></defs><g filter="url(#crayon)"><path class="crayon-stroke crayon-stroke--thick" d="M3 9 Q 28 3, 53 8 T 103 8 T 153 8 T 197 7"></path><path class="crayon-stroke crayon-stroke--thin" d="M4 10 Q 30 5, 55 9 T 105 8 T 155 9 T 196 9"></path></g></svg></span> your kids say, before your brain deletes them.</h1>
-            <p class="landing-lede">Momora is where those go. Type it or say it out loud, ten seconds, done. It lands on a private family timeline, and the best ones get drawn as pictures of your kids.</p>
-            <div class="download-buttons">
-                <a href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer" class="store-button">
-                    <svg viewBox="0 0 24 24" class="store-icon" aria-hidden="true"><path fill="currentColor" d="M17.05 12.54c-.03-2.89 2.36-4.28 2.47-4.35-1.35-1.97-3.45-2.24-4.19-2.27-1.78-.18-3.48 1.05-4.38 1.05-.9 0-2.3-1.02-3.78-1-1.94.03-3.74 1.13-4.74 2.87-2.02 3.5-.52 8.68 1.45 11.52.96 1.39 2.11 2.95 3.62 2.89 1.45-.06 2-.94 3.75-.94s2.25.94 3.79.91c1.57-.03 2.56-1.42 3.52-2.82 1.11-1.62 1.56-3.18 1.59-3.26-.03-.02-3.05-1.17-3.1-4.6zM14.16 4.06c.8-.97 1.34-2.32 1.19-3.66-1.15.05-2.55.77-3.38 1.74-.74.86-1.39 2.23-1.22 3.55 1.29.1 2.6-.65 3.41-1.63z"/></svg>
-                    <span><span class="store-label">Download on the</span><span class="store-name">App Store</span></span>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer" class="store-button">
-                    <svg viewBox="0 0 24 24" class="store-icon" aria-hidden="true"><path fill="currentColor" d="M4 2.7v18.6c0 .6.66 1 1.18.68l15.2-9.3c.5-.3.5-1.05 0-1.36L5.18 2.02C4.66 1.7 4 2.1 4 2.7z"/></svg>
-                    <span><span class="store-label">Get it on</span><span class="store-name">Google Play</span></span>
-                </a>
+
+    <!-- ═══ Hero: the baby book, filled from a phone ═══ -->
+    <section class="h-hero" id="download">
+        <div class="h-hero-copy">
+            <p class="h-hand h-hero-note">made by tired parents, for tired parents</p>
+            <h1 class="h-hero-title">The baby book that starts from your phone.</h1>
+            <p class="h-lede">Their photos, videos, stories, little voice and drawings, kept in one private place your family shares. Ten seconds to add something. Nothing to keep up with.</p>
+            <div class="h-get">
+                <div class="h-badges">
+                    <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50"></a>
+                    <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-google-play.png" alt="Get it on Google Play" width="168" height="50"></a>
+                </div>
+                <div class="h-qr">
+                    <img src="/assets/images/brand/get-app-qr.svg" alt="" width="76" height="76">
+                    <p>On your computer? Point your phone's camera here.</p>
+                </div>
             </div>
-            <div class="landing-note">It will never send you a notification that starts with "Don't forget…"</div>
         </div>
 
-        <div class="landing-visual" aria-label="Preview of the Momora app">
-            <div class="mockup-wrap">
-                <div class="mockup-glow mockup-glow--hero"></div>
-                <div class="phone-mockup">
-                    <div class="phone-mockup-screen hero-screen">
-                        <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                        <div class="hero-screen-head">
-                            <div class="hero-kicker">Friday, July 17</div>
-                            <div class="hero-title">Your moments.</div>
-                            <div class="hero-week-row">
-                                <span class="hero-week-label">This week</span>
-                                <span class="hero-dots">
-                                    <span class="hero-dot hero-dot--on"></span>
-                                    <span class="hero-dot hero-dot--on"></span>
-                                    <span class="hero-dot"></span>
-                                    <span class="hero-dot hero-dot--on"></span>
-                                    <span class="hero-dot hero-dot--glow"></span>
-                                    <span class="hero-dot"></span>
-                                    <span class="hero-dot"></span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="hero-cards-viewport">
-                            <div class="hero-cards-track">
-                                <article class="hero-card">
-                                    <div class="hero-card-strip hero-card-strip--blue"></div>
-                                    <p class="hero-card-quote">Teo asked if the moon follows our car home. I said obviously.</p>
-                                    <div class="hero-card-meta-row">
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                    </div>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Yesterday</span>
-                                        <img class="avatar" src="/assets/images/app-images/portrait-teo.png" alt="Teo">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--blue"><span class="tag-dot"></span>wonder</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <div class="hero-card-carousel">
-                                        <img src="/assets/images/app-images/photo-aquarium-1.png" alt="Photo of Maya at the aquarium">
-                                        <img src="/assets/images/app-images/photo-aquarium-2.png" alt="Photo of Maya at the aquarium">
-                                        <img src="/assets/images/app-images/photo-aquarium-3.png" alt="Photo of Maya at the aquarium">
-                                        <span class="media-chip media-chip--tr">1/3</span>
-                                        <span class="carousel-dots"><span class="carousel-dot"></span><span class="carousel-dot"></span><span class="carousel-dot"></span></span>
-                                    </div>
-                                    <div class="hero-card-meta-row hero-card-meta-row--media">
-                                        <span class="hero-card-stat hero-card-stat--active"><svg width="15" height="15" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>3</span></span>
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg><span>1</span></span>
-                                    </div>
-                                    <p class="hero-card-caption">Maya's little legs never stopped the whole time at the aquarium.</p>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Yesterday</span>
-                                        <img class="avatar" src="/assets/images/app-images/portrait-maya.png" alt="Maya">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--yellow"><span class="tag-dot"></span>joy</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <img src="/assets/images/app-images/mischief.png" alt="Illustrated memory" class="hero-card-img hero-card-img--mischief">
-                                    <div class="hero-card-meta-row hero-card-meta-row--media">
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                    </div>
-                                    <p class="hero-card-caption">Maya gave the cat a makeover. The cat just let it happen.</p>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Tuesday</span>
-                                        <img class="avatar" src="/assets/images/app-images/portrait-maya.png" alt="Maya">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--purple"><span class="tag-dot"></span>mischief</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <div class="hero-card-strip hero-card-strip--green"></div>
-                                    <p class="hero-card-quote">She waved at every single dog on the walk home. All of them.</p>
-                                    <div class="hero-card-meta-row">
-                                        <span class="hero-card-stat hero-card-stat--active"><svg width="15" height="15" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>1</span></span>
-                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                    </div>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Sunday</span>
-                                        <img class="avatar" src="/assets/images/app-images/portrait-maya.png" alt="Maya">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--green"><span class="tag-dot"></span>calm</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <img src="/assets/images/app-images/swing.png" alt="Illustrated memory on the swing" class="hero-card-img hero-card-img--swing">
-                                    <div class="hero-card-meta-row hero-card-meta-row--media">
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>4</span></span>
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg><span>2</span></span>
-                                    </div>
-                                    <p class="hero-card-caption">Teo's first go on the big swing. He'd still be there if I let him.</p>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Jul 10</span>
-                                        <img class="avatar" src="/assets/images/app-images/portrait-teo.png" alt="Teo">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--yellow"><span class="tag-dot"></span>joy</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <div class="hero-card-video-thumb"><img src="/assets/images/app-images/video-belly-laugh.png" alt="Video still of a toddler belly-laughing"><span class="play-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="#2C2418"><path d="M8 5.5v13l11-6.5z"></path></svg></span><span class="media-chip media-chip--br">0:12</span></div>
-                                    <div class="hero-card-meta-row hero-card-meta-row--media">
-                                        <span class="hero-card-stat hero-card-stat--active"><svg width="15" height="15" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>5</span></span>
-                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                    </div>
-                                    <p class="hero-card-caption">Finally caught the real belly laugh on camera.</p>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Jul 10</span>
-                                        <span class="spacer"></span>
-                                        <span class="badge">Video</span>
-                                    </div>
-                                </article>
-                                <article class="hero-card">
-                                    <div class="hero-card-strip hero-card-strip--pink"></div>
-                                    <p class="hero-card-quote">Teo called Maya "my best guy" and she loved it.</p>
-                                    <div class="hero-card-meta-row">
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>3</span></span>
-                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                    </div>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Jul 8</span>
-                                        <span class="avatar-stack"><img class="avatar" src="/assets/images/app-images/portrait-teo.png" alt="Teo"><img class="avatar" src="/assets/images/app-images/portrait-maya.png" alt="Maya"></span>
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--pink"><span class="tag-dot"></span>tender</span>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="hero-cards-fade"></div>
-                        </div>
-                        <div class="mockup-fab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></div>
-                        <div class="mockup-tabbar">
-                            <span class="mockup-tab-active"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 13.5"></polyline></svg>Timeline</span>
-                            <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><line x1="3" y1="10" x2="21" y2="10"></line><line x1="8" y1="3" x2="8" y2="7"></line><line x1="16" y1="3" x2="16" y2="7"></line></svg></span>
-                            <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="9" r="2.5"></circle><path d="M17 14.5c2.5.4 4 2.5 4 5"></path></svg></span>
-                            <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="3"></circle><line x1="17.5" y1="12" x2="20" y2="12"></line><line x1="4" y1="12" x2="6.5" y2="12"></line><line x1="12" y1="4" x2="12" y2="6.5"></line><line x1="12" y1="17.5" x2="12" y2="20"></line><line x1="15.9" y1="8.1" x2="17.7" y2="6.3"></line><line x1="6.3" y1="17.7" x2="8.1" y2="15.9"></line><line x1="15.9" y1="15.9" x2="17.7" y2="17.7"></line><line x1="6.3" y1="6.3" x2="8.1" y2="8.1"></line></svg></span>
-                        </div>
+        <div class="h-hero-visual" aria-label="An open baby book made of things saved in Momora: a photo, a recording, a framed drawing, an illustrated moment and a note.">
+            <div class="book">
+                <div class="book-page book-page--left">
+                    <figure class="bk bk-photo" style="--r:-5deg; --d:.15s">
+                        <img src="/assets/images/home/photo-maya-swing.webp" alt="Maya on a swing at sunset" width="900" height="600">
+                        <figcaption class="h-hand">first time on the big swing</figcaption>
+                    </figure>
+                    <div class="bk bk-note" style="--r:3deg; --d:.55s">
+                        <p>Theo asked if the moon follows our car home. I said obviously.</p>
+                        <span class="bk-date">JUL 17</span>
+                    </div>
+                    <div class="bk bk-stub" style="--r:-2deg; --d:.95s">
+                        <span class="seal seal--funny"><span class="seal-play"></span></span>
+                        <svg class="wave" viewBox="0 0 120 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0,15 6,6 12,24 18,8 24,22 30,3 36,27 42,10 48,20 54,6 60,24 66,12 72,18 78,9 84,21 90,12 96,17 102,13 108,16 114,15 120,15" fill="none" stroke="#8a4416" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+                        <span class="bk-stub-time">0:19</span>
+                        <span class="bk-stub-cap">Ari's tenth “uh-oh”</span>
                     </div>
                 </div>
-                <div class="sticky-note"><div class="sticky-note-inner">all the stuff the<br>camera missed</div></div>
-                <div class="polaroid">
-                    <div class="polaroid-inner">
-                        <img src="/assets/images/app-images/park.png" alt="Illustration drawn from a memory">
-                        <div class="polaroid-caption">the way to the park</div>
+                <div class="book-page book-page--right">
+                    <div class="bk bk-frame" style="--r:4deg; --d:1.35s">
+                        <div class="frame" data-frame="scallop" data-color="#F2A7B8" data-ratio="0.667" data-src="/assets/images/home/art-rainbow.webp" data-alt="Watercolor rainbow with flowers, by Maya"></div>
                     </div>
+                    <figure class="bk bk-illo" style="--r:-3deg; --d:1.75s">
+                        <img src="/assets/images/home/illo-fort.webp" alt="Illustration of Maya, Theo and Ari in a blanket fort" width="1200" height="800">
+                        <figcaption>They built a fort in the hallway, then argued about whether babies can be in a fort. Ari got in because he brought crackers.</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="quote-ticker" aria-label="The little things worth remembering">
-        <div class="quote-ticker-label">Currently being said in someone's kitchen</div>
-        <div class="quote-ticker-track">
-            <div class="quote-ticker-half">
-                <span class="quote-word tc-brown">"hair sauce"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-blue">"the moon is following us"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-rose">"pasketti"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-purple">"I made my sandwich sad"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-green">"AGAIN. AGAIN."</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-pink">"my best guy"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-brown">"tiny prunes"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-blue">"brella"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-rose">"when I was a grown-up"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-purple">"hostibal"</span><span class="quote-dot">&middot;</span>
+    <!-- ═══ Quote ticker ═══ -->
+    <section class="h-ticker" aria-label="Things kids have said, saved in Momora">
+        <p class="h-hand h-ticker-note">currently being said in someone's kitchen</p>
+        <div class="h-ticker-track">
+            <div class="h-ticker-row">
+                <span>“hair sauce”</span><span>“the moon is following us”</span><span>“pasketti”</span><span>“I made my sandwich sad”</span><span>“AGAIN. AGAIN.”</span><span>“my best guy”</span><span>“tiny prunes”</span><span>“brella”</span><span>“when I was a grown-up”</span><span>“hostibal”</span>
             </div>
-            <div class="quote-ticker-half">
-                <span class="quote-word tc-brown">"hair sauce"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-blue">"the moon is following us"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-rose">"pasketti"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-purple">"I made my sandwich sad"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-green">"AGAIN. AGAIN."</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-pink">"my best guy"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-brown">"tiny prunes"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-blue">"brella"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-rose">"when I was a grown-up"</span><span class="quote-dot">&middot;</span>
-                <span class="quote-word tc-purple">"hostibal"</span><span class="quote-dot">&middot;</span>
+            <div class="h-ticker-row" aria-hidden="true">
+                <span>“hair sauce”</span><span>“the moon is following us”</span><span>“pasketti”</span><span>“I made my sandwich sad”</span><span>“AGAIN. AGAIN.”</span><span>“my best guy”</span><span>“tiny prunes”</span><span>“brella”</span><span>“when I was a grown-up”</span><span>“hostibal”</span>
             </div>
         </div>
     </section>
 
-    <section class="landing-section" aria-labelledby="recognition-title">
-        <h2 id="recognition-title">You, probably.</h2>
-        <div class="you-probably-grid">
-            <article class="chat-card">
-                <div class="chat-card-name">Your sister</div>
-                <div class="chat-card-time">Tuesday 9:47 PM</div>
-                <div class="chat-thread">
-                    <div class="chat-bubble chat-bubble--in">doing teo's daycare form. when did he start walking??</div>
-                    <div class="chat-bubble chat-bubble--out">hang on</div>
-                    <div class="chat-bubble chat-bubble--out">i don't know. i'm his MOTHER and i don't know</div>
-                    <div class="chat-bubble chat-bubble--in">you have 20,000 photos of him</div>
-                    <div class="chat-bubble chat-bubble--out">not ONE of them says when he walked</div>
-                </div>
-            </article>
-            <article class="symptoms-card">
-                <div class="symptoms-title">Symptoms</div>
-                <div class="symptoms-sub">(we had all of them)</div>
-                <ul class="symptoms-list">
-                    <li><span class="symptom-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="3" stroke-linecap="round"><path d="M4 12.5l5 5L20 6.5"></path></svg></span><span>20,000 photos. Can find none of them.</span></li>
-                    <li><span class="symptom-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="3" stroke-linecap="round"><path d="M4 12.5l5 5L20 6.5"></path></svg></span><span>Scrolling last month's photos at 2 a.m. while the actual child sleeps ten feet away.</span></li>
-                    <li><span class="symptom-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="3" stroke-linecap="round"><path d="M4 12.5l5 5L20 6.5"></path></svg></span><span>47 identical bath photos. Deleting zero. They're all different if you look closely.</span></li>
-                    <li><span class="symptom-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="3" stroke-linecap="round"><path d="M4 12.5l5 5L20 6.5"></path></svg></span><span>The baby book stops at month six. Ours stopped at four. It's fine.</span></li>
+    <!-- ═══ You, probably ═══ -->
+    <section class="h-section h-probably">
+        <h2 class="h-h2">You, probably.</h2>
+        <div class="probably-grid">
+            <div class="chat" aria-label="A text conversation with your sister">
+                <div class="chat-head"><strong>Your sister</strong><span>Tuesday 9:47 PM</span></div>
+                <p class="msg msg--them">doing theo's daycare form. when did he start walking??</p>
+                <p class="msg msg--me">hang on</p>
+                <p class="msg msg--me">i don't know. i'm his MOTHER and i don't know</p>
+                <p class="msg msg--them">you have 20,000 photos of him</p>
+                <p class="msg msg--me">not ONE of them says when he walked</p>
+            </div>
+            <div class="symptoms">
+                <h3>Symptoms</h3>
+                <p class="h-hand symptoms-aside">(we had all of them)</p>
+                <ul>
+                    <li>20,000 photos. Can find none of them.</li>
+                    <li>Scrolling last month's photos at 2 a.m. while the actual child sleeps ten feet away.</li>
+                    <li>47 identical bath photos. Deleting zero. They're all different if you look closely.</li>
+                    <li>The baby book stops at month six. Ours stopped at four. It's fine.</li>
                 </ul>
-            </article>
+            </div>
         </div>
-        <div class="no-judgment">
-            <div class="no-judgment-line">no judgment. we're the same.</div>
-            <p>We built Momora because we kept blanking on those questions too. It's not a baby book. It's not homework. Here's how it works.</p>
+        <div class="probably-turn">
+            <p class="h-hand">no judgment. we're the same.</p>
+            <p>We built Momora because we kept blanking on those questions too. It isn't homework and there's no streak to keep. Here's what it does.</p>
         </div>
     </section>
 
-    <div id="how-it-works" class="feature-stack">
-        <section class="feature-row">
-            <div class="feature-copy">
-                <div class="feature-badge feature-badge--01">01</div>
-                <h2>"It happened too fast to get my camera out."</h2>
-                <p>Their best stuff happens once, with no warning, while your hands are full. So skip the camera. Tap the mic, say what happened, and it's saved.</p>
-            </div>
-            <div class="feature-visual">
-                <div class="mockup-wrap">
-                    <div class="mockup-glow mockup-glow--teal"></div>
-                    <div class="mockup-annotation mockup-annotation--right mockup-annotation--teal">you talk, it types<svg width="44" height="34" viewBox="0 0 60 40"><path d="M30 4 C 26 14, 22 22, 16 32" fill="none" stroke="#3FA8A1" stroke-width="2" stroke-linecap="round"></path><path d="M12 24 l4 9 8-4" fill="none" stroke="#3FA8A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                    <div class="phone-mockup">
-                        <div class="phone-mockup-screen" id="voice-screen">
-                            <div class="voice-panel voice-panel--a" id="voice-panel-a">
-                                <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                                <div class="voice-topbar"><span>Cancel</span><span class="voice-topbar-label">SPEAK IT</span><span></span></div>
-                                <div class="voice-center">
-                                    <div class="mic-wrap">
-                                        <span class="mic-ring"></span>
-                                        <span class="mic-ring mic-ring--delay"></span>
-                                        <span class="mic-button"><svg width="28" height="28" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M12 15a3.5 3.5 0 0 0 3.5-3.5v-6a3.5 3.5 0 0 0-7 0v6A3.5 3.5 0 0 0 12 15z"></path><path d="M6 11.5a6 6 0 0 0 12 0h-1.6a4.4 4.4 0 0 1-8.8 0H6z"></path><rect x="11.2" y="16.5" width="1.6" height="4.5" rx="0.8"></rect></svg></span>
-                                    </div>
-                                    <div class="voice-prompt">Tell me what happened.</div>
-                                    <div class="voice-timer" id="voice-timer">0:01</div>
-                                </div>
-                            </div>
-                            <div class="voice-panel voice-panel--b" id="voice-panel-b">
-                                <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                                <div class="voice-topbar-b"><span>Cancel</span><span class="pill-badge">&middot; Illustrated</span><span>Save</span></div>
-                                <div class="voice-date-chip"><span class="chip-plain">Today</span></div>
-                                <div class="voice-text">At bathtime she called the shampoo "hair sauce" and refused to hear otherwise.<span class="caret"></span></div>
-                                <div class="voice-wordcount">13 words</div>
-                                <div class="voice-chip-row">
-                                    <span class="person-chip person-chip--selected"><img class="avatar avatar--sm" src="/assets/images/app-images/portrait-maya.png" alt="Maya">Maya</span>
-                                    <span class="person-chip person-chip--muted"><img class="avatar avatar--sm" src="/assets/images/app-images/portrait-teo.png" alt="Teo">Teo</span>
-                                </div>
-                                <div class="voice-bottombar">
-                                    <span class="round-icon-btn round-icon-btn--teal"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f5a56" stroke-width="1.9" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M6 11a6 6 0 0 0 12 0"></path><line x1="12" y1="17" x2="12" y2="21"></line></svg></span>
-                                    <span class="round-icon-btn round-icon-btn--outline"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="9" cy="9" r="2"></circle><path d="M21 15l-5-5L5 21"></path></svg></span>
-                                    <span class="spacer"></span>
-                                    <span class="voice-toggle-label"><span>AI illustration</span><span>On &mdash; runs after save</span></span>
-                                    <span class="toggle-switch"></span>
-                                </div>
-                            </div>
+    <!-- ═══ Photos & videos ═══ -->
+    <section class="h-section h-feature" id="how-it-works">
+        <div class="feat-copy">
+            <h2 class="h-h2">Every photo and video, with the story that goes with it.</h2>
+            <p class="h-sub">Add the pictures and clips you took today, or from any day before. Write a line about what was happening, tag who was there, and it lands on your family's timeline, in order, findable forever. Unlike the camera roll, it remembers why you took them.</p>
+        </div>
+        <div class="feat-visual">
+            <div class="phone anim anim-photos" aria-hidden="true">
+                <div class="phone-island"></div>
+                <div class="screen">
+                    <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
+                    <div class="tl-head"><span class="tl-kicker">Sunday, July 5</span><span class="tl-title">Your moments.</span></div>
+                    <div class="tl-viewport">
+                        <div class="tl-list">
+                            <article class="mcard ph-new">
+                                <div class="carousel"><div class="carousel-track">
+                                    <img src="/assets/images/home/photo-bubbles.webp" alt="">
+                                    <img src="/assets/images/home/photo-theo-boat.webp" alt="">
+                                    <img src="/assets/images/home/photo-maya-pool.webp" alt="">
+                                </div><span class="carousel-count">3 photos</span></div>
+                                <div class="dots"><i></i><i></i><i></i></div>
+                                <p class="mtext">Bubbles on the deck until it got dark. Nobody wanted to go in.</p>
+                                <div class="meta"><span class="date">JUL 5</span><span class="chip chip--joy">joy</span></div>
+                            </article>
+                            <article class="mcard">
+                                <div class="video"><img src="/assets/images/home/photo-ari-clapping.webp" alt=""><span class="video-play"><span class="seal-play"></span></span><span class="video-bar"><i></i></span><span class="video-dur">0:12</span></div>
+                                <p class="mtext">Ari worked out clapping and has not stopped since.</p>
+                                <div class="meta"><span class="date">JUL 2</span><span class="chip chip--joy">joy</span></div>
+                            </article>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="feature-row reverse">
-            <div class="feature-copy">
-                <div class="feature-badge feature-badge--02">02</div>
-                <h2>"We're already so behind. My second kid has basically nothing."</h2>
-                <p>There is no behind. Add what happened last Tuesday. Add his birthday from two years ago. And if you disappear for a month between daycare germs and laundry, it just waits. No hard feelings.</p>
-            </div>
-            <div class="feature-visual">
-                <div class="mockup-wrap">
-                    <div class="mockup-glow mockup-glow--green"></div>
-                    <div class="mockup-annotation mockup-annotation--left mockup-annotation--green">adding march. it's july.<svg width="44" height="34" viewBox="0 0 60 40"><path d="M30 4 C 34 14, 38 22, 44 32" fill="none" stroke="#6BB58A" stroke-width="2" stroke-linecap="round"></path><path d="M48 24 l-4 9 -8-4" fill="none" stroke="#6BB58A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                    <div class="phone-mockup">
-                        <div class="phone-mockup-screen">
-                            <div class="backdate-panel backdate-panel--a">
-                                <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                                <div class="voice-topbar-b"><span>Cancel</span><span class="pill-badge">&middot; Illustrated</span><span>Save</span></div>
-                                <div class="date-pill-wrap">
-                                    <div class="date-pill">
-                                        <div class="date-roll">
-                                            <div>Today</div>
-                                            <div>Yesterday</div>
-                                            <div>Last week</div>
-                                            <div>June 2026</div>
-                                            <div>April 2026</div>
-                                            <div class="is-target">March 14, 2026</div>
-                                        </div>
-                                    </div>
-                                    <div class="date-pill-note">Any date is fine. Last year is fine.</div>
-                                </div>
-                                <div class="backdate-text">Teo went down the big slide all by himself and yelled "again" from the bottom.</div>
-                                <div class="backdate-chip-row">
-                                    <span class="person-chip person-chip--selected"><img class="avatar avatar--sm" src="/assets/images/app-images/portrait-teo.png" alt="Teo">Teo</span>
-                                </div>
-                            </div>
-                            <div class="backdate-panel backdate-panel--b">
-                                <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                                <div class="backdate-head"><div class="hero-kicker">Friday, July 17</div><div class="hero-title">Your moments.</div></div>
-                                <div class="timeline-list">
-                                    <article class="hero-card">
-                                        <div class="hero-card-strip hero-card-strip--green"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Teo napped two hours and woke up speaking mostly dinosaur.</p>
-                                        <div class="hero-card-meta-row">
-                                            <span class="hero-card-stat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>1</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Mar 20</span>
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--green"><span class="tag-dot"></span>calm</span>
-                                        </div>
-                                    </article>
-                                    <div class="slot-in">
-                                        <article class="hero-card hero-card--highlight">
-                                            <div class="hero-card-strip"></div>
-                                            <p class="hero-card-quote hero-card-quote--sm">Teo went down the big slide by himself.</p>
-                                            <div class="hero-card-meta-row">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg>
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                            </div>
-                                            <div class="hero-card-footer">
-                                                <span class="hero-card-time">Mar 14</span>
-                                                <img class="avatar avatar--sm" src="/assets/images/app-images/portrait-teo.png" alt="Teo">
-                                                <span class="spacer"></span>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <article class="hero-card">
-                                        <div class="hero-card-strip hero-card-strip--purple"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Maya refused the coat again. She won, obviously.</p>
-                                        <div class="hero-card-meta-row">
-                                            <span class="hero-card-stat hero-card-stat--active"><svg width="14" height="14" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Mar 2</span>
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--purple"><span class="tag-dot"></span>mischief</span>
-                                        </div>
-                                    </article>
-                                    <article class="hero-card">
-                                        <div class="hero-card-strip hero-card-strip--blue"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Teo's first snow. He was deeply suspicious of it.</p>
-                                        <div class="hero-card-meta-row">
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Feb 24</span>
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--blue"><span class="tag-dot"></span>wonder</span>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="mockup-fab"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></div>
-                                <div class="mockup-tabbar">
-                                    <span class="mockup-tab-active"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 13.5"></polyline></svg>Timeline</span>
-                                    <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><line x1="3" y1="10" x2="21" y2="10"></line><line x1="8" y1="3" x2="8" y2="7"></line><line x1="16" y1="3" x2="16" y2="7"></line></svg></span>
-                                    <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="9" r="2.5"></circle><path d="M17 14.5c2.5.4 4 2.5 4 5"></path></svg></span>
-                                    <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="3"></circle><line x1="17.5" y1="12" x2="20" y2="12"></line><line x1="4" y1="12" x2="6.5" y2="12"></line><line x1="12" y1="4" x2="12" y2="6.5"></line><line x1="12" y1="17.5" x2="12" y2="20"></line><line x1="15.9" y1="8.1" x2="17.7" y2="6.3"></line><line x1="6.3" y1="17.7" x2="8.1" y2="15.9"></line><line x1="15.9" y1="15.9" x2="17.7" y2="17.7"></line><line x1="6.3" y1="6.3" x2="8.1" y2="8.1"></line></svg></span>
-                                </div>
-                            </div>
+                    <div class="picker">
+                        <div class="picker-head"><span>Recents</span><span class="picker-add">Add 3</span></div>
+                        <div class="picker-grid">
+                            <span class="pk pk--on" style="--i:0"><img src="/assets/images/home/photo-bubbles.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img src="/assets/images/home/photo-teeth.webp" alt=""></span>
+                            <span class="pk pk--on" style="--i:1"><img src="/assets/images/home/photo-theo-boat.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                            <span class="pk"><img src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
+                            <span class="pk pk--on" style="--i:2"><img src="/assets/images/home/photo-maya-pool.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></span>
+                            <span class="pk"><img src="/assets/images/home/photo-breakfast.webp" alt=""></span>
+                            <span class="pk"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
                         </div>
                     </div>
+                    <div class="tabbar"><span class="tab tab--on"><svg><use href="#t-timeline"/></svg>Timeline</span><span class="tab"><svg><use href="#t-keepsakes"/></svg></span><span class="tab"><svg><use href="#t-family"/></svg></span><span class="tab"><svg><use href="#t-settings"/></svg></span></div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="feature-row">
-            <div class="feature-copy">
-                <div class="feature-badge feature-badge--03">03</div>
-                <h2>"I have 20,000 photos and I can't find anything."</h2>
-                <p>A camera roll is where memories go to hide. Here, every moment is a little story you can scroll like a book. And when you want that one from bath night, you search a word and it's there.</p>
+        <!-- camera-roll rescue: the highlighted sub-section -->
+        <div class="rescue">
+            <div class="rescue-copy">
+                <p class="h-hand rescue-note">already thousands of photos in?</p>
+                <h3 class="rescue-title">You're not behind. You have a head start.</h3>
+                <p>Pick the photos you want Momora to look through and it pulls out the days worth keeping: the bubble evening, the first swim, not the 47 bath photos. It only suggests. Nothing goes on your timeline unless you say so.</p>
             </div>
-            <div class="feature-visual">
-                <div class="mockup-wrap">
-                    <div class="mockup-glow mockup-glow--blue"></div>
-                    <div class="mockup-annotation mockup-annotation--right mockup-annotation--blue">found it. two seconds.<svg width="44" height="34" viewBox="0 0 60 40"><path d="M30 4 C 26 14, 22 22, 16 32" fill="none" stroke="#4F8FCC" stroke-width="2" stroke-linecap="round"></path><path d="M12 24 l4 9 8-4" fill="none" stroke="#4F8FCC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                    <div class="phone-mockup">
-                        <div class="phone-mockup-screen" id="search-screen">
-                            <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                            <div class="search-bar-wrap">
-                                <div class="search-bar">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9A8B79" stroke-width="1.75" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
-                                    <span id="search-typed"></span><span class="caret caret--sm"></span>
-                                </div>
-                                <div class="search-result-count" id="search-result-count">1 memory found</div>
-                            </div>
-                            <div class="search-list-viewport">
-                                <div class="search-list" id="search-list">
-                                    <article class="hero-card search-card">
-                                        <div class="hero-card-strip hero-card-strip--green"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Maya and Teo both slept through the night. An actual miracle.</p>
-                                        <div class="hero-card-meta-row">
-                                            <span class="hero-card-stat hero-card-stat--active"><svg width="14" height="14" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>3</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Monday</span>
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--green"><span class="tag-dot"></span>calm</span>
-                                        </div>
-                                    </article>
-                                    <article class="hero-card search-card">
-                                        <img src="/assets/images/app-images/swing.png" alt="" class="hero-card-img" style="height:104px;object-position:50% 20%">
-                                        <div class="hero-card-meta-row hero-card-meta-row--media">
-                                            <span class="hero-card-stat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <p class="hero-card-caption">Teo's first go on the big swing.</p>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Jul 10</span>
-                                            <img class="avatar avatar--sm" src="/assets/images/app-images/portrait-teo.png" alt="Teo">
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--yellow"><span class="tag-dot"></span>joy</span>
-                                        </div>
-                                    </article>
-                                    <article class="hero-card search-card">
-                                        <div class="hero-card-strip hero-card-strip--yellow"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Teo asked the waiter for "the usual". He is three.</p>
-                                        <div class="hero-card-meta-row">
-                                            <span class="hero-card-stat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>1</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Jul 6</span>
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--yellow"><span class="tag-dot"></span>joy</span>
-                                        </div>
-                                    </article>
-                                    <article class="hero-card search-card" id="search-match-card">
-                                        <img src="/assets/images/app-images/mischief.png" alt="" class="hero-card-img" style="height:112px">
-                                        <div class="hero-card-meta-row hero-card-meta-row--media">
-                                            <span class="hero-card-stat hero-card-stat--active"><svg width="14" height="14" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-                                        </div>
-                                        <p class="hero-card-caption">Maya gave the cat a makeover. The cat just let it happen.</p>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Jun 28</span>
-                                            <img class="avatar avatar--sm" src="/assets/images/app-images/portrait-maya.png" alt="Maya">
-                                            <span class="spacer"></span>
-                                            <span class="tag tag--purple"><span class="tag-dot"></span>mischief</span>
-                                        </div>
-                                    </article>
-                                    <article class="hero-card search-card">
-                                        <div class="hero-card-strip hero-card-strip--teal" style="background:#C9ECE9"></div>
-                                        <p class="hero-card-quote hero-card-quote--sm">Maya's singing to the dog again.</p>
-                                        <div class="hero-card-footer">
-                                            <span class="hero-card-time">Jun 25</span>
-                                            <span class="spacer"></span>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="search-list-fade"></div>
-                            </div>
-                            <div class="mockup-tabbar search-tabbar">
-                                <span class="mockup-tab-active"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FAFAFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 13.5"></polyline></svg>Timeline</span>
-                                <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><line x1="3" y1="10" x2="21" y2="10"></line><line x1="8" y1="3" x2="8" y2="7"></line><line x1="16" y1="3" x2="16" y2="7"></line></svg></span>
-                                <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="9" r="2.5"></circle><path d="M17 14.5c2.5.4 4 2.5 4 5"></path></svg></span>
-                                <span class="mockup-tab-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="3"></circle><line x1="17.5" y1="12" x2="20" y2="12"></line><line x1="4" y1="12" x2="6.5" y2="12"></line><line x1="12" y1="4" x2="12" y2="6.5"></line><line x1="12" y1="17.5" x2="12" y2="20"></line><line x1="15.9" y1="8.1" x2="17.7" y2="6.3"></line><line x1="6.3" y1="17.7" x2="8.1" y2="15.9"></line><line x1="15.9" y1="15.9" x2="17.7" y2="17.7"></line><line x1="6.3" y1="6.3" x2="8.1" y2="8.1"></line></svg></span>
-                            </div>
-                        </div>
+            <div class="rescue-visual anim anim-roll" aria-hidden="true">
+                <div class="roll">
+                    <span class="rt"><img src="/assets/images/home/photo-teeth.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b><b></b></span>
+                    <span class="rt rt--keep" style="--k:0"><img src="/assets/images/home/photo-bubbles.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-bubbles.webp" alt=""></span>
+                    <span class="rt"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b></span>
+                    <span class="rt"><img src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:1"><img src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
+                    <span class="rt"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:2"><img src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b><b></b></span>
+                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
+                    <span class="rt"><img src="/assets/images/home/photo-breakfast.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:3"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b></span>
+                    <span class="rt"><img src="/assets/images/home/photo-ari-reaching.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
+                    <span class="rt"><img src="/assets/images/home/photo-maya-talking.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b><b></b></span>
+                    <span class="rt"><img src="/assets/images/home/photo-ari-highchair.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                    <span class="rt"><img src="/assets/images/home/photo-maya-drawing.webp" alt=""></span>
+                    <span class="rt rt--junk"><b></b><b></b></span>
+                    <span class="roll-scan"></span>
+                </div>
+                <div class="daycard">
+                    <div class="daycard-pics">
+                        <img src="/assets/images/home/photo-bubbles.webp" alt="">
+                        <img src="/assets/images/home/photo-theo-boat.webp" alt="">
+                        <img src="/assets/images/home/photo-maya-pool.webp" alt="">
                     </div>
+                    <p class="daycard-title">Sunday, July 5</p>
+                    <p class="daycard-meta">8 photos chosen from 23 that day</p>
+                    <div class="daycard-actions"><span>Not this one</span><span class="daycard-add">Add to timeline</span></div>
                 </div>
-            </div>
-        </section>
-
-        <section class="feature-row reverse">
-            <div class="feature-copy">
-                <div class="feature-badge feature-badge--04">04</div>
-                <h2>"Photos show what it looked like. Not how it felt."</h2>
-                <p>Write it down and Momora draws it, with your kids as themselves. Not a random storybook child. Yours.</p>
-            </div>
-            <div class="feature-visual">
-                <div class="mockup-wrap">
-                    <div class="mockup-glow mockup-glow--purple"></div>
-                    <div class="mockup-annotation mockup-annotation--left mockup-annotation--purple">same kid, every time<svg width="44" height="34" viewBox="0 0 60 40"><path d="M30 4 C 34 14, 38 22, 44 32" fill="none" stroke="#9863B8" stroke-width="2" stroke-linecap="round"></path><path d="M48 24 l-4 9 -8-4" fill="none" stroke="#9863B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                    <div class="phone-mockup">
-                        <div class="phone-mockup-screen illus-screen">
-                            <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                            <div class="illus-topbar"><span class="illus-back"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(44,36,24,.75)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg></span></div>
-                            <div class="illus-body">
-                                <div class="illus-detail-card">
-                                    <div class="illus-art-wrap">
-                                        <div class="illus-art">
-                                            <div class="illus-label-wrap"><span class="illus-label">Drawing your memory&hellip;</span></div>
-                                            <img src="/assets/images/app-images/mischief.png" alt="Illustration of the memory" class="illus-image">
-                                        </div>
-                                    </div>
-                                    <div class="illus-card-body">
-                                        <div class="illus-meta-row">
-                                            <span class="hero-card-stat hero-card-stat--active"><svg width="16" height="16" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                            <span class="hero-card-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg><span>1</span></span>
-                                        </div>
-                                        <div class="illus-caption">Maya gave the cat a makeover. The cat just let it happen.</div>
-                                        <div class="illus-chip-row">
-                                            <span class="illus-chip"><img class="avatar" src="/assets/images/app-images/portrait-maya.png" alt="Maya"><span>Maya, 2</span></span>
-                                        </div>
-                                        <div class="illus-footer-row">
-                                            <span class="hero-card-time">Jul 12</span>
-                                            <span class="tag tag--purple"><span class="tag-dot"></span>mischief</span>
-                                        </div>
-                                        <div class="illus-added-by">Added by Alex</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="feature-row">
-            <div class="feature-copy has-sub">
-                <div class="feature-badge feature-badge--05">05</div>
-                <h2>"Grandma keeps asking me to send pictures."</h2>
-                <div class="feature-sub">Also heard: "I want their little voices saved somewhere before they change."</div>
-                <p>Invite your partner and the grandparents. They see everything, they leave hearts, and you retire from photo-forwarding duty. Nothing here is public. Ever.</p>
-            </div>
-            <div class="feature-visual">
-                <div class="mockup-wrap">
-                    <div class="mockup-glow mockup-glow--pink2"></div>
-                    <div class="mockup-annotation mockup-annotation--right mockup-annotation--pink2">her fifth rewatch today<svg width="44" height="34" viewBox="0 0 60 40"><path d="M30 4 C 26 14, 22 22, 16 32" fill="none" stroke="#EC7FA1" stroke-width="2" stroke-linecap="round"></path><path d="M12 24 l4 9 8-4" fill="none" stroke="#EC7FA1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                    <div class="phone-mockup">
-                        <div class="phone-mockup-screen">
-                            <div class="phone-status-bar"><span>9:41</span><span class="battery-icon"></span></div>
-                            <div class="family-head"><div class="family-eyebrow">Your family</div><div class="family-title">Family</div></div>
-                            <div class="family-list">
-                                <div class="family-member">
-                                    <img class="family-avatar" src="/assets/images/app-images/portrait-alex.png" alt="Alex (you)">
-                                    <span class="family-member-name">You</span>
-                                    <span class="family-role">Owner</span>
-                                </div>
-                                <div class="family-member">
-                                    <img class="family-avatar" src="/assets/images/app-images/portrait-sam.png" alt="Sam">
-                                    <span class="family-member-name">Sam</span>
-                                    <span class="family-role">Manager</span>
-                                </div>
-                                <div class="family-member">
-                                    <img class="family-avatar" src="/assets/images/app-images/portrait-rosa.png" alt="Grandma Rosa">
-                                    <span class="family-member-name">Grandma Rosa</span>
-                                    <span class="family-role">Viewer</span>
-                                </div>
-                                <div class="family-invite">
-                                    <div class="family-invite-inner">
-                                        <span class="family-invite-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9A8B79" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></span>
-                                        <span class="family-invite-label">Invite Grandpa Lou</span>
-                                    </div>
-                                </div>
-                                <div class="family-latest-label">LATEST</div>
-                                <article class="hero-card">
-                                    <div class="hero-card-strip hero-card-strip--yellow"></div>
-                                    <p class="hero-card-quote hero-card-quote--sm">Teo went down the big slide all by himself.</p>
-                                    <div class="hero-card-meta-row">
-                                        <span class="stat-swap">
-                                            <span class="stat-swap-out"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>2</span></span>
-                                            <span class="stat-swap-in"><svg width="15" height="15" viewBox="0 0 24 24" fill="#D63E78" stroke="#D63E78" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path></svg><span>3</span></span>
-                                        </span>
-                                        <span class="hero-card-stat"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#6B5E4F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg><span class="family-comment-count">1</span></span>
-                                    </div>
-                                    <div class="hero-card-footer">
-                                        <span class="hero-card-time">Mar 14</span>
-                                        <img class="avatar avatar--sm" src="/assets/images/app-images/portrait-teo.png" alt="Teo">
-                                        <span class="spacer"></span>
-                                        <span class="tag tag--yellow"><span class="tag-dot"></span>joy</span>
-                                    </div>
-                                    <div class="family-comment-wrap">
-                                        <div class="family-comment">
-                                            <img class="family-comment-avatar" src="/assets/images/app-images/portrait-rosa.png" alt="Grandma Rosa">
-                                            <div><span class="family-comment-name">Grandma Rosa</span><div class="family-comment-text">Reading this to Grandpa right now.</div></div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <section class="payoff">
-        <div class="payoff-inner">
-            <div class="payoff-visual">
-                <div class="payoff-polaroid">
-                    <img src="/assets/images/app-images/chicken.png" alt="Momora illustration: a toddler on a swing holding his chicken">
-                    <div class="payoff-polaroid-caption">coop + his chicken &middot; september 25</div>
-                </div>
-            </div>
-            <div class="payoff-copy">
-                <h2>This started as one sentence.</h2>
-                <p>"Coop sat on the baby swing holding his chicken." That's all Coop's mom said to Momora. Momora drew the rest, and it's now framed in two grandparents' houses.</p>
             </div>
         </div>
     </section>
 
-    <section id="benefits" class="landing-section">
-        <h2>We've been burned by these apps too.</h2>
-        <p class="section-intro">The baby book that became homework. The app that held your photos hostage. So, three promises, in writing:</p>
-        <div class="promise-grid">
-            <article class="promise"><h3>It never punishes you for missing a week.</h3><p>Skip a week, skip a month. It won't guilt you about it.</p></article>
-            <article class="promise"><h3>Your memories are never held hostage.</h3><p>Export everything, always.</p></article>
-            <article class="promise"><h3>Private by default.</h3><p>Nothing is public.</p></article>
+    <!-- ═══ The funny stuff they say ═══ -->
+    <section class="h-section h-feature h-feature--flip">
+        <div class="feat-copy">
+            <h2 class="h-h2">The funny stuff they say, saved before your brain deletes it.</h2>
+            <p class="h-sub">Pasketti. Hair sauce. The moon following the car. Tap the mic and say what happened, or type it. Ten seconds, hands still full of kid, and it's on the timeline with the date and who said it. Years from now, search “pasketti” and there it is.</p>
+        </div>
+        <div class="feat-visual">
+            <div class="phone anim anim-say" aria-hidden="true">
+                <div class="phone-island"></div>
+                <div class="screen">
+                    <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
+                    <div class="say-stage">
+                        <div class="say-compose">
+                            <div class="cmp-top"><span>Cancel</span><span class="cmp-save">Save</span></div>
+                            <div class="cmp-body">
+                                <span class="cmp-date">Today</span>
+                                <p class="cmp-text"><span style="--w:0">At</span> <span style="--w:1">bath</span> <span style="--w:2">time</span> <span style="--w:3">she</span> <span style="--w:4">called</span> <span style="--w:5">the</span> <span style="--w:6">shampoo</span> <span style="--w:7">“hair</span> <span style="--w:8">sauce”</span> <span style="--w:9">and</span> <span style="--w:10">refused</span> <span style="--w:11">to</span> <span style="--w:12">hear</span> <span style="--w:13">otherwise.</span></p>
+                            </div>
+                            <div class="cmp-tags">
+                                <span class="kid"><img src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span>
+                            </div>
+                            <div class="cmp-bar">
+                                <span class="mic-live"><svg><use href="#i-mic"/></svg></span>
+                                <span class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+                                <span class="cmp-illus">Listening</span>
+                            </div>
+                        </div>
+                        <div class="say-timeline">
+                            <div class="tl-head"><span class="tl-kicker">Tuesday, July 14</span><span class="tl-title">Your moments.</span></div>
+                            <article class="qcard qcard--new">
+                                <p>At bath time she called the shampoo “hair sauce” and refused to hear otherwise.</p>
+                                <div class="meta"><span class="date">TODAY</span><span class="kid kid--sm"><img src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span><span class="chip chip--funny">funny</span></div>
+                            </article>
+                            <article class="qcard qcard--wonder">
+                                <p>Theo asked if the moon follows our car home. I said obviously.</p>
+                                <div class="meta"><span class="date">JUL 12</span><span class="chip chip--wonder">wonder</span></div>
+                            </article>
+                            <article class="qcard qcard--joy">
+                                <p>Theo asked the waiter for “the usual”. He is three.</p>
+                                <div class="meta"><span class="date">JUL 6</span><span class="chip chip--joy">joy</span></div>
+                            </article>
+                            <div class="tabbar"><span class="tab tab--on"><svg><use href="#t-timeline"/></svg>Timeline</span><span class="tab"><svg><use href="#t-keepsakes"/></svg></span><span class="tab"><svg><use href="#t-family"/></svg></span><span class="tab"><svg><use href="#t-settings"/></svg></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="download" class="landing-cta">
-        <div class="landing-cta-inner">
-            <div class="hand-note">no catching up required</div>
-            <h2>Start with tonight.</h2>
-            <p>The weird thing she said at dinner is enough. You don't have to become a person who journals.</p>
-            <div class="download-buttons">
-                <a href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer" class="store-button">
-                    <svg viewBox="0 0 24 24" class="store-icon" aria-hidden="true"><path fill="currentColor" d="M17.05 12.54c-.03-2.89 2.36-4.28 2.47-4.35-1.35-1.97-3.45-2.24-4.19-2.27-1.78-.18-3.48 1.05-4.38 1.05-.9 0-2.3-1.02-3.78-1-1.94.03-3.74 1.13-4.74 2.87-2.02 3.5-.52 8.68 1.45 11.52.96 1.39 2.11 2.95 3.62 2.89 1.45-.06 2-.94 3.75-.94s2.25.94 3.79.91c1.57-.03 2.56-1.42 3.52-2.82 1.11-1.62 1.56-3.18 1.59-3.26-.03-.02-3.05-1.17-3.1-4.6zM14.16 4.06c.8-.97 1.34-2.32 1.19-3.66-1.15.05-2.55.77-3.38 1.74-.74.86-1.39 2.23-1.22 3.55 1.29.1 2.6-.65 3.41-1.63z"/></svg>
-                    <span><span class="store-label">Download on the</span><span class="store-name">App Store</span></span>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer" class="store-button">
-                    <svg viewBox="0 0 24 24" class="store-icon" aria-hidden="true"><path fill="currentColor" d="M4 2.7v18.6c0 .6.66 1 1.18.68l15.2-9.3c.5-.3.5-1.05 0-1.36L5.18 2.02C4.66 1.7 4 2.1 4 2.7z"/></svg>
-                    <span><span class="store-label">Get it on</span><span class="store-name">Google Play</span></span>
-                </a>
+    <!-- ═══ Their little voice ═══ -->
+    <section class="h-band h-band--lav" aria-labelledby="voice-title">
+        <div class="h-feature h-feature--band">
+            <div class="feat-copy">
+                <h2 class="h-h2" id="voice-title">The sound of them, right now.</h2>
+                <p class="h-sub">The lisp, the made-up words, the way they say your name. Record it, or bring in the voice notes already sitting in your chats, and trim it to the good part. Momora keeps the actual recording, so someday they can hear what they sounded like.</p>
+                <p class="voice-stat"><strong>47%</strong> of Americans wish they'd recorded a conversation with a loved one who died. Only a third ever have. <span>YouGov, 2022</span></p>
             </div>
-            <div class="landing-note">On iPhone and Android.</div>
+            <div class="feat-visual">
+                <div class="phone anim anim-voice" aria-hidden="true">
+                    <div class="phone-island"></div>
+                    <div class="screen">
+                        <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
+                        <div class="rec">
+                            <p class="rec-label"><span class="rec-dot"></span><span class="rec-state">Recording</span></p>
+                            <p class="rec-timer"></p>
+                            <div class="rec-wave">
+                                <span class="rec-bars"><i style="--h:.35;--b:0"></i><i style="--h:.6;--b:1"></i><i style="--h:.9;--b:2"></i><i style="--h:.5;--b:3"></i><i style="--h:.75;--b:4"></i><i style="--h:.3;--b:5"></i><i style="--h:.85;--b:6"></i><i style="--h:1;--b:7"></i><i style="--h:.55;--b:8"></i><i style="--h:.7;--b:9"></i><i style="--h:.4;--b:10"></i><i style="--h:.95;--b:11"></i><i style="--h:.65;--b:12"></i><i style="--h:.8;--b:13"></i><i style="--h:.45;--b:14"></i><i style="--h:.9;--b:15"></i><i style="--h:.6;--b:16"></i><i style="--h:.35;--b:17"></i><i style="--h:.75;--b:18"></i><i style="--h:.5;--b:19"></i><i style="--h:.85;--b:20"></i><i style="--h:.3;--b:21"></i><i style="--h:.6;--b:22"></i><i style="--h:.25;--b:23"></i></span>
+                                <span class="trim trim--l"></span><span class="trim trim--r"></span>
+                            </div>
+                            <p class="rec-hint">Drag the ends to trim</p>
+                            <span class="rec-btn"><i></i></span>
+                        </div>
+                        <div class="rec-saved">
+                            <div class="ticket">
+                                <div class="ticket-band ticket-band--funny"><span class="seal seal--funny"><span class="seal-play"></span></span><svg class="wave" viewBox="0 0 120 30" preserveAspectRatio="none"><polyline points="0,15 6,6 12,24 18,8 24,22 30,3 36,27 42,10 48,20 54,6 60,24 66,12 72,18 78,9 84,21 90,12 96,17 102,13 108,16 114,15 120,15" fill="none" stroke="#8a4416" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="ticket-time">0:09</span></div>
+                                <div class="ticket-tear"></div>
+                                <div class="ticket-cap"><p>Ari saying “uh-oh” after dropping his spoon for the tenth time.</p><div class="meta"><span class="date">TODAY</span><span class="chip chip--funny">funny</span></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- ═══ Their drawings ═══ -->
+    <section class="h-wall" aria-labelledby="wall-title">
+        <div class="h-feature h-feature--band h-feature--flip">
+            <div class="feat-copy">
+                <h2 class="h-h2" id="wall-title">The fridge, but forever.</h2>
+                <p class="h-sub">Point your camera at a drawing and Momora straightens it, frames it and hangs it on your timeline, with a little card saying who made it and how old they were. A whole stack from school becomes one memory you can walk through. No two frames are the same.</p>
+            </div>
+            <div class="feat-visual">
+                <div class="phone anim anim-scan" aria-hidden="true">
+                    <div class="phone-island"></div>
+                    <div class="screen">
+                        <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
+                        <div class="scan-cam">
+                            <p class="scan-hint">Hold steady…</p>
+                            <span class="scan-shutter"></span>
+                        </div>
+                        <div class="scan-stage">
+                            <div class="scan-paper"><img src="/assets/images/home/art-house.webp" alt=""><i class="c c1"></i><i class="c c2"></i><i class="c c3"></i><i class="c c4"></i></div>
+                            <div class="scan-framed"><div class="frame" data-frame="gingham" data-color="#4A8FD6" data-ratio="1.5" data-nail data-src="/assets/images/home/art-house.webp" data-alt=""></div></div>
+                            <div class="scan-placard"><span class="placard-title">“Our house”</span><span class="placard-by">Maya, 4 years · crayon</span></div>
+                        </div>
+                        <span class="scan-flash"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wall">
+            <figure class="piece" style="--w:15rem; --top:1.5rem; --tilt:-2deg">
+                <div class="frame" data-frame="gingham" data-color="#4A8FD6" data-ratio="1.5" data-nail data-src="/assets/images/home/art-house.webp" data-alt="Crayon drawing of a house and a family holding hands under a sun"></div>
+                <figcaption class="placard"><span class="placard-title">“Our house”</span><span class="placard-by">Maya, 4 years · crayon</span></figcaption>
+            </figure>
+            <figure class="piece" style="--w:11rem; --top:0rem; --tilt:2.5deg">
+                <div class="frame" data-frame="scallop" data-color="#F2A7B8" data-ratio="0.667" data-nail data-src="/assets/images/home/art-rainbow.webp" data-alt="Watercolor rainbow over a cloud and flowers"></div>
+                <figcaption class="placard"><span class="placard-title">“A rainbow for Ari”</span><span class="placard-by">Maya, 5 years · watercolor</span></figcaption>
+            </figure>
+            <figure class="piece" style="--w:12.5rem; --top:3rem; --tilt:-1.5deg">
+                <div class="frame" data-frame="chunky" data-color="#8FD1AA" data-ratio="1" data-nail data-src="/assets/images/home/art-rocket.webp" data-alt="Poster-paint rocket flying past a smiling sun and planets, with handprint stars"></div>
+                <figcaption class="placard"><span class="placard-title">“Rocket to the sun”</span><span class="placard-by">Theo, 3 years · paint</span></figcaption>
+            </figure>
+            <figure class="piece" style="--w:10.5rem; --top:.5rem; --tilt:3deg">
+                <div class="frame" data-frame="wavy" data-color="#E2553F" data-ratio="0.667" data-nail data-src="/assets/images/home/art-cat.webp" data-alt="Marker drawing of an orange cat next to a fish bowl, titled My Cat Beans"></div>
+                <figcaption class="placard"><span class="placard-title">“My cat Beans”</span><span class="placard-by">Maya, 5 years · marker</span></figcaption>
+            </figure>
+            <figure class="piece" style="--w:12rem; --top:2.25rem; --tilt:-3deg">
+                <div class="frame" data-frame="bobble" data-color="#C4ADE6" data-ratio="1" data-nail data-src="/assets/images/home/art-dino.webp" data-alt="Marker drawing of a green dinosaur next to an erupting volcano"></div>
+                <figcaption class="placard"><span class="placard-title">“Dino and his volcano”</span><span class="placard-by">Theo, 3 years · marker</span></figcaption>
+            </figure>
+            <figure class="piece" style="--w:10.5rem; --top:.25rem; --tilt:1.5deg">
+                <div class="frame" data-frame="ricrac" data-color="#F2C84B" data-ratio="0.667" data-nail data-src="/assets/images/home/art-mama.webp" data-alt="Crayon portrait of Mama holding flowers, with a heart"></div>
+                <figcaption class="placard"><span class="placard-title">“MAMA”</span><span class="placard-by">Maya, 5 years · crayon</span></figcaption>
+            </figure>
+        </div>
+        <p class="h-hand wall-hint">go on, nudge one</p>
+    </section>
+
+    <!-- ═══ Drawn as themselves ═══ -->
+    <section class="h-section h-drawn">
+        <div class="drawn-copy">
+            <h2 class="h-h2">Then it draws the moment, with your kids in it.</h2>
+            <p class="h-sub">Write one sentence and Momora paints it, with your children as themselves, not a stock storybook kid. Same faces every time, getting a little older as they do. It's optional, and you can turn it off for any memory.</p>
+        </div>
+        <div class="drawn anim">
+            <div class="drawn-slide is-showing">
+                <blockquote class="drawn-said">“They built a fort in the hallway, then argued about whether babies can be in a fort. Ari got in because he brought crackers.”</blockquote>
+                <figure class="drawn-pic"><img src="/assets/images/home/illo-fort.webp" alt="Illustration of Maya, Theo and baby Ari inside a blanket fort, Ari holding a cracker" loading="lazy" width="1200" height="800"><span class="drawn-wait">Drawing your memory…</span></figure>
+            </div>
+            <div class="drawn-slide" hidden>
+                <blockquote class="drawn-said">“Theo pointed at the shadow on his book and asked me to take it off. Then cried because shadows don't peel.”</blockquote>
+                <figure class="drawn-pic"><img src="/assets/images/home/illo-theo-shadow.webp" alt="Illustration of Theo on the floor in the sun, pointing at a shadow on his picture book" loading="lazy" width="1000" height="667"><span class="drawn-wait">Drawing your memory…</span></figure>
+            </div>
+            <div class="drawn-slide" hidden>
+                <blockquote class="drawn-said">“Maya wore the colander as a crown and danced until the pasta was ready. Biscuit supervised.”</blockquote>
+                <figure class="drawn-pic"><img src="/assets/images/home/illo-maya-kitchen.webp" alt="Illustration of Maya dancing in the kitchen with a colander on her head while the dog watches" loading="lazy" width="1200" height="800"><span class="drawn-wait">Drawing your memory…</span></figure>
+            </div>
+            <div class="drawn-nav">
+                <button class="drawn-prev" type="button" aria-label="Previous example">‹</button>
+                <span class="drawn-count" aria-live="polite">1 of 3</span>
+                <button class="drawn-next" type="button" aria-label="Next example">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Family ═══ -->
+    <section class="h-section h-feature h-family">
+        <div class="feat-copy">
+            <h2 class="h-h2">Grandma sees it the same day.</h2>
+            <p class="h-sub">Invite your partner, the grandparents, the aunt who always asks. They react, they comment, and you retire from photo-forwarding duty. Everyone sees the same timeline, and nobody else sees anything. It's never public.</p>
+        </div>
+        <div class="feat-visual family-visual">
+            <div class="phone phone--small anim anim-family" aria-hidden="true">
+                <div class="phone-island"></div>
+                <div class="screen">
+                    <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
+                    <div class="detail-img"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></div>
+                    <div class="detail-body">
+                        <p class="detail-text">First picnic of the summer. Maya ate every strawberry before the sandwiches came out.</p>
+                        <div class="meta"><span class="pill pill--mine"><span>🥹</span><span>❤️</span><span>😂</span><b class="react-count"></b></span><span class="detail-comments"><svg><use href="#i-comment"/></svg>2</span></div>
+                        <span class="react-float">🥹</span>
+                        <div class="comment comment--1"><span class="av av--rosa">R</span><div><b>Grandma Rosa</b><p>Reading this to Grandpa right now.</p></div></div>
+                        <div class="comment comment--2"><span class="av av--sam">S</span><div><b>Sam</b><p>She saved me one. Then ate it.</p></div></div>
+                    </div>
+                    <div class="comment-input"><span>Add a comment…</span><span>↑</span></div>
+                </div>
+            </div>
+            <ul class="family-people" aria-label="People in this family">
+                <li><span class="av av--you">Y</span><span>You</span><em>Mom</em></li>
+                <li><span class="av av--sam">S</span><span>Sam</span><em>Dad</em></li>
+                <li><span class="av av--rosa">R</span><span>Grandma Rosa</span><em>Grandparent</em></li>
+                <li class="fam-invite"><span class="av av--add"><svg aria-hidden="true"><use href="#i-plus"/></svg></span><span>Invite Grandpa Lou</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ═══ Keepsakes ═══ -->
+    <section class="h-section h-keep" id="benefits">
+        <div class="keep-intro">
+            <h2 class="h-h2">And then it turns into something you can hold.</h2>
+            <p class="h-sub">You don't design anything. Momora gathers the best of what you saved and makes it into keepsakes, ready when you are.</p>
+        </div>
+        <div class="keep-grid">
+            <figure class="keep keep--book">
+                <img src="/assets/images/home/book-spread.webp" alt="A printed lay-flat photo book open on a table, showing photos of the kids with captions" loading="lazy" width="1536" height="1024">
+                <figcaption><h3>A printed book of their year</h3><p>Hardcover and lay-flat, with their photos, their pictures and the words you wrote at the time. Momora picks the best moments and lays out the pages.</p></figcaption>
+            </figure>
+            <figure class="keep keep--card">
+                <img src="/assets/images/home/holiday-card.webp" alt="A printed holiday card with a photo of the three children at breakfast and a QR code" loading="lazy" width="1000" height="1500">
+                <figcaption><h3>Holiday cards that play your year</h3><p>Your favorite family photo on the front, a letter about your year on the back, and a code that plays your year in film. US and Canada.</p></figcaption>
+            </figure>
+            <figure class="keep keep--film">
+                <div class="film-card">
+                    <div class="film-still"><img src="/assets/images/home/photo-maya-swing.webp" alt="" loading="lazy"><span class="film-play"><span class="seal-play"></span></span><span class="film-len">1:12</span></div>
+                    <p class="h-hand film-label">Maya's year five</p>
+                </div>
+                <figcaption><h3>A film of every month, and of the whole year</h3><p>Their photos, clips and voices cut into a short film, there for you on the first of the month.</p></figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ═══ Promises ═══ -->
+    <section class="h-section h-promises" id="promises">
+        <h2 class="h-h2">We've been burned by these apps too.</h2>
+        <p class="h-sub">The baby book that turned into homework. The app that held the photos hostage. So, three promises, in writing:</p>
+        <ul class="promises">
+            <li><h3>It never punishes you for missing a week.</h3><p>Skip a week, skip a month. No streaks, no guilt, nothing piling up.</p></li>
+            <li><h3>Your memories are never held hostage.</h3><p>Export everything, any time: every photo, video, recording and word.</p></li>
+            <li><h3>Private by default.</h3><p>Only the family you invite can see it. Nothing is ever public.</p></li>
+        </ul>
+    </section>
+
+    <!-- ═══ Final call ═══ -->
+    <section class="h-final">
+        <p class="h-hand">no catching up required</p>
+        <h2 class="h-final-title">Start with tonight.</h2>
+        <p class="h-sub">The weird thing she said at dinner is enough. You don't have to become a person who journals.</p>
+        <div class="h-get h-get--center">
+            <div class="h-badges">
+                <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50"></a>
+                <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-google-play.png" alt="Get it on Google Play" width="168" height="50"></a>
+            </div>
+            <div class="h-qr">
+                <img src="/assets/images/brand/get-app-qr.svg" alt="" width="76" height="76" loading="lazy">
+                <p>Or scan to get it on your phone.</p>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 {{FOOTER}}
+
 <script src="/js/script.js"></script>
 <script src="/js/store-link-escape.js"></script>
+<script src="/js/home.js"></script>
 </body>
 </html>

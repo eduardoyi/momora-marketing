@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{HEAD}}
+<meta name="robots" content="noindex">
+<script>
+    // Target of the "scan to get the app" QR code on the homepage: send each
+    // phone to its own store. Anything else (a desktop that opened the link)
+    // lands on the homepage download buttons.
+    (function () {
+        var ua = navigator.userAgent || '';
+        var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+        if (isIOS) {
+            location.replace('https://apps.apple.com/us/app/usemomora/id6745403572');
+        } else if (/Android/i.test(ua)) {
+            location.replace('https://play.google.com/store/apps/details?id=com.memora.app');
+        } else {
+            location.replace('/#download');
+        }
+    })();
+</script>
+</head>
+<body>
+{{GTM_BODY}}
+<main style="padding: 96px 24px; text-align: center; font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+    <p>Opening your app store…</p>
+    <p><a href="https://apps.apple.com/us/app/usemomora/id6745403572">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.memora.app">Google Play</a></p>
+</main>
+</body>
+</html>

@@ -17,7 +17,7 @@ const BLOG_CONTENT_DIR = path.join(CONTENT_DIR, 'blog');
 const BLOG_POST_TEMPLATE_PATH = path.join(__dirname, 'src/templates/blog-post-template.html');
 const BLOG_ARCHIVE_TEMPLATE_PATH = path.join(__dirname, 'src/templates/blog-archive-template.html');
 const BLOG_POSTS_PER_PAGE = 6;
-const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/brand/momora-logo.png`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/brand/og-home.jpg`;
 
 // Ensure content directory exists
 if (!fs.existsSync(CONTENT_DIR)) {
@@ -143,15 +143,23 @@ function copyStaticFiles() {
             let options = {};
             if (filename === 'index') {
                 options = {
-                    title: 'Momora — save the funny little things your kids say',
-                    description: 'Save family memories with text, voice, photos, videos, and optional AI illustrations in one private shared journal.',
+                    title: 'Momora — the baby book that starts from your phone',
+                    description: 'Their photos, videos, stories, little voice and drawings, kept in one private place your family shares. Then made into books, films and cards you can hold.',
+                    activeFaq: '',
+                    extraCss: '<link rel="stylesheet" href="/css/home.css">',
+                    extraScripts: ''
+                };
+            } else if (filename === 'get') {
+                options = {
+                    title: 'Get Momora',
+                    description: 'Download Momora on the App Store or Google Play.',
                     activeFaq: '',
                     extraCss: '',
                     extraScripts: ''
                 };
             } else if (filename === 'faq') {
                 options = {
-                    title: 'FAQ - Momora Family Memory Journal',
+                    title: 'FAQ — Momora',
                     description: 'Answers about Momora memories, AI illustrations, family sharing, privacy, pricing, and account deletion.',
                     activeFaq: ' active',
                     extraCss: '',
@@ -202,6 +210,14 @@ function copyStaticFiles() {
                     fs.mkdirSync(inviteDir, { recursive: true });
                 }
                 outputPath = path.join(inviteDir, 'index.html');
+            } else if (filename === 'get') {
+                // /get/ is what the homepage QR code encodes; it forwards
+                // each phone to its own store.
+                const getDir = path.join(OUTPUT_DIR, 'get');
+                if (!fs.existsSync(getDir)) {
+                    fs.mkdirSync(getDir, { recursive: true });
+                }
+                outputPath = path.join(getDir, 'index.html');
             } else {
                 outputPath = path.join(OUTPUT_DIR, file);
             }

@@ -606,3 +606,10 @@ img.family-comment-avatar { object-fit: cover; background: #f8f0dd; }
     .invite-card { padding: 32px 20px; }
     .invite-title { font-size: 32px; }
 }
+
+/* Official store badges (Apple SVG from developer.apple.com, Google PNG
+   cropped to its artwork so both line up at the same height). */
+.store-badge { display: inline-flex; border-radius: 9px; line-height: 0; }
+.store-badge img { height: 52px; width: auto; }
+.store-badge:hover img { opacity: .85; }
+.store-badge-large img { height: 58px; }

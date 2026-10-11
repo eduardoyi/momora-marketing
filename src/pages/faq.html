@@ -10,110 +10,154 @@
     <section class="faq-hero">
         <div class="container">
             <h1 class="faq-hero-title">Frequently Asked Questions</h1>
-            <p class="faq-hero-subtitle">How Momora works, what stays private, and what to expect</p>
+            <p class="faq-hero-subtitle">How Momora works, what stays private, and what to expect.</p>
         </div>
     </section>
 
     <section class="faq-content">
         <div class="container">
             <div class="faq-section">
-                <h2 class="faq-section-title">Memories & AI</h2>
+                <h2 class="faq-section-title">Adding memories</h2>
                 <div class="faq-list">
-                    <div class="faq-item">
+                    <div class="faq-item" id="q1">
                         <button class="faq-question"><span class="faq-number">1.</span><span>What is Momora?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Momora is a private family memory journal for the moments that are easy to forget. Save a story as text, dictate it by voice, attach photos or videos, and optionally turn written memories into AI illustrations.</p></div>
+                        <div class="faq-answer"><p>Momora is a private baby book that fills itself from your phone. Save the photos and videos you take, the funny things your kids say, their actual voices and the drawings that come home from school, all on one timeline your family shares. Momora can draw moments as illustrations of your kids, and turns the best of it into books, films and cards.</p></div>
                     </div>
-                    <div class="faq-item">
+                    <div class="faq-item" id="q2">
                         <button class="faq-question"><span class="faq-number">2.</span><span>What can I add to a memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>You can save plain text, text with an AI illustration, a photo/video memory with an optional caption, or a kept sound: one recording of up to two minutes with an optional short note. A sound memory holds just the recording, with no photos or AI illustration alongside it. A media memory can contain 1–10 photos or videos. Images can be up to 20 MB. Videos can be up to three minutes; Momora compresses them before upload, and the uploaded file must fit the 100 MB limit.</p></div>
+                        <div class="faq-answer"><p>A memory can be:</p><ul><li><strong>Words</strong>: typed or dictated, with an optional AI illustration.</li><li><strong>Photos and videos</strong>: 1–10 per memory, with an optional caption. Images can be up to 20 MB. Videos can be up to three minutes; Momora compresses them before upload, and the uploaded file must fit the 100 MB limit.</li><li><strong>A kept sound</strong>: one recording with an optional short note.</li><li><strong>Artwork</strong>: 1–10 scanned drawings.</li></ul><p>Each memory is one of these kinds. You can't mix artwork or a sound with photos or videos in the same memory.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">3.</span><span>How does voice journaling work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Tap the mic and record for up to two minutes. When you stop, you choose what happens next. <strong>Turn into text</strong> transcribes and cleans up what you said, places the text and suggested family tags in the editor for you to review, and discards the recording. <strong>Keep the sound</strong> saves the recording itself as the memory, so a laugh, a song, or a mispronounced word stays exactly as it sounded. Momora writes a short note from what it heard, which you can edit or replace, and keeps a hidden transcript so you can find the memory later by searching. A kept sound cannot be re-recorded or replaced after you save it.</p></div>
+                    <div class="faq-item" id="q3">
+                        <button class="faq-question"><span class="faq-number">3.</span><span>Can I add things that happened a while ago?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. Every memory has a date you can change, so you can add last Tuesday, or a birthday from two years ago, and it lands in the right place on the timeline. There are no streaks or reminders, and nothing is lost if you skip a week or a month.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">4.</span><span>Do I have to use AI illustrations?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>No. For a written memory, turn off the AI option to save it as plain text. You can also attach your own photos or videos instead. AI character portraits are used when you choose the illustrated-memory experience.</p></div>
+                    <div class="faq-item" id="q4">
+                        <button class="faq-question"><span class="faq-number">4.</span><span>How does dictation work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Tap the mic and talk for up to two minutes. When you stop, choose what happens next. <strong>Turn into text</strong> transcribes and tidies up what you said, puts the text and suggested family tags in the editor for you to review, and discards the recording. <strong>Keep the sound</strong> saves the recording itself as the memory (see below).</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">5.</span><span>How do character portraits and memory illustrations work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>You add a profile photo for a child or family member, and Momora creates a consistent illustrated character. When you save an illustrated text memory, Momora analyzes its tone and uses the ready portraits of tagged family members as references. AI output can be imperfect, and you can retry a failed or unwanted illustration.</p></div>
+                    <div class="faq-item" id="q5">
+                        <button class="faq-question"><span class="faq-number">5.</span><span>How do sound memories work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>A kept sound saves the actual recording, so a laugh, a song or a mispronounced word stays exactly as it sounded. Momora writes a short note from what it heard, which you can edit or replace, and keeps a hidden transcript so you can find the memory later by searching.</p><p>You can record in the app (up to two minutes), or bring in a voice note you already have: share it to Momora from WhatsApp or Voice Memos, or choose an audio file. Imported recordings up to five minutes are kept as they are; longer ones (up to 30 minutes) need trimming to five minutes before you save. You can trim a sound before saving, and owners and managers can trim it later from the edit screen. Trimming after saving is permanent.</p><p>On iPhone, Ogg/Opus files (for example a WhatsApp Web download) can't be opened from Files; share the voice note straight from WhatsApp instead.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">6.</span><span>How many people can I tag in one memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Text-only and photo/video memories can tag any number of family profiles. An AI-illustrated memory can tag up to six; if you select more than six, Momora turns the AI option off until the selection returns to six or fewer. Momora can suggest tags when a name or nickname appears in your text, and you can change the selection before saving.</p></div>
+                    <div class="faq-item" id="q6">
+                        <button class="faq-question"><span class="faq-number">6.</span><span>How does scanning artwork work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>In the new-memory screen, tap <strong>Scan artwork</strong> and point your camera at a drawing. Your phone's document scanner finds the edges and straightens the page. You can scan up to 10 pieces into one memory, which you can swipe through like a gallery wall.</p><p>Each piece is hung in a playful frame, with a label showing who made it (the first person you tag) and how old they were. The caption becomes its title, and Momora suggests what it was made with, like crayon or watercolor. Scanning needs the latest version of the app; on Android the scanner downloads a small module the first time you use it.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">7.</span><span>Can I write in another language?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>The app interface is currently in English. You can enter memory text in other languages, but transcription and AI results may vary by language.</p></div>
+                    <div class="faq-item" id="q7">
+                        <button class="faq-question"><span class="faq-number">7.</span><span>Can Momora help with the photos already on my phone?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. Family owners and managers can let Momora look through their photo library and suggest days worth keeping, grouped into ready-to-add memories with a draft caption. Nothing goes on your timeline unless you tap <strong>Keep</strong>. Momora never changes or deletes anything in your camera roll and never asks for your location.</p><p>To make suggestions, Momora uploads small previews of the photos it looks at to its private storage. Full-size originals are only uploaded for suggestions you keep. Suggestions you haven't acted on are cleared after 30 days. See <a href="#q24">How is my content used by AI?</a> for what the AI sees.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">8.</span><span>What is Looking Back?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Looking Back is a quiet way to revisit older memories. When a worthwhile group of at least four eligible memories is available, the Timeline may show a daily package that opens into a read-only story viewer. Packages do not create streaks, reminders, or pressure to add anything new, and whether you have opened one is personal to your account. Kept sounds are not included in Looking Back packages for now.</p></div>
+                    <div class="faq-item" id="q8">
+                        <button class="faq-question"><span class="faq-number">8.</span><span>Can I write in another language?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>The app is currently in English. You can write and dictate memories in other languages, but transcription and AI results may vary by language.</p></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="faq-section">
-                <h2 class="faq-section-title">Family Sharing</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">9.</span><span>Can my family share one journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Yes. An owner or manager can create a private, single-use invite code. The invited person redeems it, and an owner or manager approves the request after checking their name and email.</p></div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">10.</span><span>What is the difference between owner, manager, and viewer?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>The owner controls the family journal and is the only person who can delete it. Managers can add, edit, and delete memories and child profiles, invite members, and moderate comments. Viewers can browse the journal and may like or comment, but cannot change journal entries or profiles.</p></div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">11.</span><span>Can family members like and comment on memories?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Yes. Every active family role can like and comment. Momora shows aggregate like counts without a public liker list. Comments show the account display name, and their author or a family owner/manager can delete them.</p></div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">12.</span><span>What happens if someone leaves or is removed?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>They lose access immediately. Memories and child profiles they added stay with the family journal unless an owner or manager deletes them. If the person's account is later permanently deleted, the remaining content no longer identifies them as its creator.</p></div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">13.</span><span>Can I share one memory outside my family journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Yes. From a shareable text, illustrated, or photo memory, tap the share icon to create a watermarked PNG and open your device's share sheet. Momora does not create a public link. Video memories and kept sounds cannot be shared this way. Owners and managers can always share; viewers can share by default unless an owner or manager turns that permission off. Once you send a card to another person or app, that recipient or service controls its copy.</p></div>
+                    <div class="faq-item" id="q9">
+                        <button class="faq-question"><span class="faq-number">9.</span><span>How do I find an old memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Use search on the Timeline. It looks through what people wrote, what was said in sound memories, and what's in your photos, so “pasketti” or “beach” both work. You can also filter by the people tagged and by feeling.</p></div>
                     </div>
                 </div>
             </div>
-
             <div class="faq-section">
-                <h2 class="faq-section-title">Account, Privacy & Pricing</h2>
+                <h2 class="faq-section-title">Illustrations &amp; AI</h2>
                 <div class="faq-list">
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">14.</span><span>Is Momora private?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Momora is not a public social network. Journal data is limited to active members of the family, with role-based access controls. Photos, videos, portraits, and illustrations are kept in private storage and opened through time-limited signed links. Only invite people you trust.</p></div>
+                    <div class="faq-item" id="q10">
+                        <button class="faq-question"><span class="faq-number">10.</span><span>Do I have to use AI illustrations?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>No. Illustrations are optional for every written memory: turn the AI option off to save it as plain text. Photos, videos, sounds and artwork are never redrawn.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">15.</span><span>How is my content used by AI?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Depending on the feature, Momora sends relevant memory text, profile details, profile photos or portraits, the first photo in a photo memory, or temporary voice audio to OpenAI. We send only what is needed for the requested feature. OpenAI states that API data is not used to train its models by default. See our <a href="/privacy-policy/">Privacy Policy</a> for the complete breakdown.</p></div>
+                    <div class="faq-item" id="q11">
+                        <button class="faq-question"><span class="faq-number">11.</span><span>How do character portraits and memory illustrations work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Add a profile photo for a child or family member, and Momora creates a consistent illustrated character of them. When you save an illustrated memory, Momora reads its tone and draws the scene using the portraits of the people you tagged. AI output can be imperfect, and you can retry an illustration you don't like.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">16.</span><span>Does Momora remove location data from photos?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Images attached to memories are re-encoded before upload to remove EXIF data, including GPS and device metadata. Momora may use a selected photo's capture date on your device to suggest the memory date, but it keeps only the date. Video-container metadata is not currently stripped.</p></div>
+                    <div class="faq-item" id="q12">
+                        <button class="faq-question"><span class="faq-number">12.</span><span>How many people can I tag in one memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Text, photo, video, sound and artwork memories can tag any number of family profiles. An illustrated memory can tag up to six; if you select more, Momora turns the illustration off until you're back to six or fewer. Momora suggests tags when a name or nickname appears in your text, and you can change them before saving.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">17.</span><span>How do I sign in?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Enter your email address and Momora sends a six-digit, one-time code. The production app does not require a password or a Google or Apple social-login account.</p></div>
+                    <div class="faq-item" id="q13">
+                        <button class="faq-question"><span class="faq-number">13.</span><span>What is Looking Back?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>A quiet way to revisit older memories. When there's a good set of at least four, the Timeline may show a short story you can open and flip through. It never creates streaks, reminders or pressure to add anything new. Kept sounds aren't included for now.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">18.</span><span>Does Momora have a subscription or paywall?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Yes. Family owners use Momora Plus, with an annual plan offered by default and a monthly option. Current U.S. list prices are $99.99 per year and $12.99 per month. Eligible new owners may receive a seven-day trial on the annual plan. The App Store or Google Play shows the price in your currency, trial eligibility, taxes, and renewal terms before purchase. The subscription belongs to the family owner, so invited household members do not need separate subscriptions. If the subscription ends, the family can still read the journal and the owner can still export it, but creating or changing memories, likes, comments, media, and AI generations requires renewed access.</p></div>
+                </div>
+            </div>
+            <div class="faq-section">
+                <h2 class="faq-section-title">Family</h2>
+                <div class="faq-list">
+                    <div class="faq-item" id="q14">
+                        <button class="faq-question"><span class="faq-number">14.</span><span>Can my family share one journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. An owner or manager creates a private, single-use invite code (valid for seven days), optionally for a specific person already in your family. The invited person enters it, and an owner or manager approves the request after checking their name and email.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">19.</span><span>Can I export my journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Yes. A family owner can open Settings and choose <strong>Export your memories</strong> to create a private ZIP archive with structured journal data and the available photos, videos, kept sounds, portraits, and illustrations from families they own. The archive opens in the device's share sheet. Export remains available after a Momora Plus subscription ends. Keep your own copies of anything you cannot afford to lose.</p></div>
+                    <div class="faq-item" id="q15">
+                        <button class="faq-question"><span class="faq-number">15.</span><span>What is the difference between owner, manager, and viewer?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>The <strong>owner</strong> controls the family journal and is the only person who can delete it. <strong>Managers</strong> can add, edit and delete memories and profiles, invite members, and moderate comments. <strong>Viewers</strong> can browse, react and comment, but can't change memories or profiles.</p></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">20.</span><span>How do I delete my account?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                    <div class="faq-item" id="q16">
+                        <button class="faq-question"><span class="faq-number">16.</span><span>How do family relationships and “this is me” work?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Each person in your family can have a relationship to the kids (parent, grandparent, aunt or uncle, cousin, caregiver and so on) and, for extended family, which side they're on. Momora can suggest these, but only an owner or manager can confirm them. Anyone can mark which person in the family is them with <strong>This is me</strong>.</p></div>
+                    </div>
+                    <div class="faq-item" id="q17">
+                        <button class="faq-question"><span class="faq-number">17.</span><span>Can family members react and comment?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. Everyone in the family, including viewers, can react to a memory with any emoji (one reaction per person) and leave comments. Tap the reactions to see who reacted. Comment authors can delete their own comments, and owners and managers can delete any comment.</p></div>
+                    </div>
+                    <div class="faq-item" id="q18">
+                        <button class="faq-question"><span class="faq-number">18.</span><span>What happens if someone leaves or is removed?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>They lose access immediately. Memories and profiles they added stay with the family journal unless an owner or manager deletes them. If their account is later permanently deleted, the remaining content no longer identifies them as its creator.</p></div>
+                    </div>
+                    <div class="faq-item" id="q19">
+                        <button class="faq-question"><span class="faq-number">19.</span><span>Can I share one memory outside my family journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. From a text, illustrated or photo memory, tap the share icon to create an image card and open your phone's share sheet. Momora does not create a public link. Video and sound memories can't be shared this way. Owners and managers can always share; viewers can share unless an owner or manager turns that off. Once you send a card, whoever receives it controls their copy.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-section">
+                <h2 class="faq-section-title">Keepsakes</h2>
+                <div class="faq-list">
+                    <div class="faq-item" id="q20">
+                        <button class="faq-question"><span class="faq-number">20.</span><span>What are Keepsakes?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Things Momora makes from what you saved, without you designing anything. They live in the <strong>Keepsakes</strong> tab:</p><ul><li><strong>Memory Books</strong>: a printed, lay-flat hardcover of a child's year (or everything so far), with their photos, illustrations and your own words.</li><li><strong>Films</strong>: short films of their month, their birthday and their whole year, made from their photos, clips and voices.</li><li><strong>Holiday cards</strong>: a printed card with a family photo on the front, a letter about your year on the back, and a QR code that plays your year in film.</li></ul></div>
+                    </div>
+                    <div class="faq-item" id="q21">
+                        <button class="faq-question"><span class="faq-number">21.</span><span>Who can order a book or holiday cards, and where do you ship?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Family owners and managers can order. Memory Books currently ship to the US, Canada and a few other countries, shown at checkout; not yet to the UK or EU. Holiday cards are seasonal and ship to US and Canadian addresses. Prices, taxes and shipping are shown before you pay.</p></div>
+                    </div>
+                    <div class="faq-item" id="q22">
+                        <button class="faq-question"><span class="faq-number">22.</span><span>When do films arrive?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>A monthly recap arrives on the first of the month when there's enough from that month, a birthday film shortly after each child's birthday, and a year film at the end of December. Anyone in the family can watch and share them; owners and managers can make small edits, like removing a moment or changing the music.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-section">
+                <h2 class="faq-section-title">Account, privacy &amp; pricing</h2>
+                <div class="faq-list">
+                    <div class="faq-item" id="q23">
+                        <button class="faq-question"><span class="faq-number">23.</span><span>Is Momora private?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Momora is not a public social network. Your journal is only visible to the active members of your family, with role-based access controls. Photos, videos, sounds, portraits and illustrations are kept in private storage and opened through time-limited links. Only invite people you trust.</p></div>
+                    </div>
+                    <div class="faq-item" id="q24">
+                        <button class="faq-question"><span class="faq-number">24.</span><span>How is my content used by AI?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Momora uses OpenAI for its AI features and sends only what each feature needs:</p><ul><li><strong>Writing and illustrations</strong>: the memory text, and the names, ages and portraits of the people tagged.</li><li><strong>Photo and artwork memories</strong>: previews of the first few images, the caption, the date and the tagged people's first names and ages, to describe what's in them for search and suggest a feeling or the art medium.</li><li><strong>Voice</strong>: the recording and family names as spelling hints, to transcribe it.</li><li><strong>Photo suggestions</strong>: small low-detail previews and their dates, with no names, location or file names.</li><li><strong>Keepsakes</strong>: memory text, names, dates and image previews, to choose the best moments for books, films and holiday-card letters.</li></ul><p>OpenAI states that API data is not used to train its models by default. See our <a href="/privacy-policy/">Privacy Policy</a> for the complete breakdown.</p></div>
+                    </div>
+                    <div class="faq-item" id="q25">
+                        <button class="faq-question"><span class="faq-number">25.</span><span>Does Momora remove location data from photos?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Images attached to memories are re-encoded before upload to remove EXIF data, including GPS and device details. Momora may use a photo's capture date to suggest the memory date, but keeps only the date. Video metadata is not currently stripped.</p></div>
+                    </div>
+                    <div class="faq-item" id="q26">
+                        <button class="faq-question"><span class="faq-number">26.</span><span>How do I sign in?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Enter your email address and Momora sends a six-digit, one-time code. There's no password, and you don't need a Google or Apple account.</p></div>
+                    </div>
+                    <div class="faq-item" id="q27">
+                        <button class="faq-question"><span class="faq-number">27.</span><span>Does Momora have a subscription?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes. Family owners use Momora Plus, with an annual plan offered by default and a monthly option. Current U.S. list prices are $99.99 per year and $12.99 per month. Eligible new owners may get a seven-day trial on the annual plan. The App Store or Google Play shows the price in your currency, trial eligibility, taxes and renewal terms before you buy. The subscription belongs to the family owner, so invited family members don't need their own. Printed keepsakes are paid for separately when you order.</p><p>If the subscription ends, your family can still read the journal and the owner can still export everything, but adding or changing memories, reacting, commenting and AI features need renewed access.</p></div>
+                    </div>
+                    <div class="faq-item" id="q28">
+                        <button class="faq-question"><span class="faq-number">28.</span><span>Can I export my journal?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Yes, any time. A family owner can open Settings and choose <strong>Export your memories</strong>. Momora prepares a private archive with all your memories' text, photos, videos, sounds, artwork, portraits and illustrations, and emails you a download link. Export stays available after a Momora Plus subscription ends.</p></div>
+                    </div>
+                    <div class="faq-item" id="q29">
+                        <button class="faq-question"><span class="faq-number">29.</span><span>How do I delete my account?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
                         <div class="faq-answer"><p>In the app, go to <strong>Settings → Delete account</strong>. Deletion is scheduled for 15 days later, and you can cancel it from Settings during that grace period. If you cannot access the app, use our <a href="/delete-account/">account-deletion form</a>.</p><div class="faq-warning"><strong>Family owners:</strong> journals you own are hidden as soon as deletion is scheduled and permanently deleted with all their content after 15 days unless you cancel.</div></div>
                     </div>
-                    <div class="faq-item">
-                        <button class="faq-question"><span class="faq-number">21.</span><span>What happens if I delete one memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
-                        <div class="faq-answer"><p>Deleting a memory removes its text, tags, photos, videos, kept sound, illustration, likes, and comments. There is no recycle bin or recovery feature, so confirm before deleting.</p></div>
+                    <div class="faq-item" id="q30">
+                        <button class="faq-question"><span class="faq-number">30.</span><span>What happens if I delete one memory?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <div class="faq-answer"><p>Deleting a memory removes its text, tags, photos, videos, sound, artwork, illustration, reactions and comments. There is no recycle bin or recovery, so double-check before deleting.</p></div>
                     </div>
                 </div>
             </div>
