@@ -12,3 +12,8 @@
 
 /.well-known/assetlinks.json
   Content-Type: application/json
+
+# Keep the *.pages.dev preview/production hostnames out of search results so
+# they don't compete with usemomora.com as duplicate content.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex

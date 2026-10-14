@@ -17,6 +17,41 @@
 <meta name="twitter:title" content="Momora — the baby book that starts from your phone">
 <meta name="twitter:description" content="Their photos, videos, stories, little voice and drawings, kept in one private place your family shares.">
 <meta name="twitter:image" content="https://usemomora.com/assets/images/brand/og-home.jpg">
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://usemomora.com/#organization",
+            "name": "Momora",
+            "url": "https://usemomora.com/",
+            "logo": "https://usemomora.com/assets/images/brand/momora-logo.png",
+            "email": "hello@usemomora.com"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://usemomora.com/#website",
+            "name": "Momora",
+            "url": "https://usemomora.com/",
+            "publisher": { "@id": "https://usemomora.com/#organization" }
+        },
+        {
+            "@type": "MobileApplication",
+            "name": "Momora",
+            "description": "A private baby book that fills itself from your phone: photos, videos, stories, voices and drawings on one timeline your family shares.",
+            "operatingSystem": "iOS, Android",
+            "applicationCategory": "LifestyleApplication",
+            "image": "https://usemomora.com/assets/images/brand/og-home.jpg",
+            "publisher": { "@id": "https://usemomora.com/#organization" },
+            "sameAs": [
+                "https://apps.apple.com/us/app/usemomora/id6745403572",
+                "https://play.google.com/store/apps/details?id=com.memora.app"
+            ]
+        }
+    ]
+}
+</script>
 </head>
 <body class="home">
 {{GTM_BODY}}

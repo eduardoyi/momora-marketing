@@ -3,6 +3,7 @@ const path = require('path');
 const { marked } = require('marked');
 const matter = require('gray-matter');
 const chokidar = require('chokidar');
+const { execSync } = require('child_process');
 
 // Configuration
 const CONTENT_DIR = path.join(__dirname, 'content');
@@ -158,17 +159,36 @@ function copyStaticFiles() {
                     extraScripts: ''
                 };
             } else if (filename === 'faq') {
+                const title = 'FAQ — Momora';
+                const description = 'Answers about Momora memories, AI illustrations, family sharing, privacy, pricing, and account deletion.';
                 options = {
-                    title: 'FAQ — Momora',
-                    description: 'Answers about Momora memories, AI illustrations, family sharing, privacy, pricing, and account deletion.',
+                    title,
+                    description,
                     activeFaq: ' active',
                     extraCss: '',
+                    extraHead: buildSocialHead({ urlPath: '/faq/', title, description }) +
+                        '\n' + buildFaqSchema(htmlContent),
                     extraScripts: '<script src="/js/faq-script.js"></script>'
                 };
             } else if (filename === 'delete-account') {
+                const title = 'Delete Your Account — Momora';
+                const description = 'Schedule deletion of your Momora account and learn what happens during the 15-day grace period.';
                 options = {
-                    title: 'Delete Your Account - Momora',
-                    description: 'Schedule deletion of your Momora account and learn what happens during the 15-day grace period.',
+                    title,
+                    description,
+                    activeFaq: '',
+                    extraCss: '',
+                    extraHead: buildSocialHead({ urlPath: '/delete-account/', title, description }),
+                    extraScripts: ''
+                };
+            } else if (filename === '404') {
+                // Served by Cloudflare Pages (with a real 404 status) for any
+                // path that doesn't exist. Without a 404.html, Pages falls back
+                // to SPA mode and answers every unknown URL with the homepage
+                // and a 200, which search engines index as duplicate pages.
+                options = {
+                    title: 'Page not found — Momora',
+                    description: 'This page doesn\'t exist. Head back to the Momora homepage, blog, or FAQ.',
                     activeFaq: '',
                     extraCss: '',
                     extraScripts: ''
@@ -356,6 +376,108 @@ function jsonLdScript(data) {
     return `<script type="application/ld+json">${json}</script>`;
 }
 
+// Canonical + Open Graph + Twitter card tags for a plain (non-article) page.
+function buildSocialHead({ urlPath, title, description, image = DEFAULT_OG_IMAGE }) {
+    const url = `${SITE_URL}${urlPath}`;
+    return `
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Momora">
+<meta property="og:title" content="${escapeHtml(title)}">
+<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${image}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(title)}">
+<meta name="twitter:description" content="${escapeHtml(description)}">
+<meta name="twitter:image" content="${image}">`;
+}
+
+// FAQPage structured data, pulled straight from the FAQ page's markup so the
+// schema can never drift from what's on the page.
+function buildFaqSchema(faqHtml) {
+    const toText = html => html
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&amp;/g, '&')
+        .replace(/\s+/g, ' ')
+        .replace(/\s+([.,;:!?)])/g, '$1')
+        .trim();
+    const itemPattern = /<button class="faq-question"><span class="faq-number">[^<]*<\/span><span>([\s\S]*?)<\/span>[\s\S]*?<\/button>\s*<div class="faq-answer">([\s\S]*?)<\/div>\s*<\/div>\s*(?=<div class="faq-item"|<\/div>)/g;
+    const mainEntity = [];
+    let match;
+    while ((match = itemPattern.exec(faqHtml)) !== null) {
+        mainEntity.push({
+            '@type': 'Question',
+            name: toText(match[1]),
+            acceptedAnswer: { '@type': 'Answer', text: toText(match[2]) }
+        });
+    }
+    if (mainEntity.length === 0) {
+        console.warn('Warning: no FAQ items found for FAQPage schema.');
+        return '';
+    }
+    return jsonLdScript({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity });
+}
+
+// ---------------------------------------------------------------------------
+// Sitemap + robots.txt
+// ---------------------------------------------------------------------------
+
+// Last commit date (YYYY-MM-DD) touching any of the given files, or null
+// outside a git checkout / for never-committed files.
+function gitLastModified(...files) {
+    try {
+        const out = execSync(`git log -1 --format=%cs -- ${files.map(f => JSON.stringify(f)).join(' ')}`, {
+            cwd: __dirname,
+            stdio: ['ignore', 'pipe', 'ignore']
+        }).toString().trim();
+        return out || null;
+    } catch (e) {
+        return null;
+    }
+}
+
+// Every indexable page. /get/ and /invite/ are noindex utility pages and
+// stay out on purpose.
+function buildSitemap(posts) {
+    const pages = [
+        { loc: '/', lastmod: gitLastModified('src/pages/index.html') },
+        { loc: '/faq/', lastmod: gitLastModified('src/pages/faq.html') },
+        { loc: '/delete-account/', lastmod: gitLastModified('src/pages/delete-account.html') }
+    ];
+
+    if (posts.length > 0) {
+        pages.push({ loc: '/blog/', lastmod: posts[0].date });
+        const totalPages = Math.max(1, Math.ceil((posts.length - 1) / BLOG_POSTS_PER_PAGE));
+        for (let n = 2; n <= totalPages; n++) {
+            pages.push({ loc: `/blog/page/${n}/`, lastmod: null });
+        }
+        posts.forEach(post => {
+            pages.push({ loc: post.url, lastmod: gitLastModified(path.join('content/blog', post.file)) || post.date });
+        });
+    }
+
+    fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md')).forEach(file => {
+        const { data } = matter(fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8'));
+        const loc = data.slug ? `/${data.slug}/` : `/${path.basename(file, '.md')}.html`;
+        pages.push({ loc, lastmod: gitLastModified(path.join('content', file)) });
+    });
+
+    const urls = pages.map(({ loc, lastmod }) =>
+        `  <url>\n    <loc>${SITE_URL}${loc}</loc>${lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : ''}\n  </url>`
+    ).join('\n');
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'sitemap.xml'), xml);
+    console.log(`✅ Generated: sitemap.xml (${pages.length} URLs)`);
+}
+
+function buildRobots() {
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
+    console.log('✅ Generated: robots.txt');
+}
+
 function readTemplateFile(templatePath) {
     if (!fs.existsSync(templatePath)) {
         console.error(`Error: template not found at ${templatePath}`);
@@ -389,6 +511,7 @@ function readBlogPosts() {
         const date = toISODateString(data.date);
 
         return {
+            file,
             slug,
             title: data.title,
             description,
@@ -652,7 +775,7 @@ function buildBlogContent() {
 
     if (posts.length === 0) {
         console.log('⚠️  No posts found in content/blog/ — skipping blog build.');
-        return;
+        return posts;
     }
 
     console.log(`📝 Building ${posts.length} blog post(s)...`);
@@ -668,6 +791,7 @@ function buildBlogContent() {
     }
 
     console.log(`✨ Blog built: ${posts.length} post(s) across ${totalPages} archive page(s).\n`);
+    return posts;
 }
 
 // Convert markdown file to HTML
@@ -688,11 +812,15 @@ function convertMarkdownToHTML(filePath) {
         let output = template.replace('{{CONTENT}}', htmlContent);
         
         // Inject components with page-specific metadata
+        const title = data.title ? `${data.title} — Momora` : 'Momora';
+        const description = data.description || 'Capture the moments you\'ll wish you could relive';
+        const urlPath = data.slug ? `/${data.slug}/` : `/${path.basename(filePath, '.md')}.html`;
         output = injectComponents(output, {
-            title: data.title || 'Momora',
-            description: data.description || 'Capture the moments you\'ll wish you could relive',
+            title,
+            description,
             activeFaq: '',
             extraCss: '',
+            extraHead: buildSocialHead({ urlPath, title, description }),
             extraScripts: ''
         });
         
@@ -735,7 +863,10 @@ function buildAll() {
     console.log('✅ Static files copied\n');
 
     // Blog (content/blog/*.md -> /blog/ archive + /blog/<slug>/ posts)
-    buildBlogContent();
+    const posts = buildBlogContent();
+
+    buildSitemap(posts);
+    buildRobots();
 
     if (!fs.existsSync(CONTENT_DIR)) {
         console.log('⚠️  No content directory found. Creating one...');
