@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node build.js",
     "build:watch": "node build.js --watch",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "image-sizes": "node scripts/image-sizes.js"
   },
   "dependencies": {
     "chokidar": "^3.5.3",

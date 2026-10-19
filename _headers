@@ -17,3 +17,18 @@
 # they don't compete with usemomora.com as duplicate content.
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+# CSS and JS are referenced with a ?v=<content hash> query (added by
+# build.js), so a changed file always gets a new URL and can be cached
+# for a year.
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images aren't fingerprinted: give a changed image a new filename rather
+# than overwriting one in place, or returning visitors keep the old copy
+# for up to 30 days.
+/assets/*
+  Cache-Control: public, max-age=2592000

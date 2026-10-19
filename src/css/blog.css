@@ -149,7 +149,7 @@
 .post-body .pull { max-width: 24ch; margin: 40px auto; font-family: var(--hand); font-size: clamp(28px, 3.6vw, 36px); line-height: 1.25; color: var(--pink); text-align: center; }
 
 .post-body figure { margin: 40px 0; display: flex; flex-direction: column; gap: 12px; }
-.post-body figure img { display: block; width: 100%; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); }
+.post-body figure img { display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); }
 .post-body figcaption { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--quiet); text-wrap: pretty; }
 
 .post-body hr { margin: 36px 0; border: 0; border-top: 1px solid var(--line); }

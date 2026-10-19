@@ -47,6 +47,11 @@ This will generate HTML files in the `dist/` directory (e.g., `content/privacy.m
 npm run build:watch
 ```
 
+5. **After adding or changing images in a blog post**, record their sizes so the build can set `width`/`height` on each `<img>` (the build warns about any it's missing):
+```bash
+npm run image-sizes
+```
+
 ### Examples
 
 Check out the example files in the `content/` folder:

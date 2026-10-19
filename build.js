@@ -4,6 +4,8 @@ const { marked } = require('marked');
 const matter = require('gray-matter');
 const chokidar = require('chokidar');
 const { execSync } = require('child_process');
+const crypto = require('crypto');
+const { getImageDimensions } = require('./scripts/image-dimensions');
 
 // Configuration
 const CONTENT_DIR = path.join(__dirname, 'content');
@@ -23,6 +25,68 @@ const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/brand/og-home.jpg`;
 // Ensure content directory exists
 if (!fs.existsSync(CONTENT_DIR)) {
     fs.mkdirSync(CONTENT_DIR, { recursive: true });
+}
+
+// ---------------------------------------------------------------------------
+// Image dimensions + asset cache-busting
+// ---------------------------------------------------------------------------
+
+// Remote (R2) blog image sizes, recorded by `npm run image-sizes` so the build
+// stays offline. Local /assets/ images are measured straight from disk.
+const REMOTE_IMAGE_SIZES_PATH = path.join(__dirname, 'content/blog/image-sizes.json');
+const remoteImageSizes = fs.existsSync(REMOTE_IMAGE_SIZES_PATH)
+    ? JSON.parse(fs.readFileSync(REMOTE_IMAGE_SIZES_PATH, 'utf-8'))
+    : {};
+const localImageSizes = new Map();
+
+function lookupImageSize(src) {
+    if (/^https?:\/\//.test(src)) {
+        return remoteImageSizes[src] || null;
+    }
+    if (!src.startsWith('/assets/')) return null;
+    if (!localImageSizes.has(src)) {
+        const filePath = path.join(__dirname, src);
+        localImageSizes.set(src, fs.existsSync(filePath) ? getImageDimensions(fs.readFileSync(filePath)) : null);
+    }
+    return localImageSizes.get(src);
+}
+
+// Gives every <img> that lacks them its intrinsic width/height, so the browser
+// reserves the right aspect ratio before the image loads (no layout shift).
+// CSS still decides the rendered size.
+function addImageDimensions(html) {
+    return html.replace(/<img\b[^>]*>/g, tag => {
+        if (/\swidth=/.test(tag)) return tag;
+        const src = (tag.match(/\ssrc="([^"]+)"/) || [])[1];
+        const size = src && lookupImageSize(src);
+        if (!size) {
+            if (src && /^https?:\/\//.test(src)) {
+                console.warn(`⚠️  No size recorded for ${src} — run \`npm run image-sizes\`.`);
+            }
+            return tag;
+        }
+        return tag.replace(/^<img\b/, `<img width="${size.width}" height="${size.height}"`);
+    });
+}
+
+// Appends ?v=<content hash> to /css/ and /js/ references so those files can
+// be cached for a year (see _headers) and still update the moment they change.
+const assetHashes = new Map();
+function assetVersion(urlPath) {
+    if (!assetHashes.has(urlPath)) {
+        const filePath = path.join(SRC_DIR, urlPath);
+        assetHashes.set(urlPath, fs.existsSync(filePath)
+            ? crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex').slice(0, 10)
+            : null);
+    }
+    return assetHashes.get(urlPath);
+}
+
+function versionAssetUrls(html) {
+    return html.replace(/(href|src)="(\/(?:css|js)\/[^"?#]+\.(?:css|js))"/g, (match, attr, urlPath) => {
+        const version = assetVersion(urlPath);
+        return version ? `${attr}="${urlPath}?v=${version}"` : match;
+    });
 }
 
 // Read the template file
@@ -78,7 +142,7 @@ function injectComponents(html, options = {}) {
         .replace(/\{\{EXTRA_HEAD\}\}/g, extraHead)
         .replace(/\{\{EXTRA_SCRIPTS\}\}/g, extraScripts);
 
-    return output;
+    return versionAssetUrls(addImageDimensions(output));
 }
 
 // Copy a file from source to destination
@@ -273,6 +337,12 @@ function copyStaticFiles() {
     // e.g. the content-type override the extensionless AASA file needs).
     // Irrelevant to GitHub Pages but harmless there.
     copyHeadersFile();
+
+    // Cloudflare Pages' _redirects file (short aliases like /privacy).
+    const redirectsSrcPath = path.join(__dirname, '_redirects');
+    if (fs.existsSync(redirectsSrcPath)) {
+        fs.copyFileSync(redirectsSrcPath, path.join(OUTPUT_DIR, '_redirects'));
+    }
 }
 
 // Copy Apple App Site Association + Android Asset Links files into
@@ -317,9 +387,13 @@ blogRenderer.image = (href, title, text) => {
     return `<figure><img src="${href}" alt="${text || ''}" loading="lazy">${caption}</figure>`;
 };
 
+// The first image sits right under the intro, usually in the first screen, so
+// it loads eagerly at high priority (it's typically the page's LCP element);
+// the rest stay lazy.
 function renderPostBody(markdownContent) {
-    const html = marked(markdownContent, { renderer: blogRenderer });
-    return html.replace(/<p><figure>([\s\S]*?)<\/figure><\/p>/g, '<figure>$1</figure>');
+    const html = marked(markdownContent, { renderer: blogRenderer })
+        .replace(/<p><figure>([\s\S]*?)<\/figure><\/p>/g, '<figure>$1</figure>');
+    return html.replace(/(<figure><img [^>]*?)loading="lazy"/, '$1fetchpriority="high"');
 }
 
 // Strip tags/entities down to plain words for a word-count-based read time.

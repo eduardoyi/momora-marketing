@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects.
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Short aliases people type or link to, pointed at the real policy pages.
+
+/privacy          /privacy-policy/     301
+/privacy/         /privacy-policy/     301
+/terms            /terms-of-service/   301
+/terms/           /terms-of-service/   301
+/tos              /terms-of-service/   301

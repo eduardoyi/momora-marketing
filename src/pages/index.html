@@ -44,6 +44,12 @@
             "applicationCategory": "LifestyleApplication",
             "image": "https://usemomora.com/assets/images/brand/og-home.jpg",
             "publisher": { "@id": "https://usemomora.com/#organization" },
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free to download. Momora Plus is $99.99 per year or $12.99 per month in the U.S."
+            },
             "sameAs": [
                 "https://apps.apple.com/us/app/usemomora/id6745403572",
                 "https://play.google.com/store/apps/details?id=com.memora.app"
@@ -97,7 +103,7 @@
             <div class="book">
                 <div class="book-page book-page--left">
                     <figure class="bk bk-photo" style="--r:-5deg; --d:.15s">
-                        <img src="/assets/images/home/photo-maya-swing.webp" alt="Maya on a swing at sunset" width="900" height="600">
+                        <img src="/assets/images/home/photo-maya-swing.webp" alt="Maya on a swing at sunset" width="900" height="600" fetchpriority="high">
                         <figcaption class="h-hand">first time on the big swing</figcaption>
                     </figure>
                     <div class="bk bk-note" style="--r:3deg; --d:.55s">
@@ -182,16 +188,16 @@
                         <div class="tl-list">
                             <article class="mcard ph-new">
                                 <div class="carousel"><div class="carousel-track">
-                                    <img src="/assets/images/home/photo-bubbles.webp" alt="">
-                                    <img src="/assets/images/home/photo-theo-boat.webp" alt="">
-                                    <img src="/assets/images/home/photo-maya-pool.webp" alt="">
+                                    <img decoding="async" src="/assets/images/home/photo-bubbles.webp" alt="Two kids chasing bubbles on the deck at sunset, saved as a photo memory in Momora">
+                                    <img decoding="async" src="/assets/images/home/photo-theo-boat.webp" alt="Theo rowing a cardboard-box boat with a wooden spoon">
+                                    <img decoding="async" src="/assets/images/home/photo-maya-pool.webp" alt="Maya pouring a watering can over her head in a paddling pool">
                                 </div><span class="carousel-count">3 photos</span></div>
                                 <div class="dots"><i></i><i></i><i></i></div>
                                 <p class="mtext">Bubbles on the deck until it got dark. Nobody wanted to go in.</p>
                                 <div class="meta"><span class="date">JUL 5</span><span class="chip chip--joy">joy</span></div>
                             </article>
                             <article class="mcard">
-                                <div class="video"><img src="/assets/images/home/photo-ari-clapping.webp" alt=""><span class="video-play"><span class="seal-play"></span></span><span class="video-bar"><i></i></span><span class="video-dur">0:12</span></div>
+                                <div class="video"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-clapping.webp" alt="Baby Ari clapping, saved as a video memory"><span class="video-play"><span class="seal-play"></span></span><span class="video-bar"><i></i></span><span class="video-dur">0:12</span></div>
                                 <p class="mtext">Ari worked out clapping and has not stopped since.</p>
                                 <div class="meta"><span class="date">JUL 2</span><span class="chip chip--joy">joy</span></div>
                             </article>
@@ -200,15 +206,15 @@
                     <div class="picker">
                         <div class="picker-head"><span>Recents</span><span class="picker-add">Add 3</span></div>
                         <div class="picker-grid">
-                            <span class="pk pk--on" style="--i:0"><img src="/assets/images/home/photo-bubbles.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
-                            <span class="pk"><img src="/assets/images/home/photo-teeth.webp" alt=""></span>
-                            <span class="pk pk--on" style="--i:1"><img src="/assets/images/home/photo-theo-boat.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
-                            <span class="pk"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
-                            <span class="pk"><img src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
-                            <span class="pk pk--on" style="--i:2"><img src="/assets/images/home/photo-maya-pool.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
-                            <span class="pk"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></span>
-                            <span class="pk"><img src="/assets/images/home/photo-breakfast.webp" alt=""></span>
-                            <span class="pk"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
+                            <span class="pk pk--on" style="--i:0"><img loading="lazy" decoding="async" src="/assets/images/home/photo-bubbles.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-teeth.webp" alt=""></span>
+                            <span class="pk pk--on" style="--i:1"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-boat.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
+                            <span class="pk pk--on" style="--i:2"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-pool.webp" alt=""><i><svg><use href="#i-check"/></svg></i></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-picnic.webp" alt="Maya eating strawberries at a summer picnic, shared with grandparents in the family journal"></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-breakfast.webp" alt=""></span>
+                            <span class="pk"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
                         </div>
                     </div>
                     <div class="tabbar"><span class="tab tab--on"><svg><use href="#t-timeline"/></svg>Timeline</span><span class="tab"><svg><use href="#t-keepsakes"/></svg></span><span class="tab"><svg><use href="#t-family"/></svg></span><span class="tab"><svg><use href="#t-settings"/></svg></span></div>
@@ -225,37 +231,37 @@
             </div>
             <div class="rescue-visual anim anim-roll" aria-hidden="true">
                 <div class="roll">
-                    <span class="rt"><img src="/assets/images/home/photo-teeth.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-teeth.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b><b></b></span>
-                    <span class="rt rt--keep" style="--k:0"><img src="/assets/images/home/photo-bubbles.webp" alt=""></span>
-                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-bubbles.webp" alt=""></span>
-                    <span class="rt"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:0"><img loading="lazy" decoding="async" src="/assets/images/home/photo-bubbles.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img loading="lazy" decoding="async" src="/assets/images/home/photo-bubbles.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b></span>
-                    <span class="rt"><img src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
-                    <span class="rt rt--keep" style="--k:1"><img src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
-                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
-                    <span class="rt"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></span>
-                    <span class="rt rt--keep" style="--k:2"><img src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-floor.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:1"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-boat.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-picnic.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:2"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b><b></b></span>
-                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
-                    <span class="rt"><img src="/assets/images/home/photo-breakfast.webp" alt=""></span>
-                    <span class="rt rt--keep" style="--k:3"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-pool.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-breakfast.webp" alt=""></span>
+                    <span class="rt rt--keep" style="--k:3"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b></span>
-                    <span class="rt"><img src="/assets/images/home/photo-ari-reaching.webp" alt=""></span>
-                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
-                    <span class="rt"><img src="/assets/images/home/photo-maya-talking.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-reaching.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-puddle.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-talking.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b><b></b></span>
-                    <span class="rt"><img src="/assets/images/home/photo-ari-highchair.webp" alt=""></span>
-                    <span class="rt rt--dupe"><img src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
-                    <span class="rt"><img src="/assets/images/home/photo-maya-drawing.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-highchair.webp" alt=""></span>
+                    <span class="rt rt--dupe"><img loading="lazy" decoding="async" src="/assets/images/home/photo-ari-sleeping.webp" alt=""></span>
+                    <span class="rt"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-drawing.webp" alt=""></span>
                     <span class="rt rt--junk"><b></b><b></b></span>
                     <span class="roll-scan"></span>
                 </div>
                 <div class="daycard">
                     <div class="daycard-pics">
-                        <img src="/assets/images/home/photo-bubbles.webp" alt="">
-                        <img src="/assets/images/home/photo-theo-boat.webp" alt="">
-                        <img src="/assets/images/home/photo-maya-pool.webp" alt="">
+                        <img loading="lazy" decoding="async" src="/assets/images/home/photo-bubbles.webp" alt="">
+                        <img loading="lazy" decoding="async" src="/assets/images/home/photo-theo-boat.webp" alt="">
+                        <img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-pool.webp" alt="">
                     </div>
                     <p class="daycard-title">Sunday, July 5</p>
                     <p class="daycard-meta">8 photos chosen from 23 that day</p>
@@ -284,7 +290,7 @@
                                 <p class="cmp-text"><span style="--w:0">At</span> <span style="--w:1">bath</span> <span style="--w:2">time</span> <span style="--w:3">she</span> <span style="--w:4">called</span> <span style="--w:5">the</span> <span style="--w:6">shampoo</span> <span style="--w:7">“hair</span> <span style="--w:8">sauce”</span> <span style="--w:9">and</span> <span style="--w:10">refused</span> <span style="--w:11">to</span> <span style="--w:12">hear</span> <span style="--w:13">otherwise.</span></p>
                             </div>
                             <div class="cmp-tags">
-                                <span class="kid"><img src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span>
+                                <span class="kid"><img loading="lazy" decoding="async" src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span>
                             </div>
                             <div class="cmp-bar">
                                 <span class="mic-live"><svg><use href="#i-mic"/></svg></span>
@@ -296,7 +302,7 @@
                             <div class="tl-head"><span class="tl-kicker">Tuesday, July 14</span><span class="tl-title">Your moments.</span></div>
                             <article class="qcard qcard--new">
                                 <p>At bath time she called the shampoo “hair sauce” and refused to hear otherwise.</p>
-                                <div class="meta"><span class="date">TODAY</span><span class="kid kid--sm"><img src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span><span class="chip chip--funny">funny</span></div>
+                                <div class="meta"><span class="date">TODAY</span><span class="kid kid--sm"><img loading="lazy" decoding="async" src="/assets/images/home/portrait-maya-5.webp" alt="">Maya</span><span class="chip chip--funny">funny</span></div>
                             </article>
                             <article class="qcard qcard--wonder">
                                 <p>Theo asked if the moon follows our car home. I said obviously.</p>
@@ -367,7 +373,7 @@
                             <span class="scan-shutter"></span>
                         </div>
                         <div class="scan-stage">
-                            <div class="scan-paper"><img src="/assets/images/home/art-house.webp" alt=""><i class="c c1"></i><i class="c c2"></i><i class="c c3"></i><i class="c c4"></i></div>
+                            <div class="scan-paper"><img loading="lazy" decoding="async" src="/assets/images/home/art-house.webp" alt="Child's crayon drawing of a house being scanned into the Momora app"><i class="c c1"></i><i class="c c2"></i><i class="c c3"></i><i class="c c4"></i></div>
                             <div class="scan-framed"><div class="frame" data-frame="gingham" data-color="#4A8FD6" data-ratio="1.5" data-nail data-src="/assets/images/home/art-house.webp" data-alt=""></div></div>
                             <div class="scan-placard"><span class="placard-title">“Our house”</span><span class="placard-by">Maya, 4 years · crayon</span></div>
                         </div>
@@ -443,7 +449,7 @@
                 <div class="phone-island"></div>
                 <div class="screen">
                     <div class="sb"><span>9:41</span><span class="sb-bat"></span></div>
-                    <div class="detail-img"><img src="/assets/images/home/photo-maya-picnic.webp" alt=""></div>
+                    <div class="detail-img"><img loading="lazy" decoding="async" src="/assets/images/home/photo-maya-picnic.webp" alt=""></div>
                     <div class="detail-body">
                         <p class="detail-text">First picnic of the summer. Maya ate every strawberry before the sandwiches came out.</p>
                         <div class="meta"><span class="pill pill--mine"><span>🥹</span><span>❤️</span><span>😂</span><b class="react-count"></b></span><span class="detail-comments"><svg><use href="#i-comment"/></svg>2</span></div>
@@ -480,7 +486,7 @@
             </figure>
             <figure class="keep keep--film">
                 <div class="film-card">
-                    <div class="film-still"><img src="/assets/images/home/photo-maya-swing.webp" alt="" loading="lazy"><span class="film-play"><span class="seal-play"></span></span><span class="film-len">1:12</span></div>
+                    <div class="film-still"><img src="/assets/images/home/photo-maya-swing.webp" alt="Still from a monthly highlight film of Maya on a swing" loading="lazy"><span class="film-play"><span class="seal-play"></span></span><span class="film-len">1:12</span></div>
                     <p class="h-hand film-label">Maya's year five</p>
                 </div>
                 <figcaption><h3>A film of every month, and of the whole year</h3><p>Their photos, clips and voices cut into a short film, there for you on the first of the month.</p></figcaption>
@@ -506,8 +512,8 @@
         <p class="h-sub">The weird thing she said at dinner is enough. You don't have to become a person who journals.</p>
         <div class="h-get h-get--center">
             <div class="h-badges">
-                <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50"></a>
-                <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-google-play.png" alt="Get it on Google Play" width="168" height="50"></a>
+                <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50"></a>
+                <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="/assets/images/brand/badge-google-play.png" alt="Get it on Google Play" width="168" height="50"></a>
             </div>
             <div class="h-qr">
                 <img src="/assets/images/brand/get-app-qr.svg" alt="" width="76" height="76" loading="lazy">
