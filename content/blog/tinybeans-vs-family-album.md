@@ -12,13 +12,15 @@ dek: >-
   Tinybeans vs FamilyAlbum compared on sharing, memories, privacy, storage, and
   pricing, with Momora included as a third option.
 date: '2026-10-19'
-author: Momora Team
-authorRole: Momora
+author: Adriana Maronese
+authorRole: 'Co-founder, Momora'
 authorBio: >-
-  We build Momora, a private family memory app for saving photos, stories,
-  voices, and artwork.
+  Co-founder of Momora, mother of two. One blank baby book, thousands of
+  unsorted photos. Writes about remembering the ordinary parts.
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/6ec74305-8919-4a86-be3c-4529bedeccdf/7890db74-a339-40ba-8459-138f3922ad03/final-1792103789308.webp
+authorRoleFull: 'Co-founder, Momora · mother of two'
+authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
 ![Hands hold a child’s photo on a phone, with three drawn paths leading to family portraits, an album, and a pocket of snapshots.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/6ec74305-8919-4a86-be3c-4529bedeccdf/7890db74-a339-40ba-8459-138f3922ad03/final-1792103789308.webp)

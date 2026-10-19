@@ -12,13 +12,15 @@ dek: >-
   FamilyAlbum app review covering free and paid features, privacy, usability,
   pros, cons, downloads, and who should choose it.
 date: '2026-10-19'
-author: Momora Team
-authorRole: Momora
+author: Adriana Maronese
+authorRole: 'Co-founder, Momora'
 authorBio: >-
-  We build Momora, a private family memory app for saving photos, stories,
-  voices, and artwork.
+  Co-founder of Momora, mother of two. One blank baby book, thousands of
+  unsorted photos. Writes about remembering the ordinary parts.
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/8a94ea08-6c83-48ec-afe9-6c910273d82c/70bf9242-83bc-44d8-ae30-08e467a4c141/final-1792103777918.webp
+authorRoleFull: 'Co-founder, Momora · mother of two'
+authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
 ![A parent and older relative look at family photos on a phone beside printed photos and an open photo box.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/8a94ea08-6c83-48ec-afe9-6c910273d82c/70bf9242-83bc-44d8-ae30-08e467a4c141/final-1792103777918.webp)

@@ -12,13 +12,15 @@ dek: >-
   Chatbooks review covering pricing, print-book tradeoffs, shipping, and how
   Momora compares for preserving private digital family memories.
 date: '2026-10-19'
-author: Momora Team
-authorRole: Momora
+author: Adriana Maronese
+authorRole: 'Co-founder, Momora'
 authorBio: >-
-  We build Momora, a private family memory app for saving photos, stories,
-  voices, and artwork.
+  Co-founder of Momora, mother of two. One blank baby book, thousands of
+  unsorted photos. Writes about remembering the ordinary parts.
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/6af4ca49-ca2c-43f3-84ae-b8c0245e6970/final-1792103837330.webp
+authorRoleFull: 'Co-founder, Momora · mother of two'
+authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
 ![An open printed family photo book beside a smartphone photo grid, surrounded by colorful hand-drawn hearts and doodles.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/6af4ca49-ca2c-43f3-84ae-b8c0245e6970/final-1792103837330.webp)

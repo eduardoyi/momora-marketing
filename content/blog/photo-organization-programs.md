@@ -13,13 +13,15 @@ dek: >-
   Photo organization programs compared by devices, library size, privacy,
   budget, search, editing, cleanup, backup, and family sharing.
 date: '2026-10-19'
-author: Momora Team
-authorRole: Momora
+author: Adriana Maronese
+authorRole: 'Co-founder, Momora'
 authorBio: >-
-  We build Momora, a private family memory app for saving photos, stories,
-  voices, and artwork.
+  Co-founder of Momora, mother of two. One blank baby book, thousands of
+  unsorted photos. Writes about remembering the ordinary parts.
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/75aabe54-9ebf-4dc0-8507-ceb5651bf256/3e7a4119-4c92-4037-873a-ba3afb7ebbdb/final-1792102801509.webp
+authorRoleFull: 'Co-founder, Momora · mother of two'
+authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
 ![A laptop and two phones show family photo grids beside loose prints and a child drawing at a table.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/75aabe54-9ebf-4dc0-8507-ceb5651bf256/3e7a4119-4c92-4037-873a-ba3afb7ebbdb/final-1792102801509.webp)
