@@ -153,9 +153,9 @@
 .post-body figcaption { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--quiet); text-wrap: pretty; }
 
 .post-body hr { margin: 36px 0; border: 0; border-top: 1px solid var(--line); }
-.post-body table { width: 100%; margin: 0 0 26px; border-collapse: collapse; font-size: 16.5px; }
-.post-body th { padding: 0 16px 12px 0; border-bottom: 1px solid #e2deee; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--pink); text-align: left; }
-.post-body td { padding: 14px 16px 14px 0; border-bottom: 1px solid var(--line); line-height: 1.55; text-align: left; }
+.post-body table { display: block; width: 100%; max-width: 100%; overflow-x: auto; margin: 0 0 26px; border-collapse: collapse; font-size: 16.5px; }
+.post-body th { min-width: 120px; padding: 0 16px 12px 0; border-bottom: 1px solid #e2deee; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--pink); text-align: left; }
+.post-body td { padding: 14px 16px 14px 0; border-bottom: 1px solid var(--line); line-height: 1.55; text-align: left; vertical-align: top; }
 .post-body code { padding: 2px 6px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); font-family: var(--mono); font-size: .86em; color: var(--muted); }
 .post-body pre { overflow-x: auto; padding: 20px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); }
 .post-body pre code { padding: 0; border: 0; background: none; }
