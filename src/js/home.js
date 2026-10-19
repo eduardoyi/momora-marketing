@@ -287,6 +287,43 @@
         ]);
     }
 
+    if (q('.anim-curate')) {
+        storyboard(q('.anim-curate'), 9500, [
+            [600, 's1'],    // the best moments get picked
+            [2400, 's2'],   // the rest step back
+            [3200, 's3']    // and land on a spread
+        ]);
+    }
+
+    // ── Holiday card: flips to show the letter on the back ────────────────
+    document.querySelectorAll('.xcard-col').forEach(function (col) {
+        var card = col.querySelector('.xcard');
+        var button = col.querySelector('.xcard-flip');
+        var auto = null;
+        var setFlipped = function (on) {
+            card.classList.toggle('is-flipped', on);
+            if (button) { button.textContent = on ? 'See the front' : 'See the back'; }
+        };
+        if (button) {
+            button.addEventListener('click', function () {
+                clearInterval(auto);
+                auto = null;
+                setFlipped(!card.classList.contains('is-flipped'));
+            });
+        }
+        if (!reduceMotion && 'IntersectionObserver' in window) {
+            new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting && auto === null && !col.dataset.touched) {
+                        auto = setInterval(function () { setFlipped(!card.classList.contains('is-flipped')); }, 4200);
+                    }
+                    if (!entry.isIntersecting && auto) { clearInterval(auto); auto = null; }
+                });
+            }, { threshold: 0.5 }).observe(col);
+            if (button) { button.addEventListener('click', function () { col.dataset.touched = '1'; }); }
+        }
+    });
+
     // ── Gallery wall: settle once in view, swing when touched ─────────────
     var swing = function (el) {
         if (reduceMotion) { return; }

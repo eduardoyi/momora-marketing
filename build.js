@@ -514,9 +514,10 @@ function gitLastModified(...files) {
 
 // Every indexable page. /get/ and /invite/ are noindex utility pages and
 // stay out on purpose.
-function buildSitemap(posts) {
+function buildSitemap(posts, featurePages = []) {
     const pages = [
         { loc: '/', lastmod: gitLastModified('src/pages/index.html') },
+        ...featurePages,
         { loc: '/faq/', lastmod: gitLastModified('src/pages/faq.html') },
         { loc: '/delete-account/', lastmod: gitLastModified('src/pages/delete-account.html') }
     ];
@@ -927,6 +928,133 @@ function convertMarkdownToHTML(filePath) {
     }
 }
 
+// ---------------------------------------------------------------------------
+// Feature pages (src/features/*.html -> /<slug>/)
+// ---------------------------------------------------------------------------
+
+// Each feature page is one file: YAML front matter (title, description, FAQ,
+// related pages, closing call to action) + the page's own <section>s. The
+// shared template adds the header, icon sprite, breadcrumb, FAQ (+ FAQPage
+// schema), related links, download badges and footer.
+const FEATURES_DIR = path.join(SRC_DIR, 'features');
+const FEATURE_TEMPLATE_PATH = path.join(__dirname, 'src/templates/feature-template.html');
+
+const STORE_BADGES = `<div class="h-get h-get--center">
+            <div class="h-badges">
+                <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50" loading="lazy"></a>
+                <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.memora.app" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-google-play.png" alt="Get it on Google Play" width="168" height="50" loading="lazy"></a>
+            </div>
+            <div class="h-qr">
+                <img src="/assets/images/brand/get-app-qr.svg" alt="" width="76" height="76" loading="lazy">
+                <p>Or scan to get it on your phone.</p>
+            </div>
+        </div>`;
+
+function readFeaturePages() {
+    if (!fs.existsSync(FEATURES_DIR)) return [];
+    return fs.readdirSync(FEATURES_DIR)
+        .filter(f => f.endsWith('.html'))
+        .map(file => {
+            const { data, content } = matter(fs.readFileSync(path.join(FEATURES_DIR, file), 'utf-8'));
+            return { file, slug: data.slug || path.basename(file, '.html'), data, content };
+        });
+}
+
+function renderFeatureFaq(faq) {
+    if (!faq || faq.length === 0) return { html: '', schema: null };
+    const items = faq.map(({ q, a }) => `            <details class="fp-faq-item">
+                <summary>${escapeHtml(q)}</summary>
+                <div class="fp-faq-answer">${marked.parse(a)}</div>
+            </details>`).join('\n');
+    const html = `    <section class="h-section fp-faq" id="faq">
+        <h2 class="h-h2">Questions parents ask</h2>
+        <div class="fp-faq-list">
+${items}
+        </div>
+    </section>`;
+    const toText = md => marked.parse(md).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/\s+([.,;:!?)])/g, '$1').trim();
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: toText(a) } }))
+    };
+    return { html, schema };
+}
+
+function renderFeatureRelated(page, bySlug) {
+    const slugs = (page.data.related || []).filter(s => bySlug.has(s));
+    if (slugs.length === 0) return '';
+    const cards = slugs.map(s => {
+        const r = bySlug.get(s).data;
+        return `            <a class="fp-related-card" href="/${s}/">
+                <span class="fp-related-name">${escapeHtml(r.navLabel || r.title)}</span>
+                <span class="fp-related-desc">${escapeHtml(r.blurb || '')}</span>
+                <svg class="fp-related-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>`;
+    }).join('\n');
+    return `    <section class="h-section fp-related">
+        <h2 class="fp-related-title">${escapeHtml(page.data.relatedTitle || 'More you can do with Momora')}</h2>
+        <div class="fp-related-grid">
+${cards}
+        </div>
+    </section>`;
+}
+
+function buildFeaturePages() {
+    const pages = readFeaturePages();
+    if (pages.length === 0) return [];
+    const template = readTemplateFile(FEATURE_TEMPLATE_PATH);
+    const icons = getComponent('icons');
+    const bySlug = new Map(pages.map(p => [p.slug, p]));
+
+    pages.forEach(page => {
+        const { slug, data, content } = page;
+        const urlPath = `/${slug}/`;
+        const faq = renderFeatureFaq(data.faq);
+        const parent = data.parent && bySlug.get(data.parent);
+        const crumbs = [{ name: 'Home', path: '/' }];
+        if (parent) crumbs.push({ name: parent.data.navLabel, path: `/${parent.slug}/` });
+        crumbs.push({ name: data.navLabel, path: urlPath });
+        const breadcrumbHtml = `    <nav class="fp-crumbs" aria-label="Breadcrumb">${crumbs.map((c, i) =>
+            i === crumbs.length - 1 ? `<span aria-current="page">${escapeHtml(c.name)}</span>` : `<a href="${c.path}">${escapeHtml(c.name)}</a>`
+        ).join('<span aria-hidden="true">/</span>')}</nav>`;
+        const breadcrumbSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE_URL}${c.path}` }))
+        };
+        const image = data.ogImage ? `${SITE_URL}${data.ogImage}` : DEFAULT_OG_IMAGE;
+        const extraHead = buildSocialHead({ urlPath, title: data.title, description: data.description, image }) +
+            '\n' + jsonLdScript(breadcrumbSchema) + (faq.schema ? '\n' + jsonLdScript(faq.schema) : '');
+        const final = data.final || {};
+
+        let html = fillPlaceholders(template, {
+            ICONS: icons,
+            BREADCRUMB: breadcrumbHtml,
+            CONTENT: content.trim(),
+            FAQ: faq.html,
+            RELATED: renderFeatureRelated(page, bySlug),
+            FINAL_NOTE: escapeHtml(final.note || 'no catching up required'),
+            FINAL_TITLE: escapeHtml(final.title || 'Start with tonight.'),
+            FINAL_SUB: escapeHtml(final.sub || 'Download Momora, add one thing that happened today, and let it build from there.'),
+            BADGES: STORE_BADGES,
+            HERO_BADGES: STORE_BADGES.replace(' h-get--center', '')
+        });
+        html = injectComponents(html, {
+            title: escapeHtml(data.title),
+            description: escapeHtml(data.description),
+            extraCss: '<link rel="stylesheet" href="/css/home.css">\n<link rel="stylesheet" href="/css/feature.css">',
+            extraHead
+        });
+        const dir = path.join(OUTPUT_DIR, slug);
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(path.join(dir, 'index.html'), html);
+        console.log(`✅ Generated: ${slug}/index.html`);
+    });
+
+    return pages.map(p => ({ loc: `/${p.slug}/`, lastmod: gitLastModified(path.join('src/features', p.file)) }));
+}
+
 // Process all markdown files in the content directory
 function buildAll() {
     console.log('🔨 Building site...\n');
@@ -938,8 +1066,9 @@ function buildAll() {
 
     // Blog (content/blog/*.md -> /blog/ archive + /blog/<slug>/ posts)
     const posts = buildBlogContent();
+    const featurePages = buildFeaturePages();
 
-    buildSitemap(posts);
+    buildSitemap(posts, featurePages);
     buildRobots();
 
     if (!fs.existsSync(CONTENT_DIR)) {
