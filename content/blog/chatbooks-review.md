@@ -1,16 +1,17 @@
 ---
-title: 'Chatbooks Review: Pricing, Print Quality, and How Momora Compares'
+title: 'Chatbooks Review: Real Costs, Print Quality, and How It Compares to Momora'
 description: >-
-  Chatbooks review covering pricing, print-book tradeoffs, shipping, and how
-  Momora compares for preserving private digital family memories.
+  A Chatbooks review covering 2026 subscription prices, shipping, cancellation
+  catches, and how it compares to Momora's private digital family journal.
 slug: chatbooks-review
 excerpt: >-
-  See what Chatbooks subscriptions cost, what the service does well, and where
-  it falls short. Compare its printed photo books with Momora’s private digital
-  approach to photos, stories, quotes, and voice memories.
+  Is Chatbooks worth it? We break down 2026 pricing for Monthly Minis,
+  Monthbooks, and Classic books, what changes the checkout total, where
+  Chatbooks shines or falls short, and how it compares to Momora, a private
+  digital family-memory journal, so you can pick one or both.
 dek: >-
-  Chatbooks review covering pricing, print-book tradeoffs, shipping, and how
-  Momora compares for preserving private digital family memories.
+  A Chatbooks review covering 2026 subscription prices, shipping, cancellation
+  catches, and how it compares to Momora's private digital family journal.
 date: '2026-10-19'
 author: Adriana Maronese
 authorRole: 'Co-founder, Momora'
@@ -18,113 +19,144 @@ authorBio: >-
   Co-founder of Momora, mother of two. One blank baby book, thousands of
   unsorted photos. Writes about remembering the ordinary parts.
 image: >-
-  https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/6af4ca49-ca2c-43f3-84ae-b8c0245e6970/final-1792103837330.webp
+  https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/dbc8a6da-6f81-44ab-b8ed-a9eaad3b8d80/final-1792487392604.webp
 authorRoleFull: 'Co-founder, Momora · mother of two'
 authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
-![An open printed family photo book beside a smartphone photo grid, surrounded by colorful hand-drawn hearts and doodles.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/6af4ca49-ca2c-43f3-84ae-b8c0245e6970/final-1792103837330.webp)
+![A parent and toddler look at a small photo book while the parent holds a phone showing the child.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/dbc8a6da-6f81-44ab-b8ed-a9eaad3b8d80/final-1792487392604.webp)
 
-## Chatbooks is worth it when the goal is a finished book
+## Is Chatbooks worth it? The quick answer
 
-You have 1,200 photos on your phone, monthly baby pictures scattered through the camera roll, a vacation album you keep meaning to make, and several quotes or voice notes you would hate to lose. The baby book is half-finished. Your free time is mostly theoretical.
+"I have 1,200 photos on my phone, a baby book that stops at month three, and a beach trip I swore I'd turn into an album."
 
-Chatbooks can be good value if you want an easy route from phone photos to a physical book. Its recurring plans reduce the work of selecting and arranging photos. For example, as of October 2026, [Monthly Minis](https://chatbooks.com/products/monthly-minis) cost $10 per month with free shipping, or $100 annually with two free books. Each is a 5×5-inch softcover with 30 to 60 pages.
+Sound familiar? Add a few voice notes of your toddler saying "pasketti" and you have the running example for this review.
 
-The value depends on the book format, upgrades, shipping outside included offers, how much design control you want, and how often you order. A convenient subscription can become less appealing if you prefer occasional large albums or detailed page layouts. Check Chatbooks' site for current pricing before ordering.
+Chatbooks can be worth the money if your goal is a printed book with very little effort. It's built to turn camera-roll photos into books in minutes, and its recurring plans can fill books from your phone [automatically or semi-automatically](https://chatbooks.com/products/monthly-minis). Monthly Minis, for example, are 5x5-inch softcover books of 30 to 60 pages. As of October 2026, they cost $10 a month with free shipping, or $100 a year with two free books included.
 
-![A phone displaying 1,200 photos beside two baby photo books and a second phone with saved audio recordings.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/ca5c2949-40b3-4dc5-854b-f0bfb04b48e0/final-1792103811778.webp)
+Whether that's good value depends on a few things: which format you pick, upgrades, extra pages, shipping on non-subscription orders, how much layout control you want, and how often you'll order. A $10 monthly book feels cheap in March. Twelve of them is a line item.
 
-Momora addresses a different part of this problem. We make Momora. It is primarily a [private digital baby book and family-memory app](https://usemomora.com/), with access limited to invited relatives. It can organize photos, stories, quotes, and voice memories over time. Chatbooks gives you printed photo products; Momora keeps an ongoing digital family record. Your choice depends on whether you want a book in your hands, a place to capture the context around family life, or both.
+![A parent scrolls baby photos beside an open baby book, with drawn labels about a monthly book subscription.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/1c5ecfd7-8194-49f9-931e-6d1b9f80eeef/final-1792487344605.webp)
 
-## Subscription prices are clear, while custom books need a cart check
+These two products aren't direct substitutes. We make Momora. It's a [private digital family-memory journal](https://usemomora.com/) for iPhone and Android, with a shared timeline that only invited family can see. It also holds things a photo book can't, like recorded voice memories.
 
-Chatbooks publishes fixed subscription prices, but the cost of a one-off vacation book or family yearbook depends on choices that were not fully priced on its public pages.
+So the choice in this review comes down to two different jobs. Chatbooks prints your photos. Momora keeps an ongoing private record that includes the quotes and voices around those photos. Some families will want one, and some will want both.
 
-| Plan | Book format | Price as of October 2026 |
-| --- | --- | --- |
-| [Monthly Minis](https://chatbooks.com/products/monthly-minis) | 5×5 softcover, 30–60 pages | $10 per book or $100 annually |
-| [Monthbooks](https://chatbooks.com/products/monthbooks?uid=monthbooks) | 5×7 or 6×6 softcover, 30–60 pages | $15 per book or $150 annually |
-| Monthbooks | 5×7 or 6×6 hardcover, 30–60 pages | $24 per book or $240 annually |
-| Monthbooks | 8×8 hardcover, 30–60 pages | $34 per book or $340 annually |
+## What Chatbooks costs in 2026, and what changes the total
 
-Each annual price covers 12 books for the cost of 10. That makes a year of Monthly Minis $100, compared with $120 when purchased monthly. Twelve 5×7 or 6×6 hardcover Monthbooks cost $240 annually, compared with $288 individually.
+"Ten dollars a month sounds fine. What's the actual number?"
 
-Monthbooks can arrive four, six, or 12 times per year. Depending on that selection, [billing may occur monthly, every two months, quarterly, or annually](https://help.chatbooks.com/en/articles/7906070-how-does-billing-work-for-monthbook-chatbooks-subscriptions). Subscriptions renew until canceled, usually at the current plan price. You can pause for one billing cycle, after which billing resumes automatically.
+The subscription prices are clear. The table below lists Chatbooks' recurring plans as of October 2026. Each book has 30 to 60 pages, and annual billing includes [two free books](https://chatbooks.com/products/gift-a-subscription).
 
-Cancellation timing deserves attention if you have unused credits. [Regular subscription credits expire 30 days after cancellation](https://help.chatbooks.com/en/articles/8427706-if-i-cancel-my-subscription-can-i-still-use-my-credits), while credits tied to promotional offers expire immediately.
+| Plan (as of October 2026) | Size and cover | Per book | Annual (12 books) |
+| --- | --- | --- | --- |
+| Monthly Minis | 5x5 softcover | $10 | $100 |
+| Monthbooks | 5x7 or 6x6 softcover | $15 | $150 |
+| Monthbooks | 5x7 or 6x6 hardcover | $24 | $240 |
+| Monthbooks | 8x8 hardcover | $34 | $340 |
 
-Classic books start at 20 pages and can contain as many as 366, with pricing grouped into 20–60, 61–120, and 121–366-page ranges. Current base prices by size and cover, extra-page charges, cover upgrades, layflat upgrades, taxes, and quantity or membership discounts could not be confirmed consistently, so check Chatbooks' site for current pricing. That also prevents a reliable vacation-book or annual-yearbook estimate.
+The [Monthbooks prices](https://chatbooks.com/products/monthbooks?uid=monthbooks) and [Monthly Minis prices](https://chatbooks.com/products/monthly-minis) come from Chatbooks' product pages. Monthbooks can also arrive [four, six, or 12 times a year](https://help.chatbooks.com/en/articles/7906070-how-does-billing-work-for-monthbook-chatbooks-subscriptions), so you don't have to commit to a book every month.
 
-For US orders paid in dollars, [standard shipping is listed as free](https://help.chatbooks.com/en/articles/7862643-how-much-does-it-cost-to-ship-my-chatbooks-domestic-us). Premium shipping is $6, Express is $12, and Rush is $25 as of October 2026. Chatbooks recommends adding the finished product to your cart for the exact shipping total.
+Classic one-off books, the kind you'd make for the beach trip, start at 20 pages and can grow to 366. Chatbooks prices them [in page bands](https://chatbooks.com/pricing/unitedstates?deviceId=cec4e4d3-e452-42ad-9838-d74a0f704398) of 20 to 60, 61 to 120, and 121 to 366 pages. For Classic book, layflat, and cover upgrade prices, and for sales tax, check Chatbooks' site for current pricing.
 
-Coupons can lower the first order, including a current [20% new-customer code](https://chatbooks.com/chatbooks-code), but eligibility and exclusions vary. Treat introductory offers as temporary rather than part of the regular price.
+### What moves the checkout number
 
-The subscriptions are most affordable when you want books throughout the year and will use every credit. Occasional larger books require a cart-level comparison after page, cover, upgrade, tax, and delivery choices are set.
+Shipping is simple in the US. [Standard shipping is free](https://help.chatbooks.com/en/articles/7862643-how-much-does-it-cost-to-ship-my-chatbooks-domestic-us) on orders paid in USD. Faster options cost $6 for Premium, $12 for Express, and $25 for Rush, and every option still adds 3 to 5 business days of printing. If you forget a grandparent's birthday, the book can end up costing $25 more than you planned.
 
-## Chatbooks favors speed over detailed page design
+Treat discounts as temporary. A [20% first-order code](https://chatbooks.com/chatbooks-code) for new customers is listed now. Introductory offers start a subscription and [can't be combined](https://help.chatbooks.com/en/articles/10092258-chatbooks-promotional-offers) with other promotions. Subscriptions [renew automatically](https://chatbooks.com/terms-of-service) at the current price until you cancel. The old "12 Books for $12" deal is [no longer sold](https://help.chatbooks.com/en/articles/12593568-12-books-for-12-no-longer-available).
 
-### Strengths
+Cancellation has a catch. Regular subscription credits stay usable for 30 days after you cancel, but [promotional credits expire immediately](https://help.chatbooks.com/en/articles/8427706-if-i-cancel-my-subscription-can-i-still-use-my-credits). If you need a break, you can [pause for one billing cycle](https://help.chatbooks.com/en/articles/10771286-how-to-cancel-my-monthly-mini-or-monthbooks-subscription) instead.
 
-Chatbooks works best when you want phone photos on paper without designing every spread from scratch. Minis suit small, casual albums, while recurring Monthbooks can document everyday family life. Classic books fit vacations and family yearbooks. The 10×10-inch [Layflat Photo Book](https://chatbooks.com/products/layflat) is a hardcover designed to open fully flat, which suits panoramic photos and images that cross two pages.
+![A stack of small photo books and an open book sit beside a mug as a child reaches toward them.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/50a70050-1241-4f74-a045-33ec36bd06df/final-1792487359777.webp "A year of monthly books only pays off if they get opened, not just stacked beside the morning coffee.")
 
-The simplified approach lowers the initial setup burden. Some [App Store reviewers](https://apps.apple.com/us/app/chatbooks/id734887606?see-all=reviews&platform=iphone) report that selecting photos and ordering is quick, although experiences vary by device, project, and app version.
+### A year of toddler books
 
-Chatbooks publishes unusually specific construction details for Layflat books. It says they use 80-pound silk paper, printing up to 600 DPI, archival ink rated to resist fading for 200 years, PUR perfect binding, and a premium hardcover. Those are manufacturer specifications, rather than independent proof of color accuracy or long-term durability. They also should not be assumed for Classic books.
+Here's how that works for our running example. Twelve 6x6 softcover Monthbooks cost $180 billed monthly or $150 billed annually, with free standard shipping. Hardcovers would be $240 for the year.
 
-Post-purchase protection is strong on paper. The [Love It guarantee](https://help.chatbooks.com/en/articles/8063204-what-is-the-chatbooks-guarantee) covers concerns about printing, shipping, feel, smell, arrival condition, and damage. A toddler-damaged book can be replaced once within one year with a photo of the damage. The [return policy](https://chatbooks.com/return-policy) gives customers 30 days to report print, binding, or shipping problems, with free return shipping and no restocking fee.
+That's reasonable for a family that will look at a small book every month. It's less reasonable if the books stack up unopened by May. For a single vacation book, the right choice depends on the page band and any upgrades you add. If you only want one or two books a year, skip the subscription and price out Classic books.
 
-### Limitations
+## Chatbooks strengths and limits, from upload to delivery
 
-Convenience does not remove the editing job. With 1,200 photos, you still need to choose the keepers, check crops, remove near-duplicates, arrange the story, write any captions, and approve the book. A recurring series spreads that work across the year, but missed review sessions can turn several small books into one large catch-up task.
+"I have 1,200 photos from this year. How much of the work does Chatbooks do?"
 
-Some reviewers report frustration with cropping or editor control, while others like the limited choices because they can finish faster. Current official information does not clearly establish every layout, caption, reordering, image-resolution, or upload option across all formats. Check the editor for the exact controls your project needs before paying.
+Some of it. Chatbooks is built for parents who'd rather tap through photos than design pages. You pick from your phone, and a Monthbook or Monthly Mini fills in from there. You still decide what stays, which is why Chatbooks has help pages on [removing photos from a Monthbook](https://help.chatbooks.com/en/articles/10808124-how-do-i-exclude-remove-photos-from-my-monthbook-on-the-web) and [editing a Classic book](https://help.chatbooks.com/en/articles/8401495-how-do-i-edit-my-classic-chatbook).
 
-Chatbooks says it uses physical and electronic safeguards, while acknowledging that no storage or transmission method is completely secure. Its [privacy policy](https://chatbooks.com/privacy-policy) does not clearly specify photo encryption, exact media-retention periods, backup-deletion timing, or every processor involved. You may request deletion by emailing privacy@chatbooks.com from your account email, and identity verification may be required.
+For the 1,200-photo year, you still have to:
 
-A short family-photo safety check:
+- Pick roughly 30 to 60 photos for each monthly book
+- Skip the blurry ones and the 14 near-identical bath shots
+- Write any captions you want kept
+- Approve each book before it prints
 
-- Use a unique password.
-- Review book-sharing settings and recipients.
-- Confirm the deletion process before uploading sensitive images.
-- Keep addresses, school names, medical details, and travel dates out of captions you plan to share.
+That's maybe 15 minutes a month. Easy to do. Also easy to skip in March. If sorting the camera roll is the bigger job, start with our [photo organization guide](https://usemomora.com/blog/photo-organization-programs/).
 
-## Choose based on whether you want a book or a living family record
+### What it does well
 
-We make Momora. It is primarily a private digital baby book and family-memory app, while Chatbooks centers on turning photos into printed books. The comparison below reflects each product’s focus as of October 2026.
+The formats match real family uses. Minis and Monthbooks keep a running record. A Classic book fits one vacation. The [Layflat Photo Book](https://chatbooks.com/products/layflat) is a 10x10-inch hardcover that opens fully flat, good for a family yearbook.
+
+Chatbooks lists the Layflat with 80# silk paper, archival ink rated to resist fading for 200 years, printing up to 600 DPI, and PUR perfect binding, made in the USA. Classic books use the same binding. Those specs cover the materials. How your phone photos look on the page depends on the photos.
+
+Under the [Love It guarantee](https://help.chatbooks.com/en/articles/8063204-what-is-the-chatbooks-guarantee), Chatbooks will make it right if a book prints, ships, feels, smells, or arrives wrong. Toddler damage gets one replacement per book within a year, with a photo of the damage. The [return policy](https://chatbooks.com/return-policy) covers free return shipping, no restocking fee, and refunds within 10 business days after Chatbooks receives the book. Report print, binding, or shipping problems within 30 days.
+
+### Where it falls short
+
+Chatbooks trades design control for speed. If you want detailed layouts, it will feel limited. A recurring series also only works if you keep up with it.
+
+Privacy is reasonable, with limits. Chatbooks [uses physical and electronic safeguards](https://chatbooks.com/privacy-policy?deviceId=4090e103-25b2-4458-a674-27c7c153cf74) and says no method is completely secure. It deletes or de-identifies data once it's no longer needed, unless the law requires keeping it, but gives no specific retention period for uploaded photos. To request deletion, email privacy@chatbooks.com from your account address and expect an identity check.
+
+A quick safety checklist:
+
+- Use a unique password
+- Check who can see a book before you share it
+- Leave school names, addresses, and full birthdates out of captions
+
+![A parent taps an Approve button on a phone displaying a photo-book preview.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/5ebebb47-f243-4377-8659-0a461cf17d79/final-1792487358899.webp)
+
+## How Chatbooks and Momora compare, criterion by criterion
+
+"I want a book for the shelf. My partner wants somewhere to save the funny things our kid says. Is that one app or two?"
+
+Probably two. Chatbooks turns photos into printed books. Momora keeps a private digital family record that grows all year. We make Momora, so weigh our view with that in mind. The table below lists Chatbooks first on criteria where it leads.
+
+Pricing below is as of October 2026.
 
 | Criterion | Chatbooks | Momora |
 | --- | --- | --- |
 | Primary output | Printed photo books and prints | Private digital family timeline |
-| Memory types | Primarily photos and captions | Photos, videos, stories, quotes, voices, and artwork |
-| Effort | Select about 30 to 60 photos for subscription books; Chatbooks says creation can take under five minutes | Add memories by text or voice as they happen |
-| Organization | Individual books and recurring series | Searchable, dated timeline with people tags |
-| Customization | Book formats, covers, layouts, and captions, with fewer controls than a design-heavy editor | Context, dates, people, captions, and optional illustrations; not a like-for-like photo-book editor |
-| Family sharing | Share a Classic book project or give the finished book | Invitation-based family access with owner and manager roles |
-| Privacy controls | Account controls and published privacy safeguards | Private by default; private storage, signed media links, and EXIF removal. No end-to-end encryption promise |
-| Exports | No documented journal-style export | [Journal export available at any time](https://usemomora.com/faq/) |
-| Physical keepsakes | Core product, including softcover, hardcover, subscription, and layflat books | Primarily digital; does not offer an equivalent book-design experience |
-| Pricing model | As of October 2026, [subscriptions start at $10 per book and custom books at $26](https://chatbooks.com/products/all) | As of October 2026, Momora Plus is $12.99 monthly or $99.99 annually in the US |
-| Best fit | Vacation albums, annual books, and recurring printed photo collections | Ongoing family memories that need context and several media types |
+| Memory types | Photos, captions | Photos, videos, stories, quotes, voice recordings, artwork |
+| Ongoing effort | Pick 30 to 60 photos per book, often under 5 minutes | Type or speak a memory as it happens |
+| Organization | One book per month, trip, or year | Dated, searchable timeline with people tagged |
+| Family sharing | Share or gift printed books | Invite-only access with owner and manager roles |
+| Privacy | Physical and electronic safeguards | Private storage, expiring media links, location data stripped from photos |
+| Pricing | Subscriptions from $10 per book, custom books from $26, free standard shipping | Momora Plus at $99.99 a year or $12.99 a month |
+| Best fit | Families who want a book in hand | Families saving context as the year unfolds |
 
-Chatbooks fits the vacation album you want on the coffee table. Momora fits saving your child’s quote beside the photo, video, or voice recording that gives it context while the year is still unfolding. Someone seeking a highly customized physical album will find Momora too limited for that job.
+Sources: [Chatbooks subscription pricing](https://chatbooks.com/products/monthbooks?uid=monthbooks), [Chatbooks product prices](https://chatbooks.com/products/all), and the [Momora FAQ](https://usemomora.com/faq).
 
-## Choose a different photo-book service for more design control
+![A split illustration pairs an open vacation photo book with a phone showing voice and photo memories beside a crayon drawing.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/66743e15-3808-4b22-a2d6-dee7de4acedc/28faa168-090b-49ae-b73f-cfa855f4da89/final-1792487402626.webp "Chatbooks is for the album you hold, while Momora keeps the dinner-table moment along with its voice, photo, and date.")
 
-Shutterfly fits the parent who wants to adjust every page, move photos freely, and add decorative details. Its [Create Your Own editor includes layouts, text, stickers, backgrounds, frames, and ribbons](https://www.shutterfly.com/p/photo-books/photo-book-styles/create-your-own-photo-book). Books come in six sizes and can reach 111 pages.
+For a vacation album or an annual printed book, Chatbooks fits better. Momora fits a different moment: your four-year-old's line at dinner, a 20-second voice clip, and the photo from that night, all saved together with the date.
 
-As of October 2026, a promotional 10×10 book starts at $31.49, reduced from $47.99. It includes 20 pages, and [extra pages temporarily cost $1.92 rather than $2.74](https://www.shutterfly.com/p/photo-books/photo-book-styles/simply-bold-type-photo-book). Cover, paper, page-count, shipping, and tax choices can raise the total. Check Shutterfly's site for current pricing before ordering.
+Momora has limits, too. It isn't a photo-book editor, and anyone who wants a highly customized physical album should look elsewhere. Momora also doesn't promise end-to-end encryption. Its AI features send limited data to OpenAI, and you can export your journal at any time.
 
-Once Upon may suit you if you want a guided square-book workflow with room to edit layouts, crops, captions, and longer text. Its [US books run from 20 to 300 pages](https://onceupon.photo/en-us/photobooks). As of October 2026, the first 20 pages start at $21 for an 8×8 softcover, $25 for an 8×8 hardcover, or $37 for an 11×11 hardcover. Check Once Upon's site for current pricing and delivery estimates.
+## If you want more design control or a different book format
 
-## Pick the tool that matches the outcome
+"I want to place every photo myself. And pick the stickers."
 
-Choose Chatbooks if you want convenient printed photo books without designing every page. It is worth the money when you like the guided layouts and the final delivered cost, including extra pages, upgrades, shipping, and tax, fits your budget. Check current pricing before ordering.
+Then a hands-on print service will suit you better than Chatbooks or Momora. Shutterfly's Create Your Own editor lets you arrange [layouts, backgrounds, frames, stickers, and text](https://www.shutterfly.com/p/photo-books/photo-book-styles/create-your-own-photo-book) page by page. Books come in [sizes from 8x8 to 12x12 inches and expand up to 111 pages](https://www.shutterfly.com/photo-books). As of October 2026, a 10x10 book was on sale for $31.49, down from $47.99. [Extra pages are $2.74 each at the regular price](https://www.shutterfly.com/p/photo-books/photo-book-styles/simply-bold-type-photo-book). Sale prices come and go, so budget for the regular one.
 
-Consider Momora when you want low-effort, ongoing, private memory keeping across photos, videos, stories, quotes, voice recordings, and artwork. We make Momora. Uploaded images are re-encoded to remove GPS and device metadata, while the capture date remains for date suggestions.
+Once Upon sits between automatic and fully manual. It [lays out your photos for you](https://onceupon.photo/en-us/how-it-works), and you can still change layouts, crop, and add longer captions on your phone or computer. Its square books run 20 to 300 pages. As of October 2026, [US prices started at $21 for an 8x8 softcover and $37 for an 11x11 hardcover](https://onceupon.photo/en-us/photobooks).
 
-Momora can turn saved content into lay-flat hardcover Memory Books, but it is not a general-purpose photo-book printer. Its FAQ confirms that family owners can export their memories at any time through Settings → Export your memories. Keep independent copies of important originals as well.
+Still deciding between a printed book and an ongoing family journal? Our [apps like Qeepsake guide](https://usemomora.com/blog/apps-like-qeepsake/) compares Chatbooks with several memory-keeping apps.
 
-You can also use both: save stories, voices, and photos in a private digital memory app throughout the year, then make selected printed books for shelves or gifts.
+## Chatbooks, Momora, or both: how to pick
 
-Chatbooks is the stronger choice for printed books if the delivered price works for you. For ongoing digital memory keeping, review Momora's current features against your family’s habits.
+"I just want the photos off my phone and onto a shelf."
+
+Choose Chatbooks if printed photo books are the goal and the delivered total, with any upgrades, fits your budget. For that job, yes, it's worth the money.
+
+Consider Momora if you want somewhere private to keep the year as it happens: photos, videos, stories, quotes, voices, and artwork. It strips GPS and device data from photos. Its Memory Books print what you've saved in the app, so it won't replace a print service for outside photos. Family owners can export their memories at any time. Keep your own copies of originals as well.
+
+Use both types of tools if you want the context captured all year and a few chosen books printed separately.
+
+If private, ongoing memory keeping is the priority, look over Momora's current features and decide whether it fits. If not, Chatbooks still does its job well.
