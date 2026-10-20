@@ -7,15 +7,15 @@
 <link rel="canonical" href="https://usemomora.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Momora">
-<meta property="og:title" content="Momora — the baby book that starts from your phone">
-<meta property="og:description" content="Their photos, videos, stories, little voice and drawings, kept in one private place your family shares.">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
 <meta property="og:url" content="https://usemomora.com/">
 <meta property="og:image" content="https://usemomora.com/assets/images/brand/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Momora — the baby book that starts from your phone">
-<meta name="twitter:description" content="Their photos, videos, stories, little voice and drawings, kept in one private place your family shares.">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{DESCRIPTION}}">
 <meta name="twitter:image" content="https://usemomora.com/assets/images/brand/og-home.jpg">
 <script type="application/ld+json">
 {
@@ -25,6 +25,8 @@
             "@type": "Organization",
             "@id": "https://usemomora.com/#organization",
             "name": "Momora",
+            "description": "Momora makes the private baby book and family memory app for iPhone and Android at usemomora.com.",
+            "disambiguatingDescription": "The publisher of the Momora family memory app, where invited relatives share photos, videos, stories, voices and children's artwork.",
             "url": "https://usemomora.com/",
             "logo": "https://usemomora.com/assets/images/brand/momora-logo.png",
             "email": "hello@usemomora.com"
@@ -34,16 +36,40 @@
             "@id": "https://usemomora.com/#website",
             "name": "Momora",
             "url": "https://usemomora.com/",
+            "description": "The official website of Momora, the private baby book and family memory app for iPhone and Android.",
+            "inLanguage": "en",
+            "about": { "@id": "https://usemomora.com/#app" },
+            "publisher": { "@id": "https://usemomora.com/#organization" }
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://usemomora.com/#webpage",
+            "url": "https://usemomora.com/",
+            "name": "{{TITLE}}",
+            "description": "{{DESCRIPTION}}",
+            "inLanguage": "en",
+            "isPartOf": { "@id": "https://usemomora.com/#website" },
+            "about": { "@id": "https://usemomora.com/#app" },
+            "mainEntity": { "@id": "https://usemomora.com/#app" },
             "publisher": { "@id": "https://usemomora.com/#organization" }
         },
         {
             "@type": "MobileApplication",
+            "@id": "https://usemomora.com/#app",
             "name": "Momora",
-            "description": "A private baby book that fills itself from your phone: photos, videos, stories, voices and drawings on one timeline your family shares.",
+            "alternateName": "UseMomora",
+            "url": "https://usemomora.com/",
+            "description": "A private baby book and family memory app for photos, videos, stories, voices and children's artwork on one timeline shared with invited relatives.",
+            "disambiguatingDescription": "The Momora app at usemomora.com, listed as Momora: Baby Book & Album on the App Store and UseMomora Baby Book & Album on Google Play.",
             "operatingSystem": "iOS, Android",
             "applicationCategory": "LifestyleApplication",
             "image": "https://usemomora.com/assets/images/brand/og-home.jpg",
+            "mainEntityOfPage": { "@id": "https://usemomora.com/#webpage" },
             "publisher": { "@id": "https://usemomora.com/#organization" },
+            "identifier": [
+                { "@type": "PropertyValue", "propertyID": "Apple App Store ID", "value": "6745403572" },
+                { "@type": "PropertyValue", "propertyID": "Google Play package name", "value": "com.memora.app" }
+            ],
             "offers": {
                 "@type": "Offer",
                 "price": "0",
@@ -51,7 +77,7 @@
                 "description": "Free to download. Momora Plus is $99.99 per year or $12.99 per month in the U.S."
             },
             "sameAs": [
-                "https://apps.apple.com/us/app/usemomora/id6745403572",
+                "https://apps.apple.com/us/app/momora-baby-book-album/id6745403572",
                 "https://play.google.com/store/apps/details?id=com.memora.app"
             ]
         }
@@ -86,8 +112,8 @@
     <section class="h-hero" id="download">
         <div class="h-hero-copy">
             <p class="h-hand h-hero-note">made by tired parents, for tired parents</p>
-            <h1 class="h-hero-title">The baby book that starts from your phone.</h1>
-            <p class="h-lede">Their photos, videos, stories, little voice and drawings, kept in one private place your family shares. Ten seconds to add something. Nothing to keep up with.</p>
+            <h1 class="h-hero-title">Momora: the baby book that starts from your phone.</h1>
+            <p class="h-lede">Momora keeps their photos, videos, stories, little voice and drawings in one private place your family shares. Ten seconds to add something. Nothing to keep up with.</p>
             <div class="h-get">
                 <div class="h-badges">
                     <a class="store-badge" href="https://apps.apple.com/us/app/usemomora/id6745403572" target="_blank" rel="noopener noreferrer"><img src="/assets/images/brand/badge-app-store.svg" alt="Download on the App Store" width="150" height="50"></a>
@@ -511,7 +537,7 @@
     <!-- ═══ Final call ═══ -->
     <section class="h-final">
         <p class="h-hand">no catching up required</p>
-        <h2 class="h-final-title">Start with tonight.</h2>
+        <h2 class="h-final-title">Start your Momora baby book tonight.</h2>
         <p class="h-sub">The weird thing she said at dinner is enough. You don't have to become a person who journals.</p>
         <div class="h-get h-get--center">
             <div class="h-badges">

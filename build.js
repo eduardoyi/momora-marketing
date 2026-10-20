@@ -208,8 +208,8 @@ function copyStaticFiles() {
             let options = {};
             if (filename === 'index') {
                 options = {
-                    title: 'Momora — the baby book that starts from your phone',
-                    description: 'Their photos, videos, stories, little voice and drawings, kept in one private place your family shares. Then made into books, films and cards you can hold.',
+                    title: 'Momora — Private Baby Book and Family Memory App',
+                    description: 'Momora is a private baby book and family memory app for iPhone and Android. Save photos, videos, stories, voices and artwork on one timeline your family shares.',
                     activeFaq: '',
                     extraCss: '<link rel="stylesheet" href="/css/home.css">',
                     extraScripts: ''
