@@ -1,6 +1,9 @@
 {
   "$schema": "https://unpkg.com/wrangler/config-schema.json",
   "name": "app-download-link",
+  // Pinned: usemomora.com and this worker live in the personal account. A stale
+  // wrangler account cache once sent deploys to the ClickMinded account.
+  "account_id": "5214720bdfaad708ec6cbf39c4725c92",
   "main": "src/index.js",
   "compatibility_date": "2026-08-02",
   "workers_dev": false,
