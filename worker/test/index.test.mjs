@@ -87,16 +87,61 @@ test("Instagram on Android keeps the instant 302 to Google Play", async () => {
   assert.equal(res.headers.get("Location"), ANDROID_URL);
 });
 
-test("incoming query params are forwarded to the destination", async () => {
-  const res = await worker.fetch(
-    makeRequest(UA.androidChrome, { path: "/?utm_source=instagram&utm_campaign=bio" })
-  );
+test("non-attribution query params are forwarded to the destination", async () => {
+  const res = await worker.fetch(makeRequest(UA.androidChrome, { path: "/?foo=bar" }));
   assert.equal(res.status, 302);
   const location = new URL(res.headers.get("Location"));
-  assert.equal(location.searchParams.get("utm_source"), "instagram");
-  assert.equal(location.searchParams.get("utm_campaign"), "bio");
+  assert.equal(location.searchParams.get("foo"), "bar");
   // Existing destination params survive
   assert.equal(location.searchParams.get("id"), "com.memora.app");
+});
+
+test("src tag becomes an App Store campaign (pt/ct/mt) on iPhone", async () => {
+  const res = await worker.fetch(makeRequest(UA.iphoneSafari, { path: "/?src=tiktok" }));
+  const location = new URL(res.headers.get("Location"));
+  assert.equal(location.origin + location.pathname, IOS_URL);
+  assert.equal(location.searchParams.get("pt"), "127807408");
+  assert.equal(location.searchParams.get("ct"), "tiktok");
+  assert.equal(location.searchParams.get("mt"), "8");
+  assert.equal(location.searchParams.get("src"), null);
+});
+
+test("src + c tag builds a combined ct capped at 30 chars", async () => {
+  const res = await worker.fetch(
+    makeRequest(UA.iphoneSafari, { path: "/?src=TikTok&c=Tip List 1 with a very long name" })
+  );
+  const ct = new URL(res.headers.get("Location")).searchParams.get("ct");
+  assert.ok(ct.startsWith("tiktok-tip-list-1"));
+  assert.ok(ct.length <= 30);
+});
+
+test("utm_source is treated like src for the App Store", async () => {
+  const res = await worker.fetch(makeRequest(UA.iphoneSafari, { path: "/?utm_source=instagram" }));
+  const location = new URL(res.headers.get("Location"));
+  assert.equal(location.searchParams.get("ct"), "instagram");
+  assert.equal(location.searchParams.get("utm_source"), null);
+});
+
+test("src tag becomes a Play install referrer on Android", async () => {
+  const res = await worker.fetch(makeRequest(UA.androidChrome, { path: "/?src=tiktok&c=tiplist1" }));
+  const location = new URL(res.headers.get("Location"));
+  assert.equal(location.searchParams.get("id"), "com.memora.app");
+  const referrer = new URLSearchParams(location.searchParams.get("referrer"));
+  assert.equal(referrer.get("utm_source"), "tiktok");
+  assert.equal(referrer.get("utm_medium"), "bio");
+  assert.equal(referrer.get("utm_campaign"), "tiplist1");
+  assert.equal(location.searchParams.get("src"), null);
+});
+
+test("desktop keeps utm params for website analytics", async () => {
+  const res = await worker.fetch(makeRequest(UA.desktopChrome, { path: "/?src=tiktok" }));
+  const location = new URL(res.headers.get("Location"));
+  assert.equal(location.searchParams.get("utm_source"), "tiktok");
+});
+
+test("untagged links stay unchanged", async () => {
+  const res = await worker.fetch(makeRequest(UA.iphoneSafari));
+  assert.equal(res.headers.get("Location"), IOS_URL);
 });
 
 test("forwarded params never clobber destination params", async () => {
@@ -107,12 +152,12 @@ test("forwarded params never clobber destination params", async () => {
   assert.equal(location.searchParams.get("id"), "com.memora.app");
 });
 
-test("forwarded params appear in the interstitial's encoded destination", async () => {
+test("campaign params appear in the interstitial's encoded destination", async () => {
   const res = await worker.fetch(
-    makeRequest(UA.instagramIOS, { path: "/?utm_source=instagram" })
+    makeRequest(UA.instagramIOS, { path: "/?src=instagram" })
   );
   const html = await res.text();
-  assert.ok(html.includes(encodeURIComponent(`${IOS_URL}?utm_source=instagram`)));
+  assert.ok(html.includes(encodeURIComponent(`${IOS_URL}?pt=127807408&ct=instagram&mt=8`)));
 });
 
 test("HEAD on the interstitial returns headers without a body", async () => {

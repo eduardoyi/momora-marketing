@@ -48,14 +48,57 @@ function getDestination(device) {
   return DESKTOP_URL;
 }
 
-// Forward query params from the incoming request (e.g. ?utm_source=instagram)
-// onto the destination without clobbering params the destination already has.
-function withForwardedParams(destination, requestUrl) {
+// Store attribution. Bio links carry a short channel tag, e.g.
+//   app.usemomora.com/?src=tiktok            (or ?utm_source=tiktok)
+//   app.usemomora.com/?src=tiktok&c=tiplist1 (optional campaign detail)
+// Neither store reads plain utm_* params, so the tag is translated per store:
+//   - App Store: pt (provider token) + ct (campaign, <=30 chars) + mt=8 ->
+//     App Store Connect > App Analytics > Sources > Campaigns
+//   - Google Play: one `referrer` param holding the encoded utm string ->
+//     Play Console acquisition reports by UTM campaign
+// Any other query params are forwarded untouched, without clobbering params
+// the destination already has.
+const APPLE_PROVIDER_TOKEN = "127807408"; // App Store Connect campaign link `pt=` value (not secret)
+const ATTRIBUTION_KEYS = new Set(["src", "c", "utm_source", "utm_medium", "utm_campaign"]);
+
+function cleanTag(value) {
+  return (value || "").toLowerCase().replace(/[^a-z0-9_-]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+function getAttribution(requestUrl) {
+  const params = requestUrl.searchParams;
+  const source = cleanTag(params.get("src") || params.get("utm_source"));
+  if (!source) return null;
+  const campaign = cleanTag(params.get("c") || params.get("utm_campaign"));
+  const medium = cleanTag(params.get("utm_medium")) || "bio";
+  return { source, medium, campaign: campaign || source };
+}
+
+function withForwardedParams(destination, requestUrl, device) {
   const dest = new URL(destination);
+  const attribution = getAttribution(requestUrl);
   for (const [key, value] of requestUrl.searchParams) {
-    if (!dest.searchParams.has(key)) {
-      dest.searchParams.append(key, value);
-    }
+    if (attribution && device !== "desktop" && ATTRIBUTION_KEYS.has(key)) continue;
+    if (!dest.searchParams.has(key)) dest.searchParams.append(key, value);
+  }
+  if (attribution && device === "ios" && APPLE_PROVIDER_TOKEN) {
+    const ct = attribution.campaign === attribution.source
+      ? attribution.source
+      : `${attribution.source}-${attribution.campaign}`;
+    dest.searchParams.set("pt", APPLE_PROVIDER_TOKEN);
+    dest.searchParams.set("ct", ct.slice(0, 30));
+    dest.searchParams.set("mt", "8");
+  }
+  if (attribution && device === "android") {
+    const referrer = new URLSearchParams({
+      utm_source: attribution.source,
+      utm_medium: attribution.medium,
+      utm_campaign: attribution.campaign,
+    });
+    dest.searchParams.set("referrer", referrer.toString());
+  }
+  if (attribution && device === "desktop" && !dest.searchParams.has("utm_source")) {
+    dest.searchParams.set("utm_source", attribution.source);
   }
   return dest.toString();
 }
@@ -254,7 +297,7 @@ export default {
     const requestUrl = new URL(request.url);
 
     const device = getDevice(userAgent);
-    const destination = withForwardedParams(getDestination(device), requestUrl);
+    const destination = withForwardedParams(getDestination(device), requestUrl, device);
     const metaApp = getMetaApp(userAgent);
 
     // Only Meta's iOS in-app browsers need the escape hatch. Android webviews

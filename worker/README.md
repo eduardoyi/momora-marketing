@@ -10,8 +10,25 @@ One URL for the Instagram bio (and anywhere else). Routes by device:
   fallback. Works around Meta's iOS webviews rendering apps.apple.com as a
   blank page (July 2026).
 
-Any query params on the link (e.g. `?utm_source=instagram`) are forwarded to
-the destination.
+## Attribution tags
+
+Tag each channel's link with `src` (and optionally `c` for a campaign):
+
+- `app.usemomora.com/?src=tiktok` (TikTok bio)
+- `app.usemomora.com/?src=instagram` (Instagram bio)
+- `app.usemomora.com/?src=tiktok&c=tiplist1` (a specific post or campaign)
+
+`utm_source` / `utm_campaign` / `utm_medium` work as aliases. The worker
+translates the tag per store, because neither store reads plain `utm_*`:
+
+- App Store: `pt=127807408&ct=<src[-c]>&mt=8` (ct capped at 30 chars). Shows in
+  App Store Connect > App Analytics > Sources > Campaigns (opted-in users only).
+- Google Play: `referrer=utm_source%3D...%26utm_medium%3D...%26utm_campaign%3D...`.
+  Shows in Play Console acquisition reports by UTM campaign.
+- Desktop: `utm_source` is kept for website analytics.
+
+Untagged links redirect exactly as before. Other query params are forwarded
+without clobbering the destination's own params.
 
 ## Test
 
