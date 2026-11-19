@@ -73,7 +73,7 @@ Prices are as of October 2026, and sale prices change often.
 | [Printique](https://www.printique.com/photo-books/) | Print quality |  | One-off | Lay-flat softcover 20 to 40 pages, hardcover 10 to 100, classic-bound |  |
 | [Snapfish](https://www.snapfish.com/photo-book) | Lower cost | $6.30 sale, $17.99 regular (6x8 hardcover) | One-off | Softcover, hardcover up to 150 pages, lay-flat |  |
 | [Walgreens Photo](https://photo.walgreens.com/store/same-day-pickup) | Same-day books | $29.99 (8.5x11 window cover) | One-off | Standard and lay-flat 8.5x11, most up to 150 pages | Same-day store pickup |
-| [Momora](https://usemomora.com/faq) | Memories beyond prints | Plus $12.99/month or $99.99/year, books per order | Subscription plus per book | Auto-laid-out lay-flat hardcover, any date range | Drafted captions you approve, voice QR codes, monthly and yearly films |
+| [Momora](https://usemomora.com/faq) | Memories beyond prints | Plus $9.99/month or $59.99/year, books per order | Subscription plus per book | Auto-laid-out lay-flat hardcover, any date range | Drafted captions you approve, voice QR codes, monthly and yearly films |
 
 Find your reason in the "Best for" column and jump to that group. Two reasons, like a sturdy book by Saturday? Read both groups and compare prices.
 
@@ -161,7 +161,7 @@ For the running example, Momora picks the moments from those 3,000 first-year ph
 
 ![Grandmother scanning a QR code in a baby book, with an illustrated voice waveform and Momora Plus prices.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/b35025d9-56d1-47e5-969e-e9592bc68c03/final-1792527032938.webp)
 
-There are real limits. Momora curates and lays out the book, so you get less page-by-page control than the design picks above. It's an app first, not a print shop. Momora Plus costs $99.99 a year or $12.99 a month as of October 2026, eligible new families get a seven-day trial on the annual plan, and you pay for each book when you order it. Holiday cards ship only in the US and Canada. If you stop paying, you can still [export everything](https://usemomora.com/privacy-policy/).
+There are real limits. Momora curates and lays out the book, so you get less page-by-page control than the design picks above. It's an app first, not a print shop. Momora Plus costs $59.99 a year or $9.99 a month as of November 2026, eligible new families get a seven-day trial on the annual plan, and you pay for each book when you order it. Holiday cards ship only in the US and Canada. If you stop paying, you can still [export everything](https://usemomora.com/privacy-policy/).
 
 For journaling-app comparisons, see [Apps Like Qeepsake](https://usemomora.com/blog/apps-like-qeepsake/) and our [Tinybeans App Review](https://usemomora.com/blog/tinybeans-app-review/).
 
@@ -195,7 +195,7 @@ You can order from online services or from inside an app, then wait for shipping
 
 "I don't want another project. I just want the book."
 
-If memories beyond prints sounded like you, start with the free trial. Eligible new families get a seven-day free trial of the annual Momora Plus plan, which is $99.99 a year or $12.99 a month in the U.S. as of 2026. The App Store or Google Play shows your price and renewal terms before you pay.
+If memories beyond prints sounded like you, start with the free trial. Eligible new families get a seven-day free trial of the annual Momora Plus plan, which is $59.99 a year or $9.99 a month in the U.S. as of 2026. The App Store or Google Play shows your price and renewal terms before you pay.
 
 Pick which photos Momora may look through and let it suggest the first year. You'll see the laid-out book before you order, and you pay for the book only when you order it. Everything you add stays yours, and you can export it anytime, even after you stop paying.
 

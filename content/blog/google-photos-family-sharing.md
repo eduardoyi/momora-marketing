@@ -140,7 +140,7 @@ Best for: a family logging firsts with dates. Mel can join from Toronto. Our [Ti
 
 We make Momora. It's a private family timeline with roles, so Dan can add while [Pat only views, reacts and comments](https://usemomora.com/faq). It suggests days worth keeping from your camera roll and adds nothing until you approve. Spoken quotes save with the date and who said it. Scanned drawings get a placard with the artist's name and age. Dates are editable if you start late. You get lay-flat books with QR codes that play voice recordings, monthly films, and full export even after you cancel.
 
-Momora Plus is $12.99 a month or $99.99 a year, and books cost extra. You can't pick artwork frames yet, scanning is flat paper only, and holiday cards are US and Canada only.
+Momora Plus is $9.99 a month or $59.99 a year, and books cost extra. You can't pick artwork frames yet, scanning is flat paper only, and holiday cards are US and Canada only.
 
 ![Phone displaying a child's dog drawing in an illustrated frame labeled with the artist's name and age.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/65f60f12-9f48-4504-8930-6d210b9d49d5/c834f01a-454c-40e4-93a0-55393fb907b0/final-1792527945234.webp)
 
