@@ -1,20 +1,18 @@
 ---
-title: >-
-  Private Family Social Media: Safer Apps for Sharing Baby Photos with
-  Grandparents
+title: 'Private Family Photo Sharing Apps for Grandparents, Compared'
 description: >-
-  Family social media without strangers: see why public posting carries risk and
-  compare private photo-sharing apps to find one grandparents will use.
+  Compare private family photo sharing apps on privacy, ads, Android support,
+  grandparent access and US price: FamilyAlbum, Tinybeans, iCloud and more.
 slug: private-family-social-media-apps
 excerpt: >-
-  Want grandma to see every photo without hundreds of near-strangers seeing them
-  too? This guide explains the real risks of posting family photos publicly,
-  compares private family sharing apps on the same seven criteria, and helps you
-  pick the one that fits your family.
+  The private family photo sharing apps grandparents can actually use, compared
+  on who can see your photos, ads, Android and browser access, limited-access
+  accounts and price, with every vendor fact checked in November 2026.
 dek: >-
-  Family social media without strangers: see why public posting carries risk and
-  compare private photo-sharing apps to find one grandparents will use.
+  Compare private family photo sharing apps on privacy, ads, Android support,
+  grandparent access and US price: FamilyAlbum, Tinybeans, iCloud and more.
 date: '2026-10-20'
+updated: '2026-11-19'
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/a64a1aa1-e73b-41a7-9c9d-9398500ad46e/final-1792527963886.webp
 author: Adriana Maronese
@@ -25,121 +23,134 @@ authorBio: >-
   unsorted photos. Writes about remembering the ordinary parts.
 authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
-![Parent with a baby in a high chair at breakfast, holding a phone showing a family image.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/a64a1aa1-e73b-41a7-9c9d-9398500ad46e/final-1792527963886.webp)
+![A parent at a kitchen table shows a baby in a high chair a photo on her phone, with a framed photo of a grandmother beside the fruit bowl.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/a64a1aa1-e73b-41a7-9c9d-9398500ad46e/final-1792527963886.webp)
 
-## Family social media without the strangers: what this guide covers
+For most families, the best private family photo sharing app is FamilyAlbum if you want free, unlimited uploads and grandparents who can view in a web browser, or Tinybeans if you want a dated journal and email updates for relatives. If everyone already uses the same kind of phone, a shared iCloud or Google Photos album may be all you need. Below, each option is compared on who can see your photos, ads, Android support, grandparent access and price, all checked on the vendors' own sites on November 19, 2026.
 
-"I posted one bath-time photo and my coworker's husband liked it. I don't even know him."
+## Why families move baby photos off public social media
 
-If that sounds familiar, you're in good company. We'll follow one family through this guide.
+Family is the main reason most parents post at all. Among parents who share about their kids, [76% say easily sharing with family and friends is a major reason](https://www.pewresearch.org/internet/2020/07/28/parents-attitudes-and-experiences-related-to-digital-technology) (Pew Research Center, 2020). Many also feel uneasy about it. In the November 2023 Mott Poll, [72% of parents named at least one concern about sharing on social media](https://mottpoll.org/reports/sharing-parenting-getting-advice-through-social-media), and 31% worried about sharing photos without their child's permission.
 
-June is 9 months old. Her grandma in Ohio wants every photo, ideally before breakfast. Her aunt reshares everything she sees. Her parent has 6,000 photos on one phone, many of them the same nap from slightly different angles.
+A private app narrows the audience to the people you invite. It doesn't stop copies. Even with tight settings, [anything posted online can be screenshotted, saved or reshared](https://www.healthychildren.org/English/family-life/Media/Pages/Sharenting-5-Questions-to-Ask-Before-You-Post.aspx). Pediatricians also suggest [thinking about how your child may feel about a post later](https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/sharing-photos-and-videos-of-children-on-social-media/).
 
-![Close-up of a phone displaying sleeping baby photos beside a crib.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/727f86d7-55c9-4a83-902c-2dafa072c9aa/final-1792527958022.webp "Six thousand photos, one nap: the problem was never a shortage of pictures, it's deciding who gets to see them.")
-
-You want family to see June grow up. You'd rather a few hundred near-strangers didn't see it too.
-
-Family is the main reason most of us post at all. Among parents who share about their kids, [76% say easy sharing with family and friends is a major reason](https://www.pewresearch.org/internet/2020/07/28/parents-attitudes-and-experiences-related-to-digital-technology). Many parents also feel uneasy about it. In a 2023 national poll, [72% of parents reported at least one concern about sharing on social media](https://mottpoll.org/reports/sharing-parenting-getting-advice-through-social-media), and 31% worried about someone sharing their child's photos without permission.
-
-If you already post publicly, nobody here is judging. Plenty of us started there because that's where grandma was.
-
-This guide covers three things. First, a quick, calm look at why public posting carries some risk. Second, a fair side-by-side comparison of private family sharing apps, judged on the same criteria. Third, a verdict for each type of family, including June's.
-
-## The real risks of posting family photos publicly
-
-"It's just a cute photo. Who's going to care?"
-
-Usually nobody. A few things are worth knowing anyway, and each one has a simple fix.
-
-**1. Your audience is bigger than your friends list.** A "friends" post can reach friends of friends, and June's aunt can reshare it to her own crowd. Even with tight settings, [anything posted online can be screenshotted, saved or reshared](https://www.healthychildren.org/English/family-life/Media/Pages/Sharenting-5-Questions-to-Ask-Before-You-Post.aspx). Once a photo leaves your account, you can't pull it back.
-
-**2. June can't weigh in yet.** She's 9 months old. At 13 she may have opinions about the bath photos. Pediatricians suggest [thinking about how a child may feel about a post later](https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/sharing-photos-and-videos-of-children-on-social-media/) and involving kids in these choices once they're old enough.
-
-**3. Photos can say where you are.** Phones can store location inside a photo, and a location tag announces it outright. Then there's the background: a daycare sign, a house number, the same park every Saturday. Phones let you [turn off or remove location data](https://support.apple.com/guide/personal-safety/manage-location-metadata-in-photos-ips0d7a5df82/web) before you share.
+Photos can also give away where you are. Phones can store location inside the file, and the background can show a daycare sign or a house number.
 
 <figure class="coauthor-widget"><iframe src="https://0d751058050a8c92.figurehost.com/w/8882d1a4-507f-4c35-bece-b15797b8adf3" title="A cute photo of June can reveal where she is, through a daycare sign, a house number or the same park every Saturday, even with no location tag." loading="lazy" sandbox="allow-scripts" width="100%" height="707" frameborder="0"></iframe></figure>
 
-**4. Free platforms run on ads.** The FTC found that large social media companies [collect vast amounts of personal data to target ads](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-staff-report-finds-large-social-media-video-streaming-companies-have-engaged-vast-surveillance). Day to day, you post June's first birthday and your feed fills with smash-cake ads.
+Free social platforms also run on ads. A 2024 FTC staff report found that large social media companies' business models [encouraged mass collection of user data, especially for targeted advertising](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-staff-report-finds-large-social-media-video-streaming-companies-have-engaged-vast-surveillance). Some private family apps show ads too, which is why the table below has a column for it.
 
-As for June's own account, that's a long way off. Major platforms set the minimum age at 13 to line up with [COPPA, the federal children's privacy rule](https://consumer.ftc.gov/articles/protecting-your-childs-privacy-online). For now, the job is managing what you post about her.
+![A hand holds a phone showing a grid of near-identical sleeping baby photos beside a crib with a stuffed bunny.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/727f86d7-55c9-4a83-902c-2dafa072c9aa/final-1792527958022.webp "Most parents have more photos than they'll ever share. The harder question is who gets to see them.")
 
-A few habits cover most of it. Check who each post goes to. Turn off location tags. Agree on a family rule about resharing, and tell the aunt.
+## Private family photo sharing apps compared
 
-You don't have to quit social media to do any of this. Plenty of families keep their public accounts and move the baby photos somewhere smaller, where only the people they invite can see them.
+Every option here is invite-only or close to it, so a stranger can't find your photos by searching. The differences are in ads, how grandparents get in, which phones work, and cost. US prices, checked November 19, 2026.
 
-## The seven things we checked for every app
+| App | Who can see photos | Grandparent access | Ads and data | Platforms | US price |
+| --- | --- | --- | --- | --- | --- |
+| FamilyAlbum | Members you invite; admins can keep uploads "Admins Only" | App invite, or browser invite to view, save and comment without installing | Free version shows third-party ads; Premium hides them | iOS, Android, web browser for relatives | Free; Premium One $2.99/mo; Premium Family $5.99/mo or $59/yr; Family Pro $10.99/mo or $109/yr |
+| Tinybeans | Family and friends you invite | App, website, or email updates; no smartphone needed | Free tier is ad-supported; Tinybeans+ removes ads for you and followers | iOS, Android, web | Free (20 uploads/mo, 5 GB); Tinybeans+ $7.99/mo or $74.99/yr; two-week trial |
+| PhotoCircle | Only invited members | Link, QR code or in-app invite; web app needs PhotoCircle+ | Free plan is ad-supported; Plus is ad-free for the buyer only | iOS, Android, web (Plus) | Free; PhotoCircle+ $1.29/mo or $9.99/yr |
+| Momora | Only approved family members; no public feed | Single-use invite code plus owner approval; viewer role | Doesn't sell personal information (privacy policy) | iPhone, Android; viewers need the app | Free download; Momora Plus $9.99/mo or $59.99/yr, paid by the owner only |
+| iCloud Shared Albums | Up to 100 participants per album | Easiest on Apple devices; optional public link anyone can open | Uses the owner's iCloud storage | Apple devices; public link in a browser | 5 GB free; iCloud+ from $0.99/mo for 50 GB |
+| Google Photos shared albums | People you add, or anyone with the link | Direct invites need a Google Account; links don't | Storage shared with Gmail and Drive | Android, iPhone, web | 15 GB free per Google Account; Google One plans above that |
+| FamilyWall | Members of your Circle | Separate Circles for extended family | Says it's ad-free on both plans | iOS, Android, web | Free; Premium $4.99/mo or $44.99/yr; 30-day trial |
 
-"Okay, but which one will Grandma actually open?"
+Cozi isn't in the table because its [Free, Gold and Max plans](https://www.cozi.com/compare-plans/) cover a shared calendar, lists and recipes, with no photo sharing.
 
-Fair question. We judged every option on the same seven points, each tied to June's family.
+## FamilyAlbum: the free pick for lots of photos
 
-- **Who can see posts.** Only the people you invite, or can a link travel further?
-- **Invites and access.** How the aunt gets in, and whether you can let some people add photos while others only look.
-- **Ads and data use.** Whether the app shows ads or uses your photos for anything beyond sharing them.
-- **Effort to keep up.** With 6,000 photos in the camera roll, an app that needs daily sorting won't last past month two.
-- **Ease for grandparents.** Our test case is Grandma in Ohio. Can she see new photos without calling you for help? Most can try: [79% of Americans 65 and older own a smartphone](https://www.pewresearch.org/internet/fact-sheet/mobile).
-- **Platforms.** iPhone, Android, web. Mixed-phone families need all of them.
-- **Price.** Free, subscription, or paid extras like printed books.
+FamilyAlbum is a baby photo feed for relatives. Its free version includes [unlimited photo and video storage and uploads](https://help.family-album.com/hc/en-us/articles/4404344217113-What-s-the-difference-between-FamilyAlbum-Premium-and-the-free-version-What-features-are-included-in-each-service), with videos under two minutes, sorted by month. Up to [100 people can join an album](https://help.family-album.com/hc/en-us/articles/4403090436633-How-many-people-can-join-an-album), admins included.
 
-The options fall into three groups. Baby and family journal apps are FamilyAlbum, Momora and Tinybeans. Built-in shared albums are Apple iCloud Shared Albums and Google Photos shared albums. Family organizer apps are FamilyWall and Cozi.
+It handles grandparents well. Parents are Album Admins, and everyone else is an Album Member. You can invite a grandparent to the app or to the [browser version](https://help.family-album.com/hc/en-us/articles/360038640593-What-s-the-difference-between-the-app-version-and-browser-version-of-FamilyAlbum), where they view, save and comment without installing anything. Members [can't upload unless an admin turns it on](https://help.family-album.com/hc/en-us/articles/360038203734-Can-grandparents-and-other-relatives-upload-photos-and-videos), and admins can mark a photo [visible to Admins Only](https://help.family-album.com/hc/en-us/articles/4404247061529-What-s-the-difference-between-Album-Admins-and-Album-Members).
 
-We list them by group, then alphabetically within each group. That order is the only reason any app shows up where it does.
+The trade-offs are ads and video length. FamilyAlbum says the free version [can't hide third-party ads](https://help.family-album.com/hc/en-us/articles/45910504655513-I-want-to-hide-ads), while Premium albums don't show them. When one member subscribes an album to a family plan, everyone in that album gets the Premium features. Our [FamilyAlbum review](/blog/familyalbum-app-review/) and [is FamilyAlbum safe?](/blog/is-family-album-safe/) cover its privacy terms in more depth.
 
-![Smiling older woman looking at a phone at a kitchen table beside a coffee mug.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/67061a3d-6cb4-49bd-bfbf-9456de0976de/final-1792527964172.webp "Every option on this list has to pass one practical test: can Grandma open the latest baby photo on her own phone without a phone call for help?")
+## Tinybeans: a private journal with email updates
 
-## Seven private family apps compared
+Tinybeans says photos and videos you upload [can only be viewed by the family and friends you invite](https://tinybeans.com/faqs-old). It works as a dated journal for milestones and first words. Relatives can follow in the app, on the website, or by email, and Tinybeans says a smartphone isn't required. You can also give someone Full Access, which makes them a co-owner of the journal.
 
-Every app here is more private than a public feed. Nobody outside your invite list stumbles onto June's bath photo. The differences come down to effort, focus and cost. Prices are as of fall 2026.
+The free plan allows [20 uploads a month and 5 GB of storage](https://apps.apple.com/us/app/tinybeans-private-family-album/id521633042) and is ad-supported. Tinybeans+ adds unlimited uploads, 200 GB, longer videos and no ads, and in the US App Store it's $7.99 a month or $74.99 a year. The developer's App Store privacy label lists identifiers, usage data and other categories as data that may be used to track you. More in our [Tinybeans review](/blog/tinybeans-app-review/) and [Tinybeans vs FamilyAlbum comparison](/blog/tinybeans-vs-family-album/).
 
-| App | Who can see posts | Invites and access | Ads and data use | Effort to keep up | Ease for grandparents | Platforms | Price |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| FamilyAlbum | Owner and invited members | Parents invite family | Doesn't sell data; collects usage and ad data | You pick and upload | Browser, no install | iOS, Android, web | Premium from $2.99/mo; Family $5.99/mo or $59/yr; Pro $10.99/mo; first month free |
-| Momora | Invited family only; never public | Private code; roles for who adds vs. who views, reacts and comments | Private by default; full export anytime, even after unsubscribing | Fills itself from your phone with camera-roll suggestions you approve; about ten seconds to add | Viewer role keeps it simple | iPhone, Android | Momora Plus; free trial for eligible new families; books paid when ordered |
-| Tinybeans | Invited family and friends | Account holder invites followers | Ad-free on Tinybeans+ | You pick and upload | Followers see new posts | iOS | Free (20 uploads/mo, 5 GB); Tinybeans+ $7.99/mo or $74.99/yr; 14-day trial |
-| Apple iCloud Shared Albums | Invited participants | Up to 100 per album | Part of iCloud | You add photos | Easy on Apple devices | Apple devices | iCloud+ $0.99–$59.99/mo |
-| Google Photos shared albums | Invited people | Share an album | Part of your Google account | You add photos | Easy if they use Google Photos | Google Photos | Google One pricing |
-| FamilyWall | Family circle | Members join a shared space | Free and Premium plans | Built for schedules and lists; photos secondary | Organizer layout | iOS, Android | Free; Premium $4.99/mo or $44.99/yr |
-| Cozi | Family on one account | One shared account | Free version has ads; Gold is ad-free | Built for calendar and lists | Organizer layout | Across devices | Free; Gold $39/yr; Max available |
+## PhotoCircle: low-cost shared albums
 
-## Strengths and trade-offs, app by app
+PhotoCircle shares photos [only with the people you choose](https://www.photocircleapp.com/friends-family/), invited by link, QR code or in-app invitation. The free plan is ad-supported, limits videos to one minute and works in the mobile apps. PhotoCircle+ costs $9.99 a year or $1.29 a month and adds the web app, four-minute videos and bulk downloads. Its ad-free experience applies to the person who buys it, not to everyone in the Circle.
 
-FamilyAlbum is a baby photo feed for relatives. It [sorts uploads by month and shows June's age](https://help.family-album.com/hc/en-us/articles/360038267214-What-is-FamilyAlbum) on each one, and suggests monthly photobooks. The [free version caps videos at two minutes](https://help.family-album.com/hc/en-us/articles/4404344217113-What-s-the-difference-between-FamilyAlbum-Premium-and-the-free-version-What-features-are-included-in-each-service), so longer clips for Grandma in Ohio need Premium.
+It's a good fit for a family that wants a cheap shared album with no journal features. Grandparents who don't use a phone would need someone on PhotoCircle+ for web access, though.
 
-Momora is a private baby book that fills itself from your phone. We make Momora. It suggests the days worth keeping from photos you let it see and drafts captions you approve. Adding a photo, quote or voice note takes about ten seconds, with [no streaks or reminders](https://usemomora.com/faq). Grandma can view or contribute, and everything exports. It covers [memories only, with no calendar or shopping list](https://usemomora.com/), and it's a subscription.
+## iCloud and Google Photos: built-in albums and mixed-phone families
 
-Tinybeans is a [private family journal](https://tinybeans.com/) for photos, videos, captions and milestones, where invited relatives can comment or contribute. It also prints photo books. [Unlimited uploads and ad-free use need Tinybeans+](https://tinybeans.com/introducing-tinybeans-plus/) after the trial.
+Shared albums are already on your phone, so they're the fastest to start. The catch is mixed families: one parent on Android, a grandparent with an iPad.
 
-Apple iCloud Shared Albums are the easy pick if everyone already has an iPhone. Albums made on version 27 or later [keep full resolution with no fixed item cap](https://support.apple.com/en-us/148868), but they count against the owner's iCloud storage. Our [wider family app comparison](https://usemomora.com/blog/private-social-network-for-family/) goes deeper.
+[iCloud Shared Albums](https://support.apple.com/en-us/148868) allow 100 participants including the owner. Albums made on version 27 or later keep full resolution with no fixed item cap, but they count against the owner's iCloud storage. For relatives without Apple devices, you can turn on a public website for the album. Apple says [anyone with that link can view it](https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/icloud), even without iCloud. iCloud includes 5 GB free, and [iCloud+](https://support.apple.com/en-us/108047) costs $0.99 a month for 50 GB, $2.99 for 200 GB or $9.99 for 2 TB. A [Shared Photo Library](https://support.apple.com/en-us/118229) is tighter, with you and up to five others.
 
-Google Photos shared albums let invited people add photos, comments and likes, and [Partner Sharing](https://support.google.com/photos/answer/7378858?hl=en&co=GENIE.Platform=Desktop) can share photos of June automatically. [Anyone with the album link can view it](https://support.google.com/photos/answer/6131416?hl=en), which is worth a word with the aunt who forwards everything. More in our [Google Photos versus private apps guide](https://usemomora.com/blog/google-photos-family-sharing/).
+Google Photos lets you [share directly with people who have a Google Account](https://support.google.com/photos/answer/6131416), or by link for those who don't. Anyone with the link can view the album and add photos, and removing someone [doesn't revoke the link](https://support.google.com/photos/answer/9789702). To cut off old links, turn link sharing off and back on. Turn off Collaborate if you want relatives to look but not add. Every Google Account includes [15 GB shared across Photos, Drive and Gmail](https://one.google.com/about/plans). Our [Google Photos family sharing guide](/blog/google-photos-family-sharing/) covers the settings step by step.
 
-FamilyWall is a household organizer with a calendar, grocery lists, to-dos and meal plans. Its [Gallery shares photos privately](https://support.familywall.com/en/support/solutions/articles/47001239196-what-is-included-in-familywall-premium-), with more storage on Premium.
+![A phone and a tablet on a couch show the same photo of a laughing girl with a birthday cake, next to a pair of glasses.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/103c47fc-8680-4186-8067-d82687b0f874/3331ce0c-8e08-4d37-aeda-8bc0e7c5f5e9/final-1792528015439.webp "In a mixed-phone family, the same birthday photo has to reach an Android phone and an iPad.")
 
-Cozi handles the [shared calendar, to-dos and shopping lists](https://www.cozi.com/feature-overview/). It has no photo sharing, so June's photos would live in another app.
+For Android coverage overall, FamilyAlbum, Tinybeans, PhotoCircle, Momora, FamilyWall and Google Photos all have Android apps. With iCloud, Android relatives rely on the album's public website link.
 
-## Matching each app to your family
+## Momora: a private family timeline (we make Momora)
 
-- If you're all on iPhone and mostly want Grandma to see photos, try iCloud Shared Albums. Invite people by name. A [public link opens in any browser](https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/icloud), for anyone who has it.
-- If your family has mixed phones and you already back up to Google, try Google Photos shared albums. [Sharing with specific people](https://support.google.com/photos/answer/9789702?hl=en) gives you more control than sending a link.
-- If you want a free feed for lots of baby photos, try FamilyAlbum. It offers [unlimited free photo and video storage](https://family-album.com/?from=AppAgg.com), sorted by month.
-- If you want a timeline that reads more like a journal, try Tinybeans. The [free tier has upload limits](https://apps.apple.com/us/app/tinybeans-private-family-album/id521633042), so plan on Tinybeans+ if you post often.
-- If you want a baby book that mostly builds itself, with quotes, voice notes and a printed book later, try Momora.
-- If your real problem is the calendar and the grocery list, try FamilyWall or Cozi.
+We make Momora, so weigh this section accordingly. It's a private family journal for iPhone and Android with [no public feed](/faq/). Besides photos and videos, you can save voice recordings, quotes and scanned kids' artwork on the same timeline, and print memory books later.
 
-June's family has 6,000 photos, a grandma who wants all of them and an aunt who forwards everything. They'd likely land on a journal app with invite-only access. That could be FamilyAlbum if free volume matters most, or Momora if they want quotes and a book without sorting the camera roll themselves. Both keep June off the aunt's feed.
+Relatives join with a single-use invite code that works for seven days, and an owner or manager approves each request. Roles set the limits. Managers can add and edit memories, and viewers can browse, react and comment but can't change anything. Only the owner pays. Momora Plus is $59.99 a year or $9.99 a month, and eligible new owners may get a seven-day trial on the annual plan. The trade-offs: there's no web viewer, so every grandparent needs the app, and the owner needs a Momora Plus subscription.
 
-Some families run two apps: Cozi for soccer practice, a memory app for the photos. The grocery list stays out of the baby book.
+## Grandparent, read-only and limited-access accounts
 
-![Hand holding a phone over a counter with calendar and photo illustrations and printed photos nearby.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/5cda78f6-7b34-47d3-b0e8-cccc9eb5d486/final-1792527964801.webp "Two apps can work better than one when the soccer schedule and the baby photos never have to share a feed.")
+If you want a grandparent, a babysitter or a cousin to see photos without changing anything, here's how each app handles it:
 
-## What to do this week, whichever app you pick
+- **FamilyAlbum:** Album Members can't invite anyone, and can only upload if an admin allows it. Browser members can only view, save and comment. Admins can disable comments and downloads, and can keep some uploads Admins Only.
+- **Tinybeans:** Followers you invite view and comment. Full Access is the co-owner level, so give it only to a partner.
+- **Google Photos:** Turn off Collaborate so people with access can view but not add. Remember that a link works for anyone who has it.
+- **iCloud Shared Albums:** A public website link lets relatives view the album without joining it or using iCloud.
+- **FamilyWall:** Use separate [Circles](https://support.familywall.com/en/support/solutions/articles/47001268851-how-many-circles-can-i-have-with-a-familywall-premium-subscription-) so grandparents get a photo space without the household's pickup schedule. Premium applies to your first five Circles, and you can't choose which.
+- **Momora:** The viewer role is the read-only option.
 
-Moving June's photos off a public feed takes about an afternoon, and you can start before choosing an app. Turn off location tagging today. On iPhone, go to [Settings, Privacy & Security, Location Services, Camera, and choose Never](https://support.apple.com/en-euro/guide/personal-safety/ips0d7a5df82/web). On a Pixel, open [Camera settings and switch Save location off](https://support.google.com/photos/answer/6153599?hl=en&co=GENIE.Platform=Android). Then text the aunt: "Love that you love her. Please don't repost."
+None of these is built for daycare or school staff accounts. For a sitter, a view-only role or a separate shared album is the safer setup.
 
-If Momora sounds like your family, eligible new families get a seven-day trial of Momora Plus, and if you stop paying, you can still read and export everything.
+![A smiling older woman looks at her phone at a kitchen table, with children's drawings on the fridge behind her.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/fbb14312-4c4c-4c07-85e9-0994420e5ca6/67061a3d-6cb4-49bd-bfbf-9456de0976de/final-1792527964172.webp "The practical test for any app on this list: can a grandparent open the newest photo without calling you for help?")
 
-Private by default. Yours to keep.
+## When you also need a calendar, chat or location
 
-For more, see our [Google Photos family sharing guide](https://usemomora.com/blog/google-photos-family-sharing/) and our [comparison of private social networks for families](https://usemomora.com/blog/private-social-network-for-family/).
+Photo apps don't do schedules, and household apps don't do baby photos well. Plenty of families run one of each.
+
+- **FamilyWall** comes closest to doing everything. It has [shared calendars, messaging, location with place alerts and a private photo gallery](https://support.familywall.com/en/support/solutions/articles/47001013681-about-familywall) on Android, iPhone, iPad and the web. [Premium is $4.99 a month or $44.99 a year](https://www.familywall.com/premium.html) and adds calendar sync, a meal planner, a budget tracker and more storage. Its [privacy policy](https://www.familywall.com/privacy.html) says it collects advertising identifiers such as IDFA and Google Advertising ID.
+- **Cozi** is calendar and lists only. Gold is [$39 a year and Max $79 a year](https://www.cozi.com/compare-plans/), both ad-free.
+- **Life360** is for location. The free plan has two days of location history and two place alerts, and it has no photo timeline. Life360 says it may use [precise location, with your consent, to serve tailored ads](https://ads.life360.com/legal/interest-based-ads), and explains how to opt out.
+- **Apple Family Sharing** isn't a photo app. It lets [you and up to five family members](https://support.apple.com/en-us/108380) share services like iCloud+ and your location.
+- **Signal** is a group chat that's [free, with no ads and no tracking](https://support.signal.org/hc/en-us/articles/5286774014362-Cost-to-use-Signal). Group chats are quick for news, but last month's video gets buried under a few hundred messages.
+
+## Which app fits your family
+
+- **Mostly want grandparents to see lots of photos, free:** FamilyAlbum, with browser invites for relatives who won't install an app.
+- **Want a dated journal and email updates for relatives:** Tinybeans. Plan on Tinybeans+ if you post more than 20 times a month.
+- **Want the cheapest ad-free shared album:** PhotoCircle+, if only you need the ad-free view.
+- **Everyone's on Apple:** iCloud Shared Albums. **Mixed phones and you already use Google:** Google Photos shared albums, shared with specific people instead of a link.
+- **Want quotes, voice notes and a printed book alongside the photos:** Momora.
+- **Your real problem is the calendar:** FamilyWall or Cozi, next to a photo app.
+
+Whichever you pick, turn off location tagging first. On iPhone, go to [Settings, Privacy & Security, Location Services, Camera, and choose Never](https://support.apple.com/guide/personal-safety/manage-location-metadata-in-photos-ips0d7a5df82/web). On Android, [open the Camera app's settings and turn location off](https://support.google.com/photos/answer/6153599). Then agree on a family rule about resharing.
+
+## FAQ
+
+### Which is the safest app to send private photos?
+
+Look for invite-only access, a way to make some people view-only, a clear policy on ads and data, and an export. Among photo apps for families, FamilyAlbum, Tinybeans and PhotoCircle are invite-only, but their free plans show ads. No app can stop someone you invited from taking a screenshot.
+
+### Where can I create a free digital photo album?
+
+FamilyAlbum's free version has unlimited uploads (videos under two minutes). Google Photos shared albums use your 15 GB of free Google storage, and iCloud Shared Albums use your 5 GB of free iCloud storage. Tinybeans and PhotoCircle also have free, ad-supported plans with limits.
+
+### What is the best photo sharing platform for grandparents in 2026?
+
+It depends on their phone. For mixed families, FamilyAlbum is the easiest free option because grandparents can view in a browser. For an all-Apple family, a shared iCloud album needs no new app.
+
+### Can grandparents see photos without downloading an app?
+
+Yes, on several apps. FamilyAlbum has a browser invitation, Tinybeans works on its website and by email, an iCloud album can have a public website link, and a Google Photos album can be shared by link. Momora and PhotoCircle's free plan need the app.
+
+### How do I stop sharing family photos with someone?
+
+Remove them from the album or family in the app's settings. In Google Photos, also turn link sharing off and back on, because a removed person can still use an old link. Photos they already saved stay on their device.
 
 <script src="https://figurehost.com/embed.js" async></script>

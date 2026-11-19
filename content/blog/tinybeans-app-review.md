@@ -75,7 +75,7 @@ Followers are not described as people who upload memories or manage the journal.
 
 There is some friction for less techy relatives. New followers are [signed up for daily update emails](https://tinybeans.helpscoutdocs.com/article/73-how-do-i-invite-my-family-and-friends-to-tinybeans) automatically, and switching to weekly means logging in and finding the settings. Some grandparents will love a daily email. Others will start filing it under spam by Thursday.
 
-Keep two questions apart when you decide. Easy viewing for Grandma is one. A baby book that keeps the story attached to the video for years is the other. Tinybeans does well on the first, and the second depends on how much of the story you add yourself.
+Keep two questions apart when you decide. [Easy viewing for Grandma](/blog/private-family-social-media-apps/) is one. A baby book that keeps the story attached to the video for years is the other. Tinybeans does well on the first, and the second depends on how much of the story you add yourself.
 
 ## Free plan or Tinybeans+: what you pay and when it's worth it
 

@@ -8,3 +8,7 @@
 /terms            /terms-of-service/   301
 /terms/           /terms-of-service/   301
 /tos              /terms-of-service/   301
+
+# Merged blog posts
+/blog/private-social-network-for-family/  /blog/private-family-social-media-apps/  301
+/blog/private-social-network-for-family   /blog/private-family-social-media-apps/  301

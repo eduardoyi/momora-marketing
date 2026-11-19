@@ -593,6 +593,7 @@ function readBlogPosts() {
             excerpt: data.excerpt || description,
             dek: data.dek || '',
             date,
+            updated: data.updated ? toISODateString(data.updated) : '',
             dateDisplay: formatDateDisplay(date),
             author: data.author,
             // Short form shows in the archive (latest card); the post header
@@ -707,7 +708,7 @@ function buildPostHead(post) {
         description: post.description,
         image: [image],
         datePublished: post.date,
-        dateModified: post.date,
+        dateModified: post.updated || post.date,
         author: { '@type': 'Person', name: post.author },
         publisher: {
             '@type': 'Organization',
