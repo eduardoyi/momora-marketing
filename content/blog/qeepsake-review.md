@@ -1,18 +1,18 @@
 ---
-title: 'Qeepsake Review: Text Prompts, Subscription and Book Costs, and Canceling'
+title: 'Qeepsake Review (2026): Cost, Books, Canceling, and Is It Worth It?'
 description: >-
-  Our Qeepsake review covers how the text prompts work, Essential vs Premium
-  pricing, extra book costs, and what happens to your entries if you cancel.
+  Qeepsake review, November 2026: how the text prompts work, every plan's price
+  and limits, book and shipping costs, canceling, and whether it's worth it.
 slug: qeepsake-review
 excerpt: >-
-  Qeepsake texts you questions and turns your replies into a dated journal. We
-  look at plan limits, the $47.88 and $95.88 annual plans, extra book and
-  shipping costs, cancellation access, and who the app fits best versus other
-  baby-book options.
+  Qeepsake texts you questions and turns your replies into a dated journal you
+  can print. We checked every plan, limit, book price, shipping fee and
+  cancellation rule in November 2026, then worked out what a year really costs.
 dek: >-
-  Our Qeepsake review covers how the text prompts work, Essential vs Premium
-  pricing, extra book costs, and what happens to your entries if you cancel.
+  Qeepsake review, November 2026: how the text prompts work, every plan's price
+  and limits, book and shipping costs, canceling, and whether it's worth it.
 date: '2026-10-20'
+updated: '2026-11-19'
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/8f841884-b994-496c-a7c5-29a82a44e104/final-1792487305437.webp
 author: Adriana Maronese
@@ -24,143 +24,160 @@ authorBio: >-
 authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
-![A dad holding his phone sits on a bed with a waving baby on his lap.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/8f841884-b994-496c-a7c5-29a82a44e104/final-1792487305437.webp)
+![A smiling dad sits on a bed at night looking at his phone while the baby on his lap waves.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/8f841884-b994-496c-a7c5-29a82a44e104/final-1792487305437.webp)
 
-## Qeepsake review: the verdict for busy parents
+Qeepsake is worth it if you'll reliably answer a text message most days and you plan to print a book: it costs $47.88 a year (Essential) or $95.88 a year (Premium) as of November 2026, and the annual plans include a book credit. It's a weaker deal if you want a photo-heavy, hand-designed album, a one-time price, or a clear way to export everything you write.
 
-"I have 4,000 photos of her. I couldn't tell you what she said the first time she saw snow."
+Below: how the prompts work, every plan's price and limits, what the books, cards and shipping cost, what happens to your entries when you cancel, and a worked example of a full year. All prices and policies were checked on Qeepsake's own pricing page, help center, terms and App Store listing on November 19, 2026.
 
-Plenty of parents are in that spot. The photos save themselves. The story behind them doesn't. This is a single-product review of Qeepsake, built from its official pages and attributed user reports, to help you decide whether it fits that gap.
+## Qeepsake at a glance
 
-Qeepsake is a [prompt-led journal](https://qeepsake.com/features): it sends you questions on a schedule, saves your replies by date, and lets you add photos and video. If you'll answer a text but never open a blank baby book, that design works in your favor.
-
-The tradeoff is cost structure. Qeepsake runs on a subscription, and printed books cost extra. As of October 2026, annual plans are [$47.88 for Essential and $95.88 for Premium](https://qeepsake.com/pricing), each with a book credit. Books, shipping, and extra pages are billed on top.
-
-Leaving is the other thing to weigh. Qeepsake's help center says you can [still view entries after canceling](https://help.qeepsake.com/article/158-how-do-i-cancel-my-membership), but you can't print new books. Some users [report billing and access trouble](https://ourtifacts.com/blog/qeepsake-review) after trying to cancel.
-
-Our take: Qeepsake is a good fit for parents who like reminders and don't mind a yearly fee. If you mainly want a finished printed book, or a low ongoing cost, it's a weaker match.
-
-![A phone with a notification lies on a patterned crib sheet beside a plush bunny and a reaching hand.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/4b601f8f-54c5-4d1c-bd38-8f9898f0d4f5/final-1792487270376.webp "The appeal is the nudge: a quick question that catches a small moment before it fades, in exchange for an ongoing yearly fee.")
-
-## How Qeepsake works: texts in, journal out
-
-"I'll remember the wave. I'll write it down tomorrow." You won't. Qeepsake is built around that problem.
-
-The core loop runs over text messages. Qeepsake [texts you questions on a schedule](https://help.qeepsake.com/article/116-how-does-qeepsake-work), you reply, and the reply becomes a dated journal entry. You can also write freely without a prompt. The company calls these spontaneous entries. The app is the second channel. It's where you [see daily and missed questions, edit, backdate, organize, and add photos to existing entries](https://help.qeepsake.com/article/180-what-can-i-do-in-qeepsakes-mobile-app).
-
-Here's an illustrative example. Maya is eight months old and waves for the first time at bedtime. Her dad texts Qeepsake: "Waved at the ceiling fan. Then at me. Fan got the first one." He [texts a photo too](https://help.qeepsake.com/article/144-how-do-i-save-photos-to-qeepsake). Two days later he opens the app and backdates the entry to the right night. The whole process uses texting and the app, nothing else.
-
-![A dad holds a phone and a baby who reaches toward a ceiling fan in a softly lit nursery.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/35d0724f-62db-4060-bf1c-3e8859111b4e/final-1792487270792.webp "In the illustrative example, the memory gets saved by a quick text sent during bedtime, and tidying it up in the app can wait until later.")
-
-Your plan sets the limits. As of October 2026, [Essential allows](https://qeepsake.com/pricing) two questions a day, 50 photo uploads a month, 200 spontaneous entries, and two journals. Premium raises those to four questions, 100 photos, 500 entries, and unlimited journals. All limits reset monthly. A busy month of photos can hit the Essential cap.
-
-Sharing also depends on your plan. [Family Contributors are Premium-only](https://help.qeepsake.com/article/142-how-do-i-add-a-spouse-or-family-contributor). A contributor gets their own questions, can text entries, and has their name shown beside what they add, including in the book. Other relatives can receive [weekly recap emails](https://qeepsake.com/friends-and-family-features/). The [privacy policy](https://qeepsake.com/privacy-policy) says entries are private to the account holder, and it also allows authorized staff of Tinybeans, Qeepsake's parent company, to access journal information for support and product work.
-
-Our view is that the texts help if a prompt gets you to write. If you already ignore 40 unread messages, it's one more thread to ignore. Qeepsake is [listed on Google Play](https://play.google.com/store/apps/details?id=co.qeepsake.qeepsakeApp&hl=en) and the [App Store](https://apps.apple.com/ca/app/qeepsake-digital-baby-book/id1332312787). A store listing shows you can download the app. It doesn't tell you how quickly support will answer a billing email.
-
-## Turning saved entries into a printed Qeepsake book
-
-"The wave is saved. So is it in the book now?" Not yet. A saved entry lives in your journal. Getting it onto paper is a separate purchase with its own steps.
-
-Qeepsake prints Journal Books in two sizes. The [softcover is 8.125 × 6.50 inches and the hardcover is 10 × 8 inches](https://help.qeepsake.com/article/159-whats-the-difference-between-hardcover-and-softcover-books). Books [max out at 298 pages](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost). If your journal runs longer, you order more than one book.
-
-To order, you [tap Shop, pick a journal and a date range, choose customizations, preview, and check out](https://help.qeepsake.com/article/175-how-do-i-preview-and-order-my-qeepsake-book). You can't skip the preview. It shows the cover, the dedication page, and your entries. Maya's dad would pick the month of her eighth birthday and find the fan entry there, in date order.
-
-During the preview he can [edit text and photos, add or remove photos, reorder or remove entries, and add captions](https://help.qeepsake.com/article/166-how-can-i-customize-my-qeepsake-book). If he favorites the wave, it gets a full page. Qeepsake also lets you set a font accent color, choose whether the journal age appears, and add photo borders. That's the full set of design controls Qeepsake lists. Parents who want to place every photo by hand should look closely at the preview before paying. If photos matter more than text prompts, our [Chatbooks review](https://usemomora.com/blog/chatbooks-review/) explains its print-first approach.
-
-![A hand holds a phone showing a baby photo beside an open printed photo book.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/81336d5c-46ab-4bc2-860d-1b3fc4225cf8/final-1792487286113.webp)
-
-Timing affects what gets printed. If you edit your journal after a book is in the cart, the cart copy stays the same. You have to remove the book and add it again. After you submit the order, you can't make any more edits.
-
-Photos can also cause surprises. Qeepsake says the [preview is a scaled-down replica](https://help.qeepsake.com/article/176-will-my-qeepsake-book-look-like-the-preview), and photos sent by text may print smaller than you expect. It recommends re-uploading those photos through the app. It also warns that prints can look darker than they do on a bright screen. That would apply to the fan photo, which Maya's dad sent by text at bedtime.
-
-Chapter Books follow a different rule. They need [at least 30 answered prompts](https://help.qeepsake.com/article/161-what-are-qeepsake-chapter-books) before they can print.
-
-## What Qeepsake costs for a year of memories and a printed book
-
-"So is it five dollars a month, or more once the book shows up?" Both, depending on what you buy. The membership and the printed book are [separate purchases](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost), and shipping is added on top of the book.
-
-All prices below are as of June 2026, taken from Qeepsake's official pricing and help pages.
-
-| Item | Price (as of June 2026) | What's included |
+| | Essential | Premium |
 | --- | --- | --- |
-| [Essential, monthly](https://help.qeepsake.com/article/181-monthly-memberships) | $4.99 per month | No book credit |
-| [Essential, annual](https://qeepsake.com/pricing) | $47.88 per year | $19.99 book credit |
-| [Premium, annual](https://qeepsake.com/pricing) | $95.88 per year | $61.99 book credit and a free 10-print Photo Card pack |
-| [30-page softcover](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost) | $19.99, plus $0.60 per extra page |  |
-| [30-page hardcover](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost) | $39.99, plus $0.95 per extra page |  |
-| [Shipping, U.S.](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost) | $12 per order, plus $2 per extra book |  |
-| [Shipping, Canada](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost) | $15 per order, plus $2 per extra book |  |
+| Annual price | $47.88 a year ($3.99/month) | $95.88 a year ($7.99/month) |
+| Monthly price | $4.99 a month | $9.99 a month |
+| Book credit | $19.99 (annual only) | $61.99 (annual only), plus a free 10-print Photo Card pack |
+| Questions a day | Up to 2 | Up to 4 |
+| Journals | Up to 2 | Unlimited |
+| Photo uploads a month | 50 | 100 |
+| Spontaneous entries a month | 200 | 500 |
+| Family Contributors | No | Yes |
+| Free trial | 7 days (annual plans) | 7 days (annual plans) |
 
-For Premium on monthly billing, check Qeepsake's site for current pricing.
+Sources: [Qeepsake pricing](https://qeepsake.com/pricing), [monthly memberships](https://help.qeepsake.com/article/181-monthly-memberships) and [Premium overview](https://help.qeepsake.com/article/122-overview-of-qeepsake-premium-membership), checked November 19, 2026. One comparison table on the pricing page lists 6 questions a day for Premium; the plan cards, the other table and the help center all say 4.
 
-The annual plans are charged once a year. If you divide them by 12, Essential works out to $3.99 a month and Premium to $7.99. Qeepsake says annual billing [saves 20%](https://qeepsake.com/pricing) compared with paying monthly. Annual members also get a book credit, and they have to [use it before the membership term ends](https://help.qeepsake.com/article/122-overview-of-qeepsake-premium-membership). The Premium credit only applies to an order worth at least $61.99. A single 30-page softcover won't reach that amount, but a 60-page hardcover, at $68.49 before shipping, will.
+## How Qeepsake's text prompts work
 
-Maya's family can keep a year of entries on Essential for $47.88 if they pay annually, or $59.88 if they pay $4.99 every month. The book is a separate cost. A 30-page softcover shipped in the U.S. comes to $31.99 before tax. A hardcover of the same length comes to $51.99. If Maya's dad doubles the hardcover to 60 pages, the total reaches $80.49. Qeepsake doesn't say whether the book credit can be applied to shipping or tax, so expect the checkout total to differ from the credit amount. Canadian orders may also owe [duties or customs fees](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost), and Qeepsake doesn't cover those.
+Qeepsake's core idea is that you shouldn't have to start from a blank page. It [sends questions by text](https://qeepsake.com/features), tied to your child's age, on a schedule you choose. You reply, and your reply is saved as a dated journal entry. You can also write a "spontaneous entry" whenever something happens, without waiting for a prompt.
 
-If you mostly want the reminders and a place to put captions, the annual Essential plan is the cheaper way to stay, and its credit roughly covers the base price of one softcover. If you expect a thick hardcover each year, the book and shipping can cost about as much as the membership. Add the two together before you decide which plan fits.
+Photos go in the same way. Qeepsake says to [text a photo to the number your questions come from](https://help.qeepsake.com/article/144-how-do-i-save-photos-to-qeepsake), either as a reply or as a new entry. In the app you can add photos from your camera roll (up to 10 at a time, each becoming its own entry), build 2–4 photo collages, and save video entries. Qeepsake lists PNG and JPEG as the supported image types.
 
-## Canceling Qeepsake: billing, refunds, and what stays in your account
+The [mobile app](https://help.qeepsake.com/article/180-what-can-i-do-in-qeepsakes-mobile-app) is where you see all of the day's questions, answer ones you missed, edit and backdate entries, add milestones for Chapter Books, change question settings and preview your book.
 
-"If I stop paying in a year, do I lose everything?" Your entries don't vanish when you cancel. A few details depend on how you pay. Qeepsake's help center and terms, checked June 2026, answer most of it.
+![A phone lying on a star-print crib sheet shows a notification asking what made the baby laugh today, beside a sock, a knitted bunny and a teething ring.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/4b601f8f-54c5-4d1c-bd38-8f9898f0d4f5/final-1792487270376.webp "The appeal is the nudge: a quick question that catches a small moment before it fades.")
 
-| Question | Answer |
+In practice: if your baby waves for the first time at bedtime, you text a line back to that evening's prompt, add a photo in the same thread, and fix the date in the app later if you answered a day or two late. That's the whole workflow: a text, and an occasional tidy-up in the app.
+
+![A dad in a dim nursery holds his phone while the baby on his lap reaches up toward a ceiling fan.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/35d0724f-62db-4060-bf1c-3e8859111b4e/final-1792487270792.webp "The memory gets saved with a quick text at bedtime; tidying it up in the app can wait.")
+
+Sharing depends on the plan. [Family Contributors are Premium-only](https://help.qeepsake.com/article/142-how-do-i-add-a-spouse-or-family-contributor): a partner or relative gets their own questions, can text their own entries into your journals without a separate account, and is named next to what they add, including in the printed book. Qeepsake doesn't say how many contributors you can add. On any plan, other relatives can get [weekly recap emails](https://qeepsake.com/features) of your latest entries.
+
+## Qeepsake plans, limits and what you actually pay
+
+There's no free plan to sign up for. Both memberships start with a 7-day free trial on annual billing, and Qeepsake says your [card isn't charged until the trial ends](https://help.qeepsake.com/article/123-what-can-i-expect-during-my-free-trial), at which point it bills automatically.
+
+The limits are what usually decide the plan. Essential's 50 photo uploads a month go quickly in a busy month, and it has no Family Contributors, so only you can add entries. Premium doubles the photo allowance, adds contributors and unlimited journals, and raises the book credit. Qeepsake says [feature limits reset monthly](https://help.qeepsake.com/article/122-overview-of-qeepsake-premium-membership) on your signup date.
+
+Annual billing saves about 20% compared with paying monthly: Essential is $47.88 a year versus $59.88 for twelve monthly payments, and Premium is $95.88 versus $119.88. Monthly plans [don't include a book credit](https://help.qeepsake.com/article/181-monthly-memberships) or the Photo Card pack.
+
+If you subscribe through the App Store, the prices are slightly different. Qeepsake's [App Store listing](https://apps.apple.com/us/app/qeepsake-digital-baby-book/id1332312787) shows in-app annual purchases of $47.99 (Essential) and $95.99 (Premium), monthly Essential at $4.99 and monthly Premium at $9.99, plus older "Qeepsake Plus" options. The listing is published by Tinybeans USA Ltd., Qeepsake's parent company.
+
+## The Qeepsake book: sizes, prices and shipping
+
+Your entries become a book only when you order one, and the book is billed [separately from the membership](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost). Journal Books come in two formats: a softcover at 8.125 × 6.50 inches and a hardcover at 10 × 8 inches. Each has a 30-page base price plus a per-page charge, and books max out at 298 pages; a longer journal becomes more than one book. Qeepsake says the average book runs about 80 pages.
+
+| Pages | Softcover ($19.99 + $0.60/page) | Hardcover ($39.99 + $0.95/page) |
+| --- | --- | --- |
+| 30 | $19.99 | $39.99 |
+| 50 | $31.99 | $58.99 |
+| 80 (Qeepsake's average) | $49.99 | $87.49 |
+| 100 | $61.99 | $106.49 |
+| 200 | $121.99 | $201.49 |
+| 298 (maximum) | $181.99 | $296.49 |
+
+Prices in USD from [Qeepsake's book cost page](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost), checked November 19, 2026. The 80-page row is our calculation from the per-page rate.
+
+Shipping is a flat $12 per order in the US and $15 to Canada, plus $2 for each additional book. Qeepsake estimates 2–3 weeks to delivery in the US and 4–6 weeks for Canada, and says Canadian orders may owe taxes, duties or customs fees on delivery, which it doesn't cover. It doesn't list rates for other countries.
+
+![A hand holds a phone showing a book-page preview of a waving baby, with an open printed photo book and a mug on the bed behind it.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/81336d5c-46ab-4bc2-860d-1b3fc4225cf8/final-1792487286113.webp)
+
+### How ordering works
+
+In the app you [tap Shop, pick a journal and a date range, choose customizations, preview, and add to cart](https://help.qeepsake.com/article/175-how-do-i-preview-and-order-my-qeepsake-book). Book credits and promo codes go on at checkout. Two timing rules matter: the cart holds a saved copy, so edits you make after adding the book won't appear unless you remove it and add it again, and nothing can be changed once the order is submitted.
+
+The design controls are modest. Qeepsake's [customization guide](https://help.qeepsake.com/article/166-how-can-i-customize-my-qeepsake-book) lists editing the cover and title, a dedication page, "favoriting" a memory so it gets a full page, eight title and question accent colors, a font color, showing or hiding your child's age, and an optional background swirl. In the preview you can also edit text, add or remove photos, and reorder or remove entries. If you want to place every photo yourself, a print-first service is a better match; our [Chatbooks review](/blog/chatbooks-review/) covers one.
+
+Check photos before you pay. Qeepsake says the [preview is a scaled-down replica](https://help.qeepsake.com/article/176-will-my-qeepsake-book-look-like-the-preview), photos sent by text may print smaller than expected (re-uploading them in the app can give a higher-resolution image), and prints can look darker than they do on a bright screen.
+
+### Chapter Books, Story Books and Photo Cards
+
+| Product | What it is | Price |
+| --- | --- | --- |
+| [Chapter Book](https://help.qeepsake.com/article/161-what-are-qeepsake-chapter-books) | Preselected prompts for one topic, such as pregnancy, IVF, NICU, adoption, school or holidays; needs at least 30 answered prompts in the chapter | $20 softcover or $40 hardcover (30 pages), plus shipping |
+| [Story Book](https://help.qeepsake.com/article/160-what-are-qeepsake-story-books) | 8.5 × 8.5 inch hardcover layflat book of premade stories or a blank template | $34.99, plus $12 US or $15 Canada shipping |
+| [Photo Cards](https://help.qeepsake.com/article/162-what-are-qeepsake-photo-cards) | Packs of 10 cardstock prints of your journal photos, without the journal text | $7.99 (3 × 3) or $8.99 (4 × 6), plus $2.99 shipping |
+
+Is there a Qeepsake board? Not as a product. Qeepsake's site and help center list journal books, Chapter Books, Story Books, Photo Cards and gift memberships, and no milestone board or wall print as of November 2026.
+
+## What a year of Qeepsake really costs
+
+The membership and the book are separate purchases, so add them together. These examples use US shipping, before tax, and assume the book credit applies to the book price only; Qeepsake doesn't say whether credits can cover shipping or tax.
+
+| Scenario | Membership | Book after credit | Shipping | Year total |
+| --- | --- | --- | --- | --- |
+| Essential annual, 30-page softcover | $47.88 | $0 ($19.99 credit) | $12 | $59.88 |
+| Essential annual, 80-page softcover | $47.88 | $30.00 | $12 | $89.88 |
+| Essential annual, 80-page hardcover | $47.88 | $67.50 | $12 | $127.38 |
+| Premium annual, 80-page hardcover | $95.88 | $25.50 | $12 | $133.38 |
+| Essential monthly, 80-page hardcover | $59.88 | $87.49 (no credit) | $12 | $159.37 |
+
+Two rules shape these numbers. Credits must be [used before the membership term ends](https://help.qeepsake.com/article/122-overview-of-qeepsake-premium-membership), and the Premium credit needs an order of at least $61.99. An 80-page softcover ($49.99) doesn't reach it on its own; a 100-page softcover does, exactly.
+
+The pattern: if you'll print one average-length hardcover a year, Premium costs only a few dollars more than Essential and adds contributors and double the photo uploads. If you mainly want the prompts and a thin softcover, annual Essential is the cheapest way in. Paying monthly is the most expensive way to end up with a book.
+
+## Free trial, canceling and what happens to your entries
+
+| Question | What Qeepsake says |
 | --- | --- |
-| How do I cancel? | Direct billing: Billing & Plans, then Manage Subscription, or contact support. Apple or Google Play: cancel in that store's settings. Deleting the app doesn't cancel. ([Cancel guide](https://help.qeepsake.com/article/158-how-do-i-cancel-my-membership)) |
-| When must I cancel to avoid renewal? | By 5:00 p.m. Eastern, at least three business days before the renewal charge. ([Terms of service](https://qeepsake.com/terms-of-service/)) |
-| Do I get money back? | No refunds, except free cancellation during the 7-day trial. App store refunds go through Apple or Google. ([Cancel guide](https://help.qeepsake.com/article/158-how-do-i-cancel-my-membership)) |
-| Does my plan end right away? | Canceling stops the next renewal. The plan runs until the renewal date unless you close the account sooner. ([Cancel guide](https://help.qeepsake.com/article/158-how-do-i-cancel-my-membership)) |
-| Can I still see my entries? | After a trial cancellation, you move to Lite. Entries stay viewable, features are limited, and you can't print new books. ([Terms](https://qeepsake.com/terms-of-service/), [trial guide](https://help.qeepsake.com/article/123-what-can-i-expect-during-my-free-trial)) |
-| Is canceling the same as deleting? | Closing the account is a separate step, handled under a policy for removing personal information. ([Terms of service](https://qeepsake.com/terms-of-service/)) |
+| How do I cancel? | Billed directly: Billing & Plans, then Manage Subscription, or email support@qeepsake.com. Billed through Apple or Google: cancel in that store. ([Cancel guide](https://help.qeepsake.com/article/158-how-do-i-cancel-my-membership)) |
+| Is there a deadline? | The [terms of service](https://qeepsake.com/terms-of-service/) say a cancellation must be received by 5:00 p.m. Eastern at least three business days before the renewal payment. Plans renew automatically each year. |
+| Can I get a refund? | Free cancellation only during the 7-day trial. Otherwise no partial or full refunds. App store purchases are refunded, if at all, by Apple or Google. |
+| Does my plan stop right away? | No. A canceled plan stays available until its renewal date, unless you ask support to close it sooner. |
+| What happens to my entries? | Qeepsake's cancel guide says you can still access your account and view existing entries and previous orders. If you cancel during the trial, you move to [Qeepsake Lite](https://help.qeepsake.com/article/123-what-can-i-expect-during-my-free-trial): saved entries stay viewable, but features are limited and you can't print new books. |
+| Can I delete my account? | Per the terms, a deletion request removes your personally identifiable information except your phone number, but keeps your content unless you make a second request to delete the content too. |
+| Can I export my journal? | Qeepsake's help center doesn't publish an export guide as of November 2026. Ask support what you can download before you commit years of entries. |
 
-![A kitchen wall calendar has a circled date, drawn arrows, and a sticky-note reminder.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/4c0b278e-c8ab-472b-adf7-b87cee1fed68/final-1792487304409.webp "Set a reminder before the renewal deadline, and confirm the current cancellation terms.")
+![A hand sticks a note onto a kitchen wall calendar with a circled date and arrows drawn back to an earlier day.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/4c0b278e-c8ab-472b-adf7-b87cee1fed68/final-1792487304409.webp "Set a reminder a week before renewal: Qeepsake needs cancellations three business days ahead.")
 
-Qeepsake describes what trial cancellations keep. It doesn't say what a former paid member can edit, share, or print once the term expires.
+The practical takeaway: order the book while your membership is active and your credit is still valid. One [user review](https://justuseapp.com/en/app/1332312787/qeepsake-journal-milestones/reviews) says they canceled after the first year without realizing they couldn't order the book without a subscription; support then let them order it without renewing. That's one account, not policy, but it's a cheap mistake to avoid.
 
-Export has the same gap. A [comparison site reports](https://familyphotoapps.com/compare/qeepsake-vs-tinybeans/) a website data export under Account Settings. Qeepsake doesn't say what file format you get, how long it takes, or whether your original photos and videos come with it. Entries you can view in an account aren't a backup on your own drive. A printed book isn't one either.
+## Privacy: who runs Qeepsake and who can see entries
 
-If you want your own copy of the files, ask Qeepsake about export format and post-expiration access before you pay for a year.
+Qeepsake is owned by Tinybeans (our [Tinybeans review](/blog/tinybeans-app-review/) covers its other app). The [privacy policy](https://qeepsake.com/privacy-policy), last updated December 15, 2025, says journal entries are "private to you," and that authorized Tinybeans staff with access to journal information have passed criminal background and sex-offender registry checks. It says Tinybeans doesn't sell or share personal information for cross-context behavioral advertising, and it also says it may process information to display personalized content and advertising. On the App Store, the developer's privacy label lists usage data as used to track you.
 
-## Who Qeepsake suits, and who should skip it
+## Is Qeepsake worth it?
 
-"Will I actually use this, or is it one more thing I'll feel bad about?" That depends mostly on how you respond to reminders.
+Yes, for a specific parent: one who answers texts without thinking, wants mostly words with some photos, and will print at least one book a year. For that parent, annual Essential at $47.88 plus a softcover is around $60–90 for a year of dated stories they wouldn't otherwise have written. A [CorporetteMoms review](https://corporettemoms.com/qeepsake-review/) (last updated 2018) says the app preserves "some of the little memories," and a commenter there liked that the prompts weren't things she would have thought of herself. The App Store listing shows a 4.9 rating from about 15,000 ratings as of November 19, 2026.
 
-| Strengths | Tradeoffs |
-| --- | --- |
-| Qeepsake sends text prompts, so you answer instead of starting from a blank page ([features](https://qeepsake.com/features)) | It's a membership, and books cost extra on top ([pricing](https://qeepsake.com/pricing)) |
-| You can edit, backdate, and organize entries, and family contributors can add their own | One reviewer found the layouts constrained and the pages text-heavy ([CorporetteMoms](https://corporettemoms.com/qeepsake-review/)) |
-| Your entries become a draft of a book that you can then edit | After a trial cancellation, you can't print new books from Lite ([trial guide](https://help.qeepsake.com/article/123-what-can-i-expect-during-my-free-trial)) |
+It's not worth it if:
 
-The left column is what Qeepsake says about itself. The right column mixes Qeepsake's own pricing and policy pages with one person's review.
+- prompts would pile up unanswered, since the texts are the whole point;
+- you want a photo-first, designed album (the same CorporetteMoms commenter found the book's layout options very limited, with one text answer per page);
+- you want to pay once, or might stop paying before the book is ordered;
+- you need a documented export of everything you've written.
 
-My take: Qeepsake suits the parent who answers texts at bedtime without thinking about it. Maya's dad replies to a prompt in 20 seconds, and by her first birthday he has a dated record he would never have written from scratch. The same prompt-led workflow helped the CorporetteMoms reviewer record stories she says she would otherwise have skipped.
+![A parent relaxes on a sofa with her phone while a second phone in the foreground shows a grid of baby photos.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/032407a2-259c-4dab-b94a-e72cf4a710ca/final-1792487284502.webp)
 
-It fits less well if you want a scrapbook-style book with heavy photo design, if you'd rather pay once, or if you might stop paying before the book is ordered. One [app-store reviewer](https://justuseapp.com/en/app/1332312787/qeepsake-journal-milestones/reviews) describes struggling to order a book after their payments stopped. Support eventually allowed a one-off order. That's one account, not policy, but it is a reason to order the book while your membership is still active.
+If prompts aren't your habit, look at apps built around saving things the moment they happen. We make Momora, a private family memory journal for iOS and Android where you can save a memory as text, a voice note, photos or video and print it later as a [baby book](/baby-book/). Our [apps like Qeepsake guide](/blog/apps-like-qeepsake/) compares it with Tinybeans, FamilyAlbum and Chatbooks.
 
-![A parent rests on a sofa with one phone while another phone displays a grid of baby photos.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/032407a2-259c-4dab-b94a-e72cf4a710ca/final-1792487284502.webp)
+## FAQ
 
-## How to tell if a different baby-book app fits better
+### How much does Qeepsake cost?
 
-"Qeepsake sounds fine, but is it right for us?" Run it against a few checks.
+As of November 2026, Essential is $4.99 a month or $47.88 a year, and Premium is $9.99 a month or $95.88 a year. Annual plans come with a 7-day free trial and a book credit ($19.99 or $61.99). Books, cards and shipping are extra.
 
-Capture effort comes first. Qeepsake works best if daily text prompts get you writing. If you'd rather save things only when they happen, look for an app built around quick capture.
+### How much is a Qeepsake book?
 
-Ongoing cost is next. Monthly Essential is $4.99 and Premium is $9.99 as of August 2026, and [books are billed separately](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost). If you print a book, add the book price to a year of membership.
+A 30-page softcover is $19.99 plus $0.60 per extra page; a 30-page hardcover is $39.99 plus $0.95 per extra page, up to 298 pages. US shipping is $12 per order ($15 to Canada), plus $2 per additional book. An average 80-page hardcover is $87.49 before shipping.
 
-Printing and design come after that. Qeepsake's [book editor](https://help.qeepsake.com/article/166-how-can-i-customize-my-qeepsake-book) gives you covers, dedications, full-page memories, and eight accent colors. That's enough for some parents and too limited for others.
+### Is there a free version of Qeepsake?
 
-Last, sharing and export. Family Contributors can add text entries on Premium. Qeepsake doesn't publish a general export of all your entries, so ask about that before you commit years of stories.
+Not one you can sign up for. There's a 7-day free trial on annual plans. If you cancel during the trial, your account moves to Qeepsake Lite, where you can view saved entries but can't use the full features or print new books.
 
-We make Momora, a private digital baby book and family memory app for iOS and Android. Our [apps like Qeepsake guide](https://usemomora.com/blog/apps-like-qeepsake/) covers more options.
+### What happens to my Qeepsake entries if I cancel?
 
-## Three checks before you start the Qeepsake trial
+Your plan runs until its renewal date, and Qeepsake says you can still access your account and view existing entries and past orders afterward. Deleting the account is a separate request, and content is only removed if you ask a second time. There are no refunds outside the trial.
 
-Picture Maya's dad again, phone in hand at bedtime. Would a nightly text prompt get that wave saved more often than his camera roll would? If yes, Qeepsake is a reasonable pick. If prompts would pile up unanswered, it probably isn't.
+### How do I contact Qeepsake customer service?
 
-Before the seven-day trial [turns into a paid membership](https://help.qeepsake.com/article/123-what-can-i-expect-during-my-free-trial), check three things.
-
-1. Capture method. Will you actually answer text prompts most nights?
-2. Budget. Add a year of membership, $47.88 or $95.88 annually as of August 2026, to the book price and shipping.
-3. Exit terms. Cancel [three business days before renewal](https://qeepsake.com/terms-of-service). No refunds. After canceling you can view entries, but you can't print new books.
-
-Read the current pricing and help pages, then decide at your own pace.
+Qeepsake's help center points to support@qeepsake.com for billing, cancellation and book questions. App store subscriptions and refunds are handled by Apple or Google.

@@ -185,7 +185,7 @@ Skip if: Android phones or Windows PCs are central to the household, or you want
 
 ### 2. Google Photos
 
-Google Photos is usually the more natural choice for a mixed iPhone, Android, and Windows household. Its phone apps and browser-based library reduce the need to treat one device maker as home base. Search, people grouping where available, albums, sharing, and basic edits cover the needs of most casual libraries.
+Google Photos is usually the more natural choice for a mixed iPhone, Android, and Windows household. Its phone apps and browser-based library reduce the need to treat one device maker as home base. Search, people grouping where available, albums, [sharing](/blog/google-photos-family-sharing/), and basic edits cover the needs of most casual libraries.
 
 The tradeoff is greater dependence on Google's cloud workflow. Desktop use centers on the web rather than a full local library manager, and moving a very large collection elsewhere can require an export followed by substantial sorting. Face grouping and some search or editing functions may also vary by account, region, and platform.
 

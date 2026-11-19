@@ -68,9 +68,9 @@ Three tradeoffs decide most choices.
 
 Storage first. FamilyAlbum's free tier takes unlimited uploads if each video stays under two minutes. Tinybeans' free plan stops at 20 uploads a month, which a newborn's first week can burn through.
 
-Then grandparents. FamilyAlbum and Tinybeans let relatives follow along from a browser or email. Momora asks every viewer to sign in through the app. For a grandparent who doesn't install apps, that's a real hurdle.
+Then grandparents. FamilyAlbum and Tinybeans let relatives follow along from a browser or email, and our guide to [photo sharing for grandparents](/blog/private-family-social-media-apps/) compares more options. Momora asks every viewer to sign in through the app. For a grandparent who doesn't install apps, that's a real hurdle.
 
-Then privacy. Momora publishes the most specific controls, including stripped location data and full archive export. It also sends some content to OpenAI when you use AI features, and it compresses videos. FamilyAlbum is clear about deletion, and its policy describes sharing some data with advertising partners.
+Then privacy. Momora publishes the most specific controls, including stripped location data and full archive export. It also sends some content to OpenAI when you use AI features, and it compresses videos. FamilyAlbum is clear about deletion, and its policy describes [sharing some data with advertising partners](/blog/is-family-album-safe/).
 
 ## How we judge each app in the sections ahead
 

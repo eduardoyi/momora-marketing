@@ -124,7 +124,7 @@ Chatbooks is best for parents who already take good photos and want them printed
 
 "Which one saves the cake photo, the quote, and the update to Grandma in the fewest steps?"
 
-That depends on what you already do every day. If you answer texts but rarely open apps, try Qeepsake. The others here work inside an app. If relatives want regular updates, look at Tinybeans or FamilyAlbum. If you mostly want paper, Chatbooks prints books and leaves the ongoing journal to something else.
+That depends on what you already do every day. If you answer texts but rarely open apps, try Qeepsake. The others here work inside an app. If relatives want regular updates, look at Tinybeans or FamilyAlbum, both covered in our [private family photo sharing app comparison](/blog/private-family-social-media-apps/). If you mostly want paper, Chatbooks prints books and leaves the ongoing journal to something else.
 
 To compare cost, add a year of subscription, the book, any credit, and shipping. Qeepsake's Essential plan is $47.88 a year [as of June 2026](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost), with a $19.99 credit that covers a 30-page softcover. Add $12 US shipping and you're at $59.88 before tax. Ask how export and cancellation work before you commit.
 
