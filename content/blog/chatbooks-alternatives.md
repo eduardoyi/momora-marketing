@@ -1,17 +1,19 @@
 ---
-title: 7 Chatbooks Alternatives Matched to Why You Want to Switch
+title: '10 Chatbooks Alternatives, Sorted by Why You''re Switching'
 description: >-
-  Chatbooks alternatives sorted by your reason for leaving: design control,
-  print quality, lower cost or no subscription, and memories beyond prints.
+  Chatbooks alternatives checked November 2026, sorted by your reason for
+  leaving: design control, print quality, no subscription, or more than photos.
 slug: chatbooks-alternatives
 excerpt: >-
-  Want one nice book for Grandma instead of a monthly shipment? This guide sorts
-  seven Chatbooks alternatives by why you want to switch, with a side-by-side
-  comparison table and a clear pick-this-if line for each option.
+  Want one nice book for Grandma instead of a monthly shipment? Ten Chatbooks
+  alternatives sorted by why you want to switch, with prices checked in
+  November 2026, a side-by-side table and a pick-this-if line for each.
 dek: >-
   Chatbooks alternatives sorted by your reason for leaving: design control,
-  print quality, lower cost or no subscription, and memories beyond prints.
+  print quality, no subscription, or memories beyond prints. Prices checked
+  November 2026.
 date: '2026-10-20'
+updated: '2026-11-19'
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/263ec029-460c-4815-9952-07187e1eca07/final-1792527028516.webp
 author: Adriana Maronese
@@ -22,183 +24,187 @@ authorBio: >-
   unsorted photos. Writes about remembering the ordinary parts.
 authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
-![Parent and toddler sitting on a rug with a phone and cardboard boxes behind them.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/263ec029-460c-4815-9952-07187e1eca07/final-1792527028516.webp)
+![A mother sits cross-legged on a living-room rug with her toddler, showing him photos on her phone, with a stack of cardboard boxes on the coffee table behind them.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/263ec029-460c-4815-9952-07187e1eca07/final-1792527028516.webp)
 
-## Looking for a Chatbooks alternative? Start with why
+## The best Chatbooks alternative depends on why you're leaving
 
-"I want one nice book for Grandma, not a monthly shipment."
+The best Chatbooks alternative is the one that fixes your reason for switching. For more design control, use Mixbook or Shutterfly. For a heavier, heirloom-quality book, use Artifact Uprising, Printique or Blurb. For one cheap book with no subscription, use Snapfish, Popsa or Walgreens (same-day pickup). For the stories, voices and video that a photo book can't hold, use a journal app like Qeepsake or Momora.
 
-If that sounds like something you've said out loud, you're in the right place. Chatbooks is built for a steady rhythm. Its [Series subscription](https://help.chatbooks.com/en/articles/17258557-how-does-a-series-subscription-work) pulls photos from your camera roll, Google Photos, or GroupChat into chronological books, billed monthly, every other month, or every three months. For plenty of families, that rhythm is exactly right. For others, it stops fitting.
+Every price below was checked on each company's own US site on November 19, 2026. Sale prices change weekly, so we list regular prices and note sales where they matter.
 
-We'll use one family as an example throughout. They have a 2-year-old and about 3,000 photos from the first year. They want one first-year book for the grandparents, ideally before the next birthday party.
+We'll use one family as an example throughout: a 2-year-old, about 3,000 photos from the first year, and one first-year book for the grandparents, ideally before the next birthday party.
 
-![Phone displaying baby photos beside a purple photo book, with notes about choosing pictures for grandparents.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/7e46d071-6c99-46d7-91c2-1d6917dbea4f/final-1792527028100.webp)
+![A phone showing a camera roll of baby photos next to a lavender hardcover photo book, with notes reading "2-year-old, about 3,000 photos from the first year" and "one first-year book for the grandparents, ideally before the next birthday party."](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/7e46d071-6c99-46d7-91c2-1d6917dbea4f/final-1792527028100.webp)
 
-That family could go several ways, depending on what they're missing. So instead of ranking apps like Chatbooks from best to worst, this list sorts seven alternatives by the reason you're leaving:
+## What Chatbooks does well, and the four reasons parents switch
 
-1. You want more control over the design.
-2. You want better print quality.
-3. You want lower cost or no subscription.
-4. You want memories a printed page can't hold, like voices and video.
+Chatbooks is built for a steady rhythm. Its [Series subscription](https://help.chatbooks.com/en/articles/17258557-how-does-a-series-subscription-work) pulls photos from your camera roll, Google Photos or GroupChat into chronological books on a schedule. As of November 2026, Monthly Minis cost $10 a book or $100 a year (5x5 softcover, 30 to 60 pages), Monthbooks run $15 to $34 a book, one-off Custom Photo Books (formerly Classic) start at $26, the Layflat starts at $115, and standard US shipping is free. Our [Chatbooks review](/blog/chatbooks-review/) has every price, plus the fine print on Autoship and expiring credits.
 
-A comparison table comes first, so you can see everything side by side. Each pick then gets a plain "pick this if" line, so you can skip the ones that don't apply. The grandparents won't mind which route you take. They mostly want to know the book is coming.
+Parents who leave usually aren't unhappy with the books. Their needs changed:
 
-## What Chatbooks gets right, and the four reasons parents switch
+1. **They want to choose the layout and cover.** Grandma's book should open on the hospital photo, and the cover should say "Year One." Chatbooks keeps design simple on purpose: layouts, captions and a cover title, not page-by-page freedom.
+2. **They want a more premium book.** Chatbooks tops out at 10x10 inches. A coffee-table gift may call for heavier paper, a linen cover or 12x12.
+3. **They want one book, without a subscription.** Autoship is on by default and subscription credits expire 13 months after purchase. Some parents would rather order one first-year book and be done.
+4. **They want what a page can't hold.** The toddler saying "pasketti." The first wobbly steps on video. The story behind the blurry 2 a.m. photo.
 
-"Honestly? The books just show up. I barely do anything."
+If none of those sound like you, staying with Chatbooks is a reasonable choice.
 
-That's the case for Chatbooks, and it's a good one. Once a Series is set up, it builds books from the photos you add and keeps them coming on schedule. You can add and edit [captions on Monthbooks, Minis and Baby's First Year books](https://help.chatbooks.com/en/articles/10874900-how-do-i-add-a-caption-to-my-monthbook-monthly-mini-or-baby-s-first-year-on-the-web), and [standard shipping is free on U.S. orders](https://help.chatbooks.com/en/articles/7862643-how-much-does-it-cost-to-ship-my-chatbooks-domestic-us). The books are simple and low-commitment, which suits a parent who wants printed photos without a project. Book prices vary by size and format, so check [Chatbooks' pricing page](https://chatbooks.com/products/all?e=1) for current numbers.
+## Chatbooks and 10 alternatives, side by side
 
-Parents who leave usually aren't unhappy. Their plans just changed. Back to our family with the 2-year-old and the grandparents' book:
+Regular US prices, checked November 19, 2026. "Starting price" is the cheapest base book the company lists, usually 20 pages.
 
-1. **They want to pick the layout and cover.** Grandma's book should open on the hospital photo, and Dad wants the cover to say "Year One." Chatbooks keeps design simple on purpose. Captions in Classic Books, for example, [only show with Square or Border page layouts](https://help.chatbooks.com/en/articles/8401495-how-do-i-edit-my-classic-book).
-2. **They want a more premium book.** A gift that sits on the grandparents' coffee table for twenty years may call for heavier paper or a lay-flat hardcover.
-3. **They want one book, without a subscription.** A single first-year book and nothing arriving after it.
-4. **They want what a page can't hold.** The toddler saying "pasketti." The first wobbly steps on video. The story behind the blurry photo from 2 a.m.
+| | Best for | Starting price | Subscription? | Formats and sizes |
+| --- | --- | --- | --- | --- |
+| [Chatbooks](https://chatbooks.com/pricing/unitedstates) | Low effort, steady series | $10 a Monthly Mini; Custom Photo Book from $26 | Optional (Autoship on by default) | 5x5 to 10x10; softcover, hardcover, Layflat from $115 |
+| [Mixbook](https://www.mixbook.com/photo-book-pricing) | Design control | $14.99 (6x6 softcover) | No | 6x6 to 14x11; softcover, hardcover from $29.99, lay-flat from $74.99 |
+| [Shutterfly](https://www.shutterfly.com/p/photo-books/photo-book-styles/create-your-own-photo-book) | Design control with shortcuts | $47.99 (20 pages; $28.79 on sale) | No | 8x8 to 12x12, up to 111 pages |
+| [Artifact Uprising](https://www.artifactuprising.com/photo-books) | Heirloom look | $19 softcover; Layflat Photo Album from $159 | No | Layflat album 8.5x8.5 to 14x11, 20 to 90 pages |
+| [Printique](https://www.printique.com/site/PriceList.aspx) | Choosing paper and leather | $43.99 (5x7 classic hardcover, 20 pages) | No | 5x7 to 12x12; classic, leather and lay-flat books |
+| [Blurb](https://www.blurb.com/pricing) | Paper choice at mid prices | $12 (5x5 paperback) | No | 5x5 to 13x11; lay-flat from $89 |
+| [Snapfish](https://www.snapfish.com/photo-book) | Lowest price | $15.99 (5x7 softcover; often 50%+ off) | No | 5x7 to 11x14; lay-flat from $54.99 |
+| [Popsa](https://popsa.com/en-us/products/photo-books/) | Fast, auto-designed book from your phone | Shown in the app by region | No | Softcover, hardcover, booklet; 20 pages plus up to 130 more |
+| [Walgreens Photo](https://photo.walgreens.com/store/photo-books) | A book by tomorrow | $29.99 (8.5x11 window cover, same-day) | No | 4x6 to 12x12; most books up to 150 pages |
+| [Qeepsake](https://www.qeepsake.com/pricing) | Text-prompt journal plus book | $4.99 a month (Essential) | Yes, for the journal | Book credit with yearly plans |
+| [Momora](/faq/) | Voices, video and stories, plus a book | $9.99 a month or $59.99 a year; books priced per order | Yes, for the app | Lay-flat hardcover up to 122 pages |
 
-![Toddler at a kitchen table beside a parent holding a phone, with a printed photo book and illustrated reasons to switch.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/56dfd92f-e686-4cdd-8cc5-31e83fda0db5/final-1792527028924.webp)
-
-If none of those sound like you, staying put is a reasonable choice. For a full look at Chatbooks on its own terms, read our [Chatbooks review and how it compares to Momora](https://usemomora.com/blog/chatbooks-review/).
-
-## Chatbooks and seven alternatives, side by side
-
-Prices are as of October 2026, and sale prices change often.
-
-|  | Best for | Starting price | Billing | Pages and formats | Extras |
-| --- | --- | --- | --- | --- | --- |
-| Chatbooks | Low effort, steady series | Varies by book | Series subscription or single books | Monthbooks, Minis, Baby's First Year, lay-flat | Captions on Monthbooks, Minis and Baby's First Year |
-| [Mixbook](https://www.mixbook.com/photo-book-pricing) | Design control | $14.99 (20-page softcover) | One-off | Softcover and hardcover 20 to 400 pages, lay-flat 20 to 100 |  |
-| [Shutterfly](https://www.shutterfly.com/p/photo-books/photo-book-styles/create-your-own-photo-book) | Design control | $31.49 sale, $47.99 regular (20 pages) | One-off | Standard, standard lay-flat, deluxe lay-flat |  |
-| [Artifact Uprising](https://mobile.artifactuprising.com/photo-books/by-feature/layflat) | Print quality | $45 (Everyday Photo Book) | One-off | Premium lay-flat 20 to 90 pages |  |
-| [Printique](https://www.printique.com/photo-books/) | Print quality |  | One-off | Lay-flat softcover 20 to 40 pages, hardcover 10 to 100, classic-bound |  |
-| [Snapfish](https://www.snapfish.com/photo-book) | Lower cost | $6.30 sale, $17.99 regular (6x8 hardcover) | One-off | Softcover, hardcover up to 150 pages, lay-flat |  |
-| [Walgreens Photo](https://photo.walgreens.com/store/same-day-pickup) | Same-day books | $29.99 (8.5x11 window cover) | One-off | Standard and lay-flat 8.5x11, most up to 150 pages | Same-day store pickup |
-| [Momora](https://usemomora.com/faq) | Memories beyond prints | Plus $9.99/month or $59.99/year, books per order | Subscription plus per book | Auto-laid-out lay-flat hardcover, any date range | Drafted captions you approve, voice QR codes, monthly and yearly films |
-
-Find your reason in the "Best for" column and jump to that group. Two reasons, like a sturdy book by Saturday? Read both groups and compare prices.
+Find your reason in the "Best for" column and jump to that group. Two reasons, like a sturdy book by Saturday? Read both groups.
 
 ## Mixbook and Shutterfly: for parents who want to design every page
 
-"I want to pick the cover photo myself. And write something on the page with the cake."
-
-Both of these let you do that. The cost is time. If you build the grandparents' first-year book with a caption on every page, plan on an evening or two. Ten minutes won't do it.
+Both editors let you do that. The cost is time: a first-year book with a caption on every page is an evening or two, not ten minutes.
 
 ### Mixbook
 
-Mixbook is best for parents who enjoy arranging pages. You can [start from a themed template or a blank page](https://www.mixbook.com/inspiration/mixbook-editor-overview), then change layouts, backgrounds, text, borders, and stickers. It has hundreds of layouts. You can filter them by how many photos you want on a page, and some pages hold up to 30. Auto-Layout suggests arrangements when you'd rather not decide. You can write any text you like, and the editor lists Smart Captions as a tool. Covers come in softcover, hardcover, lay-flat, and album styles, and the finishes vary by cover type. Books start at [$14.99 for a 20-page softcover](https://www.mixbook.com/photo-book-pricing).
+Mixbook is best for parents who enjoy arranging pages. You can [start from a template or a blank canvas](https://www.mixbook.com/inspiration/mixbook-editor-overview), change layouts, backgrounds and text, and fit up to 30 photos on a page. Its newer Story Mode starts you from a prompt like "Family memories" or "Our year in photos" if you'd rather not begin from scratch.
 
-The limit is the number of choices. Hundreds of layouts are great on a free Sunday and a lot to sort through after bedtime.
+As of November 2026, [Mixbook's pricing page](https://www.mixbook.com/photo-book-pricing) lists a 20-page 6x6 softcover at $14.99, hardcovers from $29.99 (8x6) and lay-flat books from $74.99 (8.5x8.5), with paper upgrades (Signature Matte, Premium Lustre) adding to each. Extra pages cost $0.99 to $4.99 each depending on size and paper.
 
-Pick this if you'd happily spend a few evenings choosing backgrounds and writing every caption yourself.
+The limit is the number of choices. Lots of layouts are great on a free Sunday and a lot to sort through after bedtime.
 
-![Parent using a laptop to design a photo book on a couch beside a baby monitor.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/3b20f970-a0ce-46a9-82e2-a3284a6183ad/final-1792527029816.webp)
+![A mother in a lavender sweater designs a photo book on a laptop on the couch in the evening, a baby monitor on the side table, with text reading "Books start at $14.99 for a 20-page softcover."](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/3b20f970-a0ce-46a9-82e2-a3284a6183ad/final-1792527029816.webp)
+
+Pick this if you'd happily spend a few evenings choosing layouts and writing every caption yourself.
 
 ### Shutterfly
 
-Shutterfly is best for parents who want control but would like a head start. Autofill places your photos for you, and you can [still edit everything it does](https://www.shutterfly.com/ideas/how-to-customize-a-photo-book-every-option-explained/), including layouts, photos, text, and backgrounds. You can add captions, page titles, dates, and longer stories, and you choose the font, size, and placement. Magic Writer [suggests captions you can edit](https://support.shutterfly.com/s/article/personalizing-a-photo-book). Covers take photos and text. If you don't want to design at all, Make My Album has Shutterfly's designers build the book for you. A 20-page book is $47.99 regular and $31.49 on sale.
+Shutterfly is best for parents who want control with a head start. [AI Auto-Fill arranges your uploaded photos into layouts](https://www.shutterfly.com/ideas/how-to-customize-a-photo-book-every-option-explained/) that you can then edit, Magic Writer suggests captions you can rewrite, and a free designer service will build the book from your photos if you don't want to design at all. Books run from 20 up to 111 pages.
 
-The limit shows up if you change your mind about the look. You can switch book styles at any point, but [switching may reset layouts, text sizes, and your customizations](https://support.shutterfly.com/s/article/Exploring-Photo-Book-Options-Features). Choose the style first, then write the captions.
+On November 19, 2026, Shutterfly's [Create Your Own photo book](https://www.shutterfly.com/p/photo-books/photo-book-styles/create-your-own-photo-book) listed a 20-page book at $47.99 regular ($28.79 on sale), with extra pages at $2.74 regular. Shutterfly runs sales constantly, so the regular price is the fair comparison.
+
+One catch: [changing the book style mid-project may alter layouts, text sizes and customizations](https://support.shutterfly.com/s/article/Exploring-Photo-Book-Options-Features). Choose the style first, then write the captions.
 
 Pick this if you want a full editor plus a shortcut for the nights you're too tired to use it.
 
-## Artifact Uprising and Printique: for a book that feels like an heirloom
+## Artifact Uprising, Printique and Blurb: for a book that feels like an heirloom
 
-"I want Grandma to pick it up and feel the weight of it."
-
-This is the route if the grandparents' first-year book should sit on the coffee table for decades. Expect to pay more per book than anywhere else on this list.
-
-Two terms come up a lot here. Lay-flat binding opens almost flat across the middle, so a photo can stretch across both pages without disappearing into the spine. Standard binding curves toward the spine. Matte paper is soft and low-glare. Lustre has a slight sheen that makes colors pop a little more.
-
-### Artifact Uprising
-
-Artifact Uprising is best for parents who want one quiet, simple album. The [Layflat Photo Album](https://www.artifactuprising.com/photo-books/layflat-photo-album) has a plant-based linen cover, a foil-stamped title in gold, copper, white, or silver, and very thick, hand-mounted pages that lie flat. Sizes run from 8.5×8.5 up to 14×11 inches. It starts at $159 as of October 2026.
-
-The limit is cost and tone. One album costs about as much as several everyday books, and the look is calm and minimal, with fewer playful templates.
-
-Pick this if you want a linen cover with the baby's name stamped in gold.
+This is the route if the first-year book should sit on the coffee table for decades. Two terms come up a lot. Lay-flat binding opens flat across the middle, so a photo can stretch across both pages without disappearing into the spine. Matte paper is soft and low-glare; lustre has a slight sheen.
 
 <figure class="coauthor-widget"><iframe src="https://0d751058050a8c92.figurehost.com/w/3aed23e5-200b-4aef-803e-65de433ad9a2" title="With lay-flat binding a photo stretches across both pages, while standard binding swallows part of it in the spine." loading="lazy" sandbox="allow-scripts" width="100%" height="569" frameborder="0"></iframe></figure>
 
+### Artifact Uprising
+
+Artifact Uprising is best for one quiet, simple album. Its [Layflat Photo Album](https://www.artifactuprising.com/photo-books/layflat-photo-album) has a linen cover with a foil-stamped title in gold, silver or white, and ultra-thick pages built on a 300 gsm paper insert, with a choice of matte or lustre paper. It starts at $159 for an 8.5x8.5 with 20 pages, runs up to 90 pages, and comes in sizes up to 14x11. If that's more book than you need, Artifact Uprising also lists a Softcover Photo Book from $19, an Everyday Photo Book from $45 and a Hardcover Photo Book from $59 (regular prices, November 2026).
+
+The limit is cost and tone. The layflat album costs as much as several everyday books, and the look is calm and minimal rather than playful.
+
+Pick this if you want a linen cover with the baby's name stamped in gold.
+
 ### Printique
 
-Printique is best for parents who want to choose their materials and their price. [Classic Hardcover books start at $59.99](https://www.printique.com/products/photo-books), perfect-bound on HD press paper with a laminated semi-gloss cover. [Layflat softcovers](https://www.printique.com/products/softcover-photo-book) use resin-coated matte paper and a 1 mm cover made from the same stock. At the top end, a 20-page [saddle-brown leather layflat album](https://www.printique.com/products/layflat-brown-genuine-leather-photo-albums) costs $293.97. It uses whole-hide leather and real photo paper.
+Printique is best for parents who want to choose the materials themselves: paper finish (lustre, matte and others), cover type, binding. Its [price list](https://www.printique.com/site/PriceList.aspx) shows 20-page classic hardcover books from $43.99 (5x7) to $85.99 (12x12), and vegan or genuine leather classic books from $60.99. Lay-flat books and albums sit above that.
 
-The limit is the range itself. The leather albums cost a lot, and you'll need to compare bindings and papers before you order.
+The limit is the range itself. You'll compare bindings, covers and papers before you order.
 
-Pick this if you want real leather or real photo paper and don't mind paying for it.
+Pick this if you want real leather or a specific paper and don't mind paying for it.
 
-## Snapfish and Walgreens: for a cheap book or one you need by Saturday
+### Blurb
 
-"The party is Saturday. It's Thursday night. I have no book."
+Blurb is best for parents who want premium paper without premium-album prices. [Blurb's pricing page](https://www.blurb.com/pricing) lists a 5x5 paperback from $12, a 7x7 hardcover from $32, and paper upgrades up to Mohawk proPhoto Pearl. Its lay-flat books use double-thick pages and start at $89 (7x7), up to $159 for 13x11.
 
-Both picks here are one-off orders. You pay for the book you make, and there's no series to cancel later.
+The limit is the menu: four paper types, three cover styles and six sizes take some comparing before you order.
+
+Pick this if you want to pick the exact paper and keep the price under a luxury album.
+
+## Snapfish, Popsa and Walgreens: for one cheap book, no subscription
+
+All three are one-off orders. You pay for the book you make, and nothing renews.
 
 ### Snapfish
 
-Snapfish is best for parents who want one inexpensive book now and maybe another next year. You order [individual photo books as you need them](https://www.snapfish.com/photo-book), and the [simple photo books](https://www.snapfish.com/simple-photo-books) line keeps the choices short when you just want the first year in order. Prices depend heavily on whatever promotion is running, so the total can change from week to week. Check Snapfish's pricing page and your checkout total before you order.
+Snapfish is best for the lowest price. Its [photo book page](https://www.snapfish.com/photo-book) lists a 5x7 softcover from $15.99 regular, a 6x8 hardcover from $17.99 and lay-flat hardcovers from $54.99, but on November 19, 2026 those were all marked down by about 65%. Snapfish prices swing with promotions, so check the total at checkout.
 
-The limit for this family is timing. Snapfish ships, and delivery dates show at checkout. If you open it Thursday night, a Saturday party is probably too soon.
+The limit is timing. Snapfish ships, so a Thursday-night order won't make a Saturday party.
 
 Pick this if you want a low-cost book and the gift can wait for the mail.
 
+### Popsa
+
+Popsa is the closest thing to Chatbooks without a subscription. It's a phone app that [designs the book for you](https://popsa.com/en-us/products/photo-books/hardcover-photo-book/), with automatic layouts, captions and colors, and one-tap edits. Books come as softcovers, hardcovers or thin booklets, with 20 pages and room for up to 130 more. Popsa shows prices in your local currency in the app, so check there; we couldn't load US prices from its site.
+
+The limit is control. Popsa is fast because it decides most of the design.
+
+Pick this if you liked Chatbooks' tap-and-done approach but want one book, not a series.
+
 ### Walgreens Photo
 
-Walgreens is best for the Thursday-night problem. It has [12 photo book formats, from 4x6 up to 11x14](https://photo.walgreens.com/store/photo-books), and some of them can be ready for [same-day pickup](https://photo.walgreens.com/store/same-day-pickup?tab=photo_Header_SDPU) at a local store.
+Walgreens is best for the Thursday-night problem. As of November 2026, [Walgreens Photo](https://photo.walgreens.com/store/photo-books) lists 8.5x11 books for same-day pickup, window-cover from $29.99 and custom-cover from $39.99 (standard or lay-flat), plus an 11x14 premium book. Other formats, from a $9.99 4x6 softcover to a $119.99 11x14 premium lay-flat, ship to you or to the store. Most books go up to 150 pages.
 
-The limit is that same-day doesn't cover every format or every store. Formats like the [8x11 custom cover book](https://photo.walgreens.com/store/8x11-custom-cover-photo-book-sdp-details) are your best bet, but you only see what your store can print once you've picked it. If you need the book by Saturday, expect a simpler book with fewer format options.
+The limit is choice. Same-day pickup covers only a few formats, and availability depends on your store.
 
-![Parent holding a toddler while reviewing an open photo book at a photo counter.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/c13f6716-e2a7-4211-92f5-ab9814120a7f/final-1792527033826.webp "Same-day pickup trades format choices for certainty: a simpler book, but in your hands before Saturday.")
+![A mother holding her toddler on one hip flips through a freshly printed photo book at a photo counter.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/c13f6716-e2a7-4211-92f5-ab9814120a7f/final-1792527033826.webp "Same-day pickup trades format choices for certainty: a simpler book, but in your hands before Saturday.")
 
 Pick this if the party is Saturday and you'd rather drive ten minutes than refresh a tracking page.
 
-## Momora: for the book plus the voices and stories behind it
+## Qeepsake and Momora: for the stories and voices behind the photos
 
-"I want Grandma to hear him say 'pasketti,' not just see a photo of the spaghetti."
+These two are journal apps first and book makers second. You pay a subscription for the app, and the book comes from what you've saved over the year.
 
-We make Momora. It's a [baby book that fills itself from your phone](https://usemomora.com/). You choose which photos it can look through, it suggests the days worth keeping, and it drafts a caption for each one. Nothing goes in until you approve it. Sayings, voice recordings, videos and kids' drawings sit on the same private timeline as the photos.
+### Qeepsake
 
-For the running example, Momora picks the moments from those 3,000 first-year photos and lays out a lay-flat hardcover book for the span you choose. Monthly recap films arrive on the first of the month, and a year-end film follows. Grandma joins the private timeline with an invite code, and she can play the "pasketti" story in the toddler's own voice and leave a comment.
+Qeepsake texts you journaling prompts about your child and turns your answers and photos into a book. As of November 2026, [its pricing page](https://www.qeepsake.com/pricing) lists Essential at $4.99 a month (two questions a day, up to two journals) and Premium at $9.99 a month (four questions a day, unlimited journals, family contributors). Yearly billing saves 20% and adds a book credit: $19.99 on Essential, $61.99 on Premium. Our [Qeepsake review](/blog/qeepsake-review/) covers the books in detail.
 
-![Grandmother scanning a QR code in a baby book, with an illustrated voice waveform and Momora Plus prices.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/0fc0fd99-5828-4945-b86f-f0f2d0ac48a6/b35025d9-56d1-47e5-969e-e9592bc68c03/final-1792527032938.webp)
+Pick this if you'll answer a text every day but won't open an app.
 
-There are real limits. Momora curates and lays out the book, so you get less page-by-page control than the design picks above. It's an app first, not a print shop. Momora Plus costs $59.99 a year or $9.99 a month as of November 2026, eligible new families get a seven-day trial on the annual plan, and you pay for each book when you order it. Holiday cards ship only in the US and Canada. If you stop paying, you can still [export everything](https://usemomora.com/privacy-policy/).
+### Momora
 
-For journaling-app comparisons, see [Apps Like Qeepsake](https://usemomora.com/blog/apps-like-qeepsake/) and our [Tinybeans App Review](https://usemomora.com/blog/tinybeans-app-review/).
+We make Momora, so weigh this one accordingly. It's a private family memory journal app for iPhone and Android where you save moments as text, voice recordings, photos, videos and scanned kids' artwork. Invited relatives see the family timeline, react and comment; there's no public feed.
 
-Pick this if you want a book that builds itself, plus the voices and stories that paper can't hold.
+For the running example, Momora's [memory books](/photo-books/) pick the best moments from what the family saved, group them into chapters and lay out a lay-flat hardcover of up to 122 pages, which you look through before you order. QR codes on the page play the voice recordings and videos, so Grandma can hear "pasketti" in the toddler's own voice. Monthly and year-end films are made automatically too.
+
+The limits: you get less page-by-page control than with the design picks above, books print what you saved in the app rather than any photo collection, and it's a subscription. Momora Plus costs $59.99 a year or $9.99 a month as of November 2026, eligible new families get a seven-day free trial on the annual plan, and each book is priced when you order it. If you stop paying, the owner can still read and [export the family archive](/faq/).
+
+Pick this if you want the voices and stories saved as they happen, and a book that builds itself from them.
 
 ## Which Chatbooks alternative fits your reason for switching
 
-"I don't need the best one. I need the one that fits us."
+- **You want to design every page:** Mixbook, or Shutterfly if you'd like auto-fill as a shortcut.
+- **You want an heirloom book:** Artifact Uprising for the look, Printique for leather and paper choice, Blurb for premium paper at lower prices.
+- **You want one cheap book and no subscription:** Snapfish for price, Popsa for speed, Walgreens if you need it today.
+- **You want the stories, not just the photos:** Qeepsake if you like text prompts, Momora if you want voices and video in the book.
+- **You're happy with a steady, low-effort series:** stay with Chatbooks. Switching just to switch is more work for the same result.
 
-Find your reason and go with that pick.
+A family with 3,000 first-year photos doesn't have two free evenings for an editor. If Grandma will love thick paper on the coffee table, Artifact Uprising is the better gift. If she'll scan a code and want to hear "pasketti" again, a journal app fits better. Either way, sorting the photos first helps; our [photo organization guide](/blog/photo-organization-programs/) covers the tools.
 
-If you want to design every page, pick Mixbook or Shutterfly. If you want a book that feels like an heirloom, pick Artifact Uprising or Printique. If you want it cheap, or you need it by Saturday, pick Snapfish or Walgreens. If you want voice, video and stories, plus a book that builds itself, pick Momora. If you're happy with low effort and a steady series, stay with Chatbooks. It does that job well, and switching just to switch is more work for the same result.
+## FAQ
 
-Our family with the 2-year-old has 3,000 first-year photos and one book to give the grandparents. They don't have two free evenings for an editor, so a design-first pick is a hard sell. Their pick comes down to what Grandma will value more. If she'll love thick paper on the coffee table, Artifact Uprising is the better gift. If she'll scan a code and want to hear "pasketti" again, Momora fits better, and it lays out the book from photos the parents approve.
+### What is the easiest company to make a photo book with?
 
-## Photo book questions parents ask: captions, formats, and where to print
+The easiest are the ones that design the book for you. Chatbooks and Popsa build a book from your phone photos in a few taps, Mixbook's Story Mode and Shutterfly's AI Auto-Fill lay out pages automatically that you can then edit, and Shutterfly offers a free designer service if you don't want to touch the editor at all.
 
-"Can I actually write something under each photo?"
+### Is Popsa or Mixbook better?
 
-Yes. Chatbooks lets you [add a caption to individual photos](https://help.chatbooks.com/en/articles/10874900-how-do-i-add-a-caption-to-my-monthbook-mini-from-the-web), and it offers [standalone text pages](https://chatbooks.com/blog/new-subscribers-how-to-add-text-pages) for longer notes. Mixbook and Shutterfly give you [free text you can place anywhere](https://support.shutterfly.com/s/article/Adding-Editing-Text) on the page. Momora drafts a caption for each suggested day, and you approve or edit it.
+Popsa is better if you want a book fast from your phone with automatic layouts and little editing. Mixbook is better if you want to control every page, choose from more sizes (6x6 to 14x11) and pick paper and cover upgrades, with a 20-page 6x6 softcover from $14.99.
 
-"Softcover, lay-flat... what's the difference?"
+### What replaced Apple photo books?
 
-Softcover books are [lightweight, portable and cheaper](https://www.mixbook.com/photo-books/soft-cover), so they work well for monthly books and casual gifts. Hardcovers hold up better on a shelf. [Lay-flat pages open flat](https://www.mixbook.com/photo-books/lay-flat), so one photo can stretch across both pages. Board books survive toddler hands, and mini books fit in a diaper bag.
+Apple stopped selling its own printed books, cards and calendars in 2018, according to [Macworld](https://www.macworld.com/article/3289551/apple-ends-its-photo-printing-service-after-16-years.html). On a Mac, the Photos app now [creates projects through third-party apps](https://support.apple.com/guide/photos/pht79eabc799/mac) you install from the App Store, and some of those apps can convert a project you made with Apple's old print service. Any service in this list also works with photos exported from your iPhone.
 
-"Where do I even get one printed?"
+### Is there a photo book subscription like Chatbooks?
 
-You can order from online services or from inside an app, then wait for shipping. If you need the book this week, [Walgreens](https://photo.walgreens.com/store/photo-books), [Walmart](https://photos3.walmart.com/category/264-same-day-photo-books) and [CVS](https://www.cvs.com/photo/s/photo%20books%20same%20day) all advertise same-day photo books. Which books qualify and when they're ready depends on your local store.
+Journal apps like Qeepsake charge a subscription for the app, not a book every month; you order books when you want them. Among print services, Chatbooks' Series and Monthbooks are the main monthly book subscription. Everyone else here (Mixbook, Shutterfly, Artifact Uprising, Printique, Blurb, Snapfish, Popsa, Walgreens) sells one book at a time.
 
-## Trying Momora's free trial for a first-year book
+### Which Chatbooks alternative is cheapest?
 
-"I don't want another project. I just want the book."
-
-If memories beyond prints sounded like you, start with the free trial. Eligible new families get a seven-day free trial of the annual Momora Plus plan, which is $59.99 a year or $9.99 a month in the U.S. as of 2026. The App Store or Google Play shows your price and renewal terms before you pay.
-
-Pick which photos Momora may look through and let it suggest the first year. You'll see the laid-out book before you order, and you pay for the book only when you order it. Everything you add stays yours, and you can export it anytime, even after you stop paying.
-
-If you'd rather design every page or pick the paper yourself, the other picks above are good choices.
+By regular list price, Blurb ($12 for a 5x5 paperback) and Mixbook ($14.99 for a 6x6 softcover) start lowest, followed by Snapfish ($15.99 for a 5x7 softcover). Snapfish is often cheapest at checkout because it runs deep sales; in November 2026 its books were about 65% off.
 
 <script src="https://figurehost.com/embed.js" async></script>

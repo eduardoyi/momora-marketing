@@ -1,18 +1,19 @@
 ---
-title: 'Apps Like Qeepsake: 4 Baby Memory Alternatives Compared by Effort'
+title: 'Apps Like Qeepsake: 6 Alternatives Compared by Effort (2026)'
 description: >-
-  Apps like Qeepsake compared: Tinybeans, FamilyAlbum, Momora, and Chatbooks, by
-  how you capture memories, share with family, and get to print.
+  Apps like Qeepsake, checked November 2026: The Short Years, BabyPage,
+  Tinybeans, FamilyAlbum, Chatbooks and Momora, by how each asks you to capture.
 slug: apps-like-qeepsake
 excerpt: >-
-  Qeepsake texts you prompts, but not every parent keeps up that way. We compare
-  Tinybeans, FamilyAlbum, Momora, and Chatbooks on the effort each asks, private
-  family sharing, and paths to a digital or printed keepsake, so you can pick a
-  workflow you'll actually stick with.
+  Qeepsake texts you a question and files your reply. If that habit isn't
+  sticking, these six alternatives ask for different kinds of effort: weekly
+  prompts toward a printed book, photo uploads for grandparents, print-first
+  books, or quick voice and photo capture. Prices checked November 2026.
 dek: >-
-  Apps like Qeepsake compared: Tinybeans, FamilyAlbum, Momora, and Chatbooks, by
-  how you capture memories, share with family, and get to print.
+  Apps like Qeepsake, checked November 2026: The Short Years, BabyPage,
+  Tinybeans, FamilyAlbum, Chatbooks and Momora, by how each asks you to capture.
 date: '2026-10-20'
+updated: '2026-11-19'
 image: >-
   https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/c6e2d0ea-4b3d-4fcd-b874-8e3825bb11ee/final-1792487376399.webp
 author: Adriana Maronese
@@ -24,108 +25,119 @@ authorBio: >-
 authorAvatar: /assets/images/blog/authors/adriana-maronese.jpg
 ---
 
-![A parent checks a phone beside a sleeping child, with birthday cake, wrapping paper, and a baby book nearby.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/c6e2d0ea-4b3d-4fcd-b874-8e3825bb11ee/final-1792487376399.webp)
+![A parent sits on a couch looking at her phone next to a sleeping toddler in pajamas, with a half-eaten birthday cake, torn wrapping paper and a gift-wrapped book on the coffee table.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/c6e2d0ea-4b3d-4fcd-b874-8e3825bb11ee/final-1792487376399.webp)
 
-## Finding a Qeepsake alternative that fits how you save memories
+The closest apps like Qeepsake are The Short Years and BabyPage, which also prompt you with questions and turn your answers into a printed baby book. If you'd rather share photos with family than answer prompts, look at Tinybeans or FamilyAlbum; if you mostly want photos on paper, Chatbooks; and if you want to save stories by voice next to photos, Momora (we make it). The right pick is the one whose kind of effort you'll keep up on a tired Tuesday.
 
-Say it's Saturday night. You have 40 photos from your daughter's second birthday and a note on your phone that says "she called the cake a hat." Grandma has texted twice asking for pictures.
+## What Qeepsake asks of you
 
-The right app for you depends on what you'll do with those three things on a tired Tuesday, not on how organized you hope to be by spring. Digital baby journals and memory-book apps do the same job as a paper baby book: they keep milestones and family stories. You just don't have to find a pen.
+Qeepsake [texts you age-based prompts](https://help.qeepsake.com/article/116-how-does-qeepsake-work). You reply by text, and Qeepsake files the answer by date. You can also [text a photo or a memory without waiting for a prompt](https://help.qeepsake.com/article/144-how-do-i-save-photos-to-qeepsake), and the [mobile app](https://help.qeepsake.com/article/180-what-can-i-do-in-qeepsakes-mobile-app) handles missed questions, backdated entries and organizing.
 
-Qeepsake is the usual reference point. It [texts you age-based prompts](https://help.qeepsake.com/article/116-how-does-qeepsake-work). You reply by text, and Qeepsake files your answer by date. You can also [text a photo or a memory without waiting for a prompt](https://help.qeepsake.com/article/144-how-do-i-save-photos-to-qeepsake). The [mobile app](https://help.qeepsake.com/article/180-what-can-i-do-in-qeepsakes-mobile-app) handles everything else, including missed questions, backdated entries, and organizing. As of October 2026, annual plans cost [$47.88 for Essential and $95.88 for Premium](https://qeepsake.com/pricing).
+As of November 2026, [Qeepsake costs](https://qeepsake.com/pricing) $4.99 a month or $47.88 a year for Essential, and $9.99 a month or $95.88 a year for Premium; annual plans include a book credit, and books and shipping are extra. Qeepsake is owned by Tinybeans. Our [Qeepsake review](/blog/qeepsake-review/) breaks down every plan, book price, shipping fee and the cancellation rules.
 
-![A hand holds a phone with a text-message reply open while a smiling baby and dog sit in the background.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/9ff3e236-2d7e-4443-a8e0-0dead299aa2e/final-1792487339090.webp "When a prompt arrives as a text, saving a memory can take about as long as a quick reply to a friend.")
+![A hand holds a phone showing a text prompt asking what made the baby laugh today, with a reply being typed, while a smiling baby lies on a play mat and a dog rests behind her.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/9ff3e236-2d7e-4443-a8e0-0dead299aa2e/final-1792487339090.webp "When a prompt arrives as a text, saving a memory can take about as long as a quick reply to a friend.")
 
-Replying to a text and opening an app are two different habits. If you answer texts without thinking but leave app badges sitting for weeks, that difference will decide whether the memories get saved. The alternatives below each ask for a different kind of effort. Our [Qeepsake review](https://usemomora.com/blog/qeepsake-review/) covers the prompt system, book costs, and cancellation terms in more detail.
+Replying to a text and opening an app are two different habits. If you answer texts without thinking but leave app badges sitting for weeks, that difference decides whether the memories get saved. Each alternative below asks for a different kind of effort.
 
-## Qeepsake and four alternatives, side by side
+## Qeepsake alternatives compared
 
-Five apps, compared on how you capture a memory, how relatives see it, and whether it can end up in print. We checked each app's site, help center, and app store listing in October 2026. The order follows the article and isn't a ranking.
+We checked each app's own site, help center or App Store listing on November 19, 2026. The order groups apps by how they work; it isn't a ranking. We make Momora.
 
-We make Momora.
+| App | How you capture | Family sharing | Path to a keepsake | Price (US, Nov 2026) | Best for |
+| --- | --- | --- | --- | --- | --- |
+| Qeepsake (baseline) | Reply to text prompts, or journal in the app | Family journal | Printed journal books | $47.88/yr or $4.99/mo (Essential); $95.88/yr or $9.99/mo (Premium) | Parents who answer texts faster than they open apps |
+| The Short Years | Weekly app reminder: answer a few questions, add a photo | Not described on its site | Fabric ring-bound baby book; pages shipped every three chapters | App free; book from $129, one time | A finished first-year book without designing it |
+| BabyPage | Age-based milestone prompts in the app; auto-written pages you edit | Share pages; family collaboration with PLUS | Soft or hardcover books | App free; PLUS $7.99/mo or $44.99/yr; books from $25 | Milestone pages you can print in batches |
+| Tinybeans | Upload photos and videos with captions | Private journal, invited followers | Photo books and calendars | Free (20 uploads/mo, ads); Tinybeans+ $7.99/mo or $74.99/yr | Steady updates for relatives |
+| FamilyAlbum | Upload photos and videos to a shared album | Invite-only album; relatives can view in a browser | Prints and photobooks | Free (unlimited uploads, 2-min videos); Premium from $2.99/mo | Getting every photo to grandparents |
+| Chatbooks | Pick photos for a book, add captions | Printed copies you hand out | Photo books and monthly subscriptions | Custom photo books from $26; Monthly Minis $10 a book | Photos on paper with no journal |
+| Momora | Type, record a voice note, or add photos and video in the app | Private timeline for invited family | Printed lay-flat memory books; data export | Free to download; Momora Plus $59.99/yr or $9.99/mo | Stories and voices next to photos |
 
-| App | How you capture | Private family sharing | Path to a keepsake | Best for |
-| --- | --- | --- | --- | --- |
-| Qeepsake (baseline) | Reply to [SMS prompts](https://help.qeepsake.com/article/116-how-does-qeepsake-work) or journal in the app | Family journal | [Books from $19.99 softcover, $39.99 hardcover](https://qeepsake.com/features) for 30 pages | Parents who answer texts faster than they open apps |
-| Tinybeans | [Upload photos and videos](https://apps.apple.com/us/app/tinybeans-private-family-album/id521633042), singly or in batches, sorted by date | Private family album | [Photo books](https://tinybeans.com/photobooks) | Regular photo updates for relatives |
-| FamilyAlbum | [Upload photos and videos](https://help.family-album.com/hc/en-us/articles/360038720013-How-do-I-upload-photos-and-videos) to a shared album | [Album admins and invited members](https://help.family-album.com/hc/en-us/articles/4404247061529-What-s-the-difference-between-Album-Admins-and-Album-Members) | [Prints](https://family-album.com/photo_prints) and [photobooks](https://family-album.com/photobooks) | Sharing photos with grandparents |
-| Momora | Type, record a voice note, or add photos and video in the [iOS and Android app](https://usemomora.com/) | Private timeline for invited family | Digital timeline with full export | Stories, quotes, and voices next to photos |
-| Chatbooks | Pick photos for a [book or Monthbook](https://help.chatbooks.com/en/articles/9473111-how-do-i-create-my-first-monthbook), [add captions](https://help.chatbooks.com/en/articles/10029371-how-do-i-add-a-caption-to-my-monthbook-monthly-mini-or-baby-s-first-year-on-the-app) | Printed copies you send | Physical photo books | Getting photos onto paper |
+Only Qeepsake works by text message. The Short Years and BabyPage keep the prompt idea but deliver it inside an app. The other four don't prompt you at all: you add things when you remember to.
 
-Qeepsake is the only app here built around text-message prompts. With the other four, you open an app and add things yourself. The sections below cover subscription and print costs where available; check each provider for current pricing.
+## 1. The Short Years: weekly prompts toward one printed book
 
-## 1. Tinybeans: a private journal for regular family updates
+The Short Years is the closest match to Qeepsake's "answer a question, get a book" idea, with a one-time price instead of a subscription. According to its [App Store listing](https://apps.apple.com/us/app/the-short-years-baby-book/id1327539226), the app sends a weekly reminder to upload a photo and answer a few questions, then turns your text, photos and video into baby book pages. After you buy the book, pages are printed and shipped each time you finish three chapters.
 
-"Grandma keeps asking if there are new pictures. There are 400. None of them have left my phone."
+As of November 2026, [the book costs from $129](https://www.theshortyearsbooks.com/shop/the-short-years-baby-book), with a fabric cover, three rings, 19 chapters covering pregnancy through the first birthday, and printing and shipping of the pages included. The Toddler Years add-on, which extends the book through age five, is $89 at purchase or $99 later. The app itself is free.
 
-Tinybeans fits parents who want relatives to see what's new without forwarding every photo one at a time. It's a [private family journal for photos, videos, captions, and milestones](https://tinybeans.com/), and the family-update side is built in. Followers can get daily updates, flashbacks, and weekly summaries.
+The limitation is shape. It's one structured book with fixed chapters, so the funny thing your toddler said in month 14 needs a home outside the first-year chapters unless you add The Toddler Years. The site doesn't describe family sharing.
 
-To save the birthday photo, you open the app or website, upload the picture, and type the funny quote as its caption. The quote stays attached to the photo. Nothing prompts you by text message. You decide when to post and what to write.
+## 2. BabyPage: milestone pages you edit and print
 
-![A grandmother views a child’s birthday photo on a tablet at a table.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/4a9cc01f-759e-41f9-aa1a-be4ece4e519b/final-1792487318878.webp)
+BabyPage also works from prompts. Its [App Store listing](https://apps.apple.com/us/app/id1362796822) describes age-based milestones (2 weeks, 2 months, 2 years), holidays and custom pages; you add photos and entries, and the app auto-generates a description you can edit. You can share pages with family, and family collaboration and multiple child profiles come with the BabyPage PLUS subscription.
 
-Only people you invite can see the journal. Each follower [gets their own login](https://tinybeans.com/faqs-old) and sees everything except the memories you mark hidden. They can react and comment in the app or reply from the email updates, so Grandpa doesn't have to learn a new app to say something nice.
+The app is free with in-app purchases. As of November 2026, the App Store lists PLUS at $7.99 a month, $13.99 for three months or $44.99 a year; PLUS adds premium designs, cover options, 10% off orders and free shipping. [Printed books start at](https://www.babypage.com/books) $25 for a 6x6 softcover, $35 for an 8x8 softcover and $55 for an 8x8 hardcover, with extra pages beyond 30 at $0.60 to $0.85 each.
 
-The free plan includes 20 photo or video uploads a month and shows ads. As of October 2026, [Tinybeans+ costs $7.99 a month or $74.99 a year](https://tinybeans.com/faqs-old). Paid members get unlimited uploads, videos up to five minutes, and 2TB of storage. If you cancel, your existing memories stay, and the account goes back to the free limits and ads.
+The tradeoff is that pages are templated around milestones, so long stories fit less naturally than in a journal.
 
-For print, iPhone users can [tap the Store icon in the app](https://tinybeans.com/tinybeans-photo-store-photo-books-calendars-in-app) to make photo books and calendars from journal photos. The books are [hardcover or softcover on 100-weight glossy paper](https://tinybeans.com/faqs-old/photobooks). Videos stay digital.
+## 3. Tinybeans: a private journal for regular family updates
 
-Tinybeans is best for parents who post often and have relatives who want a steady stream of updates. The limitation is the free plan's 20 uploads a month. One birthday party could use most of them. Read our [Tinybeans app review](https://usemomora.com/blog/tinybeans-app-review/) for a closer look at sharing, costs, and exports.
+Tinybeans, the company that owns Qeepsake, fits parents who want relatives to see what's new without forwarding every photo. It's a [private family journal for photos, videos, captions and milestones](https://tinybeans.com/). You upload the birthday photo and type the funny quote as its caption. Nothing prompts you by text; you decide when to post.
 
-## 2. FamilyAlbum: photo and video sharing for the whole family
+![A grandmother at a table looks at a toddler's birthday photo on a tablet, with a coffee mug and a photo book beside her.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/4a9cc01f-759e-41f9-aa1a-be4ece4e519b/final-1792487318878.webp)
 
-"My mother-in-law wants every photo from the party. Every single one."
+Only people you invite can see the journal. Each follower [gets their own login](https://tinybeans.com/faqs-old), and followers who don't want the app can get updates by email. As of November 2026, the free plan allows 20 photo or video uploads a month and shows ads; [Tinybeans+ costs $7.99 a month or $74.99 a year](https://tinybeans.com/faqs-old) and adds unlimited uploads, videos up to five minutes and no ads. For print, Tinybeans sells [photo books](https://tinybeans.com/photobooks) made from journal photos.
 
-FamilyAlbum suits parents whose main job is getting photos and videos to relatives. It's a [photo and video sharing app built around a child's memories](https://family-album.com/), and the free version allows [unlimited uploads, with videos capped at two minutes](https://help.family-album.com/hc/en-us/articles/4404344217113-What-s-the-difference-between-FamilyAlbum-Premium-and-the-free-version-What-features-are-included-in-each-service).
+The limitation is the free plan's 20 uploads a month; one birthday party can use most of them. Our [Tinybeans app review](/blog/tinybeans-app-review/) covers sharing, costs and exports.
 
-To save the birthday photos, you open the app and upload them. There's no text-message prompt and no in-app question asking about the day. The funny quote goes in as a comment on the photo, because [comments attach to specific uploads](https://help.family-album.com/hc/en-us/articles/360038267214-What-is-FamilyAlbum). Premium adds monthly journal entries, but the app is still built around media.
+## 4. FamilyAlbum: photo and video sharing for the whole family
 
-Album Admins decide who joins, who can upload, and whether a given photo goes to the whole family or [stays visible to Admins only](https://help.family-album.com/hc/en-us/articles/4404247061529-What-s-the-difference-between-Album-Admins-and-Album-Members). Relatives can join from a link and [view, download, and comment in a browser](https://help.family-album.com/hc/en-us/articles/360038640593-What-s-the-difference-between-the-app-version-and-browser-version-of-FamilyAlbum) without installing anything.
+FamilyAlbum suits parents whose main job is getting photos and videos to relatives. It's a [photo and video sharing app built around a child's memories](https://family-album.com/). FamilyAlbum says the free version gives unlimited uploads, with videos capped at two minutes. The funny quote goes in as a comment, because [comments attach to specific uploads](https://help.family-album.com/hc/en-us/articles/360038267214-What-is-FamilyAlbum).
 
-As of October 2026, [Premium Family costs $5.99 a month or $59 a year](https://family-album.com/premium). One subscription covers everyone in the album. Premium Family Pro, at $10.99 a month, adds high-quality video uploads and tags. First-time subscribers get a one-month free trial.
+Album Admins decide who joins and whether a photo goes to everyone or [stays visible to Admins only](https://help.family-album.com/hc/en-us/articles/4404247061529-What-s-the-difference-between-Album-Admins-and-Album-Members). Relatives can [view, download and comment in a browser](https://help.family-album.com/hc/en-us/articles/360038640593-What-s-the-difference-between-the-app-version-and-browser-version-of-FamilyAlbum) without installing anything.
 
-For print, the app suggests monthly photobooks, and you can build your own. [Photobooks run $7.99 to $59.99](https://family-album.com/photobooks), depending on size and cover. Individual prints are also available. Each order holds only one photobook design.
+As of November 2026, [FamilyAlbum Premium](https://family-album.com/premium) costs $2.99 a month for Premium One, $5.99 a month or $59 a year for Premium Family, and $10.99 a month or $109 a year for Premium Family Pro. One Family subscription covers everyone in the album. For print, it sells [prints](https://family-album.com/photo_prints) and [photobooks](https://family-album.com/photobooks).
 
-FamilyAlbum is best for families who mainly want to share photos and videos. The limitation is the written record. Quotes and stories live in comments under photos, and nothing shows those comments printing as text in the books. Tinybeans works the same way for captions, so check either app's book preview before you count on the quote making it to paper. Our [FamilyAlbum review](https://usemomora.com/blog/familyalbum-app-review/) explains its free plan, Premium extras, and download limits.
+The limitation is the written record: stories live in comments under photos, so check the book preview before counting on a quote reaching paper. Our [FamilyAlbum review](/blog/familyalbum-app-review/) explains the free plan, Premium tiers and download limits, and [Tinybeans vs FamilyAlbum](/blog/tinybeans-vs-family-album/) compares the two directly.
 
-## 3. Momora: an in-app baby book with dictation and family sharing
+## 5. Chatbooks: print first, no journal
 
-"I'll write down what she said later." Later is usually never.
+Chatbooks has no prompts and no running journal. You pick photos, arrange them and order, and you can [add captions](https://help.chatbooks.com/en/articles/10029371-how-do-i-add-a-caption-to-my-monthbook-monthly-mini-or-baby-s-first-year-on-the-app), so the funny quote can sit under the cake photo. Relatives see the finished book when you hand them a copy.
 
-We make Momora, so weigh this section with that in mind. It's a [private baby book app for iOS and Android](https://usemomora.com/faq/) where you add memories yourself. Nothing arrives by text.
+![An open photo book of a toddler's birthday lies on a kitchen counter next to cake and a phone, with drawn video and note icons floating above it.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/e9006d7d-53b6-4ae3-a906-048e4a58ec41/final-1792487377577.webp "A photo book can hold the party photos and the funny quote, but the cake video and the longer story still need another home.")
 
-For the birthday, you open the app, pick up to 10 photos or videos, and add the quote. You can type it or dictate up to two minutes by voice. Before you save, you review the text and the suggested family tags. That's one more step than replying to a Qeepsake text, because you have to remember to open the app. Momora has no streaks or reminders. Some parents like that. Parents who need a nudge will miss Qeepsake's prompts.
+As of November 2026, Chatbooks' [US pricing](https://chatbooks.com/pricing/unitedstates) lists custom photo books from $26 (a 6x6 softcover, 20 to 60 pages) and Monthly Minis at $10 a book. The video and the longer story need to live somewhere else. Our [Chatbooks review](/blog/chatbooks-review/) covers subscriptions and checkout costs, and [Chatbooks alternatives](/blog/chatbooks-alternatives/) lists other print-first options.
 
-If you forgot last year's party, you can change a memory's date so it lands in the right spot on the timeline. Entries go on a searchable family timeline. You can invite relatives to a private shared space where they view memories and interact with them. The [privacy policy](https://usemomora.com/privacy-policy/) covers how family data is handled.
+## 6. Momora: quick capture by voice, text, photo or video
 
-![A parent speaks toward a phone beside a smiling toddler with frosting on their face.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/539caed0-e8cb-40c4-87dd-3ececcf898f0/final-1792487322190.webp "With Momora, you capture the birthday story by opening the app and speaking it, then review the text before you save.")
+We make Momora, so weigh this section with that in mind. It's a private family memory journal app for iOS and Android where you add memories yourself; nothing arrives by text. For the birthday, you add the photos or video and record the quote by voice (up to two minutes): "Turn into text" transcribes it and discards the audio, and "Keep the sound" saves the clip itself as the memory. Memories go on a private timeline that only invited family members see, and relatives can react and comment.
 
-For print, Momora offers annual memory books with photos, optional illustrations, and your written words, so the quote can reach paper as text. Book pricing, shipping, and ordering details appear at checkout or in the app. The app is free to download with in-app purchases. Momora publishes U.S. list prices of $59.99 a year or $9.99 a month for Momora Plus. The family owner pays; invited relatives do not need separate subscriptions. Check the app listing for local prices and current terms.
+![A parent speaks into a phone showing a voice recording screen while a toddler in a party hat with frosting on her face sits in a high chair.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/539caed0-e8cb-40c4-87dd-3ececcf898f0/final-1792487322190.webp "With Momora, you can capture the birthday story by speaking it into the app.")
 
-Momora is best for parents who would rather say a story out loud than type it, and who want words and photos together in a yearly book. The limitation is the habit. With no prompts, the memories you save depend on you opening the app.
+For print, Momora lays out lay-flat hardcover [memory books](/baby-book/) automatically from your memories, so the quote reaches paper as text; book prices show at checkout in the app. Momora is free to download, and Momora Plus is $59.99 a year or $9.99 a month (US list prices). Only the family owner pays. The [FAQ](/faq/) and [privacy policy](/privacy-policy/) cover how family data is handled.
 
-## 4. Chatbooks: a photo-book service for parents who want print first
+The limitation is the habit: Momora doesn't text you questions, so the memories you save depend on you opening the app.
 
-"I just want the birthday photos in an actual book before she turns two."
+## How to pick a Qeepsake alternative you'll keep using
 
-Chatbooks fits that goal. It has no text prompts and no running journal. It has two ways to get photos onto paper: one-time Classic Books and recurring Monthbooks subscriptions.
+Match the app to what you already do every day:
 
-For the birthday, you start a [Classic Book](https://help.chatbooks.com/en/articles/7338001-how-does-a-classic-book-work), select the party photos, arrange them, pick layouts, and order. You can [add captions](https://help.chatbooks.com/en/articles/10029371-how-do-i-add-a-caption-to-my-monthbook-monthly-mini-or-baby-s-first-year-on-the-app), so the funny quote can go under the cake photo. The video and a fuller story need somewhere else to live, like your camera roll, a notes app, or one of the apps above.
+- **You answer prompts but want a finished book:** The Short Years (one-time price) or BabyPage (pages you edit).
+- **Relatives want a steady stream of photos:** Tinybeans or FamilyAlbum. Our [private family photo sharing app comparison](/blog/private-family-social-media-apps/) covers more options.
+- **You mainly want paper:** Chatbooks, and keep the stories somewhere else.
+- **You want stories, voices and photos together:** Momora, or Qeepsake itself if texting is what works.
 
-![An open birthday photo book sits beside cake and a phone, with drawn video and note symbols above it.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/e9006d7d-53b6-4ae3-a906-048e4a58ec41/final-1792487377577.webp "A Classic Book can hold the party photos and the funny quote, but the cake video and the longer story still need another home.")
+To compare cost, add a year of subscription, any book and shipping. Before you commit years of entries anywhere, ask how export works.
 
-Sharing works differently here. Relatives see the finished book when you mail or hand them a copy. They don't follow a private timeline between orders.
+## FAQ
 
-As of 2026, [Classic Books cost](https://chatbooks.com/pricing/international) $15 for a 6×6 softcover and $35 for an 8×8 hardcover. Extra pages run $0.30 each at 6×6 and $0.60 each at 8×8. Those are base prices, so a thick 8×8 party book costs more than $35. Every order takes 3 to 5 business days to print and bind before it ships. If you subscribe, you can [pause eligible plans](https://help.chatbooks.com/en/articles/14049533-how-do-i-pause-my-subscription) for one billing cycle. The plan then restarts automatically.
+### What is the best alternative to Qeepsake?
 
-Chatbooks is best for parents who already take good photos and want them printed without keeping a journal. The tradeoff is that it builds books, not a record. Quotes stay at caption length, and videos don't end up in the book. Our [Chatbooks review](https://usemomora.com/blog/chatbooks-review/) breaks down subscriptions, checkout costs, and print tradeoffs.
+It depends on why Qeepsake isn't working. If you like prompts but want a set book, The Short Years is the closest match. If you want to share photos with family, Tinybeans or FamilyAlbum fit better.
 
-## How to pick a baby memory app you'll keep using
+### Is there a free alternative to Qeepsake?
 
-"Which one saves the cake photo, the quote, and the update to Grandma in the fewest steps?"
+FamilyAlbum's free version allows unlimited photo and video uploads with two-minute videos, and Tinybeans' free plan allows 20 uploads a month with ads. The Short Years and BabyPage apps are free to download, but the printed book costs extra.
 
-That depends on what you already do every day. If you answer texts but rarely open apps, try Qeepsake. The others here work inside an app. If relatives want regular updates, look at Tinybeans or FamilyAlbum, both covered in our [private family photo sharing app comparison](/blog/private-family-social-media-apps/). If you mostly want paper, Chatbooks prints books and leaves the ongoing journal to something else.
+### Who owns Qeepsake?
 
-To compare cost, add a year of subscription, the book, any credit, and shipping. Qeepsake's Essential plan is $47.88 a year [as of June 2026](https://help.qeepsake.com/article/173-how-much-do-qeepsake-books-cost), with a $19.99 credit that covers a 30-page softcover. Add $12 US shipping and you're at $59.88 before tax. Ask how export and cancellation work before you commit.
+Tinybeans. Qeepsake's App Store listing is published by Tinybeans USA Ltd., which also makes the Tinybeans family journal app.
 
-If you'd rather save memories from your phone in about ten seconds, with no prompts, and share them on a private family timeline, take a look at Momora.
+### How much does Qeepsake cost?
+
+As of November 2026, Essential is $4.99 a month or $47.88 a year and Premium is $9.99 a month or $95.88 a year, with books and shipping extra. See our [Qeepsake review](/blog/qeepsake-review/) for book prices and what a year really costs.
+
+### Can I move my Qeepsake entries to another app?
+
+Qeepsake's help center doesn't publish an export guide as of November 2026, so ask its support what you can download before you switch.

@@ -121,7 +121,7 @@ Shared albums cover most families. If you want something built only for family, 
 
 - **iCloud Shared Photo Library**: for all-Apple households. Apple says a library holds [up to six people including the organizer](https://support.apple.com/guide/iphone/set-up-or-join-an-icloud-shared-photo-library-iph28ac9ea81/ios), everyone can add, edit and delete, and it uses the organizer's iCloud storage. Each person can be in one shared library.
 - **FamilyAlbum**: a photo feed for grandparents. FamilyAlbum says it's [free with unlimited photo and video storage](https://help.family-album.com/hc/en-us/articles/360038267214-What-is-FamilyAlbum), videos under two minutes, and up to 100 members per album. See our [FamilyAlbum review](/blog/familyalbum-app-review/).
-- **Tinybeans**: a family journal and visual diary for milestones. See our [Tinybeans app review](/blog/tinybeans-app-review/).
+- **Tinybeans**: a family journal and visual diary for milestones. See our [Tinybeans app review](/blog/tinybeans-app-review/) or our [Tinybeans vs FamilyAlbum comparison](/blog/tinybeans-vs-family-album/).
 - **Momora**: we make Momora, a private family memory journal for iOS and Android where invited relatives can react and comment. Momora Plus is $59.99 a year or $9.99 a month, and only the family owner pays.
 
 For a fuller side-by-side, see our [private family social media apps guide](/blog/private-family-social-media-apps/).

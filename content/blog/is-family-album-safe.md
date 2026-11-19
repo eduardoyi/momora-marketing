@@ -131,7 +131,7 @@ Verdict: sensible and standard. Keep the account in your name, and decide yourse
 
 ## Getting your photos out and deleting your account
 
-On the free plan you [save photos and videos one at a time](https://help.family-album.com/hc/en-us/articles/360038259334-How-do-I-save-photos-videos). [Bulk Download](https://help.family-album.com/hc/en-us/articles/360038776533-Can-I-save-or-delete-multiple-photos-videos-at-once) needs Premium Family Pro, up to 100 items at a time on iOS, and there's no bulk delete. Keep your originals on your phone or in a backup, which FamilyAlbum's terms also ask users to do.
+On the free plan you [save photos and videos one at a time](https://help.family-album.com/hc/en-us/articles/360038259334-How-do-I-save-photos-videos). [Bulk Download](https://help.family-album.com/hc/en-us/articles/360038776533-Can-I-save-or-delete-multiple-photos-videos-at-once) needs Premium Family Pro, up to 100 items at a time on iOS, and there's no bulk delete. Keep your originals on your phone or in a [separate photo backup](/blog/photo-organization-programs/), which FamilyAlbum's terms also ask users to do.
 
 To leave, go to Settings, then Inquiries, then [Delete Account](https://help.family-album.com/hc/en-us/articles/360038529013-How-do-I-delete-my-account). Deleting the whole album is a separate request to support, and deleting the app doesn't cancel a Premium subscription. The privacy policy says photos and videos you delete are removed from its servers within 30 days, and other data is kept only as long as needed or as the law requires.
 

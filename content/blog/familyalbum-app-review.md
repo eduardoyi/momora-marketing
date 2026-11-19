@@ -144,7 +144,7 @@ Invites limit who sees a photo, not what they do with it: anyone you invite can 
 
 Start free if you mainly want a private feed for grandparents, your clips are short and everyone shoots on phones. Pay for Premium Family ($59 a year) if you regularly film longer than two minutes, upload from a computer or want ads gone for everyone in the album. Pay for Pro ($109 a year) mainly if you want bulk downloads, full-HD video or TV casting.
 
-Look at a different kind of app if you want a personal, book-like record more than a shared feed, or a portable archive of your original files. Our [guide to private family photo sharing apps](/blog/private-family-social-media-apps/) compares FamilyAlbum with iCloud and Google Photos shared albums, Tinybeans and others.
+Look at a different kind of app if you want a personal, book-like record more than a shared feed, or a portable archive of your original files. Our [guide to private family photo sharing apps](/blog/private-family-social-media-apps/) compares FamilyAlbum with iCloud and Google Photos shared albums, [Tinybeans](/blog/tinybeans-app-review/) and others.
 
 We make Momora, a private family memory journal for iOS and Android. You add photos, videos, written moments, voice recordings and scanned kids' artwork to a family Timeline, invite relatives to react and comment, and can turn a year into a printed [memory book](/baby-book/). It's a paid app (Momora Plus is $59.99 a year or $9.99 a month), and unlike FamilyAlbum, every relative needs the app to view, so it suits families for whom the baby book matters more than free sharing.
 
@@ -170,4 +170,4 @@ Tap the photo, tap the menu in the top-right corner and choose "Download". To sa
 
 ### What is the best app to share photos with family?
 
-It depends on the job. For free, private sharing with grandparents who may not install apps, FamilyAlbum is hard to beat. Shared albums in iCloud or Google Photos work if everyone already uses them, and journal-style apps suit parents who want stories and a book. Our [private photo sharing app guide](/blog/private-family-social-media-apps/) compares the options.
+It depends on the job. For free, private sharing with grandparents who may not install apps, FamilyAlbum is hard to beat. Shared albums in iCloud or Google Photos work if everyone already uses them, and [journal-style apps](/blog/apps-like-qeepsake/) suit parents who want stories and a book. Our [private photo sharing app guide](/blog/private-family-social-media-apps/) compares the options.
