@@ -100,7 +100,7 @@ If you forgot last year's party, you can change a memory's date so it lands in t
 
 ![A parent speaks toward a phone beside a smiling toddler with frosting on their face.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/4e38c6e4-e6f9-4a3a-8dea-b18d688fcd41/539caed0-e8cb-40c4-87dd-3ececcf898f0/final-1792487322190.webp "With Momora, you capture the birthday story by opening the app and speaking it, then review the text before you save.")
 
-For print, Momora offers annual memory books with photos, optional illustrations, and your written words, so the quote can reach paper as text. Book pricing, shipping, and ordering details appear at checkout or in the app. The app is free to download with in-app purchases. Momora publishes U.S. list prices of $99.99 a year or $12.99 a month for Momora Plus. The family owner pays; invited relatives do not need separate subscriptions. Check the app listing for local prices and current terms.
+For print, Momora offers annual memory books with photos, optional illustrations, and your written words, so the quote can reach paper as text. Book pricing, shipping, and ordering details appear at checkout or in the app. The app is free to download with in-app purchases. Momora publishes U.S. list prices of $59.99 a year or $9.99 a month for Momora Plus. The family owner pays; invited relatives do not need separate subscriptions. Check the app listing for local prices and current terms.
 
 Momora is best for parents who would rather say a story out loud than type it, and who want words and photos together in a yearly book. The limitation is the habit. With no prompts, the memories you save depend on you opening the app.
 

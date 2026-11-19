@@ -221,7 +221,7 @@ Momora is an iOS and Android family-memory app built around selected moments rat
 
 Organization centers on chronology and family profiles. Search and browsing are designed around saved memories, people, and dates rather than folders, ratings, detailed metadata, or visual searches across an entire camera roll. Momora is a hosted service, and users can export their journal data. Its FAQ advises keeping personal copies of important originals.
 
-As of October 2026, Momora Plus costs $99.99 per year or $12.99 per month in the US.
+As of November 2026, Momora Plus costs $59.99 per year or $9.99 per month in the US.
 
 Best for: families who want to preserve context, including what happened, what a child said, and who was there.
 

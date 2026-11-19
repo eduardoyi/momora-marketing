@@ -6,7 +6,7 @@ slug: terms-of-service
 
 # Terms of Service
 
-_Last updated: August 21, 2026_
+_Last updated: November 19, 2026_
 
 These Terms of Service ("Terms") govern your use of Momora, a private family memory journal operated by How do you turn this on LLC ("Momora," "we," "us," or "our"). They apply to the Momora mobile application (also listed as "UseMomora" in some app stores), our website, and related services (together, the "Service").
 
@@ -98,7 +98,7 @@ We may investigate reports or other suspected violations and remove content, res
 
 ## 8. Subscriptions, billing, and fair use
 
-Momora Plus is a store-managed subscription for family owners. The annual plan is offered by default and may include a seven-day trial for an eligible new owner; a monthly plan is also available without a trial. Current U.S. list prices are $99.99 per year and $12.99 per month. The price, currency, taxes, trial eligibility, renewal date, and complete offer terms displayed by the App Store or Google Play at purchase control if they differ from this summary.
+Momora Plus is a store-managed subscription for family owners. The annual plan is offered by default and may include a seven-day trial for an eligible new owner; a monthly plan is also available without a trial. Current U.S. list prices are $59.99 per year and $9.99 per month. The price, currency, taxes, trial eligibility, renewal date, and complete offer terms displayed by the App Store or Google Play at purchase control if they differ from this summary.
 
 Payment is charged to your Apple App Store or Google Play account when you confirm a purchase. Unless the purchase screen states otherwise, subscriptions renew automatically for the same period at the then-current price. A free trial converts to the paid annual plan unless you cancel before the deadline shown by the store. Manage or cancel your subscription through the store account used to purchase it; canceling stops future renewal but does not itself delete your Momora account or journal. Store rules and applicable law govern billing disputes, taxes, cancellations, and refunds. Momora provides a restore-purchases option but cannot guarantee that a store will approve a purchase, restore, cancellation, or refund.
 

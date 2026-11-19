@@ -128,7 +128,7 @@ Pricing below is as of October 2026.
 | Organization | One book per month, trip, or year | Dated, searchable timeline with people tagged |
 | Family sharing | Share or gift printed books | Invite-only access with owner and manager roles |
 | Privacy | Physical and electronic safeguards | Private storage, expiring media links, location data stripped from photos |
-| Pricing | Subscriptions from $10 per book, custom books from $26, free standard shipping | Momora Plus at $99.99 a year or $12.99 a month |
+| Pricing | Subscriptions from $10 per book, custom books from $26, free standard shipping | Momora Plus at $59.99 a year or $9.99 a month |
 | Best fit | Families who want a book in hand | Families saving context as the year unfolds |
 
 Sources: [Chatbooks subscription pricing](https://chatbooks.com/products/monthbooks?uid=monthbooks), [Chatbooks product prices](https://chatbooks.com/products/all), and the [Momora FAQ](https://usemomora.com/faq).
