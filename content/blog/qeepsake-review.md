@@ -95,7 +95,7 @@ Shipping is a flat $12 per order in the US and $15 to Canada, plus $2 for each a
 
 In the app you [tap Shop, pick a journal and a date range, choose customizations, preview, and add to cart](https://help.qeepsake.com/article/175-how-do-i-preview-and-order-my-qeepsake-book). Book credits and promo codes go on at checkout. Two timing rules matter: the cart holds a saved copy, so edits you make after adding the book won't appear unless you remove it and add it again, and nothing can be changed once the order is submitted.
 
-The design controls are modest. Qeepsake's [customization guide](https://help.qeepsake.com/article/166-how-can-i-customize-my-qeepsake-book) lists editing the cover and title, a dedication page, "favoriting" a memory so it gets a full page, eight title and question accent colors, a font color, showing or hiding your child's age, and an optional background swirl. In the preview you can also edit text, add or remove photos, and reorder or remove entries. If you want to place every photo yourself, a print-first service is a better match; our [Chatbooks review](/blog/chatbooks-review/) covers one.
+The design controls are modest. Qeepsake's [customization guide](https://help.qeepsake.com/article/166-how-can-i-customize-my-qeepsake-book) lists editing the cover and title, a dedication page, "favoriting" a memory so it gets a full page, eight title and question accent colors, a font color, showing or hiding your child's age, and an optional background swirl. In the preview you can also edit text, add or remove photos, and reorder or remove entries. If you want to place every photo yourself, a print-first service is a better match; our [Chatbooks review](/blog/chatbooks-review/) covers one, and our guide to [Chatbooks alternatives](/blog/chatbooks-alternatives/) compares design-first editors like Mixbook and Shutterfly.
 
 Check photos before you pay. Qeepsake says the [preview is a scaled-down replica](https://help.qeepsake.com/article/176-will-my-qeepsake-book-look-like-the-preview), photos sent by text may print smaller than expected (re-uploading them in the app can give a higher-resolution image), and prints can look darker than they do on a bright screen.
 
@@ -143,7 +143,7 @@ The practical takeaway: order the book while your membership is active and your 
 
 ## Privacy: who runs Qeepsake and who can see entries
 
-Qeepsake is owned by Tinybeans (our [Tinybeans review](/blog/tinybeans-app-review/) covers its other app). The [privacy policy](https://qeepsake.com/privacy-policy), last updated December 15, 2025, says journal entries are "private to you," and that authorized Tinybeans staff with access to journal information have passed criminal background and sex-offender registry checks. It says Tinybeans doesn't sell or share personal information for cross-context behavioral advertising, and it also says it may process information to display personalized content and advertising. On the App Store, the developer's privacy label lists usage data as used to track you.
+Qeepsake is owned by Tinybeans (our [Tinybeans review](/blog/tinybeans-app-review/) covers its other app, and [Tinybeans vs FamilyAlbum](/blog/tinybeans-vs-family-album/) compares it with its closest rival). The [privacy policy](https://qeepsake.com/privacy-policy), last updated December 15, 2025, says journal entries are "private to you," and that authorized Tinybeans staff with access to journal information have passed criminal background and sex-offender registry checks. It says Tinybeans doesn't sell or share personal information for cross-context behavioral advertising, and it also says it may process information to display personalized content and advertising. On the App Store, the developer's privacy label lists usage data as used to track you.
 
 ## Is Qeepsake worth it?
 
@@ -158,7 +158,7 @@ It's not worth it if:
 
 ![A parent relaxes on a sofa with her phone while a second phone in the foreground shows a grid of baby photos.](https://pub-645d6d0081d7424baba0ca52ae362e9d.r2.dev/images/28385c1a-2fd1-443c-b8ee-f67890e09c9e/032407a2-259c-4dab-b94a-e72cf4a710ca/final-1792487284502.webp)
 
-If prompts aren't your habit, look at apps built around saving things the moment they happen. We make Momora, a private family memory journal for iOS and Android where you can save a memory as text, a voice note, photos or video and print it later as a [baby book](/baby-book/). Our [apps like Qeepsake guide](/blog/apps-like-qeepsake/) compares it with Tinybeans, FamilyAlbum and Chatbooks.
+If prompts aren't your habit, look at apps built around saving things the moment they happen. We make Momora, a private family memory journal for iOS and Android where you can save a memory as text, a voice note, photos or video and print it later as a [baby book](/baby-book/). Our [apps like Qeepsake guide](/blog/apps-like-qeepsake/) compares it with The Short Years, BabyPage, Tinybeans, FamilyAlbum and Chatbooks.
 
 ## FAQ
 
