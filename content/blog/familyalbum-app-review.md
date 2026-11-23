@@ -92,7 +92,7 @@ Free albums show third-party ads. FamilyAlbum says [any Premium plan removes thi
 ## What FamilyAlbum does well
 
 1. **One private place for every relative.** Invite-only albums with up to 100 members cover both sets of grandparents, the aunt in Denver and the cousins. Photos go up once and nobody gets left off a text thread.
-2. **The timeline organizes itself.** Uploads are sorted by month and labeled with your child's age. When Grandma asks what the baby looked like at eight months, she scrolls to eight months.
+2. **The timeline organizes itself.** Uploads are sorted by month and labeled with your child's age. When Grandma asks what the baby looked like at eight months, she scrolls to eight months. The same view makes it easy to pull a year's photos for a [Christmas card](/blog/family-christmas-card-ideas/).
 3. **Grandparents don't need to install anything.** The browser invitation lets less app-comfortable relatives view, comment and save from a link.
 4. **The free plan stands on its own.** Unlimited storage, comments, favorites and a compilation video every three months. A family that shares phone photos can use it for years without paying.
 5. **One subscription covers the album.** On Premium Family or Pro, [every member gets the features](https://help.family-album.com/hc/en-us/articles/360038264494-What-is-FamilyAlbum-Premium), so grandparents don't pay separately.

@@ -50,7 +50,7 @@ Google Photos has three ways to actually share pictures. The family group is a f
 
 ## How to share a Google Photos album with family
 
-A shared album is the best fit for grandparents, aunts and uncles. Here's how on Android, per [Google's sharing guide](https://support.google.com/photos/answer/6131416); the iPhone app works the same way with slightly different menu names.
+A shared album is the best fit for grandparents, aunts and uncles, and by December it doubles as the shortlist for your [family Christmas card](/blog/family-christmas-card-ideas/). Here's how on Android, per [Google's sharing guide](https://support.google.com/photos/answer/6131416); the iPhone app works the same way with slightly different menu names.
 
 1. Open Google Photos and tap **Photos** at the bottom.
 2. Touch and hold to select the photos you want, then tap **Create** and **Album**.
